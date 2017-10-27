@@ -32,7 +32,7 @@ LC_IDENTIFICATION
 title      "Samogitian language locale for Lithuania"
 source     ""
 address    ""
-contact    "Arnas Udovi<U010D>ius"
+contact    "Arnas Udovičius"
 email      "bug-glibc-locales@gnu.org"
 tel        ""
 fax        ""

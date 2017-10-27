@@ -25,7 +25,7 @@
 #include <features.h>
 
 #include <netinet/in.h>
-#include <bits/stdint-uintn.h>
+#include <stdint.h>
 #ifdef __USE_MISC
 /* This is necessary to make this include file properly replace the
    Sun version.  */
@@ -33,7 +33,8 @@
 #endif
 
 #ifdef __USE_GNU
-# include <bits/types/sigevent_t.h>
+# define __need_sigevent_t
+# include <bits/siginfo.h>
 # include <bits/types/struct_timespec.h>
 #endif
 

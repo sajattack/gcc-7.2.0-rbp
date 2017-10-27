@@ -20,41 +20,53 @@
  */
 
 #ifndef	_ERRNO_H
-#define	_ERRNO_H 1
 
-#include <features.h>
-
-/* The system-specific definitions of the E* constants, as macros.  */
-#include <bits/errno.h>
-
-/* When included from assembly language, this header only provides the
-   E* constants.  */
-#ifndef __ASSEMBLER__
+/* The includer defined __need_Emath if he wants only the definitions
+   of EDOM and ERANGE, and not everything else.  */
+#ifndef	__need_Emath
+# define _ERRNO_H	1
+# include <features.h>
+#endif
 
 __BEGIN_DECLS
 
-/* The error code set by various library functions.  */
-extern int *__errno_location (void) __THROW __attribute_const__;
-# define errno (*__errno_location ())
+/* Get the error number constants from the system-specific file.
+   This file will test __need_Emath and _ERRNO_H.  */
+#include <bits/errno.h>
+#undef	__need_Emath
 
-# ifdef __USE_GNU
+#ifdef	_ERRNO_H
+
+/* Declare the `errno' variable, unless it's defined as a macro by
+   bits/errno.h.  This is the case in GNU, where it is a per-thread
+   variable.  This redeclaration using the macro still works, but it
+   will be a function declaration without a prototype and may trigger
+   a -Wstrict-prototypes warning.  */
+#ifndef	errno
+extern int errno;
+#endif
+
+#ifdef __USE_GNU
 
 /* The full and simple forms of the name with which the program was
    invoked.  These variables are set up automatically at startup based on
-   the value of argv[0].  */
-extern char *program_invocation_name;
-extern char *program_invocation_short_name;
-
-/* bits/errno.h may have defined this type.  If it didn't, provide a
-   fallback definition.  */
-#  ifndef __error_t_defined
-#   define __error_t_defined 1
-typedef int error_t;
-#  endif
-
-# endif /* __USE_GNU */
+   the value of ARGV[0] (this works only if you use GNU ld).  */
+extern char *program_invocation_name, *program_invocation_short_name;
+#endif /* __USE_GNU */
+#endif /* _ERRNO_H */
 
 __END_DECLS
 
-#endif /* !__ASSEMBLER__ */
-#endif /* errno.h */
+#endif /* _ERRNO_H */
+
+/* The Hurd <bits/errno.h> defines `error_t' as an enumerated type so
+   that printing `error_t' values in the debugger shows the names.  We
+   might need this definition sometimes even if this file was included
+   before.  */
+#if defined __USE_GNU || defined __need_error_t
+# ifndef __error_t_defined
+typedef int error_t;
+#  define __error_t_defined	1
+# endif
+# undef __need_error_t
+#endif

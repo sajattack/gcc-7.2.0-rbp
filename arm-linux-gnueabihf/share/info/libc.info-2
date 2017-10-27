@@ -2,7 +2,7 @@ This is libc.info, produced by makeinfo version 6.4 from libc.texinfo.
 
 This file documents the GNU C Library.
 
-   This is ‘The GNU C Library Reference Manual’, for version 2.26.
+   This is ‘The GNU C Library Reference Manual’, for version 2.25.
 
    Copyright © 1993–2017 Free Software Foundation, Inc.
 
@@ -35,7 +35,6 @@ START-INFO-DIR-ENTRY
 * BRKINT: (libc)Input Modes.
 * BUFSIZ: (libc)Controlling Buffering.
 * CCTS_OFLOW: (libc)Control Modes.
-* CHAR_BIT: (libc)Width of Type.
 * CHILD_MAX: (libc)General Limits.
 * CIGNORE: (libc)Control Modes.
 * CLK_TCK: (libc)Processor Time.
@@ -249,8 +248,6 @@ START-INFO-DIR-ENTRY
 * HUGE_VAL: (libc)Math Error Reporting.
 * HUGE_VALF: (libc)Math Error Reporting.
 * HUGE_VALL: (libc)Math Error Reporting.
-* HUGE_VAL_FN: (libc)Math Error Reporting.
-* HUGE_VAL_FNx: (libc)Math Error Reporting.
 * HUPCL: (libc)Control Modes.
 * I: (libc)Complex Numbers.
 * ICANON: (libc)Local Modes.
@@ -389,8 +386,6 @@ START-INFO-DIR-ENTRY
 * SIG_ERR: (libc)Basic Signal Handling.
 * SNAN: (libc)Infinity and NaN.
 * SNANF: (libc)Infinity and NaN.
-* SNANFN: (libc)Infinity and NaN.
-* SNANFNx: (libc)Infinity and NaN.
 * SNANL: (libc)Infinity and NaN.
 * SOCK_DGRAM: (libc)Communication Styles.
 * SOCK_RAW: (libc)Communication Styles.
@@ -500,12 +495,8 @@ START-INFO-DIR-ENTRY
 * access: (libc)Testing File Access.
 * acos: (libc)Inverse Trig Functions.
 * acosf: (libc)Inverse Trig Functions.
-* acosfN: (libc)Inverse Trig Functions.
-* acosfNx: (libc)Inverse Trig Functions.
 * acosh: (libc)Hyperbolic Functions.
 * acoshf: (libc)Hyperbolic Functions.
-* acoshfN: (libc)Hyperbolic Functions.
-* acoshfNx: (libc)Hyperbolic Functions.
 * acoshl: (libc)Hyperbolic Functions.
 * acosl: (libc)Inverse Trig Functions.
 * addmntent: (libc)mtab.
@@ -554,12 +545,8 @@ START-INFO-DIR-ENTRY
 * asctime_r: (libc)Formatting Calendar Time.
 * asin: (libc)Inverse Trig Functions.
 * asinf: (libc)Inverse Trig Functions.
-* asinfN: (libc)Inverse Trig Functions.
-* asinfNx: (libc)Inverse Trig Functions.
 * asinh: (libc)Hyperbolic Functions.
 * asinhf: (libc)Hyperbolic Functions.
-* asinhfN: (libc)Hyperbolic Functions.
-* asinhfNx: (libc)Hyperbolic Functions.
 * asinhl: (libc)Hyperbolic Functions.
 * asinl: (libc)Inverse Trig Functions.
 * asprintf: (libc)Dynamic Output.
@@ -567,17 +554,11 @@ START-INFO-DIR-ENTRY
 * assert_perror: (libc)Consistency Checking.
 * atan2: (libc)Inverse Trig Functions.
 * atan2f: (libc)Inverse Trig Functions.
-* atan2fN: (libc)Inverse Trig Functions.
-* atan2fNx: (libc)Inverse Trig Functions.
 * atan2l: (libc)Inverse Trig Functions.
 * atan: (libc)Inverse Trig Functions.
 * atanf: (libc)Inverse Trig Functions.
-* atanfN: (libc)Inverse Trig Functions.
-* atanfNx: (libc)Inverse Trig Functions.
 * atanh: (libc)Hyperbolic Functions.
 * atanhf: (libc)Hyperbolic Functions.
-* atanhfN: (libc)Hyperbolic Functions.
-* atanhfNx: (libc)Hyperbolic Functions.
 * atanhl: (libc)Hyperbolic Functions.
 * atanl: (libc)Inverse Trig Functions.
 * atexit: (libc)Cleanups on Exit.
@@ -601,49 +582,31 @@ START-INFO-DIR-ENTRY
 * bzero: (libc)Copying Strings and Arrays.
 * cabs: (libc)Absolute Value.
 * cabsf: (libc)Absolute Value.
-* cabsfN: (libc)Absolute Value.
-* cabsfNx: (libc)Absolute Value.
 * cabsl: (libc)Absolute Value.
 * cacos: (libc)Inverse Trig Functions.
 * cacosf: (libc)Inverse Trig Functions.
-* cacosfN: (libc)Inverse Trig Functions.
-* cacosfNx: (libc)Inverse Trig Functions.
 * cacosh: (libc)Hyperbolic Functions.
 * cacoshf: (libc)Hyperbolic Functions.
-* cacoshfN: (libc)Hyperbolic Functions.
-* cacoshfNx: (libc)Hyperbolic Functions.
 * cacoshl: (libc)Hyperbolic Functions.
 * cacosl: (libc)Inverse Trig Functions.
 * calloc: (libc)Allocating Cleared Space.
 * canonicalize: (libc)FP Bit Twiddling.
 * canonicalize_file_name: (libc)Symbolic Links.
 * canonicalizef: (libc)FP Bit Twiddling.
-* canonicalizefN: (libc)FP Bit Twiddling.
-* canonicalizefNx: (libc)FP Bit Twiddling.
 * canonicalizel: (libc)FP Bit Twiddling.
 * carg: (libc)Operations on Complex.
 * cargf: (libc)Operations on Complex.
-* cargfN: (libc)Operations on Complex.
-* cargfNx: (libc)Operations on Complex.
 * cargl: (libc)Operations on Complex.
 * casin: (libc)Inverse Trig Functions.
 * casinf: (libc)Inverse Trig Functions.
-* casinfN: (libc)Inverse Trig Functions.
-* casinfNx: (libc)Inverse Trig Functions.
 * casinh: (libc)Hyperbolic Functions.
 * casinhf: (libc)Hyperbolic Functions.
-* casinhfN: (libc)Hyperbolic Functions.
-* casinhfNx: (libc)Hyperbolic Functions.
 * casinhl: (libc)Hyperbolic Functions.
 * casinl: (libc)Inverse Trig Functions.
 * catan: (libc)Inverse Trig Functions.
 * catanf: (libc)Inverse Trig Functions.
-* catanfN: (libc)Inverse Trig Functions.
-* catanfNx: (libc)Inverse Trig Functions.
 * catanh: (libc)Hyperbolic Functions.
 * catanhf: (libc)Hyperbolic Functions.
-* catanhfN: (libc)Hyperbolic Functions.
-* catanhfNx: (libc)Hyperbolic Functions.
 * catanhl: (libc)Hyperbolic Functions.
 * catanl: (libc)Inverse Trig Functions.
 * catclose: (libc)The catgets Functions.
@@ -652,32 +615,23 @@ START-INFO-DIR-ENTRY
 * cbc_crypt: (libc)DES Encryption.
 * cbrt: (libc)Exponents and Logarithms.
 * cbrtf: (libc)Exponents and Logarithms.
-* cbrtfN: (libc)Exponents and Logarithms.
-* cbrtfNx: (libc)Exponents and Logarithms.
 * cbrtl: (libc)Exponents and Logarithms.
 * ccos: (libc)Trig Functions.
 * ccosf: (libc)Trig Functions.
-* ccosfN: (libc)Trig Functions.
-* ccosfNx: (libc)Trig Functions.
 * ccosh: (libc)Hyperbolic Functions.
 * ccoshf: (libc)Hyperbolic Functions.
-* ccoshfN: (libc)Hyperbolic Functions.
-* ccoshfNx: (libc)Hyperbolic Functions.
 * ccoshl: (libc)Hyperbolic Functions.
 * ccosl: (libc)Trig Functions.
 * ceil: (libc)Rounding Functions.
 * ceilf: (libc)Rounding Functions.
-* ceilfN: (libc)Rounding Functions.
-* ceilfNx: (libc)Rounding Functions.
 * ceill: (libc)Rounding Functions.
 * cexp: (libc)Exponents and Logarithms.
 * cexpf: (libc)Exponents and Logarithms.
-* cexpfN: (libc)Exponents and Logarithms.
-* cexpfNx: (libc)Exponents and Logarithms.
 * cexpl: (libc)Exponents and Logarithms.
 * cfgetispeed: (libc)Line Speed.
 * cfgetospeed: (libc)Line Speed.
 * cfmakeraw: (libc)Noncanonical Input.
+* cfree: (libc)Freeing after Malloc.
 * cfsetispeed: (libc)Line Speed.
 * cfsetospeed: (libc)Line Speed.
 * cfsetspeed: (libc)Line Speed.
@@ -686,8 +640,6 @@ START-INFO-DIR-ENTRY
 * chown: (libc)File Owner.
 * cimag: (libc)Operations on Complex.
 * cimagf: (libc)Operations on Complex.
-* cimagfN: (libc)Operations on Complex.
-* cimagfNx: (libc)Operations on Complex.
 * cimagl: (libc)Operations on Complex.
 * clearenv: (libc)Environment Access.
 * clearerr: (libc)Error Recovery.
@@ -695,13 +647,9 @@ START-INFO-DIR-ENTRY
 * clock: (libc)CPU Time.
 * clog10: (libc)Exponents and Logarithms.
 * clog10f: (libc)Exponents and Logarithms.
-* clog10fN: (libc)Exponents and Logarithms.
-* clog10fNx: (libc)Exponents and Logarithms.
 * clog10l: (libc)Exponents and Logarithms.
 * clog: (libc)Exponents and Logarithms.
 * clogf: (libc)Exponents and Logarithms.
-* clogfN: (libc)Exponents and Logarithms.
-* clogfNx: (libc)Exponents and Logarithms.
 * clogl: (libc)Exponents and Logarithms.
 * close: (libc)Opening and Closing Files.
 * closedir: (libc)Reading/Closing Directory.
@@ -709,39 +657,25 @@ START-INFO-DIR-ENTRY
 * confstr: (libc)String Parameters.
 * conj: (libc)Operations on Complex.
 * conjf: (libc)Operations on Complex.
-* conjfN: (libc)Operations on Complex.
-* conjfNx: (libc)Operations on Complex.
 * conjl: (libc)Operations on Complex.
 * connect: (libc)Connecting.
 * copysign: (libc)FP Bit Twiddling.
 * copysignf: (libc)FP Bit Twiddling.
-* copysignfN: (libc)FP Bit Twiddling.
-* copysignfNx: (libc)FP Bit Twiddling.
 * copysignl: (libc)FP Bit Twiddling.
 * cos: (libc)Trig Functions.
 * cosf: (libc)Trig Functions.
-* cosfN: (libc)Trig Functions.
-* cosfNx: (libc)Trig Functions.
 * cosh: (libc)Hyperbolic Functions.
 * coshf: (libc)Hyperbolic Functions.
-* coshfN: (libc)Hyperbolic Functions.
-* coshfNx: (libc)Hyperbolic Functions.
 * coshl: (libc)Hyperbolic Functions.
 * cosl: (libc)Trig Functions.
 * cpow: (libc)Exponents and Logarithms.
 * cpowf: (libc)Exponents and Logarithms.
-* cpowfN: (libc)Exponents and Logarithms.
-* cpowfNx: (libc)Exponents and Logarithms.
 * cpowl: (libc)Exponents and Logarithms.
 * cproj: (libc)Operations on Complex.
 * cprojf: (libc)Operations on Complex.
-* cprojfN: (libc)Operations on Complex.
-* cprojfNx: (libc)Operations on Complex.
 * cprojl: (libc)Operations on Complex.
 * creal: (libc)Operations on Complex.
 * crealf: (libc)Operations on Complex.
-* crealfN: (libc)Operations on Complex.
-* crealfNx: (libc)Operations on Complex.
 * creall: (libc)Operations on Complex.
 * creat64: (libc)Opening and Closing Files.
 * creat: (libc)Opening and Closing Files.
@@ -749,27 +683,17 @@ START-INFO-DIR-ENTRY
 * crypt_r: (libc)crypt.
 * csin: (libc)Trig Functions.
 * csinf: (libc)Trig Functions.
-* csinfN: (libc)Trig Functions.
-* csinfNx: (libc)Trig Functions.
 * csinh: (libc)Hyperbolic Functions.
 * csinhf: (libc)Hyperbolic Functions.
-* csinhfN: (libc)Hyperbolic Functions.
-* csinhfNx: (libc)Hyperbolic Functions.
 * csinhl: (libc)Hyperbolic Functions.
 * csinl: (libc)Trig Functions.
 * csqrt: (libc)Exponents and Logarithms.
 * csqrtf: (libc)Exponents and Logarithms.
-* csqrtfN: (libc)Exponents and Logarithms.
-* csqrtfNx: (libc)Exponents and Logarithms.
 * csqrtl: (libc)Exponents and Logarithms.
 * ctan: (libc)Trig Functions.
 * ctanf: (libc)Trig Functions.
-* ctanfN: (libc)Trig Functions.
-* ctanfNx: (libc)Trig Functions.
 * ctanh: (libc)Hyperbolic Functions.
 * ctanhf: (libc)Hyperbolic Functions.
-* ctanhfN: (libc)Hyperbolic Functions.
-* ctanhfNx: (libc)Hyperbolic Functions.
 * ctanhl: (libc)Hyperbolic Functions.
 * ctanl: (libc)Trig Functions.
 * ctermid: (libc)Identifying the Terminal.
@@ -819,12 +743,8 @@ START-INFO-DIR-ENTRY
 * erf: (libc)Special Functions.
 * erfc: (libc)Special Functions.
 * erfcf: (libc)Special Functions.
-* erfcfN: (libc)Special Functions.
-* erfcfNx: (libc)Special Functions.
 * erfcl: (libc)Special Functions.
 * erff: (libc)Special Functions.
-* erffN: (libc)Special Functions.
-* erffNx: (libc)Special Functions.
 * erfl: (libc)Special Functions.
 * err: (libc)Error Messages.
 * errno: (libc)Checking for Errors.
@@ -840,29 +760,19 @@ START-INFO-DIR-ENTRY
 * exit: (libc)Normal Termination.
 * exp10: (libc)Exponents and Logarithms.
 * exp10f: (libc)Exponents and Logarithms.
-* exp10fN: (libc)Exponents and Logarithms.
-* exp10fNx: (libc)Exponents and Logarithms.
 * exp10l: (libc)Exponents and Logarithms.
 * exp2: (libc)Exponents and Logarithms.
 * exp2f: (libc)Exponents and Logarithms.
-* exp2fN: (libc)Exponents and Logarithms.
-* exp2fNx: (libc)Exponents and Logarithms.
 * exp2l: (libc)Exponents and Logarithms.
 * exp: (libc)Exponents and Logarithms.
 * expf: (libc)Exponents and Logarithms.
-* expfN: (libc)Exponents and Logarithms.
-* expfNx: (libc)Exponents and Logarithms.
 * expl: (libc)Exponents and Logarithms.
 * explicit_bzero: (libc)Erasing Sensitive Data.
 * expm1: (libc)Exponents and Logarithms.
 * expm1f: (libc)Exponents and Logarithms.
-* expm1fN: (libc)Exponents and Logarithms.
-* expm1fNx: (libc)Exponents and Logarithms.
 * expm1l: (libc)Exponents and Logarithms.
 * fabs: (libc)Absolute Value.
 * fabsf: (libc)Absolute Value.
-* fabsfN: (libc)Absolute Value.
-* fabsfNx: (libc)Absolute Value.
 * fabsl: (libc)Absolute Value.
 * fchdir: (libc)Working Directory.
 * fchmod: (libc)Setting Permissions.
@@ -875,8 +785,6 @@ START-INFO-DIR-ENTRY
 * fdatasync: (libc)Synchronizing I/O.
 * fdim: (libc)Misc FP Arithmetic.
 * fdimf: (libc)Misc FP Arithmetic.
-* fdimfN: (libc)Misc FP Arithmetic.
-* fdimfNx: (libc)Misc FP Arithmetic.
 * fdiml: (libc)Misc FP Arithmetic.
 * fdopen: (libc)Descriptors and Streams.
 * fdopendir: (libc)Opening a Directory.
@@ -926,39 +834,25 @@ START-INFO-DIR-ENTRY
 * flockfile: (libc)Streams and Threads.
 * floor: (libc)Rounding Functions.
 * floorf: (libc)Rounding Functions.
-* floorfN: (libc)Rounding Functions.
-* floorfNx: (libc)Rounding Functions.
 * floorl: (libc)Rounding Functions.
 * fma: (libc)Misc FP Arithmetic.
 * fmaf: (libc)Misc FP Arithmetic.
-* fmafN: (libc)Misc FP Arithmetic.
-* fmafNx: (libc)Misc FP Arithmetic.
 * fmal: (libc)Misc FP Arithmetic.
 * fmax: (libc)Misc FP Arithmetic.
 * fmaxf: (libc)Misc FP Arithmetic.
-* fmaxfN: (libc)Misc FP Arithmetic.
-* fmaxfNx: (libc)Misc FP Arithmetic.
 * fmaxl: (libc)Misc FP Arithmetic.
 * fmaxmag: (libc)Misc FP Arithmetic.
 * fmaxmagf: (libc)Misc FP Arithmetic.
-* fmaxmagfN: (libc)Misc FP Arithmetic.
-* fmaxmagfNx: (libc)Misc FP Arithmetic.
 * fmaxmagl: (libc)Misc FP Arithmetic.
 * fmemopen: (libc)String Streams.
 * fmin: (libc)Misc FP Arithmetic.
 * fminf: (libc)Misc FP Arithmetic.
-* fminfN: (libc)Misc FP Arithmetic.
-* fminfNx: (libc)Misc FP Arithmetic.
 * fminl: (libc)Misc FP Arithmetic.
 * fminmag: (libc)Misc FP Arithmetic.
 * fminmagf: (libc)Misc FP Arithmetic.
-* fminmagfN: (libc)Misc FP Arithmetic.
-* fminmagfNx: (libc)Misc FP Arithmetic.
 * fminmagl: (libc)Misc FP Arithmetic.
 * fmod: (libc)Remainder Functions.
 * fmodf: (libc)Remainder Functions.
-* fmodfN: (libc)Remainder Functions.
-* fmodfNx: (libc)Remainder Functions.
 * fmodl: (libc)Remainder Functions.
 * fmtmsg: (libc)Printing Formatted Messages.
 * fnmatch: (libc)Wildcard Matching.
@@ -985,18 +879,12 @@ START-INFO-DIR-ENTRY
 * freopen: (libc)Opening Streams.
 * frexp: (libc)Normalization Functions.
 * frexpf: (libc)Normalization Functions.
-* frexpfN: (libc)Normalization Functions.
-* frexpfNx: (libc)Normalization Functions.
 * frexpl: (libc)Normalization Functions.
 * fromfp: (libc)Rounding Functions.
 * fromfpf: (libc)Rounding Functions.
-* fromfpfN: (libc)Rounding Functions.
-* fromfpfNx: (libc)Rounding Functions.
 * fromfpl: (libc)Rounding Functions.
 * fromfpx: (libc)Rounding Functions.
 * fromfpxf: (libc)Rounding Functions.
-* fromfpxfN: (libc)Rounding Functions.
-* fromfpxfNx: (libc)Rounding Functions.
 * fromfpxl: (libc)Rounding Functions.
 * fscanf: (libc)Formatted Input Functions.
 * fseek: (libc)File Positioning.
@@ -1085,8 +973,6 @@ START-INFO-DIR-ENTRY
 * getpass: (libc)getpass.
 * getpayload: (libc)FP Bit Twiddling.
 * getpayloadf: (libc)FP Bit Twiddling.
-* getpayloadfN: (libc)FP Bit Twiddling.
-* getpayloadfNx: (libc)FP Bit Twiddling.
 * getpayloadl: (libc)FP Bit Twiddling.
 * getpeername: (libc)Who is Connected.
 * getpgid: (libc)Process Group Functions.
@@ -1157,8 +1043,6 @@ START-INFO-DIR-ENTRY
 * htons: (libc)Byte Order.
 * hypot: (libc)Exponents and Logarithms.
 * hypotf: (libc)Exponents and Logarithms.
-* hypotfN: (libc)Exponents and Logarithms.
-* hypotfNx: (libc)Exponents and Logarithms.
 * hypotl: (libc)Exponents and Logarithms.
 * iconv: (libc)Generic Conversion Interface.
 * iconv_close: (libc)Generic Conversion Interface.
@@ -1169,8 +1053,6 @@ START-INFO-DIR-ENTRY
 * if_nametoindex: (libc)Interface Naming.
 * ilogb: (libc)Exponents and Logarithms.
 * ilogbf: (libc)Exponents and Logarithms.
-* ilogbfN: (libc)Exponents and Logarithms.
-* ilogbfNx: (libc)Exponents and Logarithms.
 * ilogbl: (libc)Exponents and Logarithms.
 * imaxabs: (libc)Absolute Value.
 * imaxdiv: (libc)Integer Division.
@@ -1240,18 +1122,12 @@ START-INFO-DIR-ENTRY
 * iszero: (libc)Floating Point Classes.
 * j0: (libc)Special Functions.
 * j0f: (libc)Special Functions.
-* j0fN: (libc)Special Functions.
-* j0fNx: (libc)Special Functions.
 * j0l: (libc)Special Functions.
 * j1: (libc)Special Functions.
 * j1f: (libc)Special Functions.
-* j1fN: (libc)Special Functions.
-* j1fNx: (libc)Special Functions.
 * j1l: (libc)Special Functions.
 * jn: (libc)Special Functions.
 * jnf: (libc)Special Functions.
-* jnfN: (libc)Special Functions.
-* jnfNx: (libc)Special Functions.
 * jnl: (libc)Special Functions.
 * jrand48: (libc)SVID Random.
 * jrand48_r: (libc)SVID Random.
@@ -1263,18 +1139,12 @@ START-INFO-DIR-ENTRY
 * lcong48_r: (libc)SVID Random.
 * ldexp: (libc)Normalization Functions.
 * ldexpf: (libc)Normalization Functions.
-* ldexpfN: (libc)Normalization Functions.
-* ldexpfNx: (libc)Normalization Functions.
 * ldexpl: (libc)Normalization Functions.
 * ldiv: (libc)Integer Division.
 * lfind: (libc)Array Search Function.
 * lgamma: (libc)Special Functions.
 * lgamma_r: (libc)Special Functions.
 * lgammaf: (libc)Special Functions.
-* lgammafN: (libc)Special Functions.
-* lgammafN_r: (libc)Special Functions.
-* lgammafNx: (libc)Special Functions.
-* lgammafNx_r: (libc)Special Functions.
 * lgammaf_r: (libc)Special Functions.
 * lgammal: (libc)Special Functions.
 * lgammal_r: (libc)Special Functions.
@@ -1286,46 +1156,30 @@ START-INFO-DIR-ENTRY
 * lldiv: (libc)Integer Division.
 * llogb: (libc)Exponents and Logarithms.
 * llogbf: (libc)Exponents and Logarithms.
-* llogbfN: (libc)Exponents and Logarithms.
-* llogbfNx: (libc)Exponents and Logarithms.
 * llogbl: (libc)Exponents and Logarithms.
 * llrint: (libc)Rounding Functions.
 * llrintf: (libc)Rounding Functions.
-* llrintfN: (libc)Rounding Functions.
-* llrintfNx: (libc)Rounding Functions.
 * llrintl: (libc)Rounding Functions.
 * llround: (libc)Rounding Functions.
 * llroundf: (libc)Rounding Functions.
-* llroundfN: (libc)Rounding Functions.
-* llroundfNx: (libc)Rounding Functions.
 * llroundl: (libc)Rounding Functions.
 * localeconv: (libc)The Lame Way to Locale Data.
 * localtime: (libc)Broken-down Time.
 * localtime_r: (libc)Broken-down Time.
 * log10: (libc)Exponents and Logarithms.
 * log10f: (libc)Exponents and Logarithms.
-* log10fN: (libc)Exponents and Logarithms.
-* log10fNx: (libc)Exponents and Logarithms.
 * log10l: (libc)Exponents and Logarithms.
 * log1p: (libc)Exponents and Logarithms.
 * log1pf: (libc)Exponents and Logarithms.
-* log1pfN: (libc)Exponents and Logarithms.
-* log1pfNx: (libc)Exponents and Logarithms.
 * log1pl: (libc)Exponents and Logarithms.
 * log2: (libc)Exponents and Logarithms.
 * log2f: (libc)Exponents and Logarithms.
-* log2fN: (libc)Exponents and Logarithms.
-* log2fNx: (libc)Exponents and Logarithms.
 * log2l: (libc)Exponents and Logarithms.
 * log: (libc)Exponents and Logarithms.
 * logb: (libc)Exponents and Logarithms.
 * logbf: (libc)Exponents and Logarithms.
-* logbfN: (libc)Exponents and Logarithms.
-* logbfNx: (libc)Exponents and Logarithms.
 * logbl: (libc)Exponents and Logarithms.
 * logf: (libc)Exponents and Logarithms.
-* logfN: (libc)Exponents and Logarithms.
-* logfNx: (libc)Exponents and Logarithms.
 * login: (libc)Logging In and Out.
 * login_tty: (libc)Logging In and Out.
 * logl: (libc)Exponents and Logarithms.
@@ -1336,13 +1190,9 @@ START-INFO-DIR-ENTRY
 * lrand48_r: (libc)SVID Random.
 * lrint: (libc)Rounding Functions.
 * lrintf: (libc)Rounding Functions.
-* lrintfN: (libc)Rounding Functions.
-* lrintfNx: (libc)Rounding Functions.
 * lrintl: (libc)Rounding Functions.
 * lround: (libc)Rounding Functions.
 * lroundf: (libc)Rounding Functions.
-* lroundfN: (libc)Rounding Functions.
-* lroundfNx: (libc)Rounding Functions.
 * lroundl: (libc)Rounding Functions.
 * lsearch: (libc)Array Search Function.
 * lseek64: (libc)File Position Primitive.
@@ -1388,8 +1238,6 @@ START-INFO-DIR-ENTRY
 * mmap: (libc)Memory-mapped I/O.
 * modf: (libc)Rounding Functions.
 * modff: (libc)Rounding Functions.
-* modffN: (libc)Rounding Functions.
-* modffNx: (libc)Rounding Functions.
 * modfl: (libc)Rounding Functions.
 * mount: (libc)Mount-Unmount-Remount.
 * mprobe: (libc)Heap Consistency Checking.
@@ -1404,32 +1252,22 @@ START-INFO-DIR-ENTRY
 * muntrace: (libc)Tracing malloc.
 * nan: (libc)FP Bit Twiddling.
 * nanf: (libc)FP Bit Twiddling.
-* nanfN: (libc)FP Bit Twiddling.
-* nanfNx: (libc)FP Bit Twiddling.
 * nanl: (libc)FP Bit Twiddling.
 * nanosleep: (libc)Sleeping.
 * nearbyint: (libc)Rounding Functions.
 * nearbyintf: (libc)Rounding Functions.
-* nearbyintfN: (libc)Rounding Functions.
-* nearbyintfNx: (libc)Rounding Functions.
 * nearbyintl: (libc)Rounding Functions.
 * nextafter: (libc)FP Bit Twiddling.
 * nextafterf: (libc)FP Bit Twiddling.
-* nextafterfN: (libc)FP Bit Twiddling.
-* nextafterfNx: (libc)FP Bit Twiddling.
 * nextafterl: (libc)FP Bit Twiddling.
 * nextdown: (libc)FP Bit Twiddling.
 * nextdownf: (libc)FP Bit Twiddling.
-* nextdownfN: (libc)FP Bit Twiddling.
-* nextdownfNx: (libc)FP Bit Twiddling.
 * nextdownl: (libc)FP Bit Twiddling.
 * nexttoward: (libc)FP Bit Twiddling.
 * nexttowardf: (libc)FP Bit Twiddling.
 * nexttowardl: (libc)FP Bit Twiddling.
 * nextup: (libc)FP Bit Twiddling.
 * nextupf: (libc)FP Bit Twiddling.
-* nextupfN: (libc)FP Bit Twiddling.
-* nextupfNx: (libc)FP Bit Twiddling.
 * nextupl: (libc)FP Bit Twiddling.
 * nftw64: (libc)Working with Directory Trees.
 * nftw: (libc)Working with Directory Trees.
@@ -1490,15 +1328,9 @@ START-INFO-DIR-ENTRY
 * pow10l: (libc)Exponents and Logarithms.
 * pow: (libc)Exponents and Logarithms.
 * powf: (libc)Exponents and Logarithms.
-* powfN: (libc)Exponents and Logarithms.
-* powfNx: (libc)Exponents and Logarithms.
 * powl: (libc)Exponents and Logarithms.
 * pread64: (libc)I/O Primitives.
 * pread: (libc)I/O Primitives.
-* preadv2: (libc)I/O Primitives.
-* preadv64: (libc)I/O Primitives.
-* preadv64v2: (libc)I/O Primitives.
-* preadv: (libc)I/O Primitives.
 * printf: (libc)Formatted Output Functions.
 * printf_size: (libc)Predefined Printf Handlers.
 * printf_size_info: (libc)Predefined Printf Handlers.
@@ -1527,10 +1359,6 @@ START-INFO-DIR-ENTRY
 * putwchar_unlocked: (libc)Simple Output.
 * pwrite64: (libc)I/O Primitives.
 * pwrite: (libc)I/O Primitives.
-* pwritev2: (libc)I/O Primitives.
-* pwritev64: (libc)I/O Primitives.
-* pwritev64v2: (libc)I/O Primitives.
-* pwritev: (libc)I/O Primitives.
 * qecvt: (libc)System V Number Conversion.
 * qecvt_r: (libc)System V Number Conversion.
 * qfcvt: (libc)System V Number Conversion.
@@ -1551,7 +1379,6 @@ START-INFO-DIR-ENTRY
 * readlink: (libc)Symbolic Links.
 * readv: (libc)Scatter-Gather.
 * realloc: (libc)Changing Block Size.
-* reallocarray: (libc)Changing Block Size.
 * realpath: (libc)Symbolic Links.
 * recv: (libc)Receiving Data.
 * recvfrom: (libc)Receiving Datagrams.
@@ -1563,8 +1390,6 @@ START-INFO-DIR-ENTRY
 * register_printf_function: (libc)Registering New Conversions.
 * remainder: (libc)Remainder Functions.
 * remainderf: (libc)Remainder Functions.
-* remainderfN: (libc)Remainder Functions.
-* remainderfNx: (libc)Remainder Functions.
 * remainderl: (libc)Remainder Functions.
 * remove: (libc)Deleting Files.
 * rename: (libc)Renaming Files.
@@ -1573,19 +1398,13 @@ START-INFO-DIR-ENTRY
 * rindex: (libc)Search Functions.
 * rint: (libc)Rounding Functions.
 * rintf: (libc)Rounding Functions.
-* rintfN: (libc)Rounding Functions.
-* rintfNx: (libc)Rounding Functions.
 * rintl: (libc)Rounding Functions.
 * rmdir: (libc)Deleting Files.
 * round: (libc)Rounding Functions.
 * roundeven: (libc)Rounding Functions.
 * roundevenf: (libc)Rounding Functions.
-* roundevenfN: (libc)Rounding Functions.
-* roundevenfNx: (libc)Rounding Functions.
 * roundevenl: (libc)Rounding Functions.
 * roundf: (libc)Rounding Functions.
-* roundfN: (libc)Rounding Functions.
-* roundfNx: (libc)Rounding Functions.
 * roundl: (libc)Rounding Functions.
 * rpmatch: (libc)Yes-or-No Questions.
 * sbrk: (libc)Resizing the Data Segment.
@@ -1594,13 +1413,9 @@ START-INFO-DIR-ENTRY
 * scalbl: (libc)Normalization Functions.
 * scalbln: (libc)Normalization Functions.
 * scalblnf: (libc)Normalization Functions.
-* scalblnfN: (libc)Normalization Functions.
-* scalblnfNx: (libc)Normalization Functions.
 * scalblnl: (libc)Normalization Functions.
 * scalbn: (libc)Normalization Functions.
 * scalbnf: (libc)Normalization Functions.
-* scalbnfN: (libc)Normalization Functions.
-* scalbnfNx: (libc)Normalization Functions.
 * scalbnl: (libc)Normalization Functions.
 * scandir64: (libc)Scanning Directory Content.
 * scandir: (libc)Scanning Directory Content.
@@ -1663,13 +1478,9 @@ START-INFO-DIR-ENTRY
 * setnetgrent: (libc)Lookup Netgroup.
 * setpayload: (libc)FP Bit Twiddling.
 * setpayloadf: (libc)FP Bit Twiddling.
-* setpayloadfN: (libc)FP Bit Twiddling.
-* setpayloadfNx: (libc)FP Bit Twiddling.
 * setpayloadl: (libc)FP Bit Twiddling.
 * setpayloadsig: (libc)FP Bit Twiddling.
 * setpayloadsigf: (libc)FP Bit Twiddling.
-* setpayloadsigfN: (libc)FP Bit Twiddling.
-* setpayloadsigfNx: (libc)FP Bit Twiddling.
 * setpayloadsigl: (libc)FP Bit Twiddling.
 * setpgid: (libc)Process Group Functions.
 * setpgrp: (libc)Process Group Functions.
@@ -1719,16 +1530,10 @@ START-INFO-DIR-ENTRY
 * sin: (libc)Trig Functions.
 * sincos: (libc)Trig Functions.
 * sincosf: (libc)Trig Functions.
-* sincosfN: (libc)Trig Functions.
-* sincosfNx: (libc)Trig Functions.
 * sincosl: (libc)Trig Functions.
 * sinf: (libc)Trig Functions.
-* sinfN: (libc)Trig Functions.
-* sinfNx: (libc)Trig Functions.
 * sinh: (libc)Hyperbolic Functions.
 * sinhf: (libc)Hyperbolic Functions.
-* sinhfN: (libc)Hyperbolic Functions.
-* sinhfNx: (libc)Hyperbolic Functions.
 * sinhl: (libc)Hyperbolic Functions.
 * sinl: (libc)Trig Functions.
 * sleep: (libc)Sleeping.
@@ -1738,8 +1543,6 @@ START-INFO-DIR-ENTRY
 * sprintf: (libc)Formatted Output Functions.
 * sqrt: (libc)Exponents and Logarithms.
 * sqrtf: (libc)Exponents and Logarithms.
-* sqrtfN: (libc)Exponents and Logarithms.
-* sqrtfNx: (libc)Exponents and Logarithms.
 * sqrtl: (libc)Exponents and Logarithms.
 * srand48: (libc)SVID Random.
 * srand48_r: (libc)SVID Random.
@@ -1769,8 +1572,6 @@ START-INFO-DIR-ENTRY
 * strfmon: (libc)Formatting Numbers.
 * strfromd: (libc)Printing of Floats.
 * strfromf: (libc)Printing of Floats.
-* strfromfN: (libc)Printing of Floats.
-* strfromfNx: (libc)Printing of Floats.
 * strfroml: (libc)Printing of Floats.
 * strfry: (libc)strfry.
 * strftime: (libc)Formatting Calendar Time.
@@ -1791,8 +1592,6 @@ START-INFO-DIR-ENTRY
 * strstr: (libc)Search Functions.
 * strtod: (libc)Parsing of Floats.
 * strtof: (libc)Parsing of Floats.
-* strtofN: (libc)Parsing of Floats.
-* strtofNx: (libc)Parsing of Floats.
 * strtoimax: (libc)Parsing of Integers.
 * strtok: (libc)Finding Tokens in a String.
 * strtok_r: (libc)Finding Tokens in a String.
@@ -1820,12 +1619,8 @@ START-INFO-DIR-ENTRY
 * sysv_signal: (libc)Basic Signal Handling.
 * tan: (libc)Trig Functions.
 * tanf: (libc)Trig Functions.
-* tanfN: (libc)Trig Functions.
-* tanfNx: (libc)Trig Functions.
 * tanh: (libc)Hyperbolic Functions.
 * tanhf: (libc)Hyperbolic Functions.
-* tanhfN: (libc)Hyperbolic Functions.
-* tanhfNx: (libc)Hyperbolic Functions.
 * tanhl: (libc)Hyperbolic Functions.
 * tanl: (libc)Trig Functions.
 * tcdrain: (libc)Line Control.
@@ -1845,8 +1640,6 @@ START-INFO-DIR-ENTRY
 * tfind: (libc)Tree Search Function.
 * tgamma: (libc)Special Functions.
 * tgammaf: (libc)Special Functions.
-* tgammafN: (libc)Special Functions.
-* tgammafNx: (libc)Special Functions.
 * tgammal: (libc)Special Functions.
 * time: (libc)Simple Calendar Time.
 * timegm: (libc)Broken-down Time.
@@ -1860,13 +1653,9 @@ START-INFO-DIR-ENTRY
 * tolower: (libc)Case Conversion.
 * totalorder: (libc)FP Comparison Functions.
 * totalorderf: (libc)FP Comparison Functions.
-* totalorderfN: (libc)FP Comparison Functions.
-* totalorderfNx: (libc)FP Comparison Functions.
 * totalorderl: (libc)FP Comparison Functions.
 * totalordermag: (libc)FP Comparison Functions.
 * totalordermagf: (libc)FP Comparison Functions.
-* totalordermagfN: (libc)FP Comparison Functions.
-* totalordermagfNx: (libc)FP Comparison Functions.
 * totalordermagl: (libc)FP Comparison Functions.
 * toupper: (libc)Case Conversion.
 * towctrans: (libc)Wide Character Case Conversion.
@@ -1876,8 +1665,6 @@ START-INFO-DIR-ENTRY
 * truncate64: (libc)File Size.
 * truncate: (libc)File Size.
 * truncf: (libc)Rounding Functions.
-* truncfN: (libc)Rounding Functions.
-* truncfNx: (libc)Rounding Functions.
 * truncl: (libc)Rounding Functions.
 * tsearch: (libc)Tree Search Function.
 * ttyname: (libc)Is It a Terminal.
@@ -1886,13 +1673,9 @@ START-INFO-DIR-ENTRY
 * tzset: (libc)Time Zone Functions.
 * ufromfp: (libc)Rounding Functions.
 * ufromfpf: (libc)Rounding Functions.
-* ufromfpfN: (libc)Rounding Functions.
-* ufromfpfNx: (libc)Rounding Functions.
 * ufromfpl: (libc)Rounding Functions.
 * ufromfpx: (libc)Rounding Functions.
 * ufromfpxf: (libc)Rounding Functions.
-* ufromfpxfN: (libc)Rounding Functions.
-* ufromfpxfNx: (libc)Rounding Functions.
 * ufromfpxl: (libc)Rounding Functions.
 * ulimit: (libc)Limits on Resources.
 * umask: (libc)Setting Permissions.
@@ -1971,8 +1754,6 @@ START-INFO-DIR-ENTRY
 * wcsstr: (libc)Search Functions.
 * wcstod: (libc)Parsing of Floats.
 * wcstof: (libc)Parsing of Floats.
-* wcstofN: (libc)Parsing of Floats.
-* wcstofNx: (libc)Parsing of Floats.
 * wcstoimax: (libc)Parsing of Integers.
 * wcstok: (libc)Finding Tokens in a String.
 * wcstol: (libc)Parsing of Integers.
@@ -2004,465 +1785,19 @@ START-INFO-DIR-ENTRY
 * wscanf: (libc)Formatted Input Functions.
 * y0: (libc)Special Functions.
 * y0f: (libc)Special Functions.
-* y0fN: (libc)Special Functions.
-* y0fNx: (libc)Special Functions.
 * y0l: (libc)Special Functions.
 * y1: (libc)Special Functions.
 * y1f: (libc)Special Functions.
-* y1fN: (libc)Special Functions.
-* y1fNx: (libc)Special Functions.
 * y1l: (libc)Special Functions.
 * yn: (libc)Special Functions.
 * ynf: (libc)Special Functions.
-* ynfN: (libc)Special Functions.
-* ynfNx: (libc)Special Functions.
 * ynl: (libc)Special Functions.
 END-INFO-DIR-ENTRY
 
 
-File: libc.info,  Node: Statistics of Malloc,  Next: Summary of Malloc,  Prev: Hooks for Malloc,  Up: Unconstrained Allocation
+File: libc.info,  Node: Obstacks,  Next: Variable Size Automatic,  Prev: Allocation Debugging,  Up: Memory Allocation
 
-3.2.3.10 Statistics for Memory Allocation with ‘malloc’
-.......................................................
-
-You can get information about dynamic memory allocation by calling the
-‘mallinfo’ function.  This function and its associated data type are
-declared in ‘malloc.h’; they are an extension of the standard SVID/XPG
-version.
-
- -- Data Type: struct mallinfo
-
-     This structure type is used to return information about the dynamic
-     memory allocator.  It contains the following members:
-
-     ‘int arena’
-          This is the total size of memory allocated with ‘sbrk’ by
-          ‘malloc’, in bytes.
-
-     ‘int ordblks’
-          This is the number of chunks not in use.  (The memory
-          allocator internally gets chunks of memory from the operating
-          system, and then carves them up to satisfy individual ‘malloc’
-          requests; *note The GNU Allocator::.)
-
-     ‘int smblks’
-          This field is unused.
-
-     ‘int hblks’
-          This is the total number of chunks allocated with ‘mmap’.
-
-     ‘int hblkhd’
-          This is the total size of memory allocated with ‘mmap’, in
-          bytes.
-
-     ‘int usmblks’
-          This field is unused and always 0.
-
-     ‘int fsmblks’
-          This field is unused.
-
-     ‘int uordblks’
-          This is the total size of memory occupied by chunks handed out
-          by ‘malloc’.
-
-     ‘int fordblks’
-          This is the total size of memory occupied by free (not in use)
-          chunks.
-
-     ‘int keepcost’
-          This is the size of the top-most releasable chunk that
-          normally borders the end of the heap (i.e., the high end of
-          the virtual address space’s data segment).
-
- -- Function: struct mallinfo mallinfo (void)
-
-     Preliminary: | MT-Unsafe init const:mallopt | AS-Unsafe init lock |
-     AC-Unsafe init lock | *Note POSIX Safety Concepts::.
-
-     This function returns information about the current dynamic memory
-     usage in a structure of type ‘struct mallinfo’.
-
-
-File: libc.info,  Node: Summary of Malloc,  Prev: Statistics of Malloc,  Up: Unconstrained Allocation
-
-3.2.3.11 Summary of ‘malloc’-Related Functions
-..............................................
-
-Here is a summary of the functions that work with ‘malloc’:
-
-‘void *malloc (size_t SIZE)’
-     Allocate a block of SIZE bytes.  *Note Basic Allocation::.
-
-‘void free (void *ADDR)’
-     Free a block previously allocated by ‘malloc’.  *Note Freeing after
-     Malloc::.
-
-‘void *realloc (void *ADDR, size_t SIZE)’
-     Make a block previously allocated by ‘malloc’ larger or smaller,
-     possibly by copying it to a new location.  *Note Changing Block
-     Size::.
-
-‘void *reallocarray (void *PTR, size_t NMEMB, size_t SIZE)’
-     Change the size of a block previously allocated by ‘malloc’ to
-     ‘NMEMB * SIZE’ bytes as with ‘realloc’.  *Note Changing Block
-     Size::.
-
-‘void *calloc (size_t COUNT, size_t ELTSIZE)’
-     Allocate a block of COUNT * ELTSIZE bytes using ‘malloc’, and set
-     its contents to zero.  *Note Allocating Cleared Space::.
-
-‘void *valloc (size_t SIZE)’
-     Allocate a block of SIZE bytes, starting on a page boundary.  *Note
-     Aligned Memory Blocks::.
-
-‘void *aligned_alloc (size_t SIZE, size_t ALIGNMENT)’
-     Allocate a block of SIZE bytes, starting on an address that is a
-     multiple of ALIGNMENT.  *Note Aligned Memory Blocks::.
-
-‘int posix_memalign (void **MEMPTR, size_t ALIGNMENT, size_t SIZE)’
-     Allocate a block of SIZE bytes, starting on an address that is a
-     multiple of ALIGNMENT.  *Note Aligned Memory Blocks::.
-
-‘void *memalign (size_t SIZE, size_t BOUNDARY)’
-     Allocate a block of SIZE bytes, starting on an address that is a
-     multiple of BOUNDARY.  *Note Aligned Memory Blocks::.
-
-‘int mallopt (int PARAM, int VALUE)’
-     Adjust a tunable parameter.  *Note Malloc Tunable Parameters::.
-
-‘int mcheck (void (*ABORTFN) (void))’
-     Tell ‘malloc’ to perform occasional consistency checks on
-     dynamically allocated memory, and to call ABORTFN when an
-     inconsistency is found.  *Note Heap Consistency Checking::.
-
-‘void *(*__malloc_hook) (size_t SIZE, const void *CALLER)’
-     A pointer to a function that ‘malloc’ uses whenever it is called.
-
-‘void *(*__realloc_hook) (void *PTR, size_t SIZE, const void *CALLER)’
-     A pointer to a function that ‘realloc’ uses whenever it is called.
-
-‘void (*__free_hook) (void *PTR, const void *CALLER)’
-     A pointer to a function that ‘free’ uses whenever it is called.
-
-‘void (*__memalign_hook) (size_t SIZE, size_t ALIGNMENT, const void *CALLER)’
-     A pointer to a function that ‘aligned_alloc’, ‘memalign’,
-     ‘posix_memalign’ and ‘valloc’ use whenever they are called.
-
-‘struct mallinfo mallinfo (void)’
-     Return information about the current dynamic memory usage.  *Note
-     Statistics of Malloc::.
-
-
-File: libc.info,  Node: Allocation Debugging,  Next: Replacing malloc,  Prev: Unconstrained Allocation,  Up: Memory Allocation
-
-3.2.4 Allocation Debugging
---------------------------
-
-A complicated task when programming with languages which do not use
-garbage collected dynamic memory allocation is to find memory leaks.
-Long running programs must ensure that dynamically allocated objects are
-freed at the end of their lifetime.  If this does not happen the system
-runs out of memory, sooner or later.
-
-   The ‘malloc’ implementation in the GNU C Library provides some simple
-means to detect such leaks and obtain some information to find the
-location.  To do this the application must be started in a special mode
-which is enabled by an environment variable.  There are no speed
-penalties for the program if the debugging mode is not enabled.
-
-* Menu:
-
-* Tracing malloc::               How to install the tracing functionality.
-* Using the Memory Debugger::    Example programs excerpts.
-* Tips for the Memory Debugger:: Some more or less clever ideas.
-* Interpreting the traces::      What do all these lines mean?
-
-
-File: libc.info,  Node: Tracing malloc,  Next: Using the Memory Debugger,  Up: Allocation Debugging
-
-3.2.4.1 How to install the tracing functionality
-................................................
-
- -- Function: void mtrace (void)
-
-     Preliminary: | MT-Unsafe env race:mtrace const:malloc_hooks init |
-     AS-Unsafe init heap corrupt lock | AC-Unsafe init corrupt lock fd
-     mem | *Note POSIX Safety Concepts::.
-
-     When the ‘mtrace’ function is called it looks for an environment
-     variable named ‘MALLOC_TRACE’.  This variable is supposed to
-     contain a valid file name.  The user must have write access.  If
-     the file already exists it is truncated.  If the environment
-     variable is not set or it does not name a valid file which can be
-     opened for writing nothing is done.  The behavior of ‘malloc’ etc.
-     is not changed.  For obvious reasons this also happens if the
-     application is installed with the SUID or SGID bit set.
-
-     If the named file is successfully opened, ‘mtrace’ installs special
-     handlers for the functions ‘malloc’, ‘realloc’, and ‘free’ (*note
-     Hooks for Malloc::).  From then on, all uses of these functions are
-     traced and protocolled into the file.  There is now of course a
-     speed penalty for all calls to the traced functions so tracing
-     should not be enabled during normal use.
-
-     This function is a GNU extension and generally not available on
-     other systems.  The prototype can be found in ‘mcheck.h’.
-
- -- Function: void muntrace (void)
-
-     Preliminary: | MT-Unsafe race:mtrace const:malloc_hooks locale |
-     AS-Unsafe corrupt heap | AC-Unsafe corrupt mem lock fd | *Note
-     POSIX Safety Concepts::.
-
-     The ‘muntrace’ function can be called after ‘mtrace’ was used to
-     enable tracing the ‘malloc’ calls.  If no (successful) call of
-     ‘mtrace’ was made ‘muntrace’ does nothing.
-
-     Otherwise it deinstalls the handlers for ‘malloc’, ‘realloc’, and
-     ‘free’ and then closes the protocol file.  No calls are protocolled
-     anymore and the program runs again at full speed.
-
-     This function is a GNU extension and generally not available on
-     other systems.  The prototype can be found in ‘mcheck.h’.
-
-
-File: libc.info,  Node: Using the Memory Debugger,  Next: Tips for the Memory Debugger,  Prev: Tracing malloc,  Up: Allocation Debugging
-
-3.2.4.2 Example program excerpts
-................................
-
-Even though the tracing functionality does not influence the runtime
-behavior of the program it is not a good idea to call ‘mtrace’ in all
-programs.  Just imagine that you debug a program using ‘mtrace’ and all
-other programs used in the debugging session also trace their ‘malloc’
-calls.  The output file would be the same for all programs and thus is
-unusable.  Therefore one should call ‘mtrace’ only if compiled for
-debugging.  A program could therefore start like this:
-
-     #include <mcheck.h>
-
-     int
-     main (int argc, char *argv[])
-     {
-     #ifdef DEBUGGING
-       mtrace ();
-     #endif
-       ...
-     }
-
-   This is all that is needed if you want to trace the calls during the
-whole runtime of the program.  Alternatively you can stop the tracing at
-any time with a call to ‘muntrace’.  It is even possible to restart the
-tracing again with a new call to ‘mtrace’.  But this can cause
-unreliable results since there may be calls of the functions which are
-not called.  Please note that not only the application uses the traced
-functions, also libraries (including the C library itself) use these
-functions.
-
-   This last point is also why it is not a good idea to call ‘muntrace’
-before the program terminates.  The libraries are informed about the
-termination of the program only after the program returns from ‘main’ or
-calls ‘exit’ and so cannot free the memory they use before this time.
-
-   So the best thing one can do is to call ‘mtrace’ as the very first
-function in the program and never call ‘muntrace’.  So the program
-traces almost all uses of the ‘malloc’ functions (except those calls
-which are executed by constructors of the program or used libraries).
-
-
-File: libc.info,  Node: Tips for the Memory Debugger,  Next: Interpreting the traces,  Prev: Using the Memory Debugger,  Up: Allocation Debugging
-
-3.2.4.3 Some more or less clever ideas
-......................................
-
-You know the situation.  The program is prepared for debugging and in
-all debugging sessions it runs well.  But once it is started without
-debugging the error shows up.  A typical example is a memory leak that
-becomes visible only when we turn off the debugging.  If you foresee
-such situations you can still win.  Simply use something equivalent to
-the following little program:
-
-     #include <mcheck.h>
-     #include <signal.h>
-
-     static void
-     enable (int sig)
-     {
-       mtrace ();
-       signal (SIGUSR1, enable);
-     }
-
-     static void
-     disable (int sig)
-     {
-       muntrace ();
-       signal (SIGUSR2, disable);
-     }
-
-     int
-     main (int argc, char *argv[])
-     {
-       ...
-
-       signal (SIGUSR1, enable);
-       signal (SIGUSR2, disable);
-
-       ...
-     }
-
-   I.e., the user can start the memory debugger any time s/he wants if
-the program was started with ‘MALLOC_TRACE’ set in the environment.  The
-output will of course not show the allocations which happened before the
-first signal but if there is a memory leak this will show up
-nevertheless.
-
-
-File: libc.info,  Node: Interpreting the traces,  Prev: Tips for the Memory Debugger,  Up: Allocation Debugging
-
-3.2.4.4 Interpreting the traces
-...............................
-
-If you take a look at the output it will look similar to this:
-
-     = Start
-      [0x8048209] - 0x8064cc8
-      [0x8048209] - 0x8064ce0
-      [0x8048209] - 0x8064cf8
-      [0x80481eb] + 0x8064c48 0x14
-      [0x80481eb] + 0x8064c60 0x14
-      [0x80481eb] + 0x8064c78 0x14
-      [0x80481eb] + 0x8064c90 0x14
-     = End
-
-   What this all means is not really important since the trace file is
-not meant to be read by a human.  Therefore no attention is given to
-readability.  Instead there is a program which comes with the GNU C
-Library which interprets the traces and outputs a summary in an
-user-friendly way.  The program is called ‘mtrace’ (it is in fact a Perl
-script) and it takes one or two arguments.  In any case the name of the
-file with the trace output must be specified.  If an optional argument
-precedes the name of the trace file this must be the name of the program
-which generated the trace.
-
-     drepper$ mtrace tst-mtrace log
-     No memory leaks.
-
-   In this case the program ‘tst-mtrace’ was run and it produced a trace
-file ‘log’.  The message printed by ‘mtrace’ shows there are no problems
-with the code, all allocated memory was freed afterwards.
-
-   If we call ‘mtrace’ on the example trace given above we would get a
-different outout:
-
-     drepper$ mtrace errlog
-     - 0x08064cc8 Free 2 was never alloc'd 0x8048209
-     - 0x08064ce0 Free 3 was never alloc'd 0x8048209
-     - 0x08064cf8 Free 4 was never alloc'd 0x8048209
-
-     Memory not freed:
-     -----------------
-        Address     Size     Caller
-     0x08064c48     0x14  at 0x80481eb
-     0x08064c60     0x14  at 0x80481eb
-     0x08064c78     0x14  at 0x80481eb
-     0x08064c90     0x14  at 0x80481eb
-
-   We have called ‘mtrace’ with only one argument and so the script has
-no chance to find out what is meant with the addresses given in the
-trace.  We can do better:
-
-     drepper$ mtrace tst errlog
-     - 0x08064cc8 Free 2 was never alloc'd /home/drepper/tst.c:39
-     - 0x08064ce0 Free 3 was never alloc'd /home/drepper/tst.c:39
-     - 0x08064cf8 Free 4 was never alloc'd /home/drepper/tst.c:39
-
-     Memory not freed:
-     -----------------
-        Address     Size     Caller
-     0x08064c48     0x14  at /home/drepper/tst.c:33
-     0x08064c60     0x14  at /home/drepper/tst.c:33
-     0x08064c78     0x14  at /home/drepper/tst.c:33
-     0x08064c90     0x14  at /home/drepper/tst.c:33
-
-   Suddenly the output makes much more sense and the user can see
-immediately where the function calls causing the trouble can be found.
-
-   Interpreting this output is not complicated.  There are at most two
-different situations being detected.  First, ‘free’ was called for
-pointers which were never returned by one of the allocation functions.
-This is usually a very bad problem and what this looks like is shown in
-the first three lines of the output.  Situations like this are quite
-rare and if they appear they show up very drastically: the program
-normally crashes.
-
-   The other situation which is much harder to detect are memory leaks.
-As you can see in the output the ‘mtrace’ function collects all this
-information and so can say that the program calls an allocation function
-from line 33 in the source file ‘/home/drepper/tst-mtrace.c’ four times
-without freeing this memory before the program terminates.  Whether this
-is a real problem remains to be investigated.
-
-
-File: libc.info,  Node: Replacing malloc,  Next: Obstacks,  Prev: Allocation Debugging,  Up: Memory Allocation
-
-3.2.5 Replacing ‘malloc’
-------------------------
-
-The GNU C Library supports replacing the built-in ‘malloc’
-implementation with a different allocator with the same interface.  For
-dynamically linked programs, this happens through ELF symbol
-interposition, either using shared object dependencies or ‘LD_PRELOAD’.
-For static linking, the ‘malloc’ replacement library must be linked in
-before linking against ‘libc.a’ (explicitly or implicitly).
-
-   *Note:* Failure to provide a complete set of replacement functions
-(that is, all the functions used by the application, the GNU C Library,
-and other linked-in libraries) can lead to static linking failures, and,
-at run time, to heap corruption and application crashes.
-
-   The minimum set of functions which has to be provided by a custom
-‘malloc’ is given in the table below.
-
-‘malloc’
-‘free’
-‘calloc’
-‘realloc’
-
-   These ‘malloc’-related functions are required for the GNU C Library
-to work.(1)
-
-   The ‘malloc’ implementation in the GNU C Library provides additional
-functionality not used by the library itself, but which is often used by
-other system libraries and applications.  A general-purpose replacement
-‘malloc’ implementation should provide definitions of these functions,
-too.  Their names are listed in the following table.
-
-‘aligned_alloc’
-‘malloc_usable_size’
-‘memalign’
-‘posix_memalign’
-‘pvalloc’
-‘valloc’
-
-   In addition, very old applications may use the obsolete ‘cfree’
-function.
-
-   Further ‘malloc’-related functions such as ‘mallopt’ or ‘mallinfo’
-will not have any effect or return incorrect statistics when a
-replacement ‘malloc’ is in use.  However, failure to replace these
-functions typically does not result in crashes or other incorrect
-application behavior, but may result in static linking failures.
-
-   ---------- Footnotes ----------
-
-   (1) Versions of the GNU C Library before 2.25 required that a custom
-‘malloc’ defines ‘__libc_memalign’ (with the same interface as the
-‘memalign’ function).
-
-
-File: libc.info,  Node: Obstacks,  Next: Variable Size Automatic,  Prev: Replacing malloc,  Up: Memory Allocation
-
-3.2.6 Obstacks
+3.2.5 Obstacks
 --------------
 
 An “obstack” is a pool of memory containing a stack of objects.  You can
@@ -2499,14 +1834,13 @@ suitable boundary.
 
 File: libc.info,  Node: Creating Obstacks,  Next: Preparing for Obstacks,  Up: Obstacks
 
-3.2.6.1 Creating Obstacks
+3.2.5.1 Creating Obstacks
 .........................
 
 The utilities for manipulating obstacks are declared in the header file
 ‘obstack.h’.
 
  -- Data Type: struct obstack
-
      An obstack is represented by a data structure of type ‘struct
      obstack’.  This structure has a small fixed size; it records the
      status of the obstack and how to find the space in which objects
@@ -2540,7 +1874,7 @@ free a chunk.  These matters are described in the following section.
 
 File: libc.info,  Node: Preparing for Obstacks,  Next: Allocation in an Obstack,  Prev: Creating Obstacks,  Up: Obstacks
 
-3.2.6.2 Preparing for Using Obstacks
+3.2.5.2 Preparing for Using Obstacks
 ....................................
 
 Each source file in which you plan to use the obstack functions must
@@ -2571,7 +1905,6 @@ larger blocks of memory.  *Note Obstack Chunks::, for full details.
 an obstack, it must initialize the obstack by calling ‘obstack_init’.
 
  -- Function: int obstack_init (struct obstack *OBSTACK-PTR)
-
      Preliminary: | MT-Safe race:obstack-ptr | AS-Safe | AC-Safe mem |
      *Note POSIX Safety Concepts::.
 
@@ -2597,7 +1930,6 @@ Second, an obstack that is itself dynamically allocated:
      obstack_init (myobstack_ptr);
 
  -- Variable: obstack_alloc_failed_handler
-
      The value of this variable is a pointer to a function that
      ‘obstack’ uses when ‘obstack_chunk_alloc’ fails to allocate memory.
      The default action is to print a message and abort.  You should
@@ -2612,7 +1944,7 @@ Second, an obstack that is itself dynamically allocated:
 
 File: libc.info,  Node: Allocation in an Obstack,  Next: Freeing Obstack Objects,  Prev: Preparing for Obstacks,  Up: Obstacks
 
-3.2.6.3 Allocation in an Obstack
+3.2.5.3 Allocation in an Obstack
 ................................
 
 The most direct way to allocate an object in an obstack is with
@@ -2620,7 +1952,6 @@ The most direct way to allocate an object in an obstack is with
 
  -- Function: void * obstack_alloc (struct obstack *OBSTACK-PTR, int
           SIZE)
-
      Preliminary: | MT-Safe race:obstack-ptr | AS-Safe | AC-Unsafe
      corrupt mem | *Note POSIX Safety Concepts::.
 
@@ -2654,7 +1985,6 @@ in a specific obstack, which is in the variable ‘string_obstack’:
 
  -- Function: void * obstack_copy (struct obstack *OBSTACK-PTR, void
           *ADDRESS, int SIZE)
-
      Preliminary: | MT-Safe race:obstack-ptr | AS-Safe | AC-Unsafe
      corrupt mem | *Note POSIX Safety Concepts::.
 
@@ -2664,7 +1994,6 @@ in a specific obstack, which is in the variable ‘string_obstack’:
 
  -- Function: void * obstack_copy0 (struct obstack *OBSTACK-PTR, void
           *ADDRESS, int SIZE)
-
      Preliminary: | MT-Safe race:obstack-ptr | AS-Safe | AC-Unsafe
      corrupt mem | *Note POSIX Safety Concepts::.
 
@@ -2687,7 +2016,7 @@ Contrast this with the previous example of ‘savestring’ using ‘malloc’
 
 File: libc.info,  Node: Freeing Obstack Objects,  Next: Obstack Functions,  Prev: Allocation in an Obstack,  Up: Obstacks
 
-3.2.6.4 Freeing Objects in an Obstack
+3.2.5.4 Freeing Objects in an Obstack
 .....................................
 
 To free an object allocated in an obstack, use the function
@@ -2697,7 +2026,6 @@ the same obstack.
 
  -- Function: void obstack_free (struct obstack *OBSTACK-PTR, void
           *OBJECT)
-
      Preliminary: | MT-Safe race:obstack-ptr | AS-Safe | AC-Unsafe
      corrupt | *Note POSIX Safety Concepts::.
 
@@ -2722,7 +2050,7 @@ chunk.
 
 File: libc.info,  Node: Obstack Functions,  Next: Growing Objects,  Prev: Freeing Obstack Objects,  Up: Obstacks
 
-3.2.6.5 Obstack Functions and Macros
+3.2.5.5 Obstack Functions and Macros
 ....................................
 
 The interfaces for using obstacks may be defined either as functions or
@@ -2773,7 +2101,7 @@ so as to compute each argument only once.
 
 File: libc.info,  Node: Growing Objects,  Next: Extra Fast Growing,  Prev: Obstack Functions,  Up: Obstacks
 
-3.2.6.6 Growing Objects
+3.2.5.6 Growing Objects
 .......................
 
 Because memory in obstack chunks is used sequentially, it is possible to
@@ -2799,7 +2127,6 @@ space already added to the growing object will become part of the other
 object.
 
  -- Function: void obstack_blank (struct obstack *OBSTACK-PTR, int SIZE)
-
      Preliminary: | MT-Safe race:obstack-ptr | AS-Safe | AC-Unsafe
      corrupt mem | *Note POSIX Safety Concepts::.
 
@@ -2808,7 +2135,6 @@ object.
 
  -- Function: void obstack_grow (struct obstack *OBSTACK-PTR, void
           *DATA, int SIZE)
-
      Preliminary: | MT-Safe race:obstack-ptr | AS-Safe | AC-Unsafe
      corrupt mem | *Note POSIX Safety Concepts::.
 
@@ -2818,7 +2144,6 @@ object.
 
  -- Function: void obstack_grow0 (struct obstack *OBSTACK-PTR, void
           *DATA, int SIZE)
-
      Preliminary: | MT-Safe race:obstack-ptr | AS-Safe | AC-Unsafe
      corrupt mem | *Note POSIX Safety Concepts::.
 
@@ -2827,7 +2152,6 @@ object.
      character.
 
  -- Function: void obstack_1grow (struct obstack *OBSTACK-PTR, char C)
-
      Preliminary: | MT-Safe race:obstack-ptr | AS-Safe | AC-Unsafe
      corrupt mem | *Note POSIX Safety Concepts::.
 
@@ -2836,7 +2160,6 @@ object.
 
  -- Function: void obstack_ptr_grow (struct obstack *OBSTACK-PTR, void
           *DATA)
-
      Preliminary: | MT-Safe race:obstack-ptr | AS-Safe | AC-Unsafe
      corrupt mem | *Note POSIX Safety Concepts::.
 
@@ -2846,7 +2169,6 @@ object.
 
  -- Function: void obstack_int_grow (struct obstack *OBSTACK-PTR, int
           DATA)
-
      Preliminary: | MT-Safe race:obstack-ptr | AS-Safe | AC-Unsafe
      corrupt mem | *Note POSIX Safety Concepts::.
 
@@ -2855,7 +2177,6 @@ object.
      growing object and initializes them with the value of DATA.
 
  -- Function: void * obstack_finish (struct obstack *OBSTACK-PTR)
-
      Preliminary: | MT-Safe race:obstack-ptr | AS-Safe | AC-Unsafe
      corrupt | *Note POSIX Safety Concepts::.
 
@@ -2875,7 +2196,6 @@ obstack just before finishing the object with the function
 ‘obstack_object_size’, declared as follows:
 
  -- Function: int obstack_object_size (struct obstack *OBSTACK-PTR)
-
      Preliminary: | MT-Safe race:obstack-ptr | AS-Safe | AC-Safe | *Note
      POSIX Safety Concepts::.
 
@@ -2898,7 +2218,7 @@ length—there’s no telling what will happen if you do that.
 
 File: libc.info,  Node: Extra Fast Growing,  Next: Status of an Obstack,  Prev: Growing Objects,  Up: Obstacks
 
-3.2.6.7 Extra Fast Growing Objects
+3.2.5.7 Extra Fast Growing Objects
 ..................................
 
 The usual functions for growing objects incur overhead for checking
@@ -2918,7 +2238,6 @@ efficiently, then you make the program faster.
 the current chunk.  It is declared as follows:
 
  -- Function: int obstack_room (struct obstack *OBSTACK-PTR)
-
      Preliminary: | MT-Safe race:obstack-ptr | AS-Safe | AC-Safe | *Note
      POSIX Safety Concepts::.
 
@@ -2931,7 +2250,6 @@ for adding data to a growing object:
 
  -- Function: void obstack_1grow_fast (struct obstack *OBSTACK-PTR, char
           C)
-
      Preliminary: | MT-Safe race:obstack-ptr | AS-Safe | AC-Unsafe
      corrupt mem | *Note POSIX Safety Concepts::.
 
@@ -2940,7 +2258,6 @@ for adding data to a growing object:
 
  -- Function: void obstack_ptr_grow_fast (struct obstack *OBSTACK-PTR,
           void *DATA)
-
      Preliminary: | MT-Safe race:obstack-ptr | AS-Safe | AC-Safe | *Note
      POSIX Safety Concepts::.
 
@@ -2950,7 +2267,6 @@ for adding data to a growing object:
 
  -- Function: void obstack_int_grow_fast (struct obstack *OBSTACK-PTR,
           int DATA)
-
      Preliminary: | MT-Safe race:obstack-ptr | AS-Safe | AC-Safe | *Note
      POSIX Safety Concepts::.
 
@@ -2960,7 +2276,6 @@ for adding data to a growing object:
 
  -- Function: void obstack_blank_fast (struct obstack *OBSTACK-PTR, int
           SIZE)
-
      Preliminary: | MT-Safe race:obstack-ptr | AS-Safe | AC-Safe | *Note
      POSIX Safety Concepts::.
 
@@ -3008,7 +2323,7 @@ start using the fast growth functions again.
 
 File: libc.info,  Node: Status of an Obstack,  Next: Obstacks Data Alignment,  Prev: Extra Fast Growing,  Up: Obstacks
 
-3.2.6.8 Status of an Obstack
+3.2.5.8 Status of an Obstack
 ............................
 
 Here are functions that provide information on the current status of
@@ -3016,7 +2331,6 @@ allocation in an obstack.  You can use them to learn about an object
 while still growing it.
 
  -- Function: void * obstack_base (struct obstack *OBSTACK-PTR)
-
      Preliminary: | MT-Safe | AS-Unsafe corrupt | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -3031,7 +2345,6 @@ while still growing it.
      chunk).
 
  -- Function: void * obstack_next_free (struct obstack *OBSTACK-PTR)
-
      Preliminary: | MT-Safe | AS-Unsafe corrupt | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -3041,7 +2354,6 @@ while still growing it.
      ‘obstack_next_free’ returns the same value as ‘obstack_base’.
 
  -- Function: int obstack_object_size (struct obstack *OBSTACK-PTR)
-
      Preliminary: | MT-Safe race:obstack-ptr | AS-Safe | AC-Safe | *Note
      POSIX Safety Concepts::.
 
@@ -3053,7 +2365,7 @@ while still growing it.
 
 File: libc.info,  Node: Obstacks Data Alignment,  Next: Obstack Chunks,  Prev: Status of an Obstack,  Up: Obstacks
 
-3.2.6.9 Alignment of Data in Obstacks
+3.2.5.9 Alignment of Data in Obstacks
 .....................................
 
 Each obstack has an “alignment boundary”; each object allocated in the
@@ -3065,7 +2377,6 @@ object can hold any type of data.
 ‘obstack_alignment_mask’, whose function prototype looks like this:
 
  -- Macro: int obstack_alignment_mask (struct obstack *OBSTACK-PTR)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -3097,7 +2408,7 @@ zero-length object and then do proper alignment for the next object.
 
 File: libc.info,  Node: Obstack Chunks,  Next: Summary of Obstacks,  Prev: Obstacks Data Alignment,  Up: Obstacks
 
-3.2.6.10 Obstack Chunks
+3.2.5.10 Obstack Chunks
 .......................
 
 Obstacks work by allocating space for themselves in large chunks, and
@@ -3132,7 +2443,6 @@ not to waste too much memory in the portion of the last chunk not yet
 used.
 
  -- Macro: int obstack_chunk_size (struct obstack *OBSTACK-PTR)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -3152,7 +2462,7 @@ size.  Here is how to do so cleanly:
 
 File: libc.info,  Node: Summary of Obstacks,  Prev: Obstack Chunks,  Up: Obstacks
 
-3.2.6.11 Summary of Obstack Functions
+3.2.5.11 Summary of Obstack Functions
 .....................................
 
 Here is a summary of all the functions associated with obstacks.  Each
@@ -3235,7 +2545,7 @@ argument.
 
 File: libc.info,  Node: Variable Size Automatic,  Prev: Obstacks,  Up: Memory Allocation
 
-3.2.7 Automatic Storage with Variable Size
+3.2.6 Automatic Storage with Variable Size
 ------------------------------------------
 
 The function ‘alloca’ supports a kind of half-dynamic allocation in
@@ -3251,7 +2561,6 @@ that function.  There is no way to free the space explicitly.
 extension.
 
  -- Function: void * alloca (size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -3276,7 +2585,7 @@ arguments.  An example of what to avoid is ‘foo (x, alloca (4), y)’.
 
 File: libc.info,  Node: Alloca Example,  Next: Advantages of Alloca,  Up: Variable Size Automatic
 
-3.2.7.1 ‘alloca’ Example
+3.2.6.1 ‘alloca’ Example
 ........................
 
 As an example of the use of ‘alloca’, here is a function that opens a
@@ -3312,7 +2621,7 @@ more important advantages, and some disadvantages.
 
 File: libc.info,  Node: Advantages of Alloca,  Next: Disadvantages of Alloca,  Prev: Alloca Example,  Up: Variable Size Automatic
 
-3.2.7.2 Advantages of ‘alloca’
+3.2.6.2 Advantages of ‘alloca’
 ..............................
 
 Here are the reasons why ‘alloca’ may be preferable to ‘malloc’:
@@ -3355,7 +2664,7 @@ Here are the reasons why ‘alloca’ may be preferable to ‘malloc’:
 
 File: libc.info,  Node: Disadvantages of Alloca,  Next: GNU C Variable-Size Arrays,  Prev: Advantages of Alloca,  Up: Variable Size Automatic
 
-3.2.7.3 Disadvantages of ‘alloca’
+3.2.6.3 Disadvantages of ‘alloca’
 .................................
 
 These are the disadvantages of ‘alloca’ in comparison with ‘malloc’:
@@ -3372,7 +2681,7 @@ These are the disadvantages of ‘alloca’ in comparison with ‘malloc’:
 
 File: libc.info,  Node: GNU C Variable-Size Arrays,  Prev: Disadvantages of Alloca,  Up: Variable Size Automatic
 
-3.2.7.4 GNU C Variable-Size Arrays
+3.2.6.4 GNU C Variable-Size Arrays
 ..................................
 
 In GNU C, you can replace most uses of ‘alloca’ with an array of
@@ -3416,7 +2725,6 @@ functions below itself.  The functions below are simple interfaces to
 system calls.
 
  -- Function: int brk (void *ADDR)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -3448,7 +2756,6 @@ system calls.
           segment or exceed the process’ data storage limit.
 
  -- Function: void *sbrk (ptrdiff_t DELTA)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -3587,7 +2894,6 @@ when the ‘mlockall’ and ‘munlockall’ functions are available, the
 conforms to this requirement.
 
  -- Function: int mlock (const void *ADDR, size_t LEN)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -3633,7 +2939,6 @@ conforms to this requirement.
      wouldn’t know what address to tell ‘mlock’.
 
  -- Function: int munlock (const void *ADDR, size_t LEN)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -3643,7 +2948,6 @@ conforms to this requirement.
      analogously to ‘mlock’, except that there is no ‘EPERM’ failure.
 
  -- Function: int mlockall (int FLAGS)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -3709,7 +3013,6 @@ conforms to this requirement.
      with ‘munlockall’ and ‘munlock’.
 
  -- Function: int munlockall (void)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -3782,7 +3085,6 @@ instead of a real character.
    These functions are declared in the header file ‘ctype.h’.
 
  -- Function: int islower (int C)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -3790,7 +3092,6 @@ instead of a real character.
      from the Latin alphabet, any alphabet representable is valid.
 
  -- Function: int isupper (int C)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -3798,7 +3099,6 @@ instead of a real character.
      from the Latin alphabet, any alphabet representable is valid.
 
  -- Function: int isalpha (int C)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -3812,14 +3112,12 @@ instead of a real character.
      additional characters.
 
  -- Function: int isdigit (int C)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
      Returns true if C is a decimal digit (‘0’ through ‘9’).
 
  -- Function: int isalnum (int C)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -3828,7 +3126,6 @@ instead of a real character.
      of a character, then ‘isalnum’ is also true.
 
  -- Function: int isxdigit (int C)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -3837,7 +3134,6 @@ instead of a real character.
      ‘A’ through ‘F’ and ‘a’ through ‘f’.
 
  -- Function: int ispunct (int C)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -3845,7 +3141,6 @@ instead of a real character.
      printing character that is not alphanumeric or a space character.
 
  -- Function: int isspace (int C)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -3872,7 +3167,6 @@ instead of a real character.
           vertical tab
 
  -- Function: int isblank (int C)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -3881,7 +3175,6 @@ instead of a real character.
      ISO C99.
 
  -- Function: int isgraph (int C)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -3890,7 +3183,6 @@ instead of a real character.
      considered graphic.
 
  -- Function: int isprint (int C)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -3898,7 +3190,6 @@ instead of a real character.
      include all the graphic characters, plus the space (‘ ’) character.
 
  -- Function: int iscntrl (int C)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -3906,7 +3197,6 @@ instead of a real character.
      is not a printing character).
 
  -- Function: int isascii (int C)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -3938,7 +3228,6 @@ write ‘islower(c) ? toupper(c) : c’ rather than just ‘toupper(c)’.
    These functions are declared in the header file ‘ctype.h’.
 
  -- Function: int tolower (int C)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -3947,7 +3236,6 @@ write ‘islower(c) ? toupper(c) : c’ rather than just ‘toupper(c)’.
      unchanged.
 
  -- Function: int toupper (int C)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -3955,7 +3243,6 @@ write ‘islower(c) ? toupper(c) : c’ rather than just ‘toupper(c)’.
      upper-case letter.  Otherwise C is returned unchanged.
 
  -- Function: int toascii (int C)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -3965,7 +3252,6 @@ write ‘islower(c) ? toupper(c) : c’ rather than just ‘toupper(c)’.
      extension.
 
  -- Function: int _tolower (int C)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -3973,7 +3259,6 @@ write ‘islower(c) ? toupper(c) : c’ rather than just ‘toupper(c)’.
      with the SVID. *Note SVID::.
 
  -- Function: int _toupper (int C)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -4010,7 +3295,6 @@ this the normal character classification functions as used for ‘char’
 objects can be defined.
 
  -- Data type: wctype_t
-
      The ‘wctype_t’ can hold a value which represents a character class.
      The only defined way to generate such a value is by using the
      ‘wctype’ function.
@@ -4018,7 +3302,6 @@ objects can be defined.
      This type is defined in ‘wctype.h’.
 
  -- Function: wctype_t wctype (const char *PROPERTY)
-
      Preliminary: | MT-Safe locale | AS-Safe | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -4040,7 +3323,6 @@ objects can be defined.
 classes the ISO C standard defines a completely new function.
 
  -- Function: int iswctype (wint_t WC, wctype_t DESC)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -4057,7 +3339,6 @@ situations it is desirable to construct the property strings, and then
 it is important that ‘wctype’ can also handle the standard classes.
 
  -- Function: int iswalnum (wint_t WC)
-
      Preliminary: | MT-Safe locale | AS-Safe | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -4073,7 +3354,6 @@ it is important that ‘wctype’ can also handle the standard classes.
      It is declared in ‘wctype.h’.
 
  -- Function: int iswalpha (wint_t WC)
-
      Preliminary: | MT-Safe locale | AS-Safe | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -4093,7 +3373,6 @@ it is important that ‘wctype’ can also handle the standard classes.
      It is declared in ‘wctype.h’.
 
  -- Function: int iswcntrl (wint_t WC)
-
      Preliminary: | MT-Safe locale | AS-Safe | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -4107,7 +3386,6 @@ it is important that ‘wctype’ can also handle the standard classes.
      It is declared in ‘wctype.h’.
 
  -- Function: int iswdigit (wint_t WC)
-
      Preliminary: | MT-Safe locale | AS-Safe | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -4131,7 +3409,6 @@ it is important that ‘wctype’ can also handle the standard classes.
      It is declared in ‘wctype.h’.
 
  -- Function: int iswgraph (wint_t WC)
-
      Preliminary: | MT-Safe locale | AS-Safe | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -4146,7 +3423,6 @@ it is important that ‘wctype’ can also handle the standard classes.
      It is declared in ‘wctype.h’.
 
  -- Function: int iswlower (wint_t WC)
-
      Preliminary: | MT-Safe locale | AS-Safe | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -4160,7 +3436,6 @@ it is important that ‘wctype’ can also handle the standard classes.
      It is declared in ‘wctype.h’.
 
  -- Function: int iswprint (wint_t WC)
-
      Preliminary: | MT-Safe locale | AS-Safe | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -4174,7 +3449,6 @@ it is important that ‘wctype’ can also handle the standard classes.
      It is declared in ‘wctype.h’.
 
  -- Function: int iswpunct (wint_t WC)
-
      Preliminary: | MT-Safe locale | AS-Safe | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -4188,7 +3462,6 @@ it is important that ‘wctype’ can also handle the standard classes.
      It is declared in ‘wctype.h’.
 
  -- Function: int iswspace (wint_t WC)
-
      Preliminary: | MT-Safe locale | AS-Safe | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -4221,7 +3494,6 @@ it is important that ‘wctype’ can also handle the standard classes.
      It is declared in ‘wctype.h’.
 
  -- Function: int iswupper (wint_t WC)
-
      Preliminary: | MT-Safe locale | AS-Safe | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -4235,7 +3507,6 @@ it is important that ‘wctype’ can also handle the standard classes.
      It is declared in ‘wctype.h’.
 
  -- Function: int iswxdigit (wint_t WC)
-
      Preliminary: | MT-Safe locale | AS-Safe | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -4254,7 +3525,6 @@ the ISO C standard but which is available as a version for single byte
 characters as well.
 
  -- Function: int iswblank (wint_t WC)
-
      Preliminary: | MT-Safe locale | AS-Safe | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -4334,7 +3604,6 @@ others.  Again, the ‘localedef’ program already supports generating such
 locale data files.
 
  -- Data Type: wctrans_t
-
      This data type is defined as a scalar type which can hold a value
      representing the locale-dependent character mapping.  There is no
      way to construct such a value apart from using the return value of
@@ -4343,7 +3612,6 @@ locale data files.
      This type is defined in ‘wctype.h’.
 
  -- Function: wctrans_t wctrans (const char *PROPERTY)
-
      Preliminary: | MT-Safe locale | AS-Safe | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -4361,7 +3629,6 @@ locale data files.
      These functions are declared in ‘wctype.h’.
 
  -- Function: wint_t towctrans (wint_t WC, wctrans_t DESC)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -4376,7 +3643,6 @@ convenient shortcuts so that it is not necessary to call ‘wctrans’ for
 them.
 
  -- Function: wint_t towlower (wint_t WC)
-
      Preliminary: | MT-Safe locale | AS-Safe | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -4391,7 +3657,6 @@ them.
      This function is declared in ‘wctype.h’.
 
  -- Function: wint_t towupper (wint_t WC)
-
      Preliminary: | MT-Safe locale | AS-Safe | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -4622,7 +3887,6 @@ You can get the length of a string using the ‘strlen’ function.  This
 function is declared in the header file ‘string.h’.
 
  -- Function: size_t strlen (const char *S)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -4683,7 +3947,6 @@ function is declared in the header file ‘string.h’.
    The wide character equivalent is declared in ‘wchar.h’.
 
  -- Function: size_t wcslen (const wchar_t *WS)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -4699,7 +3962,6 @@ function is declared in the header file ‘string.h’.
      This function was introduced in Amendment 1 to ISO C90.
 
  -- Function: size_t strnlen (const char *S, size_t MAXLEN)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -4719,7 +3981,6 @@ function is declared in the header file ‘string.h’.
      This function is a GNU extension and is declared in ‘string.h’.
 
  -- Function: size_t wcsnlen (const wchar_t *WS, size_t MAXLEN)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -4762,7 +4023,6 @@ Output Functions::) and ‘scanf’ (*note Formatted Input Functions::).
 
  -- Function: void * memcpy (void *restrict TO, const void *restrict
           FROM, size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -4783,7 +4043,6 @@ Output Functions::) and ‘scanf’ (*note Formatted Input Functions::).
 
  -- Function: wchar_t * wmemcpy (wchar_t *restrict WTO, const wchar_t
           *restrict WFROM, size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -4808,7 +4067,6 @@ Output Functions::) and ‘scanf’ (*note Formatted Input Functions::).
 
  -- Function: void * mempcpy (void *restrict TO, const void *restrict
           FROM, size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -4835,7 +4093,6 @@ Output Functions::) and ‘scanf’ (*note Formatted Input Functions::).
 
  -- Function: wchar_t * wmempcpy (wchar_t *restrict WTO, const wchar_t
           *restrict WFROM, size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -4862,7 +4119,6 @@ Output Functions::) and ‘scanf’ (*note Formatted Input Functions::).
      This function is a GNU extension.
 
  -- Function: void * memmove (void *TO, const void *FROM, size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -4876,7 +4132,6 @@ Output Functions::) and ‘scanf’ (*note Formatted Input Functions::).
 
  -- Function: wchar_t * wmemmove (wchar_t *WTO, const wchar_t *WFROM,
           size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -4902,7 +4157,6 @@ Output Functions::) and ‘scanf’ (*note Formatted Input Functions::).
 
  -- Function: void * memccpy (void *restrict TO, const void *restrict
           FROM, int C, size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -4912,7 +4166,6 @@ Output Functions::) and ‘scanf’ (*note Formatted Input Functions::).
      if no byte matching C appeared in the first SIZE bytes of FROM.
 
  -- Function: void * memset (void *BLOCK, int C, size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -4922,7 +4175,6 @@ Output Functions::) and ‘scanf’ (*note Formatted Input Functions::).
 
  -- Function: wchar_t * wmemset (wchar_t *BLOCK, wchar_t WC, size_t
           SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -4932,7 +4184,6 @@ Output Functions::) and ‘scanf’ (*note Formatted Input Functions::).
 
  -- Function: char * strcpy (char *restrict TO, const char *restrict
           FROM)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -4943,7 +4194,6 @@ Output Functions::) and ‘scanf’ (*note Formatted Input Functions::).
 
  -- Function: wchar_t * wcscpy (wchar_t *restrict WTO, const wchar_t
           *restrict WFROM)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -4953,7 +4203,6 @@ Output Functions::) and ‘scanf’ (*note Formatted Input Functions::).
      overlap.  The return value is the value of WTO.
 
  -- Function: char * strdup (const char *S)
-
      Preliminary: | MT-Safe | AS-Unsafe heap | AC-Unsafe mem | *Note
      POSIX Safety Concepts::.
 
@@ -4964,7 +4213,6 @@ Output Functions::) and ‘scanf’ (*note Formatted Input Functions::).
      pointer to the new string.
 
  -- Function: wchar_t * wcsdup (const wchar_t *WS)
-
      Preliminary: | MT-Safe | AS-Unsafe heap | AC-Unsafe mem | *Note
      POSIX Safety Concepts::.
 
@@ -4978,7 +4226,6 @@ Output Functions::) and ‘scanf’ (*note Formatted Input Functions::).
 
  -- Function: char * stpcpy (char *restrict TO, const char *restrict
           FROM)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -5013,7 +4260,6 @@ Output Functions::) and ‘scanf’ (*note Formatted Input Functions::).
 
  -- Function: wchar_t * wcpcpy (wchar_t *restrict WTO, const wchar_t
           *restrict WFROM)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -5030,7 +4276,6 @@ Output Functions::) and ‘scanf’ (*note Formatted Input Functions::).
      ‘wcpcpy’ is a GNU extension and is declared in ‘wchar.h’.
 
  -- Macro: char * strdupa (const char *S)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -5073,7 +4318,6 @@ Output Functions::) and ‘scanf’ (*note Formatted Input Functions::).
      This function is only available if GNU CC is used.
 
  -- Function: void bcopy (const void *FROM, void *TO, size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -5083,7 +4327,6 @@ Output Functions::) and ‘scanf’ (*note Formatted Input Functions::).
      return value.
 
  -- Function: void bzero (void *BLOCK, size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -5105,7 +4348,6 @@ declared in ‘wchar.h’.
 
  -- Function: char * strcat (char *restrict TO, const char *restrict
           FROM)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -5129,7 +4371,6 @@ declared in ‘wchar.h’.
 
  -- Function: wchar_t * wcscat (wchar_t *restrict WTO, const wchar_t
           *restrict WFROM)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -5288,7 +4529,6 @@ functions are declared in the file ‘wchar.h’.
 
  -- Function: char * strncpy (char *restrict TO, const char *restrict
           FROM, size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -5313,7 +4553,6 @@ functions are declared in the file ‘wchar.h’.
 
  -- Function: wchar_t * wcsncpy (wchar_t *restrict WTO, const wchar_t
           *restrict WFROM, size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -5336,7 +4575,6 @@ functions are declared in the file ‘wchar.h’.
      for processing text.
 
  -- Function: char * strndup (const char *S, size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Unsafe heap | AC-Unsafe mem | *Note
      POSIX Safety Concepts::.
 
@@ -5356,7 +4594,6 @@ functions are declared in the file ‘wchar.h’.
      ‘strndup’ is a GNU extension.
 
  -- Macro: char * strndupa (const char *S, size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -5376,7 +4613,6 @@ functions are declared in the file ‘wchar.h’.
 
  -- Function: char * stpncpy (char *restrict TO, const char *restrict
           FROM, size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -5405,7 +4641,6 @@ functions are declared in the file ‘wchar.h’.
 
  -- Function: wchar_t * wcpncpy (wchar_t *restrict WTO, const wchar_t
           *restrict WFROM, size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -5437,7 +4672,6 @@ functions are declared in the file ‘wchar.h’.
 
  -- Function: char * strncat (char *restrict TO, const char *restrict
           FROM, size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -5468,7 +4702,6 @@ functions are declared in the file ‘wchar.h’.
 
  -- Function: wchar_t * wcsncat (wchar_t *restrict WTO, const wchar_t
           *restrict WFROM, size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -5549,7 +4782,6 @@ This is canonically done with an expression like ‘! strcmp (s1, s2)’.
    All of these functions are declared in the header file ‘string.h’.
 
  -- Function: int memcmp (const void *A1, const void *A2, size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -5563,7 +4795,6 @@ This is canonically done with an expression like ‘! strcmp (s1, s2)’.
 
  -- Function: int wmemcmp (const wchar_t *A1, const wchar_t *A2, size_t
           SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -5612,7 +4843,6 @@ you are better off writing a specialized comparison function to compare
 ‘struct foo’ objects instead of comparing them with ‘memcmp’.
 
  -- Function: int strcmp (const char *S1, const char *S2)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -5632,7 +4862,6 @@ you are better off writing a specialized comparison function to compare
      ‘strcoll’.
 
  -- Function: int wcscmp (const wchar_t *WS1, const wchar_t *WS2)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -5652,7 +4881,6 @@ you are better off writing a specialized comparison function to compare
      ‘wcscoll’.
 
  -- Function: int strcasecmp (const char *S1, const char *S2)
-
      Preliminary: | MT-Safe locale | AS-Safe | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -5666,7 +4894,6 @@ you are better off writing a specialized comparison function to compare
      ‘strcasecmp’ is derived from BSD.
 
  -- Function: int wcscasecmp (const wchar_t *WS1, const wchar_t *WS2)
-
      Preliminary: | MT-Safe locale | AS-Safe | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -5679,7 +4906,6 @@ you are better off writing a specialized comparison function to compare
      ‘wcscasecmp’ is a GNU extension.
 
  -- Function: int strncmp (const char *S1, const char *S2, size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -5689,7 +4915,6 @@ you are better off writing a specialized comparison function to compare
 
  -- Function: int wcsncmp (const wchar_t *WS1, const wchar_t *WS2,
           size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -5699,7 +4924,6 @@ you are better off writing a specialized comparison function to compare
      is zero.
 
  -- Function: int strncasecmp (const char *S1, const char *S2, size_t N)
-
      Preliminary: | MT-Safe locale | AS-Safe | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -5712,7 +4936,6 @@ you are better off writing a specialized comparison function to compare
 
  -- Function: int wcsncasecmp (const wchar_t *WS1, const wchar_t *S2,
           size_t N)
-
      Preliminary: | MT-Safe locale | AS-Safe | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -5743,7 +4966,6 @@ values and ordering may differ.)
          ⇒ 0    /* The initial 5 bytes are the same. */
 
  -- Function: int strverscmp (const char *S1, const char *S2)
-
      Preliminary: | MT-Safe locale | AS-Safe | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -5817,7 +5039,6 @@ values and ordering may differ.)
      ‘strverscmp’ is a GNU extension.
 
  -- Function: int bcmp (const void *A1, const void *A2, size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -5863,7 +5084,6 @@ strings just once, and subsequently compare the transformed strings with
 ‘strcmp’ or ‘wcscmp’.
 
  -- Function: int strcoll (const char *S1, const char *S2)
-
      Preliminary: | MT-Safe locale | AS-Unsafe heap | AC-Unsafe mem |
      *Note POSIX Safety Concepts::.
 
@@ -5872,7 +5092,6 @@ strings just once, and subsequently compare the transformed strings with
      ‘LC_COLLATE’ locale).  The arguments are multibyte strings.
 
  -- Function: int wcscoll (const wchar_t *WS1, const wchar_t *WS2)
-
      Preliminary: | MT-Safe locale | AS-Unsafe heap | AC-Unsafe mem |
      *Note POSIX Safety Concepts::.
 
@@ -5911,7 +5130,6 @@ in this section, we will show a way to do this more efficiently using
 
  -- Function: size_t strxfrm (char *restrict TO, const char *restrict
           FROM, size_t SIZE)
-
      Preliminary: | MT-Safe locale | AS-Unsafe heap | AC-Unsafe mem |
      *Note POSIX Safety Concepts::.
 
@@ -5943,7 +5161,6 @@ in this section, we will show a way to do this more efficiently using
 
  -- Function: size_t wcsxfrm (wchar_t *restrict WTO, const wchar_t
           *WFROM, size_t SIZE)
-
      Preliminary: | MT-Safe locale | AS-Unsafe heap | AC-Unsafe mem |
      *Note POSIX Safety Concepts::.
 
@@ -6097,7 +5314,6 @@ searching operations on strings and arrays.  These functions are
 declared in the header file ‘string.h’.
 
  -- Function: void * memchr (const void *BLOCK, int C, size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6108,7 +5324,6 @@ declared in the header file ‘string.h’.
 
  -- Function: wchar_t * wmemchr (const wchar_t *BLOCK, wchar_t WC,
           size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6118,7 +5333,6 @@ declared in the header file ‘string.h’.
      character, or a null pointer if no match was found.
 
  -- Function: void * rawmemchr (const void *BLOCK, int C)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6147,7 +5361,6 @@ declared in the header file ‘string.h’.
      This function is a GNU extension.
 
  -- Function: void * memrchr (const void *BLOCK, int C, size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6158,7 +5371,6 @@ declared in the header file ‘string.h’.
      This function is a GNU extension.
 
  -- Function: char * strchr (const char *STRING, int C)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6183,7 +5395,6 @@ declared in the header file ‘string.h’.
      ‘strchrnul’ than to search for it a second time.
 
  -- Function: wchar_t * wcschr (const wchar_t *WSTRING, int WC)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6199,7 +5410,6 @@ declared in the header file ‘string.h’.
      ‘wcschrnul’ in this case, though.
 
  -- Function: char * strchrnul (const char *STRING, int C)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6210,7 +5420,6 @@ declared in the header file ‘string.h’.
      This function is a GNU extension.
 
  -- Function: wchar_t * wcschrnul (const wchar_t *WSTRING, wchar_t WC)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6240,7 +5449,6 @@ right.  But in the GNU C Library the implementation of ‘strchr’ is
 optimized in a special way so that ‘strchr’ actually is faster.
 
  -- Function: char * strrchr (const char *STRING, int C)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6253,7 +5461,6 @@ optimized in a special way so that ‘strchr’ actually is faster.
               ⇒ "ld"
 
  -- Function: wchar_t * wcsrchr (const wchar_t *WSTRING, wchar_t C)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6262,7 +5469,6 @@ optimized in a special way so that ‘strchr’ actually is faster.
      from the front).
 
  -- Function: char * strstr (const char *HAYSTACK, const char *NEEDLE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6280,7 +5486,6 @@ optimized in a special way so that ‘strchr’ actually is faster.
 
  -- Function: wchar_t * wcsstr (const wchar_t *HAYSTACK, const wchar_t
           *NEEDLE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6293,7 +5498,6 @@ optimized in a special way so that ‘strchr’ actually is faster.
 
  -- Function: wchar_t * wcswcs (const wchar_t *HAYSTACK, const wchar_t
           *NEEDLE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6303,7 +5507,6 @@ optimized in a special way so that ‘strchr’ actually is faster.
 
  -- Function: char * strcasestr (const char *HAYSTACK, const char
           *NEEDLE)
-
      Preliminary: | MT-Safe locale | AS-Safe | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -6320,7 +5523,6 @@ optimized in a special way so that ‘strchr’ actually is faster.
 
  -- Function: void * memmem (const void *HAYSTACK, size_t HAYSTACK-LEN,
           const void *NEEDLE, size_t NEEDLE-LEN)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6331,7 +5533,6 @@ optimized in a special way so that ‘strchr’ actually is faster.
      This function is a GNU extension.
 
  -- Function: size_t strspn (const char *STRING, const char *SKIPSET)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6350,7 +5551,6 @@ optimized in a special way so that ‘strchr’ actually is faster.
 
  -- Function: size_t wcsspn (const wchar_t *WSTRING, const wchar_t
           *SKIPSET)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6361,7 +5561,6 @@ optimized in a special way so that ‘strchr’ actually is faster.
      important.
 
  -- Function: size_t strcspn (const char *STRING, const char *STOPSET)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6381,7 +5580,6 @@ optimized in a special way so that ‘strchr’ actually is faster.
 
  -- Function: size_t wcscspn (const wchar_t *WSTRING, const wchar_t
           *STOPSET)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6393,7 +5591,6 @@ optimized in a special way so that ‘strchr’ actually is faster.
      of the set STOPSET.)
 
  -- Function: char * strpbrk (const char *STRING, const char *STOPSET)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6414,7 +5611,6 @@ optimized in a special way so that ‘strchr’ actually is faster.
 
  -- Function: wchar_t * wcspbrk (const wchar_t *WSTRING, const wchar_t
           *STOPSET)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6428,7 +5624,6 @@ optimized in a special way so that ‘strchr’ actually is faster.
 -------------------------------------------
 
  -- Function: char * index (const char *STRING, int C)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6438,7 +5633,6 @@ optimized in a special way so that ‘strchr’ actually is faster.
      System V derived systems.
 
  -- Function: char * rindex (const char *STRING, int C)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6460,7 +5654,6 @@ the header file ‘string.h’.
 
  -- Function: char * strtok (char *restrict NEWSTRING, const char
           *restrict DELIMITERS)
-
      Preliminary: | MT-Unsafe race:strtok | AS-Unsafe | AC-Safe | *Note
      POSIX Safety Concepts::.
 
@@ -6502,7 +5695,6 @@ the header file ‘string.h’.
 
  -- Function: wchar_t * wcstok (wchar_t *NEWSTRING, const wchar_t
           *DELIMITERS, wchar_t **SAVE_PTR)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6589,7 +5781,6 @@ available for wide strings.
 
  -- Function: char * strtok_r (char *NEWSTRING, const char *DELIMITERS,
           char **SAVE_PTR)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6606,7 +5797,6 @@ available for wide strings.
      systems which support multi-threading.
 
  -- Function: char * strsep (char **STRING_PTR, const char *DELIMITER)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6655,7 +5845,6 @@ available for wide strings.
      token = strsep (&running, delimiters);    /* token => NULL */
 
  -- Function: char * basename (const char *FILENAME)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6688,7 +5877,6 @@ available for wide strings.
      different systems.
 
  -- Function: char * basename (char *PATH)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6722,7 +5910,6 @@ available for wide strings.
           }
 
  -- Function: char * dirname (char *PATH)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6799,7 +5986,6 @@ language.  We anticipate that future compilers will recognize calls to
 the affected data, whereever they may be.
 
  -- Function: void explicit_bzero (void *BLOCK, size_t LEN)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6839,7 +6025,6 @@ string data.
    The prototype for this function is in ‘string.h’.
 
  -- Function: char * strfry (char *STRING)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6870,7 +6055,6 @@ Unlike Rot13, ‘memfrob’ works on arbitrary binary data, not just text.
    This function is declared in ‘string.h’.
 
  -- Function: void * memfrob (void *MEM, size_t LENGTH)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6902,7 +6086,6 @@ the range allowed for storing or transferring.  SVID systems (and
 nowadays XPG compliant systems) provide minimal support for this task.
 
  -- Function: char * l64a (long int N)
-
      Preliminary: | MT-Unsafe race:l64a | AS-Unsafe | AC-Safe | *Note
      POSIX Safety Concepts::.
 
@@ -6975,7 +6158,6 @@ nowadays XPG compliant systems) provide minimal support for this task.
 used.
 
  -- Function: long int a64l (const char *STRING)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -7050,7 +6232,6 @@ error occurs.
 
  -- Function: error_t argz_create (char *const ARGV[], char **ARGZ,
           size_t *ARGZ_LEN)
-
      Preliminary: | MT-Safe | AS-Unsafe heap | AC-Unsafe mem | *Note
      POSIX Safety Concepts::.
 
@@ -7061,7 +6242,6 @@ error occurs.
 
  -- Function: error_t argz_create_sep (const char *STRING, int SEP, char
           **ARGZ, size_t *ARGZ_LEN)
-
      Preliminary: | MT-Safe | AS-Unsafe heap | AC-Unsafe mem | *Note
      POSIX Safety Concepts::.
 
@@ -7070,7 +6250,6 @@ error occurs.
      elements at every occurrence of the byte SEP.
 
  -- Function: size_t argz_count (const char *ARGZ, size_t ARGZ_LEN)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -7079,7 +6258,6 @@ error occurs.
 
  -- Function: void argz_extract (const char *ARGZ, size_t ARGZ_LEN, char
           **ARGV)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -7096,7 +6274,6 @@ error occurs.
      in ARGZ to an exec function (*note Executing a File::).
 
  -- Function: void argz_stringify (char *ARGZ, size_t LEN, int SEP)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -7107,7 +6284,6 @@ error occurs.
 
  -- Function: error_t argz_add (char **ARGZ, size_t *ARGZ_LEN, const
           char *STR)
-
      Preliminary: | MT-Safe | AS-Unsafe heap | AC-Unsafe mem | *Note
      POSIX Safety Concepts::.
 
@@ -7116,7 +6292,6 @@ error occurs.
 
  -- Function: error_t argz_add_sep (char **ARGZ, size_t *ARGZ_LEN, const
           char *STR, int DELIM)
-
      Preliminary: | MT-Safe | AS-Unsafe heap | AC-Unsafe mem | *Note
      POSIX Safety Concepts::.
 
@@ -7128,7 +6303,6 @@ error occurs.
 
  -- Function: error_t argz_append (char **ARGZ, size_t *ARGZ_LEN, const
           char *BUF, size_t BUF_LEN)
-
      Preliminary: | MT-Safe | AS-Unsafe heap | AC-Unsafe mem | *Note
      POSIX Safety Concepts::.
 
@@ -7138,7 +6312,6 @@ error occurs.
 
  -- Function: void argz_delete (char **ARGZ, size_t *ARGZ_LEN, char
           *ENTRY)
-
      Preliminary: | MT-Safe | AS-Unsafe heap | AC-Unsafe mem | *Note
      POSIX Safety Concepts::.
 
@@ -7151,7 +6324,6 @@ error occurs.
 
  -- Function: error_t argz_insert (char **ARGZ, size_t *ARGZ_LEN, char
           *BEFORE, const char *ENTRY)
-
      Preliminary: | MT-Safe | AS-Unsafe heap | AC-Unsafe mem | *Note
      POSIX Safety Concepts::.
 
@@ -7165,7 +6337,6 @@ error occurs.
 
  -- Function: char * argz_next (const char *ARGZ, size_t ARGZ_LEN, const
           char *ENTRY)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -7197,7 +6368,6 @@ error occurs.
 
  -- Function: error_t argz_replace (char **ARGZ, size_t *ARGZ_LEN,
           const char *STR, const char *WITH, unsigned *REPLACE_COUNT)
-
      Preliminary: | MT-Safe | AS-Unsafe heap | AC-Unsafe mem | *Note
      POSIX Safety Concepts::.
 
@@ -7236,7 +6406,6 @@ thus fail) have a return type of ‘error_t’, and return either ‘0’ or
 
  -- Function: char * envz_entry (const char *ENVZ, size_t ENVZ_LEN,
           const char *NAME)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -7247,7 +6416,6 @@ thus fail) have a return type of ‘error_t’, and return either ‘0’ or
 
  -- Function: char * envz_get (const char *ENVZ, size_t ENVZ_LEN, const
           char *NAME)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -7258,7 +6426,6 @@ thus fail) have a return type of ‘error_t’, and return either ‘0’ or
 
  -- Function: error_t envz_add (char **ENVZ, size_t *ENVZ_LEN, const
           char *NAME, const char *VALUE)
-
      Preliminary: | MT-Safe | AS-Unsafe heap | AC-Unsafe mem | *Note
      POSIX Safety Concepts::.
 
@@ -7270,7 +6437,6 @@ thus fail) have a return type of ‘error_t’, and return either ‘0’ or
 
  -- Function: error_t envz_merge (char **ENVZ, size_t *ENVZ_LEN, const
           char *ENVZ2, size_t ENVZ2_LEN, int OVERRIDE)
-
      Preliminary: | MT-Safe | AS-Unsafe heap | AC-Unsafe mem | *Note
      POSIX Safety Concepts::.
 
@@ -7284,7 +6450,6 @@ thus fail) have a return type of ‘error_t’, and return either ‘0’ or
      ENVZ2 from being added to ENVZ, if OVERRIDE is false.
 
  -- Function: void envz_strip (char **ENVZ, size_t *ENVZ_LEN)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -7293,7 +6458,6 @@ thus fail) have a return type of ‘error_t’, and return either ‘0’ or
 
  -- Function: void envz_remove (char **ENVZ, size_t *ENVZ_LEN, const
           char *NAME)
-
      Preliminary: | MT-Safe | AS-Unsafe heap | AC-Unsafe mem | *Note
      POSIX Safety Concepts::.
 
@@ -7390,7 +6554,6 @@ similarity there is also a type corresponding to ‘int’ for those
 functions that take a single wide character.
 
  -- Data type: wchar_t
-
      This data type is used as the base type for wide character strings.
      In other words, arrays of objects of this type are the equivalent
      of ‘char[]’ for multibyte character strings.  The type is defined
@@ -7414,7 +6577,6 @@ functions that take a single wide character.
      ‘wchar_t’ type.
 
  -- Data type: wint_t
-
      ‘wint_t’ is a data type used for parameters and variables that
      contain a single wide character.  As the name suggests this type is
      the equivalent of ‘int’ when using the normal ‘char’ strings.  The
@@ -7431,14 +6593,12 @@ specifying the minimum and maximum value representable in an object of
 type ‘wchar_t’.
 
  -- Macro: wint_t WCHAR_MIN
-
      The macro ‘WCHAR_MIN’ evaluates to the minimum value representable
      by an object of type ‘wint_t’.
 
      This macro was introduced in Amendment 1 to ISO C90.
 
  -- Macro: wint_t WCHAR_MAX
-
      The macro ‘WCHAR_MAX’ evaluates to the maximum value representable
      by an object of type ‘wint_t’.
 
@@ -7447,7 +6607,6 @@ type ‘wchar_t’.
    Another special wide character value is the equivalent to ‘EOF’.
 
  -- Macro: wint_t WEOF
-
      The macro ‘WEOF’ evaluates to a constant expression of type
      ‘wint_t’ whose value is different from any member of the extended
      character set.
@@ -7587,4 +6746,586 @@ defined one should avoid making assumptions about the wide character
 representation.  If the programmer uses only the functions provided by
 the C library to handle wide character strings there should be no
 compatibility problems with other systems.
+
+
+File: libc.info,  Node: Charset Function Overview,  Next: Restartable multibyte conversion,  Prev: Extended Char Intro,  Up: Character Set Handling
+
+6.2 Overview about Character Handling Functions
+===============================================
+
+A Unix C library contains three different sets of functions in two
+families to handle character set conversion.  One of the function
+families (the most commonly used) is specified in the ISO C90 standard
+and, therefore, is portable even beyond the Unix world.  Unfortunately
+this family is the least useful one.  These functions should be avoided
+whenever possible, especially when developing libraries (as opposed to
+applications).
+
+   The second family of functions got introduced in the early Unix
+standards (XPG2) and is still part of the latest and greatest Unix
+standard: Unix 98.  It is also the most powerful and useful set of
+functions.  But we will start with the functions defined in Amendment 1
+to ISO C90.
+
+
+File: libc.info,  Node: Restartable multibyte conversion,  Next: Non-reentrant Conversion,  Prev: Charset Function Overview,  Up: Character Set Handling
+
+6.3 Restartable Multibyte Conversion Functions
+==============================================
+
+The ISO C standard defines functions to convert strings from a multibyte
+representation to wide character strings.  There are a number of
+peculiarities:
+
+   • The character set assumed for the multibyte encoding is not
+     specified as an argument to the functions.  Instead the character
+     set specified by the ‘LC_CTYPE’ category of the current locale is
+     used; see *note Locale Categories::.
+
+   • The functions handling more than one character at a time require
+     NUL terminated strings as the argument (i.e., converting blocks of
+     text does not work unless one can add a NUL byte at an appropriate
+     place).  The GNU C Library contains some extensions to the standard
+     that allow specifying a size, but basically they also expect
+     terminated strings.
+
+   Despite these limitations the ISO C functions can be used in many
+contexts.  In graphical user interfaces, for instance, it is not
+uncommon to have functions that require text to be displayed in a wide
+character string if the text is not simple ASCII. The text itself might
+come from a file with translations and the user should decide about the
+current locale, which determines the translation and therefore also the
+external encoding used.  In such a situation (and many others) the
+functions described here are perfect.  If more freedom while performing
+the conversion is necessary take a look at the ‘iconv’ functions (*note
+Generic Charset Conversion::).
+
+* Menu:
+
+* Selecting the Conversion::     Selecting the conversion and its properties.
+* Keeping the state::            Representing the state of the conversion.
+* Converting a Character::       Converting Single Characters.
+* Converting Strings::           Converting Multibyte and Wide Character
+                                  Strings.
+* Multibyte Conversion Example:: A Complete Multibyte Conversion Example.
+
+
+File: libc.info,  Node: Selecting the Conversion,  Next: Keeping the state,  Up: Restartable multibyte conversion
+
+6.3.1 Selecting the conversion and its properties
+-------------------------------------------------
+
+We already said above that the currently selected locale for the
+‘LC_CTYPE’ category decides the conversion that is performed by the
+functions we are about to describe.  Each locale uses its own character
+set (given as an argument to ‘localedef’) and this is the one assumed as
+the external multibyte encoding.  The wide character set is always UCS-4
+in the GNU C Library.
+
+   A characteristic of each multibyte character set is the maximum
+number of bytes that can be necessary to represent one character.  This
+information is quite important when writing code that uses the
+conversion functions (as shown in the examples below).  The ISO C
+standard defines two macros that provide this information.
+
+ -- Macro: int MB_LEN_MAX
+     ‘MB_LEN_MAX’ specifies the maximum number of bytes in the multibyte
+     sequence for a single character in any of the supported locales.
+     It is a compile-time constant and is defined in ‘limits.h’.
+
+ -- Macro: int MB_CUR_MAX
+     ‘MB_CUR_MAX’ expands into a positive integer expression that is the
+     maximum number of bytes in a multibyte character in the current
+     locale.  The value is never greater than ‘MB_LEN_MAX’.  Unlike
+     ‘MB_LEN_MAX’ this macro need not be a compile-time constant, and in
+     the GNU C Library it is not.
+
+     ‘MB_CUR_MAX’ is defined in ‘stdlib.h’.
+
+   Two different macros are necessary since strictly ISO C90 compilers
+do not allow variable length array definitions, but still it is
+desirable to avoid dynamic allocation.  This incomplete piece of code
+shows the problem:
+
+     {
+       char buf[MB_LEN_MAX];
+       ssize_t len = 0;
+
+       while (! feof (fp))
+         {
+           fread (&buf[len], 1, MB_CUR_MAX - len, fp);
+           /* ... process buf */
+           len -= used;
+         }
+     }
+
+   The code in the inner loop is expected to have always enough bytes in
+the array BUF to convert one multibyte character.  The array BUF has to
+be sized statically since many compilers do not allow a variable size.
+The ‘fread’ call makes sure that ‘MB_CUR_MAX’ bytes are always available
+in BUF.  Note that it isn’t a problem if ‘MB_CUR_MAX’ is not a
+compile-time constant.
+
+
+File: libc.info,  Node: Keeping the state,  Next: Converting a Character,  Prev: Selecting the Conversion,  Up: Restartable multibyte conversion
+
+6.3.2 Representing the state of the conversion
+----------------------------------------------
+
+In the introduction of this chapter it was said that certain character
+sets use a “stateful” encoding.  That is, the encoded values depend in
+some way on the previous bytes in the text.
+
+   Since the conversion functions allow converting a text in more than
+one step we must have a way to pass this information from one call of
+the functions to another.
+
+ -- Data type: mbstate_t
+     A variable of type ‘mbstate_t’ can contain all the information
+     about the “shift state” needed from one call to a conversion
+     function to another.
+
+     ‘mbstate_t’ is defined in ‘wchar.h’.  It was introduced in
+     Amendment 1 to ISO C90.
+
+   To use objects of type ‘mbstate_t’ the programmer has to define such
+objects (normally as local variables on the stack) and pass a pointer to
+the object to the conversion functions.  This way the conversion
+function can update the object if the current multibyte character set is
+stateful.
+
+   There is no specific function or initializer to put the state object
+in any specific state.  The rules are that the object should always
+represent the initial state before the first use, and this is achieved
+by clearing the whole variable with code such as follows:
+
+     {
+       mbstate_t state;
+       memset (&state, '\0', sizeof (state));
+       /* from now on STATE can be used.  */
+       ...
+     }
+
+   When using the conversion functions to generate output it is often
+necessary to test whether the current state corresponds to the initial
+state.  This is necessary, for example, to decide whether to emit escape
+sequences to set the state to the initial state at certain sequence
+points.  Communication protocols often require this.
+
+ -- Function: int mbsinit (const mbstate_t *PS)
+     Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
+     Concepts::.
+
+     The ‘mbsinit’ function determines whether the state object pointed
+     to by PS is in the initial state.  If PS is a null pointer or the
+     object is in the initial state the return value is nonzero.
+     Otherwise it is zero.
+
+     ‘mbsinit’ was introduced in Amendment 1 to ISO C90 and is declared
+     in ‘wchar.h’.
+
+   Code using ‘mbsinit’ often looks similar to this:
+
+     {
+       mbstate_t state;
+       memset (&state, '\0', sizeof (state));
+       /* Use STATE.  */
+       ...
+       if (! mbsinit (&state))
+         {
+           /* Emit code to return to initial state.  */
+           const wchar_t empty[] = L"";
+           const wchar_t *srcp = empty;
+           wcsrtombs (outbuf, &srcp, outbuflen, &state);
+         }
+       ...
+     }
+
+   The code to emit the escape sequence to get back to the initial state
+is interesting.  The ‘wcsrtombs’ function can be used to determine the
+necessary output code (*note Converting Strings::).  Please note that
+with the GNU C Library it is not necessary to perform this extra action
+for the conversion from multibyte text to wide character text since the
+wide character encoding is not stateful.  But there is nothing mentioned
+in any standard that prohibits making ‘wchar_t’ use a stateful encoding.
+
+
+File: libc.info,  Node: Converting a Character,  Next: Converting Strings,  Prev: Keeping the state,  Up: Restartable multibyte conversion
+
+6.3.3 Converting Single Characters
+----------------------------------
+
+The most fundamental of the conversion functions are those dealing with
+single characters.  Please note that this does not always mean single
+bytes.  But since there is very often a subset of the multibyte
+character set that consists of single byte sequences, there are
+functions to help with converting bytes.  Frequently, ASCII is a subset
+of the multibyte character set.  In such a scenario, each ASCII
+character stands for itself, and all other characters have at least a
+first byte that is beyond the range 0 to 127.
+
+ -- Function: wint_t btowc (int C)
+     Preliminary: | MT-Safe | AS-Unsafe corrupt heap lock dlopen |
+     AC-Unsafe corrupt lock mem fd | *Note POSIX Safety Concepts::.
+
+     The ‘btowc’ function (“byte to wide character”) converts a valid
+     single byte character C in the initial shift state into the wide
+     character equivalent using the conversion rules from the currently
+     selected locale of the ‘LC_CTYPE’ category.
+
+     If ‘(unsigned char) C’ is no valid single byte multibyte character
+     or if C is ‘EOF’, the function returns ‘WEOF’.
+
+     Please note the restriction of C being tested for validity only in
+     the initial shift state.  No ‘mbstate_t’ object is used from which
+     the state information is taken, and the function also does not use
+     any static state.
+
+     The ‘btowc’ function was introduced in Amendment 1 to ISO C90 and
+     is declared in ‘wchar.h’.
+
+   Despite the limitation that the single byte value is always
+interpreted in the initial state, this function is actually useful most
+of the time.  Most characters are either entirely single-byte character
+sets or they are extensions to ASCII. But then it is possible to write
+code like this (not that this specific example is very useful):
+
+     wchar_t *
+     itow (unsigned long int val)
+     {
+       static wchar_t buf[30];
+       wchar_t *wcp = &buf[29];
+       *wcp = L'\0';
+       while (val != 0)
+         {
+           *--wcp = btowc ('0' + val % 10);
+           val /= 10;
+         }
+       if (wcp == &buf[29])
+         *--wcp = L'0';
+       return wcp;
+     }
+
+   Why is it necessary to use such a complicated implementation and not
+simply cast ‘'0' + val % 10’ to a wide character?  The answer is that
+there is no guarantee that one can perform this kind of arithmetic on
+the character of the character set used for ‘wchar_t’ representation.
+In other situations the bytes are not constant at compile time and so
+the compiler cannot do the work.  In situations like this, using ‘btowc’
+is required.
+
+There is also a function for the conversion in the other direction.
+
+ -- Function: int wctob (wint_t C)
+     Preliminary: | MT-Safe | AS-Unsafe corrupt heap lock dlopen |
+     AC-Unsafe corrupt lock mem fd | *Note POSIX Safety Concepts::.
+
+     The ‘wctob’ function (“wide character to byte”) takes as the
+     parameter a valid wide character.  If the multibyte representation
+     for this character in the initial state is exactly one byte long,
+     the return value of this function is this character.  Otherwise the
+     return value is ‘EOF’.
+
+     ‘wctob’ was introduced in Amendment 1 to ISO C90 and is declared in
+     ‘wchar.h’.
+
+   There are more general functions to convert single characters from
+multibyte representation to wide characters and vice versa.  These
+functions pose no limit on the length of the multibyte representation
+and they also do not require it to be in the initial state.
+
+ -- Function: size_t mbrtowc (wchar_t *restrict PWC, const char
+          *restrict S, size_t N, mbstate_t *restrict PS)
+     Preliminary: | MT-Unsafe race:mbrtowc/!ps | AS-Unsafe corrupt heap
+     lock dlopen | AC-Unsafe corrupt lock mem fd | *Note POSIX Safety
+     Concepts::.
+
+     The ‘mbrtowc’ function (“multibyte restartable to wide character”)
+     converts the next multibyte character in the string pointed to by S
+     into a wide character and stores it in the wide character string
+     pointed to by PWC.  The conversion is performed according to the
+     locale currently selected for the ‘LC_CTYPE’ category.  If the
+     conversion for the character set used in the locale requires a
+     state, the multibyte string is interpreted in the state represented
+     by the object pointed to by PS.  If PS is a null pointer, a static,
+     internal state variable used only by the ‘mbrtowc’ function is
+     used.
+
+     If the next multibyte character corresponds to the NUL wide
+     character, the return value of the function is 0 and the state
+     object is afterwards in the initial state.  If the next N or fewer
+     bytes form a correct multibyte character, the return value is the
+     number of bytes starting from S that form the multibyte character.
+     The conversion state is updated according to the bytes consumed in
+     the conversion.  In both cases the wide character (either the
+     ‘L'\0'’ or the one found in the conversion) is stored in the string
+     pointed to by PWC if PWC is not null.
+
+     If the first N bytes of the multibyte string possibly form a valid
+     multibyte character but there are more than N bytes needed to
+     complete it, the return value of the function is ‘(size_t) -2’ and
+     no value is stored.  Please note that this can happen even if N has
+     a value greater than or equal to ‘MB_CUR_MAX’ since the input might
+     contain redundant shift sequences.
+
+     If the first ‘n’ bytes of the multibyte string cannot possibly form
+     a valid multibyte character, no value is stored, the global
+     variable ‘errno’ is set to the value ‘EILSEQ’, and the function
+     returns ‘(size_t) -1’.  The conversion state is afterwards
+     undefined.
+
+     ‘mbrtowc’ was introduced in Amendment 1 to ISO C90 and is declared
+     in ‘wchar.h’.
+
+   Use of ‘mbrtowc’ is straightforward.  A function that copies a
+multibyte string into a wide character string while at the same time
+converting all lowercase characters into uppercase could look like this
+(this is not the final version, just an example; it has no error
+checking, and sometimes leaks memory):
+
+     wchar_t *
+     mbstouwcs (const char *s)
+     {
+       size_t len = strlen (s);
+       wchar_t *result = malloc ((len + 1) * sizeof (wchar_t));
+       wchar_t *wcp = result;
+       wchar_t tmp[1];
+       mbstate_t state;
+       size_t nbytes;
+
+       memset (&state, '\0', sizeof (state));
+       while ((nbytes = mbrtowc (tmp, s, len, &state)) > 0)
+         {
+           if (nbytes >= (size_t) -2)
+             /* Invalid input string.  */
+             return NULL;
+           *wcp++ = towupper (tmp[0]);
+           len -= nbytes;
+           s += nbytes;
+         }
+       return result;
+     }
+
+   The use of ‘mbrtowc’ should be clear.  A single wide character is
+stored in ‘TMP[0]’, and the number of consumed bytes is stored in the
+variable NBYTES.  If the conversion is successful, the uppercase variant
+of the wide character is stored in the RESULT array and the pointer to
+the input string and the number of available bytes is adjusted.
+
+   The only non-obvious thing about ‘mbrtowc’ might be the way memory is
+allocated for the result.  The above code uses the fact that there can
+never be more wide characters in the converted result than there are
+bytes in the multibyte input string.  This method yields a pessimistic
+guess about the size of the result, and if many wide character strings
+have to be constructed this way or if the strings are long, the extra
+memory required to be allocated because the input string contains
+multibyte characters might be significant.  The allocated memory block
+can be resized to the correct size before returning it, but a better
+solution might be to allocate just the right amount of space for the
+result right away.  Unfortunately there is no function to compute the
+length of the wide character string directly from the multibyte string.
+There is, however, a function that does part of the work.
+
+ -- Function: size_t mbrlen (const char *restrict S, size_t N, mbstate_t
+          *PS)
+     Preliminary: | MT-Unsafe race:mbrlen/!ps | AS-Unsafe corrupt heap
+     lock dlopen | AC-Unsafe corrupt lock mem fd | *Note POSIX Safety
+     Concepts::.
+
+     The ‘mbrlen’ function (“multibyte restartable length”) computes the
+     number of at most N bytes starting at S, which form the next valid
+     and complete multibyte character.
+
+     If the next multibyte character corresponds to the NUL wide
+     character, the return value is 0.  If the next N bytes form a valid
+     multibyte character, the number of bytes belonging to this
+     multibyte character byte sequence is returned.
+
+     If the first N bytes possibly form a valid multibyte character but
+     the character is incomplete, the return value is ‘(size_t) -2’.
+     Otherwise the multibyte character sequence is invalid and the
+     return value is ‘(size_t) -1’.
+
+     The multibyte sequence is interpreted in the state represented by
+     the object pointed to by PS.  If PS is a null pointer, a state
+     object local to ‘mbrlen’ is used.
+
+     ‘mbrlen’ was introduced in Amendment 1 to ISO C90 and is declared
+     in ‘wchar.h’.
+
+   The attentive reader now will note that ‘mbrlen’ can be implemented
+as
+
+     mbrtowc (NULL, s, n, ps != NULL ? ps : &internal)
+
+   This is true and in fact is mentioned in the official specification.
+How can this function be used to determine the length of the wide
+character string created from a multibyte character string?  It is not
+directly usable, but we can define a function ‘mbslen’ using it:
+
+     size_t
+     mbslen (const char *s)
+     {
+       mbstate_t state;
+       size_t result = 0;
+       size_t nbytes;
+       memset (&state, '\0', sizeof (state));
+       while ((nbytes = mbrlen (s, MB_LEN_MAX, &state)) > 0)
+         {
+           if (nbytes >= (size_t) -2)
+             /* Something is wrong.  */
+             return (size_t) -1;
+           s += nbytes;
+           ++result;
+         }
+       return result;
+     }
+
+   This function simply calls ‘mbrlen’ for each multibyte character in
+the string and counts the number of function calls.  Please note that we
+here use ‘MB_LEN_MAX’ as the size argument in the ‘mbrlen’ call.  This
+is acceptable since a) this value is larger than the length of the
+longest multibyte character sequence and b) we know that the string S
+ends with a NUL byte, which cannot be part of any other multibyte
+character sequence but the one representing the NUL wide character.
+Therefore, the ‘mbrlen’ function will never read invalid memory.
+
+   Now that this function is available (just to make this clear, this
+function is _not_ part of the GNU C Library) we can compute the number
+of wide characters required to store the converted multibyte character
+string S using
+
+     wcs_bytes = (mbslen (s) + 1) * sizeof (wchar_t);
+
+   Please note that the ‘mbslen’ function is quite inefficient.  The
+implementation of ‘mbstouwcs’ with ‘mbslen’ would have to perform the
+conversion of the multibyte character input string twice, and this
+conversion might be quite expensive.  So it is necessary to think about
+the consequences of using the easier but imprecise method before doing
+the work twice.
+
+ -- Function: size_t wcrtomb (char *restrict S, wchar_t WC, mbstate_t
+          *restrict PS)
+     Preliminary: | MT-Unsafe race:wcrtomb/!ps | AS-Unsafe corrupt heap
+     lock dlopen | AC-Unsafe corrupt lock mem fd | *Note POSIX Safety
+     Concepts::.
+
+     The ‘wcrtomb’ function (“wide character restartable to multibyte”)
+     converts a single wide character into a multibyte string
+     corresponding to that wide character.
+
+     If S is a null pointer, the function resets the state stored in the
+     object pointed to by PS (or the internal ‘mbstate_t’ object) to the
+     initial state.  This can also be achieved by a call like this:
+
+          wcrtombs (temp_buf, L'\0', ps)
+
+     since, if S is a null pointer, ‘wcrtomb’ performs as if it writes
+     into an internal buffer, which is guaranteed to be large enough.
+
+     If WC is the NUL wide character, ‘wcrtomb’ emits, if necessary, a
+     shift sequence to get the state PS into the initial state followed
+     by a single NUL byte, which is stored in the string S.
+
+     Otherwise a byte sequence (possibly including shift sequences) is
+     written into the string S.  This only happens if WC is a valid wide
+     character (i.e., it has a multibyte representation in the character
+     set selected by locale of the ‘LC_CTYPE’ category).  If WC is no
+     valid wide character, nothing is stored in the strings S, ‘errno’
+     is set to ‘EILSEQ’, the conversion state in PS is undefined and the
+     return value is ‘(size_t) -1’.
+
+     If no error occurred the function returns the number of bytes
+     stored in the string S.  This includes all bytes representing shift
+     sequences.
+
+     One word about the interface of the function: there is no parameter
+     specifying the length of the array S.  Instead the function assumes
+     that there are at least ‘MB_CUR_MAX’ bytes available since this is
+     the maximum length of any byte sequence representing a single
+     character.  So the caller has to make sure that there is enough
+     space available, otherwise buffer overruns can occur.
+
+     ‘wcrtomb’ was introduced in Amendment 1 to ISO C90 and is declared
+     in ‘wchar.h’.
+
+   Using ‘wcrtomb’ is as easy as using ‘mbrtowc’.  The following example
+appends a wide character string to a multibyte character string.  Again,
+the code is not really useful (or correct), it is simply here to
+demonstrate the use and some problems.
+
+     char *
+     mbscatwcs (char *s, size_t len, const wchar_t *ws)
+     {
+       mbstate_t state;
+       /* Find the end of the existing string.  */
+       char *wp = strchr (s, '\0');
+       len -= wp - s;
+       memset (&state, '\0', sizeof (state));
+       do
+         {
+           size_t nbytes;
+           if (len < MB_CUR_LEN)
+             {
+               /* We cannot guarantee that the next
+                  character fits into the buffer, so
+                  return an error.  */
+               errno = E2BIG;
+               return NULL;
+             }
+           nbytes = wcrtomb (wp, *ws, &state);
+           if (nbytes == (size_t) -1)
+             /* Error in the conversion.  */
+             return NULL;
+           len -= nbytes;
+           wp += nbytes;
+         }
+       while (*ws++ != L'\0');
+       return s;
+     }
+
+   First the function has to find the end of the string currently in the
+array S.  The ‘strchr’ call does this very efficiently since a
+requirement for multibyte character representations is that the NUL byte
+is never used except to represent itself (and in this context, the end
+of the string).
+
+   After initializing the state object the loop is entered where the
+first task is to make sure there is enough room in the array S.  We
+abort if there are not at least ‘MB_CUR_LEN’ bytes available.  This is
+not always optimal but we have no other choice.  We might have less than
+‘MB_CUR_LEN’ bytes available but the next multibyte character might also
+be only one byte long.  At the time the ‘wcrtomb’ call returns it is too
+late to decide whether the buffer was large enough.  If this solution is
+unsuitable, there is a very slow but more accurate solution.
+
+       ...
+       if (len < MB_CUR_LEN)
+         {
+           mbstate_t temp_state;
+           memcpy (&temp_state, &state, sizeof (state));
+           if (wcrtomb (NULL, *ws, &temp_state) > len)
+             {
+               /* We cannot guarantee that the next
+                  character fits into the buffer, so
+                  return an error.  */
+               errno = E2BIG;
+               return NULL;
+             }
+         }
+       ...
+
+   Here we perform the conversion that might overflow the buffer so that
+we are afterwards in the position to make an exact decision about the
+buffer size.  Please note the ‘NULL’ argument for the destination buffer
+in the new ‘wcrtomb’ call; since we are not interested in the converted
+text at this point, this is a nice way to express this.  The most
+unusual thing about this piece of code certainly is the duplication of
+the conversion state object, but if a change of the state is necessary
+to emit the next multibyte character, we want to have the same shift
+state change performed in the real conversion.  Therefore, we have to
+preserve the initial shift state information.
+
+   There are certainly many more and even better solutions to this
+problem.  This example is only provided for educational purposes.
 

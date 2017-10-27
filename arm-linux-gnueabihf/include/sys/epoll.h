@@ -21,7 +21,13 @@
 #include <stdint.h>
 #include <sys/types.h>
 
-#include <bits/types/sigset_t.h>
+/* Get __sigset_t.  */
+#include <bits/sigset.h>
+
+#ifndef __sigset_t_defined
+# define __sigset_t_defined
+typedef __sigset_t sigset_t;
+#endif
 
 /* Get the platform-dependent flags.  */
 #include <bits/epoll.h>

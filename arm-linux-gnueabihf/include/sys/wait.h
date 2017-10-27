@@ -26,21 +26,7 @@
 
 __BEGIN_DECLS
 
-#include <bits/types.h>
-#ifndef __pid_t_defined
-typedef __pid_t pid_t;
-# define __pid_t_defined
-#endif
-
-#if defined __USE_XOPEN_EXTENDED || defined __USE_XOPEN2K8
-# include <signal.h>
-#endif
-
-#if defined __USE_XOPEN_EXTENDED && !defined __USE_XOPEN2K8
-/* Some older standards require the contents of struct rusage to be
-   defined here.  */
-# include <bits/types/struct_rusage.h>
-#endif
+#include <signal.h>
 
 /* These macros could also be defined in <stdlib.h>.  */
 #if !defined _STDLIB_H || (!defined __USE_XOPEN && !defined __USE_XOPEN2K8)
@@ -70,7 +56,7 @@ typedef __pid_t pid_t;
 #endif
 
 /* The following values are used by the `waitid' function.  */
-#if defined __USE_XOPEN_EXTENDED || defined __USE_XOPEN2K8
+#if defined __USE_XOPEN || defined __USE_XOPEN2K8
 typedef enum
 {
   P_ALL,		/* Wait for any child.  */
@@ -110,13 +96,15 @@ extern __pid_t wait (int *__stat_loc);
    __THROW.  */
 extern __pid_t waitpid (__pid_t __pid, int *__stat_loc, int __options);
 
-#if defined __USE_XOPEN_EXTENDED || defined __USE_XOPEN2K8
+#if defined __USE_XOPEN || defined __USE_XOPEN2K8
 # ifndef __id_t_defined
+#  include <bits/types.h>
 typedef __id_t id_t;
 #  define __id_t_defined
 # endif
 
-# include <bits/types/siginfo_t.h>
+# define __need_siginfo_t
+# include <bits/siginfo.h>
 
 /* Wait for a childing matching IDTYPE and ID to change the status and
    place appropriate information in *INFOP.
@@ -133,8 +121,7 @@ extern int waitid (idtype_t __idtype, __id_t __id, siginfo_t *__infop,
 		   int __options);
 #endif
 
-#if defined __USE_MISC \
-    || (defined __USE_XOPEN_EXTENDED && !defined __USE_XOPEN2K)
+#if defined __USE_MISC || defined __USE_XOPEN_EXTENDED
 /* This being here makes the prototypes valid whether or not
    we have already included <sys/resource.h> to define `struct rusage'.  */
 struct rusage;

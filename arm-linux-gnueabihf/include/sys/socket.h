@@ -23,9 +23,14 @@
 
 __BEGIN_DECLS
 
-#include <bits/types/struct_iovec.h>
+#include <sys/uio.h>
 #define	__need_size_t
 #include <stddef.h>
+#ifdef __USE_GNU
+/* Get the __sigset_t definition.  */
+# include <bits/sigset.h>
+#endif
+
 
 /* This operating system-specific header file defines the SOCK_*, PF_*,
    AF_*, MSG_*, SOL_*, and SO_* constants, and the `struct sockaddr',

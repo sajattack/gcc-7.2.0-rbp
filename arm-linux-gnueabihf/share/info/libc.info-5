@@ -2,7 +2,7 @@ This is libc.info, produced by makeinfo version 6.4 from libc.texinfo.
 
 This file documents the GNU C Library.
 
-   This is ‘The GNU C Library Reference Manual’, for version 2.26.
+   This is ‘The GNU C Library Reference Manual’, for version 2.25.
 
    Copyright © 1993–2017 Free Software Foundation, Inc.
 
@@ -35,7 +35,6 @@ START-INFO-DIR-ENTRY
 * BRKINT: (libc)Input Modes.
 * BUFSIZ: (libc)Controlling Buffering.
 * CCTS_OFLOW: (libc)Control Modes.
-* CHAR_BIT: (libc)Width of Type.
 * CHILD_MAX: (libc)General Limits.
 * CIGNORE: (libc)Control Modes.
 * CLK_TCK: (libc)Processor Time.
@@ -249,8 +248,6 @@ START-INFO-DIR-ENTRY
 * HUGE_VAL: (libc)Math Error Reporting.
 * HUGE_VALF: (libc)Math Error Reporting.
 * HUGE_VALL: (libc)Math Error Reporting.
-* HUGE_VAL_FN: (libc)Math Error Reporting.
-* HUGE_VAL_FNx: (libc)Math Error Reporting.
 * HUPCL: (libc)Control Modes.
 * I: (libc)Complex Numbers.
 * ICANON: (libc)Local Modes.
@@ -389,8 +386,6 @@ START-INFO-DIR-ENTRY
 * SIG_ERR: (libc)Basic Signal Handling.
 * SNAN: (libc)Infinity and NaN.
 * SNANF: (libc)Infinity and NaN.
-* SNANFN: (libc)Infinity and NaN.
-* SNANFNx: (libc)Infinity and NaN.
 * SNANL: (libc)Infinity and NaN.
 * SOCK_DGRAM: (libc)Communication Styles.
 * SOCK_RAW: (libc)Communication Styles.
@@ -500,12 +495,8 @@ START-INFO-DIR-ENTRY
 * access: (libc)Testing File Access.
 * acos: (libc)Inverse Trig Functions.
 * acosf: (libc)Inverse Trig Functions.
-* acosfN: (libc)Inverse Trig Functions.
-* acosfNx: (libc)Inverse Trig Functions.
 * acosh: (libc)Hyperbolic Functions.
 * acoshf: (libc)Hyperbolic Functions.
-* acoshfN: (libc)Hyperbolic Functions.
-* acoshfNx: (libc)Hyperbolic Functions.
 * acoshl: (libc)Hyperbolic Functions.
 * acosl: (libc)Inverse Trig Functions.
 * addmntent: (libc)mtab.
@@ -554,12 +545,8 @@ START-INFO-DIR-ENTRY
 * asctime_r: (libc)Formatting Calendar Time.
 * asin: (libc)Inverse Trig Functions.
 * asinf: (libc)Inverse Trig Functions.
-* asinfN: (libc)Inverse Trig Functions.
-* asinfNx: (libc)Inverse Trig Functions.
 * asinh: (libc)Hyperbolic Functions.
 * asinhf: (libc)Hyperbolic Functions.
-* asinhfN: (libc)Hyperbolic Functions.
-* asinhfNx: (libc)Hyperbolic Functions.
 * asinhl: (libc)Hyperbolic Functions.
 * asinl: (libc)Inverse Trig Functions.
 * asprintf: (libc)Dynamic Output.
@@ -567,17 +554,11 @@ START-INFO-DIR-ENTRY
 * assert_perror: (libc)Consistency Checking.
 * atan2: (libc)Inverse Trig Functions.
 * atan2f: (libc)Inverse Trig Functions.
-* atan2fN: (libc)Inverse Trig Functions.
-* atan2fNx: (libc)Inverse Trig Functions.
 * atan2l: (libc)Inverse Trig Functions.
 * atan: (libc)Inverse Trig Functions.
 * atanf: (libc)Inverse Trig Functions.
-* atanfN: (libc)Inverse Trig Functions.
-* atanfNx: (libc)Inverse Trig Functions.
 * atanh: (libc)Hyperbolic Functions.
 * atanhf: (libc)Hyperbolic Functions.
-* atanhfN: (libc)Hyperbolic Functions.
-* atanhfNx: (libc)Hyperbolic Functions.
 * atanhl: (libc)Hyperbolic Functions.
 * atanl: (libc)Inverse Trig Functions.
 * atexit: (libc)Cleanups on Exit.
@@ -601,49 +582,31 @@ START-INFO-DIR-ENTRY
 * bzero: (libc)Copying Strings and Arrays.
 * cabs: (libc)Absolute Value.
 * cabsf: (libc)Absolute Value.
-* cabsfN: (libc)Absolute Value.
-* cabsfNx: (libc)Absolute Value.
 * cabsl: (libc)Absolute Value.
 * cacos: (libc)Inverse Trig Functions.
 * cacosf: (libc)Inverse Trig Functions.
-* cacosfN: (libc)Inverse Trig Functions.
-* cacosfNx: (libc)Inverse Trig Functions.
 * cacosh: (libc)Hyperbolic Functions.
 * cacoshf: (libc)Hyperbolic Functions.
-* cacoshfN: (libc)Hyperbolic Functions.
-* cacoshfNx: (libc)Hyperbolic Functions.
 * cacoshl: (libc)Hyperbolic Functions.
 * cacosl: (libc)Inverse Trig Functions.
 * calloc: (libc)Allocating Cleared Space.
 * canonicalize: (libc)FP Bit Twiddling.
 * canonicalize_file_name: (libc)Symbolic Links.
 * canonicalizef: (libc)FP Bit Twiddling.
-* canonicalizefN: (libc)FP Bit Twiddling.
-* canonicalizefNx: (libc)FP Bit Twiddling.
 * canonicalizel: (libc)FP Bit Twiddling.
 * carg: (libc)Operations on Complex.
 * cargf: (libc)Operations on Complex.
-* cargfN: (libc)Operations on Complex.
-* cargfNx: (libc)Operations on Complex.
 * cargl: (libc)Operations on Complex.
 * casin: (libc)Inverse Trig Functions.
 * casinf: (libc)Inverse Trig Functions.
-* casinfN: (libc)Inverse Trig Functions.
-* casinfNx: (libc)Inverse Trig Functions.
 * casinh: (libc)Hyperbolic Functions.
 * casinhf: (libc)Hyperbolic Functions.
-* casinhfN: (libc)Hyperbolic Functions.
-* casinhfNx: (libc)Hyperbolic Functions.
 * casinhl: (libc)Hyperbolic Functions.
 * casinl: (libc)Inverse Trig Functions.
 * catan: (libc)Inverse Trig Functions.
 * catanf: (libc)Inverse Trig Functions.
-* catanfN: (libc)Inverse Trig Functions.
-* catanfNx: (libc)Inverse Trig Functions.
 * catanh: (libc)Hyperbolic Functions.
 * catanhf: (libc)Hyperbolic Functions.
-* catanhfN: (libc)Hyperbolic Functions.
-* catanhfNx: (libc)Hyperbolic Functions.
 * catanhl: (libc)Hyperbolic Functions.
 * catanl: (libc)Inverse Trig Functions.
 * catclose: (libc)The catgets Functions.
@@ -652,32 +615,23 @@ START-INFO-DIR-ENTRY
 * cbc_crypt: (libc)DES Encryption.
 * cbrt: (libc)Exponents and Logarithms.
 * cbrtf: (libc)Exponents and Logarithms.
-* cbrtfN: (libc)Exponents and Logarithms.
-* cbrtfNx: (libc)Exponents and Logarithms.
 * cbrtl: (libc)Exponents and Logarithms.
 * ccos: (libc)Trig Functions.
 * ccosf: (libc)Trig Functions.
-* ccosfN: (libc)Trig Functions.
-* ccosfNx: (libc)Trig Functions.
 * ccosh: (libc)Hyperbolic Functions.
 * ccoshf: (libc)Hyperbolic Functions.
-* ccoshfN: (libc)Hyperbolic Functions.
-* ccoshfNx: (libc)Hyperbolic Functions.
 * ccoshl: (libc)Hyperbolic Functions.
 * ccosl: (libc)Trig Functions.
 * ceil: (libc)Rounding Functions.
 * ceilf: (libc)Rounding Functions.
-* ceilfN: (libc)Rounding Functions.
-* ceilfNx: (libc)Rounding Functions.
 * ceill: (libc)Rounding Functions.
 * cexp: (libc)Exponents and Logarithms.
 * cexpf: (libc)Exponents and Logarithms.
-* cexpfN: (libc)Exponents and Logarithms.
-* cexpfNx: (libc)Exponents and Logarithms.
 * cexpl: (libc)Exponents and Logarithms.
 * cfgetispeed: (libc)Line Speed.
 * cfgetospeed: (libc)Line Speed.
 * cfmakeraw: (libc)Noncanonical Input.
+* cfree: (libc)Freeing after Malloc.
 * cfsetispeed: (libc)Line Speed.
 * cfsetospeed: (libc)Line Speed.
 * cfsetspeed: (libc)Line Speed.
@@ -686,8 +640,6 @@ START-INFO-DIR-ENTRY
 * chown: (libc)File Owner.
 * cimag: (libc)Operations on Complex.
 * cimagf: (libc)Operations on Complex.
-* cimagfN: (libc)Operations on Complex.
-* cimagfNx: (libc)Operations on Complex.
 * cimagl: (libc)Operations on Complex.
 * clearenv: (libc)Environment Access.
 * clearerr: (libc)Error Recovery.
@@ -695,13 +647,9 @@ START-INFO-DIR-ENTRY
 * clock: (libc)CPU Time.
 * clog10: (libc)Exponents and Logarithms.
 * clog10f: (libc)Exponents and Logarithms.
-* clog10fN: (libc)Exponents and Logarithms.
-* clog10fNx: (libc)Exponents and Logarithms.
 * clog10l: (libc)Exponents and Logarithms.
 * clog: (libc)Exponents and Logarithms.
 * clogf: (libc)Exponents and Logarithms.
-* clogfN: (libc)Exponents and Logarithms.
-* clogfNx: (libc)Exponents and Logarithms.
 * clogl: (libc)Exponents and Logarithms.
 * close: (libc)Opening and Closing Files.
 * closedir: (libc)Reading/Closing Directory.
@@ -709,39 +657,25 @@ START-INFO-DIR-ENTRY
 * confstr: (libc)String Parameters.
 * conj: (libc)Operations on Complex.
 * conjf: (libc)Operations on Complex.
-* conjfN: (libc)Operations on Complex.
-* conjfNx: (libc)Operations on Complex.
 * conjl: (libc)Operations on Complex.
 * connect: (libc)Connecting.
 * copysign: (libc)FP Bit Twiddling.
 * copysignf: (libc)FP Bit Twiddling.
-* copysignfN: (libc)FP Bit Twiddling.
-* copysignfNx: (libc)FP Bit Twiddling.
 * copysignl: (libc)FP Bit Twiddling.
 * cos: (libc)Trig Functions.
 * cosf: (libc)Trig Functions.
-* cosfN: (libc)Trig Functions.
-* cosfNx: (libc)Trig Functions.
 * cosh: (libc)Hyperbolic Functions.
 * coshf: (libc)Hyperbolic Functions.
-* coshfN: (libc)Hyperbolic Functions.
-* coshfNx: (libc)Hyperbolic Functions.
 * coshl: (libc)Hyperbolic Functions.
 * cosl: (libc)Trig Functions.
 * cpow: (libc)Exponents and Logarithms.
 * cpowf: (libc)Exponents and Logarithms.
-* cpowfN: (libc)Exponents and Logarithms.
-* cpowfNx: (libc)Exponents and Logarithms.
 * cpowl: (libc)Exponents and Logarithms.
 * cproj: (libc)Operations on Complex.
 * cprojf: (libc)Operations on Complex.
-* cprojfN: (libc)Operations on Complex.
-* cprojfNx: (libc)Operations on Complex.
 * cprojl: (libc)Operations on Complex.
 * creal: (libc)Operations on Complex.
 * crealf: (libc)Operations on Complex.
-* crealfN: (libc)Operations on Complex.
-* crealfNx: (libc)Operations on Complex.
 * creall: (libc)Operations on Complex.
 * creat64: (libc)Opening and Closing Files.
 * creat: (libc)Opening and Closing Files.
@@ -749,27 +683,17 @@ START-INFO-DIR-ENTRY
 * crypt_r: (libc)crypt.
 * csin: (libc)Trig Functions.
 * csinf: (libc)Trig Functions.
-* csinfN: (libc)Trig Functions.
-* csinfNx: (libc)Trig Functions.
 * csinh: (libc)Hyperbolic Functions.
 * csinhf: (libc)Hyperbolic Functions.
-* csinhfN: (libc)Hyperbolic Functions.
-* csinhfNx: (libc)Hyperbolic Functions.
 * csinhl: (libc)Hyperbolic Functions.
 * csinl: (libc)Trig Functions.
 * csqrt: (libc)Exponents and Logarithms.
 * csqrtf: (libc)Exponents and Logarithms.
-* csqrtfN: (libc)Exponents and Logarithms.
-* csqrtfNx: (libc)Exponents and Logarithms.
 * csqrtl: (libc)Exponents and Logarithms.
 * ctan: (libc)Trig Functions.
 * ctanf: (libc)Trig Functions.
-* ctanfN: (libc)Trig Functions.
-* ctanfNx: (libc)Trig Functions.
 * ctanh: (libc)Hyperbolic Functions.
 * ctanhf: (libc)Hyperbolic Functions.
-* ctanhfN: (libc)Hyperbolic Functions.
-* ctanhfNx: (libc)Hyperbolic Functions.
 * ctanhl: (libc)Hyperbolic Functions.
 * ctanl: (libc)Trig Functions.
 * ctermid: (libc)Identifying the Terminal.
@@ -819,12 +743,8 @@ START-INFO-DIR-ENTRY
 * erf: (libc)Special Functions.
 * erfc: (libc)Special Functions.
 * erfcf: (libc)Special Functions.
-* erfcfN: (libc)Special Functions.
-* erfcfNx: (libc)Special Functions.
 * erfcl: (libc)Special Functions.
 * erff: (libc)Special Functions.
-* erffN: (libc)Special Functions.
-* erffNx: (libc)Special Functions.
 * erfl: (libc)Special Functions.
 * err: (libc)Error Messages.
 * errno: (libc)Checking for Errors.
@@ -840,29 +760,19 @@ START-INFO-DIR-ENTRY
 * exit: (libc)Normal Termination.
 * exp10: (libc)Exponents and Logarithms.
 * exp10f: (libc)Exponents and Logarithms.
-* exp10fN: (libc)Exponents and Logarithms.
-* exp10fNx: (libc)Exponents and Logarithms.
 * exp10l: (libc)Exponents and Logarithms.
 * exp2: (libc)Exponents and Logarithms.
 * exp2f: (libc)Exponents and Logarithms.
-* exp2fN: (libc)Exponents and Logarithms.
-* exp2fNx: (libc)Exponents and Logarithms.
 * exp2l: (libc)Exponents and Logarithms.
 * exp: (libc)Exponents and Logarithms.
 * expf: (libc)Exponents and Logarithms.
-* expfN: (libc)Exponents and Logarithms.
-* expfNx: (libc)Exponents and Logarithms.
 * expl: (libc)Exponents and Logarithms.
 * explicit_bzero: (libc)Erasing Sensitive Data.
 * expm1: (libc)Exponents and Logarithms.
 * expm1f: (libc)Exponents and Logarithms.
-* expm1fN: (libc)Exponents and Logarithms.
-* expm1fNx: (libc)Exponents and Logarithms.
 * expm1l: (libc)Exponents and Logarithms.
 * fabs: (libc)Absolute Value.
 * fabsf: (libc)Absolute Value.
-* fabsfN: (libc)Absolute Value.
-* fabsfNx: (libc)Absolute Value.
 * fabsl: (libc)Absolute Value.
 * fchdir: (libc)Working Directory.
 * fchmod: (libc)Setting Permissions.
@@ -875,8 +785,6 @@ START-INFO-DIR-ENTRY
 * fdatasync: (libc)Synchronizing I/O.
 * fdim: (libc)Misc FP Arithmetic.
 * fdimf: (libc)Misc FP Arithmetic.
-* fdimfN: (libc)Misc FP Arithmetic.
-* fdimfNx: (libc)Misc FP Arithmetic.
 * fdiml: (libc)Misc FP Arithmetic.
 * fdopen: (libc)Descriptors and Streams.
 * fdopendir: (libc)Opening a Directory.
@@ -926,39 +834,25 @@ START-INFO-DIR-ENTRY
 * flockfile: (libc)Streams and Threads.
 * floor: (libc)Rounding Functions.
 * floorf: (libc)Rounding Functions.
-* floorfN: (libc)Rounding Functions.
-* floorfNx: (libc)Rounding Functions.
 * floorl: (libc)Rounding Functions.
 * fma: (libc)Misc FP Arithmetic.
 * fmaf: (libc)Misc FP Arithmetic.
-* fmafN: (libc)Misc FP Arithmetic.
-* fmafNx: (libc)Misc FP Arithmetic.
 * fmal: (libc)Misc FP Arithmetic.
 * fmax: (libc)Misc FP Arithmetic.
 * fmaxf: (libc)Misc FP Arithmetic.
-* fmaxfN: (libc)Misc FP Arithmetic.
-* fmaxfNx: (libc)Misc FP Arithmetic.
 * fmaxl: (libc)Misc FP Arithmetic.
 * fmaxmag: (libc)Misc FP Arithmetic.
 * fmaxmagf: (libc)Misc FP Arithmetic.
-* fmaxmagfN: (libc)Misc FP Arithmetic.
-* fmaxmagfNx: (libc)Misc FP Arithmetic.
 * fmaxmagl: (libc)Misc FP Arithmetic.
 * fmemopen: (libc)String Streams.
 * fmin: (libc)Misc FP Arithmetic.
 * fminf: (libc)Misc FP Arithmetic.
-* fminfN: (libc)Misc FP Arithmetic.
-* fminfNx: (libc)Misc FP Arithmetic.
 * fminl: (libc)Misc FP Arithmetic.
 * fminmag: (libc)Misc FP Arithmetic.
 * fminmagf: (libc)Misc FP Arithmetic.
-* fminmagfN: (libc)Misc FP Arithmetic.
-* fminmagfNx: (libc)Misc FP Arithmetic.
 * fminmagl: (libc)Misc FP Arithmetic.
 * fmod: (libc)Remainder Functions.
 * fmodf: (libc)Remainder Functions.
-* fmodfN: (libc)Remainder Functions.
-* fmodfNx: (libc)Remainder Functions.
 * fmodl: (libc)Remainder Functions.
 * fmtmsg: (libc)Printing Formatted Messages.
 * fnmatch: (libc)Wildcard Matching.
@@ -985,18 +879,12 @@ START-INFO-DIR-ENTRY
 * freopen: (libc)Opening Streams.
 * frexp: (libc)Normalization Functions.
 * frexpf: (libc)Normalization Functions.
-* frexpfN: (libc)Normalization Functions.
-* frexpfNx: (libc)Normalization Functions.
 * frexpl: (libc)Normalization Functions.
 * fromfp: (libc)Rounding Functions.
 * fromfpf: (libc)Rounding Functions.
-* fromfpfN: (libc)Rounding Functions.
-* fromfpfNx: (libc)Rounding Functions.
 * fromfpl: (libc)Rounding Functions.
 * fromfpx: (libc)Rounding Functions.
 * fromfpxf: (libc)Rounding Functions.
-* fromfpxfN: (libc)Rounding Functions.
-* fromfpxfNx: (libc)Rounding Functions.
 * fromfpxl: (libc)Rounding Functions.
 * fscanf: (libc)Formatted Input Functions.
 * fseek: (libc)File Positioning.
@@ -1085,8 +973,6 @@ START-INFO-DIR-ENTRY
 * getpass: (libc)getpass.
 * getpayload: (libc)FP Bit Twiddling.
 * getpayloadf: (libc)FP Bit Twiddling.
-* getpayloadfN: (libc)FP Bit Twiddling.
-* getpayloadfNx: (libc)FP Bit Twiddling.
 * getpayloadl: (libc)FP Bit Twiddling.
 * getpeername: (libc)Who is Connected.
 * getpgid: (libc)Process Group Functions.
@@ -1157,8 +1043,6 @@ START-INFO-DIR-ENTRY
 * htons: (libc)Byte Order.
 * hypot: (libc)Exponents and Logarithms.
 * hypotf: (libc)Exponents and Logarithms.
-* hypotfN: (libc)Exponents and Logarithms.
-* hypotfNx: (libc)Exponents and Logarithms.
 * hypotl: (libc)Exponents and Logarithms.
 * iconv: (libc)Generic Conversion Interface.
 * iconv_close: (libc)Generic Conversion Interface.
@@ -1169,8 +1053,6 @@ START-INFO-DIR-ENTRY
 * if_nametoindex: (libc)Interface Naming.
 * ilogb: (libc)Exponents and Logarithms.
 * ilogbf: (libc)Exponents and Logarithms.
-* ilogbfN: (libc)Exponents and Logarithms.
-* ilogbfNx: (libc)Exponents and Logarithms.
 * ilogbl: (libc)Exponents and Logarithms.
 * imaxabs: (libc)Absolute Value.
 * imaxdiv: (libc)Integer Division.
@@ -1240,18 +1122,12 @@ START-INFO-DIR-ENTRY
 * iszero: (libc)Floating Point Classes.
 * j0: (libc)Special Functions.
 * j0f: (libc)Special Functions.
-* j0fN: (libc)Special Functions.
-* j0fNx: (libc)Special Functions.
 * j0l: (libc)Special Functions.
 * j1: (libc)Special Functions.
 * j1f: (libc)Special Functions.
-* j1fN: (libc)Special Functions.
-* j1fNx: (libc)Special Functions.
 * j1l: (libc)Special Functions.
 * jn: (libc)Special Functions.
 * jnf: (libc)Special Functions.
-* jnfN: (libc)Special Functions.
-* jnfNx: (libc)Special Functions.
 * jnl: (libc)Special Functions.
 * jrand48: (libc)SVID Random.
 * jrand48_r: (libc)SVID Random.
@@ -1263,18 +1139,12 @@ START-INFO-DIR-ENTRY
 * lcong48_r: (libc)SVID Random.
 * ldexp: (libc)Normalization Functions.
 * ldexpf: (libc)Normalization Functions.
-* ldexpfN: (libc)Normalization Functions.
-* ldexpfNx: (libc)Normalization Functions.
 * ldexpl: (libc)Normalization Functions.
 * ldiv: (libc)Integer Division.
 * lfind: (libc)Array Search Function.
 * lgamma: (libc)Special Functions.
 * lgamma_r: (libc)Special Functions.
 * lgammaf: (libc)Special Functions.
-* lgammafN: (libc)Special Functions.
-* lgammafN_r: (libc)Special Functions.
-* lgammafNx: (libc)Special Functions.
-* lgammafNx_r: (libc)Special Functions.
 * lgammaf_r: (libc)Special Functions.
 * lgammal: (libc)Special Functions.
 * lgammal_r: (libc)Special Functions.
@@ -1286,46 +1156,30 @@ START-INFO-DIR-ENTRY
 * lldiv: (libc)Integer Division.
 * llogb: (libc)Exponents and Logarithms.
 * llogbf: (libc)Exponents and Logarithms.
-* llogbfN: (libc)Exponents and Logarithms.
-* llogbfNx: (libc)Exponents and Logarithms.
 * llogbl: (libc)Exponents and Logarithms.
 * llrint: (libc)Rounding Functions.
 * llrintf: (libc)Rounding Functions.
-* llrintfN: (libc)Rounding Functions.
-* llrintfNx: (libc)Rounding Functions.
 * llrintl: (libc)Rounding Functions.
 * llround: (libc)Rounding Functions.
 * llroundf: (libc)Rounding Functions.
-* llroundfN: (libc)Rounding Functions.
-* llroundfNx: (libc)Rounding Functions.
 * llroundl: (libc)Rounding Functions.
 * localeconv: (libc)The Lame Way to Locale Data.
 * localtime: (libc)Broken-down Time.
 * localtime_r: (libc)Broken-down Time.
 * log10: (libc)Exponents and Logarithms.
 * log10f: (libc)Exponents and Logarithms.
-* log10fN: (libc)Exponents and Logarithms.
-* log10fNx: (libc)Exponents and Logarithms.
 * log10l: (libc)Exponents and Logarithms.
 * log1p: (libc)Exponents and Logarithms.
 * log1pf: (libc)Exponents and Logarithms.
-* log1pfN: (libc)Exponents and Logarithms.
-* log1pfNx: (libc)Exponents and Logarithms.
 * log1pl: (libc)Exponents and Logarithms.
 * log2: (libc)Exponents and Logarithms.
 * log2f: (libc)Exponents and Logarithms.
-* log2fN: (libc)Exponents and Logarithms.
-* log2fNx: (libc)Exponents and Logarithms.
 * log2l: (libc)Exponents and Logarithms.
 * log: (libc)Exponents and Logarithms.
 * logb: (libc)Exponents and Logarithms.
 * logbf: (libc)Exponents and Logarithms.
-* logbfN: (libc)Exponents and Logarithms.
-* logbfNx: (libc)Exponents and Logarithms.
 * logbl: (libc)Exponents and Logarithms.
 * logf: (libc)Exponents and Logarithms.
-* logfN: (libc)Exponents and Logarithms.
-* logfNx: (libc)Exponents and Logarithms.
 * login: (libc)Logging In and Out.
 * login_tty: (libc)Logging In and Out.
 * logl: (libc)Exponents and Logarithms.
@@ -1336,13 +1190,9 @@ START-INFO-DIR-ENTRY
 * lrand48_r: (libc)SVID Random.
 * lrint: (libc)Rounding Functions.
 * lrintf: (libc)Rounding Functions.
-* lrintfN: (libc)Rounding Functions.
-* lrintfNx: (libc)Rounding Functions.
 * lrintl: (libc)Rounding Functions.
 * lround: (libc)Rounding Functions.
 * lroundf: (libc)Rounding Functions.
-* lroundfN: (libc)Rounding Functions.
-* lroundfNx: (libc)Rounding Functions.
 * lroundl: (libc)Rounding Functions.
 * lsearch: (libc)Array Search Function.
 * lseek64: (libc)File Position Primitive.
@@ -1388,8 +1238,6 @@ START-INFO-DIR-ENTRY
 * mmap: (libc)Memory-mapped I/O.
 * modf: (libc)Rounding Functions.
 * modff: (libc)Rounding Functions.
-* modffN: (libc)Rounding Functions.
-* modffNx: (libc)Rounding Functions.
 * modfl: (libc)Rounding Functions.
 * mount: (libc)Mount-Unmount-Remount.
 * mprobe: (libc)Heap Consistency Checking.
@@ -1404,32 +1252,22 @@ START-INFO-DIR-ENTRY
 * muntrace: (libc)Tracing malloc.
 * nan: (libc)FP Bit Twiddling.
 * nanf: (libc)FP Bit Twiddling.
-* nanfN: (libc)FP Bit Twiddling.
-* nanfNx: (libc)FP Bit Twiddling.
 * nanl: (libc)FP Bit Twiddling.
 * nanosleep: (libc)Sleeping.
 * nearbyint: (libc)Rounding Functions.
 * nearbyintf: (libc)Rounding Functions.
-* nearbyintfN: (libc)Rounding Functions.
-* nearbyintfNx: (libc)Rounding Functions.
 * nearbyintl: (libc)Rounding Functions.
 * nextafter: (libc)FP Bit Twiddling.
 * nextafterf: (libc)FP Bit Twiddling.
-* nextafterfN: (libc)FP Bit Twiddling.
-* nextafterfNx: (libc)FP Bit Twiddling.
 * nextafterl: (libc)FP Bit Twiddling.
 * nextdown: (libc)FP Bit Twiddling.
 * nextdownf: (libc)FP Bit Twiddling.
-* nextdownfN: (libc)FP Bit Twiddling.
-* nextdownfNx: (libc)FP Bit Twiddling.
 * nextdownl: (libc)FP Bit Twiddling.
 * nexttoward: (libc)FP Bit Twiddling.
 * nexttowardf: (libc)FP Bit Twiddling.
 * nexttowardl: (libc)FP Bit Twiddling.
 * nextup: (libc)FP Bit Twiddling.
 * nextupf: (libc)FP Bit Twiddling.
-* nextupfN: (libc)FP Bit Twiddling.
-* nextupfNx: (libc)FP Bit Twiddling.
 * nextupl: (libc)FP Bit Twiddling.
 * nftw64: (libc)Working with Directory Trees.
 * nftw: (libc)Working with Directory Trees.
@@ -1490,15 +1328,9 @@ START-INFO-DIR-ENTRY
 * pow10l: (libc)Exponents and Logarithms.
 * pow: (libc)Exponents and Logarithms.
 * powf: (libc)Exponents and Logarithms.
-* powfN: (libc)Exponents and Logarithms.
-* powfNx: (libc)Exponents and Logarithms.
 * powl: (libc)Exponents and Logarithms.
 * pread64: (libc)I/O Primitives.
 * pread: (libc)I/O Primitives.
-* preadv2: (libc)I/O Primitives.
-* preadv64: (libc)I/O Primitives.
-* preadv64v2: (libc)I/O Primitives.
-* preadv: (libc)I/O Primitives.
 * printf: (libc)Formatted Output Functions.
 * printf_size: (libc)Predefined Printf Handlers.
 * printf_size_info: (libc)Predefined Printf Handlers.
@@ -1527,10 +1359,6 @@ START-INFO-DIR-ENTRY
 * putwchar_unlocked: (libc)Simple Output.
 * pwrite64: (libc)I/O Primitives.
 * pwrite: (libc)I/O Primitives.
-* pwritev2: (libc)I/O Primitives.
-* pwritev64: (libc)I/O Primitives.
-* pwritev64v2: (libc)I/O Primitives.
-* pwritev: (libc)I/O Primitives.
 * qecvt: (libc)System V Number Conversion.
 * qecvt_r: (libc)System V Number Conversion.
 * qfcvt: (libc)System V Number Conversion.
@@ -1551,7 +1379,6 @@ START-INFO-DIR-ENTRY
 * readlink: (libc)Symbolic Links.
 * readv: (libc)Scatter-Gather.
 * realloc: (libc)Changing Block Size.
-* reallocarray: (libc)Changing Block Size.
 * realpath: (libc)Symbolic Links.
 * recv: (libc)Receiving Data.
 * recvfrom: (libc)Receiving Datagrams.
@@ -1563,8 +1390,6 @@ START-INFO-DIR-ENTRY
 * register_printf_function: (libc)Registering New Conversions.
 * remainder: (libc)Remainder Functions.
 * remainderf: (libc)Remainder Functions.
-* remainderfN: (libc)Remainder Functions.
-* remainderfNx: (libc)Remainder Functions.
 * remainderl: (libc)Remainder Functions.
 * remove: (libc)Deleting Files.
 * rename: (libc)Renaming Files.
@@ -1573,19 +1398,13 @@ START-INFO-DIR-ENTRY
 * rindex: (libc)Search Functions.
 * rint: (libc)Rounding Functions.
 * rintf: (libc)Rounding Functions.
-* rintfN: (libc)Rounding Functions.
-* rintfNx: (libc)Rounding Functions.
 * rintl: (libc)Rounding Functions.
 * rmdir: (libc)Deleting Files.
 * round: (libc)Rounding Functions.
 * roundeven: (libc)Rounding Functions.
 * roundevenf: (libc)Rounding Functions.
-* roundevenfN: (libc)Rounding Functions.
-* roundevenfNx: (libc)Rounding Functions.
 * roundevenl: (libc)Rounding Functions.
 * roundf: (libc)Rounding Functions.
-* roundfN: (libc)Rounding Functions.
-* roundfNx: (libc)Rounding Functions.
 * roundl: (libc)Rounding Functions.
 * rpmatch: (libc)Yes-or-No Questions.
 * sbrk: (libc)Resizing the Data Segment.
@@ -1594,13 +1413,9 @@ START-INFO-DIR-ENTRY
 * scalbl: (libc)Normalization Functions.
 * scalbln: (libc)Normalization Functions.
 * scalblnf: (libc)Normalization Functions.
-* scalblnfN: (libc)Normalization Functions.
-* scalblnfNx: (libc)Normalization Functions.
 * scalblnl: (libc)Normalization Functions.
 * scalbn: (libc)Normalization Functions.
 * scalbnf: (libc)Normalization Functions.
-* scalbnfN: (libc)Normalization Functions.
-* scalbnfNx: (libc)Normalization Functions.
 * scalbnl: (libc)Normalization Functions.
 * scandir64: (libc)Scanning Directory Content.
 * scandir: (libc)Scanning Directory Content.
@@ -1663,13 +1478,9 @@ START-INFO-DIR-ENTRY
 * setnetgrent: (libc)Lookup Netgroup.
 * setpayload: (libc)FP Bit Twiddling.
 * setpayloadf: (libc)FP Bit Twiddling.
-* setpayloadfN: (libc)FP Bit Twiddling.
-* setpayloadfNx: (libc)FP Bit Twiddling.
 * setpayloadl: (libc)FP Bit Twiddling.
 * setpayloadsig: (libc)FP Bit Twiddling.
 * setpayloadsigf: (libc)FP Bit Twiddling.
-* setpayloadsigfN: (libc)FP Bit Twiddling.
-* setpayloadsigfNx: (libc)FP Bit Twiddling.
 * setpayloadsigl: (libc)FP Bit Twiddling.
 * setpgid: (libc)Process Group Functions.
 * setpgrp: (libc)Process Group Functions.
@@ -1719,16 +1530,10 @@ START-INFO-DIR-ENTRY
 * sin: (libc)Trig Functions.
 * sincos: (libc)Trig Functions.
 * sincosf: (libc)Trig Functions.
-* sincosfN: (libc)Trig Functions.
-* sincosfNx: (libc)Trig Functions.
 * sincosl: (libc)Trig Functions.
 * sinf: (libc)Trig Functions.
-* sinfN: (libc)Trig Functions.
-* sinfNx: (libc)Trig Functions.
 * sinh: (libc)Hyperbolic Functions.
 * sinhf: (libc)Hyperbolic Functions.
-* sinhfN: (libc)Hyperbolic Functions.
-* sinhfNx: (libc)Hyperbolic Functions.
 * sinhl: (libc)Hyperbolic Functions.
 * sinl: (libc)Trig Functions.
 * sleep: (libc)Sleeping.
@@ -1738,8 +1543,6 @@ START-INFO-DIR-ENTRY
 * sprintf: (libc)Formatted Output Functions.
 * sqrt: (libc)Exponents and Logarithms.
 * sqrtf: (libc)Exponents and Logarithms.
-* sqrtfN: (libc)Exponents and Logarithms.
-* sqrtfNx: (libc)Exponents and Logarithms.
 * sqrtl: (libc)Exponents and Logarithms.
 * srand48: (libc)SVID Random.
 * srand48_r: (libc)SVID Random.
@@ -1769,8 +1572,6 @@ START-INFO-DIR-ENTRY
 * strfmon: (libc)Formatting Numbers.
 * strfromd: (libc)Printing of Floats.
 * strfromf: (libc)Printing of Floats.
-* strfromfN: (libc)Printing of Floats.
-* strfromfNx: (libc)Printing of Floats.
 * strfroml: (libc)Printing of Floats.
 * strfry: (libc)strfry.
 * strftime: (libc)Formatting Calendar Time.
@@ -1791,8 +1592,6 @@ START-INFO-DIR-ENTRY
 * strstr: (libc)Search Functions.
 * strtod: (libc)Parsing of Floats.
 * strtof: (libc)Parsing of Floats.
-* strtofN: (libc)Parsing of Floats.
-* strtofNx: (libc)Parsing of Floats.
 * strtoimax: (libc)Parsing of Integers.
 * strtok: (libc)Finding Tokens in a String.
 * strtok_r: (libc)Finding Tokens in a String.
@@ -1820,12 +1619,8 @@ START-INFO-DIR-ENTRY
 * sysv_signal: (libc)Basic Signal Handling.
 * tan: (libc)Trig Functions.
 * tanf: (libc)Trig Functions.
-* tanfN: (libc)Trig Functions.
-* tanfNx: (libc)Trig Functions.
 * tanh: (libc)Hyperbolic Functions.
 * tanhf: (libc)Hyperbolic Functions.
-* tanhfN: (libc)Hyperbolic Functions.
-* tanhfNx: (libc)Hyperbolic Functions.
 * tanhl: (libc)Hyperbolic Functions.
 * tanl: (libc)Trig Functions.
 * tcdrain: (libc)Line Control.
@@ -1845,8 +1640,6 @@ START-INFO-DIR-ENTRY
 * tfind: (libc)Tree Search Function.
 * tgamma: (libc)Special Functions.
 * tgammaf: (libc)Special Functions.
-* tgammafN: (libc)Special Functions.
-* tgammafNx: (libc)Special Functions.
 * tgammal: (libc)Special Functions.
 * time: (libc)Simple Calendar Time.
 * timegm: (libc)Broken-down Time.
@@ -1860,13 +1653,9 @@ START-INFO-DIR-ENTRY
 * tolower: (libc)Case Conversion.
 * totalorder: (libc)FP Comparison Functions.
 * totalorderf: (libc)FP Comparison Functions.
-* totalorderfN: (libc)FP Comparison Functions.
-* totalorderfNx: (libc)FP Comparison Functions.
 * totalorderl: (libc)FP Comparison Functions.
 * totalordermag: (libc)FP Comparison Functions.
 * totalordermagf: (libc)FP Comparison Functions.
-* totalordermagfN: (libc)FP Comparison Functions.
-* totalordermagfNx: (libc)FP Comparison Functions.
 * totalordermagl: (libc)FP Comparison Functions.
 * toupper: (libc)Case Conversion.
 * towctrans: (libc)Wide Character Case Conversion.
@@ -1876,8 +1665,6 @@ START-INFO-DIR-ENTRY
 * truncate64: (libc)File Size.
 * truncate: (libc)File Size.
 * truncf: (libc)Rounding Functions.
-* truncfN: (libc)Rounding Functions.
-* truncfNx: (libc)Rounding Functions.
 * truncl: (libc)Rounding Functions.
 * tsearch: (libc)Tree Search Function.
 * ttyname: (libc)Is It a Terminal.
@@ -1886,13 +1673,9 @@ START-INFO-DIR-ENTRY
 * tzset: (libc)Time Zone Functions.
 * ufromfp: (libc)Rounding Functions.
 * ufromfpf: (libc)Rounding Functions.
-* ufromfpfN: (libc)Rounding Functions.
-* ufromfpfNx: (libc)Rounding Functions.
 * ufromfpl: (libc)Rounding Functions.
 * ufromfpx: (libc)Rounding Functions.
 * ufromfpxf: (libc)Rounding Functions.
-* ufromfpxfN: (libc)Rounding Functions.
-* ufromfpxfNx: (libc)Rounding Functions.
 * ufromfpxl: (libc)Rounding Functions.
 * ulimit: (libc)Limits on Resources.
 * umask: (libc)Setting Permissions.
@@ -1971,8 +1754,6 @@ START-INFO-DIR-ENTRY
 * wcsstr: (libc)Search Functions.
 * wcstod: (libc)Parsing of Floats.
 * wcstof: (libc)Parsing of Floats.
-* wcstofN: (libc)Parsing of Floats.
-* wcstofNx: (libc)Parsing of Floats.
 * wcstoimax: (libc)Parsing of Integers.
 * wcstok: (libc)Finding Tokens in a String.
 * wcstol: (libc)Parsing of Integers.
@@ -2004,1140 +1785,14 @@ START-INFO-DIR-ENTRY
 * wscanf: (libc)Formatted Input Functions.
 * y0: (libc)Special Functions.
 * y0f: (libc)Special Functions.
-* y0fN: (libc)Special Functions.
-* y0fNx: (libc)Special Functions.
 * y0l: (libc)Special Functions.
 * y1: (libc)Special Functions.
 * y1f: (libc)Special Functions.
-* y1fN: (libc)Special Functions.
-* y1fNx: (libc)Special Functions.
 * y1l: (libc)Special Functions.
 * yn: (libc)Special Functions.
 * ynf: (libc)Special Functions.
-* ynfN: (libc)Special Functions.
-* ynfNx: (libc)Special Functions.
 * ynl: (libc)Special Functions.
 END-INFO-DIR-ENTRY
-
-
-File: libc.info,  Node: Integer Conversions,  Next: Floating-Point Conversions,  Prev: Table of Output Conversions,  Up: Formatted Output
-
-12.12.4 Integer Conversions
----------------------------
-
-This section describes the options for the ‘%d’, ‘%i’, ‘%o’, ‘%u’, ‘%x’,
-and ‘%X’ conversion specifications.  These conversions print integers in
-various formats.
-
-   The ‘%d’ and ‘%i’ conversion specifications both print an ‘int’
-argument as a signed decimal number; while ‘%o’, ‘%u’, and ‘%x’ print
-the argument as an unsigned octal, decimal, or hexadecimal number
-(respectively).  The ‘%X’ conversion specification is just like ‘%x’
-except that it uses the characters ‘ABCDEF’ as digits instead of
-‘abcdef’.
-
-   The following flags are meaningful:
-
-‘-’
-     Left-justify the result in the field (instead of the normal
-     right-justification).
-
-‘+’
-     For the signed ‘%d’ and ‘%i’ conversions, print a plus sign if the
-     value is positive.
-
-‘ ’
-     For the signed ‘%d’ and ‘%i’ conversions, if the result doesn’t
-     start with a plus or minus sign, prefix it with a space character
-     instead.  Since the ‘+’ flag ensures that the result includes a
-     sign, this flag is ignored if you supply both of them.
-
-‘#’
-     For the ‘%o’ conversion, this forces the leading digit to be ‘0’,
-     as if by increasing the precision.  For ‘%x’ or ‘%X’, this prefixes
-     a leading ‘0x’ or ‘0X’ (respectively) to the result.  This doesn’t
-     do anything useful for the ‘%d’, ‘%i’, or ‘%u’ conversions.  Using
-     this flag produces output which can be parsed by the ‘strtoul’
-     function (*note Parsing of Integers::) and ‘scanf’ with the ‘%i’
-     conversion (*note Numeric Input Conversions::).
-
-‘'’
-     Separate the digits into groups as specified by the locale
-     specified for the ‘LC_NUMERIC’ category; *note General Numeric::.
-     This flag is a GNU extension.
-
-‘0’
-     Pad the field with zeros instead of spaces.  The zeros are placed
-     after any indication of sign or base.  This flag is ignored if the
-     ‘-’ flag is also specified, or if a precision is specified.
-
-   If a precision is supplied, it specifies the minimum number of digits
-to appear; leading zeros are produced if necessary.  If you don’t
-specify a precision, the number is printed with as many digits as it
-needs.  If you convert a value of zero with an explicit precision of
-zero, then no characters at all are produced.
-
-   Without a type modifier, the corresponding argument is treated as an
-‘int’ (for the signed conversions ‘%i’ and ‘%d’) or ‘unsigned int’ (for
-the unsigned conversions ‘%o’, ‘%u’, ‘%x’, and ‘%X’).  Recall that since
-‘printf’ and friends are variadic, any ‘char’ and ‘short’ arguments are
-automatically converted to ‘int’ by the default argument promotions.
-For arguments of other integer types, you can use these modifiers:
-
-‘hh’
-     Specifies that the argument is a ‘signed char’ or ‘unsigned char’,
-     as appropriate.  A ‘char’ argument is converted to an ‘int’ or
-     ‘unsigned int’ by the default argument promotions anyway, but the
-     ‘hh’ modifier says to convert it back to a ‘char’ again.
-
-     This modifier was introduced in ISO C99.
-
-‘h’
-     Specifies that the argument is a ‘short int’ or ‘unsigned short
-     int’, as appropriate.  A ‘short’ argument is converted to an ‘int’
-     or ‘unsigned int’ by the default argument promotions anyway, but
-     the ‘h’ modifier says to convert it back to a ‘short’ again.
-
-‘j’
-     Specifies that the argument is a ‘intmax_t’ or ‘uintmax_t’, as
-     appropriate.
-
-     This modifier was introduced in ISO C99.
-
-‘l’
-     Specifies that the argument is a ‘long int’ or ‘unsigned long int’,
-     as appropriate.  Two ‘l’ characters are like the ‘L’ modifier,
-     below.
-
-     If used with ‘%c’ or ‘%s’ the corresponding parameter is considered
-     as a wide character or wide character string respectively.  This
-     use of ‘l’ was introduced in Amendment 1 to ISO C90.
-
-‘L’
-‘ll’
-‘q’
-     Specifies that the argument is a ‘long long int’.  (This type is an
-     extension supported by the GNU C compiler.  On systems that don’t
-     support extra-long integers, this is the same as ‘long int’.)
-
-     The ‘q’ modifier is another name for the same thing, which comes
-     from 4.4 BSD; a ‘long long int’ is sometimes called a “quad” ‘int’.
-
-‘t’
-     Specifies that the argument is a ‘ptrdiff_t’.
-
-     This modifier was introduced in ISO C99.
-
-‘z’
-‘Z’
-     Specifies that the argument is a ‘size_t’.
-
-     ‘z’ was introduced in ISO C99.  ‘Z’ is a GNU extension predating
-     this addition and should not be used in new code.
-
-   Here is an example.  Using the template string:
-
-     "|%5d|%-5d|%+5d|%+-5d|% 5d|%05d|%5.0d|%5.2d|%d|\n"
-
-to print numbers using the different options for the ‘%d’ conversion
-gives results like:
-
-     |    0|0    |   +0|+0   |    0|00000|     |   00|0|
-     |    1|1    |   +1|+1   |    1|00001|    1|   01|1|
-     |   -1|-1   |   -1|-1   |   -1|-0001|   -1|  -01|-1|
-     |100000|100000|+100000|+100000| 100000|100000|100000|100000|100000|
-
-   In particular, notice what happens in the last case where the number
-is too large to fit in the minimum field width specified.
-
-   Here are some more examples showing how unsigned integers print under
-various format options, using the template string:
-
-     "|%5u|%5o|%5x|%5X|%#5o|%#5x|%#5X|%#10.8x|\n"
-
-     |    0|    0|    0|    0|    0|    0|    0|  00000000|
-     |    1|    1|    1|    1|   01|  0x1|  0X1|0x00000001|
-     |100000|303240|186a0|186A0|0303240|0x186a0|0X186A0|0x000186a0|
-
-
-File: libc.info,  Node: Floating-Point Conversions,  Next: Other Output Conversions,  Prev: Integer Conversions,  Up: Formatted Output
-
-12.12.5 Floating-Point Conversions
-----------------------------------
-
-This section discusses the conversion specifications for floating-point
-numbers: the ‘%f’, ‘%e’, ‘%E’, ‘%g’, and ‘%G’ conversions.
-
-   The ‘%f’ conversion prints its argument in fixed-point notation,
-producing output of the form [‘-’]DDD‘.’DDD, where the number of digits
-following the decimal point is controlled by the precision you specify.
-
-   The ‘%e’ conversion prints its argument in exponential notation,
-producing output of the form [‘-’]D‘.’DDD‘e’[‘+’|‘-’]DD.  Again, the
-number of digits following the decimal point is controlled by the
-precision.  The exponent always contains at least two digits.  The ‘%E’
-conversion is similar but the exponent is marked with the letter ‘E’
-instead of ‘e’.
-
-   The ‘%g’ and ‘%G’ conversions print the argument in the style of ‘%e’
-or ‘%E’ (respectively) if the exponent would be less than -4 or greater
-than or equal to the precision; otherwise they use the ‘%f’ style.  A
-precision of ‘0’, is taken as 1.  Trailing zeros are removed from the
-fractional portion of the result and a decimal-point character appears
-only if it is followed by a digit.
-
-   The ‘%a’ and ‘%A’ conversions are meant for representing
-floating-point numbers exactly in textual form so that they can be
-exchanged as texts between different programs and/or machines.  The
-numbers are represented in the form [‘-’]‘0x’H‘.’HHH‘p’[‘+’|‘-’]DD.  At
-the left of the decimal-point character exactly one digit is print.
-This character is only ‘0’ if the number is denormalized.  Otherwise the
-value is unspecified; it is implementation dependent how many bits are
-used.  The number of hexadecimal digits on the right side of the
-decimal-point character is equal to the precision.  If the precision is
-zero it is determined to be large enough to provide an exact
-representation of the number (or it is large enough to distinguish two
-adjacent values if the ‘FLT_RADIX’ is not a power of 2, *note Floating
-Point Parameters::).  For the ‘%a’ conversion lower-case characters are
-used to represent the hexadecimal number and the prefix and exponent
-sign are printed as ‘0x’ and ‘p’ respectively.  Otherwise upper-case
-characters are used and ‘0X’ and ‘P’ are used for the representation of
-prefix and exponent string.  The exponent to the base of two is printed
-as a decimal number using at least one digit but at most as many digits
-as necessary to represent the value exactly.
-
-   If the value to be printed represents infinity or a NaN, the output
-is [‘-’]‘inf’ or ‘nan’ respectively if the conversion specifier is ‘%a’,
-‘%e’, ‘%f’, or ‘%g’ and it is [‘-’]‘INF’ or ‘NAN’ respectively if the
-conversion is ‘%A’, ‘%E’, or ‘%G’.
-
-   The following flags can be used to modify the behavior:
-
-‘-’
-     Left-justify the result in the field.  Normally the result is
-     right-justified.
-
-‘+’
-     Always include a plus or minus sign in the result.
-
-‘ ’
-     If the result doesn’t start with a plus or minus sign, prefix it
-     with a space instead.  Since the ‘+’ flag ensures that the result
-     includes a sign, this flag is ignored if you supply both of them.
-
-‘#’
-     Specifies that the result should always include a decimal point,
-     even if no digits follow it.  For the ‘%g’ and ‘%G’ conversions,
-     this also forces trailing zeros after the decimal point to be left
-     in place where they would otherwise be removed.
-
-‘'’
-     Separate the digits of the integer part of the result into groups
-     as specified by the locale specified for the ‘LC_NUMERIC’ category;
-     *note General Numeric::.  This flag is a GNU extension.
-
-‘0’
-     Pad the field with zeros instead of spaces; the zeros are placed
-     after any sign.  This flag is ignored if the ‘-’ flag is also
-     specified.
-
-   The precision specifies how many digits follow the decimal-point
-character for the ‘%f’, ‘%e’, and ‘%E’ conversions.  For these
-conversions, the default precision is ‘6’.  If the precision is
-explicitly ‘0’, this suppresses the decimal point character entirely.
-For the ‘%g’ and ‘%G’ conversions, the precision specifies how many
-significant digits to print.  Significant digits are the first digit
-before the decimal point, and all the digits after it.  If the precision
-is ‘0’ or not specified for ‘%g’ or ‘%G’, it is treated like a value of
-‘1’.  If the value being printed cannot be expressed accurately in the
-specified number of digits, the value is rounded to the nearest number
-that fits.
-
-   Without a type modifier, the floating-point conversions use an
-argument of type ‘double’.  (By the default argument promotions, any
-‘float’ arguments are automatically converted to ‘double’.)  The
-following type modifier is supported:
-
-‘L’
-     An uppercase ‘L’ specifies that the argument is a ‘long double’.
-
-   Here are some examples showing how numbers print using the various
-floating-point conversions.  All of the numbers were printed using this
-template string:
-
-     "|%13.4a|%13.4f|%13.4e|%13.4g|\n"
-
-   Here is the output:
-
-     |  0x0.0000p+0|       0.0000|   0.0000e+00|            0|
-     |  0x1.0000p-1|       0.5000|   5.0000e-01|          0.5|
-     |  0x1.0000p+0|       1.0000|   1.0000e+00|            1|
-     | -0x1.0000p+0|      -1.0000|  -1.0000e+00|           -1|
-     |  0x1.9000p+6|     100.0000|   1.0000e+02|          100|
-     |  0x1.f400p+9|    1000.0000|   1.0000e+03|         1000|
-     | 0x1.3880p+13|   10000.0000|   1.0000e+04|        1e+04|
-     | 0x1.81c8p+13|   12345.0000|   1.2345e+04|    1.234e+04|
-     | 0x1.86a0p+16|  100000.0000|   1.0000e+05|        1e+05|
-     | 0x1.e240p+16|  123456.0000|   1.2346e+05|    1.235e+05|
-
-   Notice how the ‘%g’ conversion drops trailing zeros.
-
-
-File: libc.info,  Node: Other Output Conversions,  Next: Formatted Output Functions,  Prev: Floating-Point Conversions,  Up: Formatted Output
-
-12.12.6 Other Output Conversions
---------------------------------
-
-This section describes miscellaneous conversions for ‘printf’.
-
-   The ‘%c’ conversion prints a single character.  In case there is no
-‘l’ modifier the ‘int’ argument is first converted to an ‘unsigned
-char’.  Then, if used in a wide stream function, the character is
-converted into the corresponding wide character.  The ‘-’ flag can be
-used to specify left-justification in the field, but no other flags are
-defined, and no precision or type modifier can be given.  For example:
-
-     printf ("%c%c%c%c%c", 'h', 'e', 'l', 'l', 'o');
-
-prints ‘hello’.
-
-   If there is an ‘l’ modifier present the argument is expected to be of
-type ‘wint_t’.  If used in a multibyte function the wide character is
-converted into a multibyte character before being added to the output.
-In this case more than one output byte can be produced.
-
-   The ‘%s’ conversion prints a string.  If no ‘l’ modifier is present
-the corresponding argument must be of type ‘char *’ (or ‘const char *’).
-If used in a wide stream function the string is first converted to a
-wide character string.  A precision can be specified to indicate the
-maximum number of characters to write; otherwise characters in the
-string up to but not including the terminating null character are
-written to the output stream.  The ‘-’ flag can be used to specify
-left-justification in the field, but no other flags or type modifiers
-are defined for this conversion.  For example:
-
-     printf ("%3s%-6s", "no", "where");
-
-prints ‘ nowhere ’.
-
-   If there is an ‘l’ modifier present, the argument is expected to be
-of type ‘wchar_t’ (or ‘const wchar_t *’).
-
-   If you accidentally pass a null pointer as the argument for a ‘%s’
-conversion, the GNU C Library prints it as ‘(null)’.  We think this is
-more useful than crashing.  But it’s not good practice to pass a null
-argument intentionally.
-
-   The ‘%m’ conversion prints the string corresponding to the error code
-in ‘errno’.  *Note Error Messages::.  Thus:
-
-     fprintf (stderr, "can't open `%s': %m\n", filename);
-
-is equivalent to:
-
-     fprintf (stderr, "can't open `%s': %s\n", filename, strerror (errno));
-
-The ‘%m’ conversion is a GNU C Library extension.
-
-   The ‘%p’ conversion prints a pointer value.  The corresponding
-argument must be of type ‘void *’.  In practice, you can use any type of
-pointer.
-
-   In the GNU C Library, non-null pointers are printed as unsigned
-integers, as if a ‘%#x’ conversion were used.  Null pointers print as
-‘(nil)’.  (Pointers might print differently in other systems.)
-
-   For example:
-
-     printf ("%p", "testing");
-
-prints ‘0x’ followed by a hexadecimal number—the address of the string
-constant ‘"testing"’.  It does not print the word ‘testing’.
-
-   You can supply the ‘-’ flag with the ‘%p’ conversion to specify
-left-justification, but no other flags, precision, or type modifiers are
-defined.
-
-   The ‘%n’ conversion is unlike any of the other output conversions.
-It uses an argument which must be a pointer to an ‘int’, but instead of
-printing anything it stores the number of characters printed so far by
-this call at that location.  The ‘h’ and ‘l’ type modifiers are
-permitted to specify that the argument is of type ‘short int *’ or ‘long
-int *’ instead of ‘int *’, but no flags, field width, or precision are
-permitted.
-
-   For example,
-
-     int nchar;
-     printf ("%d %s%n\n", 3, "bears", &nchar);
-
-prints:
-
-     3 bears
-
-and sets ‘nchar’ to ‘7’, because ‘3 bears’ is seven characters.
-
-   The ‘%%’ conversion prints a literal ‘%’ character.  This conversion
-doesn’t use an argument, and no flags, field width, precision, or type
-modifiers are permitted.
-
-
-File: libc.info,  Node: Formatted Output Functions,  Next: Dynamic Output,  Prev: Other Output Conversions,  Up: Formatted Output
-
-12.12.7 Formatted Output Functions
-----------------------------------
-
-This section describes how to call ‘printf’ and related functions.
-Prototypes for these functions are in the header file ‘stdio.h’.
-Because these functions take a variable number of arguments, you _must_
-declare prototypes for them before using them.  Of course, the easiest
-way to make sure you have all the right prototypes is to just include
-‘stdio.h’.
-
- -- Function: int printf (const char *TEMPLATE, ...)
-
-     Preliminary: | MT-Safe locale | AS-Unsafe corrupt heap | AC-Unsafe
-     mem lock corrupt | *Note POSIX Safety Concepts::.
-
-     The ‘printf’ function prints the optional arguments under the
-     control of the template string TEMPLATE to the stream ‘stdout’.  It
-     returns the number of characters printed, or a negative value if
-     there was an output error.
-
- -- Function: int wprintf (const wchar_t *TEMPLATE, ...)
-
-     Preliminary: | MT-Safe locale | AS-Unsafe corrupt heap | AC-Unsafe
-     mem lock corrupt | *Note POSIX Safety Concepts::.
-
-     The ‘wprintf’ function prints the optional arguments under the
-     control of the wide template string TEMPLATE to the stream
-     ‘stdout’.  It returns the number of wide characters printed, or a
-     negative value if there was an output error.
-
- -- Function: int fprintf (FILE *STREAM, const char *TEMPLATE, ...)
-
-     Preliminary: | MT-Safe locale | AS-Unsafe corrupt heap | AC-Unsafe
-     mem lock corrupt | *Note POSIX Safety Concepts::.
-
-     This function is just like ‘printf’, except that the output is
-     written to the stream STREAM instead of ‘stdout’.
-
- -- Function: int fwprintf (FILE *STREAM, const wchar_t *TEMPLATE, ...)
-
-     Preliminary: | MT-Safe locale | AS-Unsafe corrupt heap | AC-Unsafe
-     mem lock corrupt | *Note POSIX Safety Concepts::.
-
-     This function is just like ‘wprintf’, except that the output is
-     written to the stream STREAM instead of ‘stdout’.
-
- -- Function: int sprintf (char *S, const char *TEMPLATE, ...)
-
-     Preliminary: | MT-Safe locale | AS-Unsafe heap | AC-Unsafe mem |
-     *Note POSIX Safety Concepts::.
-
-     This is like ‘printf’, except that the output is stored in the
-     character array S instead of written to a stream.  A null character
-     is written to mark the end of the string.
-
-     The ‘sprintf’ function returns the number of characters stored in
-     the array S, not including the terminating null character.
-
-     The behavior of this function is undefined if copying takes place
-     between objects that overlap—for example, if S is also given as an
-     argument to be printed under control of the ‘%s’ conversion.  *Note
-     Copying Strings and Arrays::.
-
-     *Warning:* The ‘sprintf’ function can be *dangerous* because it can
-     potentially output more characters than can fit in the allocation
-     size of the string S.  Remember that the field width given in a
-     conversion specification is only a _minimum_ value.
-
-     To avoid this problem, you can use ‘snprintf’ or ‘asprintf’,
-     described below.
-
- -- Function: int swprintf (wchar_t *WS, size_t SIZE, const wchar_t
-          *TEMPLATE, ...)
-
-     Preliminary: | MT-Safe locale | AS-Unsafe heap | AC-Unsafe mem |
-     *Note POSIX Safety Concepts::.
-
-     This is like ‘wprintf’, except that the output is stored in the
-     wide character array WS instead of written to a stream.  A null
-     wide character is written to mark the end of the string.  The SIZE
-     argument specifies the maximum number of characters to produce.
-     The trailing null character is counted towards this limit, so you
-     should allocate at least SIZE wide characters for the string WS.
-
-     The return value is the number of characters generated for the
-     given input, excluding the trailing null.  If not all output fits
-     into the provided buffer a negative value is returned.  You should
-     try again with a bigger output string.  _Note:_ this is different
-     from how ‘snprintf’ handles this situation.
-
-     Note that the corresponding narrow stream function takes fewer
-     parameters.  ‘swprintf’ in fact corresponds to the ‘snprintf’
-     function.  Since the ‘sprintf’ function can be dangerous and should
-     be avoided the ISO C committee refused to make the same mistake
-     again and decided to not define a function exactly corresponding to
-     ‘sprintf’.
-
- -- Function: int snprintf (char *S, size_t SIZE, const char *TEMPLATE,
-          ...)
-
-     Preliminary: | MT-Safe locale | AS-Unsafe heap | AC-Unsafe mem |
-     *Note POSIX Safety Concepts::.
-
-     The ‘snprintf’ function is similar to ‘sprintf’, except that the
-     SIZE argument specifies the maximum number of characters to
-     produce.  The trailing null character is counted towards this
-     limit, so you should allocate at least SIZE characters for the
-     string S.  If SIZE is zero, nothing, not even the null byte, shall
-     be written and S may be a null pointer.
-
-     The return value is the number of characters which would be
-     generated for the given input, excluding the trailing null.  If
-     this value is greater than or equal to SIZE, not all characters
-     from the result have been stored in S.  You should try again with a
-     bigger output string.  Here is an example of doing this:
-
-          /* Construct a message describing the value of a variable
-             whose name is NAME and whose value is VALUE. */
-          char *
-          make_message (char *name, char *value)
-          {
-            /* Guess we need no more than 100 chars of space. */
-            int size = 100;
-            char *buffer = (char *) xmalloc (size);
-            int nchars;
-            if (buffer == NULL)
-              return NULL;
-
-           /* Try to print in the allocated space. */
-            nchars = snprintf (buffer, size, "value of %s is %s",
-          		     name, value);
-            if (nchars >= size)
-              {
-                /* Reallocate buffer now that we know
-          	 how much space is needed. */
-                size = nchars + 1;
-                buffer = (char *) xrealloc (buffer, size);
-
-                if (buffer != NULL)
-          	/* Try again. */
-          	snprintf (buffer, size, "value of %s is %s",
-          		  name, value);
-              }
-            /* The last call worked, return the string. */
-            return buffer;
-          }
-
-     In practice, it is often easier just to use ‘asprintf’, below.
-
-     *Attention:* In versions of the GNU C Library prior to 2.1 the
-     return value is the number of characters stored, not including the
-     terminating null; unless there was not enough space in S to store
-     the result in which case ‘-1’ is returned.  This was changed in
-     order to comply with the ISO C99 standard.
-
-
-File: libc.info,  Node: Dynamic Output,  Next: Variable Arguments Output,  Prev: Formatted Output Functions,  Up: Formatted Output
-
-12.12.8 Dynamically Allocating Formatted Output
------------------------------------------------
-
-The functions in this section do formatted output and place the results
-in dynamically allocated memory.
-
- -- Function: int asprintf (char **PTR, const char *TEMPLATE, ...)
-
-     Preliminary: | MT-Safe locale | AS-Unsafe heap | AC-Unsafe mem |
-     *Note POSIX Safety Concepts::.
-
-     This function is similar to ‘sprintf’, except that it dynamically
-     allocates a string (as with ‘malloc’; *note Unconstrained
-     Allocation::) to hold the output, instead of putting the output in
-     a buffer you allocate in advance.  The PTR argument should be the
-     address of a ‘char *’ object, and a successful call to ‘asprintf’
-     stores a pointer to the newly allocated string at that location.
-
-     The return value is the number of characters allocated for the
-     buffer, or less than zero if an error occurred.  Usually this means
-     that the buffer could not be allocated.
-
-     Here is how to use ‘asprintf’ to get the same result as the
-     ‘snprintf’ example, but more easily:
-
-          /* Construct a message describing the value of a variable
-             whose name is NAME and whose value is VALUE. */
-          char *
-          make_message (char *name, char *value)
-          {
-            char *result;
-            if (asprintf (&result, "value of %s is %s", name, value) < 0)
-              return NULL;
-            return result;
-          }
-
- -- Function: int obstack_printf (struct obstack *OBSTACK, const char
-          *TEMPLATE, ...)
-
-     Preliminary: | MT-Safe race:obstack locale | AS-Unsafe corrupt heap
-     | AC-Unsafe corrupt mem | *Note POSIX Safety Concepts::.
-
-     This function is similar to ‘asprintf’, except that it uses the
-     obstack OBSTACK to allocate the space.  *Note Obstacks::.
-
-     The characters are written onto the end of the current object.  To
-     get at them, you must finish the object with ‘obstack_finish’
-     (*note Growing Objects::).
-
-
-File: libc.info,  Node: Variable Arguments Output,  Next: Parsing a Template String,  Prev: Dynamic Output,  Up: Formatted Output
-
-12.12.9 Variable Arguments Output Functions
--------------------------------------------
-
-The functions ‘vprintf’ and friends are provided so that you can define
-your own variadic ‘printf’-like functions that make use of the same
-internals as the built-in formatted output functions.
-
-   The most natural way to define such functions would be to use a
-language construct to say, “Call ‘printf’ and pass this template plus
-all of my arguments after the first five.” But there is no way to do
-this in C, and it would be hard to provide a way, since at the C
-language level there is no way to tell how many arguments your function
-received.
-
-   Since that method is impossible, we provide alternative functions,
-the ‘vprintf’ series, which lets you pass a ‘va_list’ to describe “all
-of my arguments after the first five.”
-
-   When it is sufficient to define a macro rather than a real function,
-the GNU C compiler provides a way to do this much more easily with
-macros.  For example:
-
-     #define myprintf(a, b, c, d, e, rest...) \
-     	    printf (mytemplate , ## rest)
-
-*Note (cpp)Variadic Macros::, for details.  But this is limited to
-macros, and does not apply to real functions at all.
-
-   Before calling ‘vprintf’ or the other functions listed in this
-section, you _must_ call ‘va_start’ (*note Variadic Functions::) to
-initialize a pointer to the variable arguments.  Then you can call
-‘va_arg’ to fetch the arguments that you want to handle yourself.  This
-advances the pointer past those arguments.
-
-   Once your ‘va_list’ pointer is pointing at the argument of your
-choice, you are ready to call ‘vprintf’.  That argument and all
-subsequent arguments that were passed to your function are used by
-‘vprintf’ along with the template that you specified separately.
-
-   *Portability Note:* The value of the ‘va_list’ pointer is
-undetermined after the call to ‘vprintf’, so you must not use ‘va_arg’
-after you call ‘vprintf’.  Instead, you should call ‘va_end’ to retire
-the pointer from service.  You can call ‘va_start’ again and begin
-fetching the arguments from the start of the variable argument list.
-(Alternatively, you can use ‘va_copy’ to make a copy of the ‘va_list’
-pointer before calling ‘vfprintf’.)  Calling ‘vprintf’ does not destroy
-the argument list of your function, merely the particular pointer that
-you passed to it.
-
-   Prototypes for these functions are declared in ‘stdio.h’.
-
- -- Function: int vprintf (const char *TEMPLATE, va_list AP)
-
-     Preliminary: | MT-Safe locale | AS-Unsafe corrupt heap | AC-Unsafe
-     mem lock corrupt | *Note POSIX Safety Concepts::.
-
-     This function is similar to ‘printf’ except that, instead of taking
-     a variable number of arguments directly, it takes an argument list
-     pointer AP.
-
- -- Function: int vwprintf (const wchar_t *TEMPLATE, va_list AP)
-
-     Preliminary: | MT-Safe locale | AS-Unsafe corrupt heap | AC-Unsafe
-     mem lock corrupt | *Note POSIX Safety Concepts::.
-
-     This function is similar to ‘wprintf’ except that, instead of
-     taking a variable number of arguments directly, it takes an
-     argument list pointer AP.
-
- -- Function: int vfprintf (FILE *STREAM, const char *TEMPLATE, va_list
-          AP)
-
-     Preliminary: | MT-Safe locale | AS-Unsafe corrupt heap | AC-Unsafe
-     mem lock corrupt | *Note POSIX Safety Concepts::.
-
-     This is the equivalent of ‘fprintf’ with the variable argument list
-     specified directly as for ‘vprintf’.
-
- -- Function: int vfwprintf (FILE *STREAM, const wchar_t *TEMPLATE,
-          va_list AP)
-
-     Preliminary: | MT-Safe locale | AS-Unsafe corrupt heap | AC-Unsafe
-     mem lock corrupt | *Note POSIX Safety Concepts::.
-
-     This is the equivalent of ‘fwprintf’ with the variable argument
-     list specified directly as for ‘vwprintf’.
-
- -- Function: int vsprintf (char *S, const char *TEMPLATE, va_list AP)
-
-     Preliminary: | MT-Safe locale | AS-Unsafe heap | AC-Unsafe mem |
-     *Note POSIX Safety Concepts::.
-
-     This is the equivalent of ‘sprintf’ with the variable argument list
-     specified directly as for ‘vprintf’.
-
- -- Function: int vswprintf (wchar_t *WS, size_t SIZE, const wchar_t
-          *TEMPLATE, va_list AP)
-
-     Preliminary: | MT-Safe locale | AS-Unsafe heap | AC-Unsafe mem |
-     *Note POSIX Safety Concepts::.
-
-     This is the equivalent of ‘swprintf’ with the variable argument
-     list specified directly as for ‘vwprintf’.
-
- -- Function: int vsnprintf (char *S, size_t SIZE, const char *TEMPLATE,
-          va_list AP)
-
-     Preliminary: | MT-Safe locale | AS-Unsafe heap | AC-Unsafe mem |
-     *Note POSIX Safety Concepts::.
-
-     This is the equivalent of ‘snprintf’ with the variable argument
-     list specified directly as for ‘vprintf’.
-
- -- Function: int vasprintf (char **PTR, const char *TEMPLATE, va_list
-          AP)
-
-     Preliminary: | MT-Safe locale | AS-Unsafe heap | AC-Unsafe mem |
-     *Note POSIX Safety Concepts::.
-
-     The ‘vasprintf’ function is the equivalent of ‘asprintf’ with the
-     variable argument list specified directly as for ‘vprintf’.
-
- -- Function: int obstack_vprintf (struct obstack *OBSTACK, const char
-          *TEMPLATE, va_list AP)
-
-     Preliminary: | MT-Safe race:obstack locale | AS-Unsafe corrupt heap
-     | AC-Unsafe corrupt mem | *Note POSIX Safety Concepts::.
-
-     The ‘obstack_vprintf’ function is the equivalent of
-     ‘obstack_printf’ with the variable argument list specified directly
-     as for ‘vprintf’.
-
-   Here’s an example showing how you might use ‘vfprintf’.  This is a
-function that prints error messages to the stream ‘stderr’, along with a
-prefix indicating the name of the program (*note Error Messages::, for a
-description of ‘program_invocation_short_name’).
-
-     #include <stdio.h>
-     #include <stdarg.h>
-
-     void
-     eprintf (const char *template, ...)
-     {
-       va_list ap;
-       extern char *program_invocation_short_name;
-
-       fprintf (stderr, "%s: ", program_invocation_short_name);
-       va_start (ap, template);
-       vfprintf (stderr, template, ap);
-       va_end (ap);
-     }
-
-You could call ‘eprintf’ like this:
-
-     eprintf ("file `%s' does not exist\n", filename);
-
-   In GNU C, there is a special construct you can use to let the
-compiler know that a function uses a ‘printf’-style format string.  Then
-it can check the number and types of arguments in each call to the
-function, and warn you when they do not match the format string.  For
-example, take this declaration of ‘eprintf’:
-
-     void eprintf (const char *template, ...)
-     	__attribute__ ((format (printf, 1, 2)));
-
-This tells the compiler that ‘eprintf’ uses a format string like
-‘printf’ (as opposed to ‘scanf’; *note Formatted Input::); the format
-string appears as the first argument; and the arguments to satisfy the
-format begin with the second.  *Note Declaring Attributes of Functions:
-(gcc.info)Function Attributes, for more information.
-
-
-File: libc.info,  Node: Parsing a Template String,  Next: Example of Parsing,  Prev: Variable Arguments Output,  Up: Formatted Output
-
-12.12.10 Parsing a Template String
-----------------------------------
-
-You can use the function ‘parse_printf_format’ to obtain information
-about the number and types of arguments that are expected by a given
-template string.  This function permits interpreters that provide
-interfaces to ‘printf’ to avoid passing along invalid arguments from the
-user’s program, which could cause a crash.
-
-   All the symbols described in this section are declared in the header
-file ‘printf.h’.
-
- -- Function: size_t parse_printf_format (const char *TEMPLATE, size_t
-          N, int *ARGTYPES)
-
-     Preliminary: | MT-Safe locale | AS-Safe | AC-Safe | *Note POSIX
-     Safety Concepts::.
-
-     This function returns information about the number and types of
-     arguments expected by the ‘printf’ template string TEMPLATE.  The
-     information is stored in the array ARGTYPES; each element of this
-     array describes one argument.  This information is encoded using
-     the various ‘PA_’ macros, listed below.
-
-     The argument N specifies the number of elements in the array
-     ARGTYPES.  This is the maximum number of elements that
-     ‘parse_printf_format’ will try to write.
-
-     ‘parse_printf_format’ returns the total number of arguments
-     required by TEMPLATE.  If this number is greater than N, then the
-     information returned describes only the first N arguments.  If you
-     want information about additional arguments, allocate a bigger
-     array and call ‘parse_printf_format’ again.
-
-   The argument types are encoded as a combination of a basic type and
-modifier flag bits.
-
- -- Macro: int PA_FLAG_MASK
-
-     This macro is a bitmask for the type modifier flag bits.  You can
-     write the expression ‘(argtypes[i] & PA_FLAG_MASK)’ to extract just
-     the flag bits for an argument, or ‘(argtypes[i] & ~PA_FLAG_MASK)’
-     to extract just the basic type code.
-
-   Here are symbolic constants that represent the basic types; they
-stand for integer values.
-
-‘PA_INT’
-
-     This specifies that the base type is ‘int’.
-
-‘PA_CHAR’
-
-     This specifies that the base type is ‘int’, cast to ‘char’.
-
-‘PA_STRING’
-
-     This specifies that the base type is ‘char *’, a null-terminated
-     string.
-
-‘PA_POINTER’
-
-     This specifies that the base type is ‘void *’, an arbitrary
-     pointer.
-
-‘PA_FLOAT’
-
-     This specifies that the base type is ‘float’.
-
-‘PA_DOUBLE’
-
-     This specifies that the base type is ‘double’.
-
-‘PA_LAST’
-
-     You can define additional base types for your own programs as
-     offsets from ‘PA_LAST’.  For example, if you have data types ‘foo’
-     and ‘bar’ with their own specialized ‘printf’ conversions, you
-     could define encodings for these types as:
-
-          #define PA_FOO  PA_LAST
-          #define PA_BAR  (PA_LAST + 1)
-
-   Here are the flag bits that modify a basic type.  They are combined
-with the code for the basic type using inclusive-or.
-
-‘PA_FLAG_PTR’
-
-     If this bit is set, it indicates that the encoded type is a pointer
-     to the base type, rather than an immediate value.  For example,
-     ‘PA_INT|PA_FLAG_PTR’ represents the type ‘int *’.
-
-‘PA_FLAG_SHORT’
-
-     If this bit is set, it indicates that the base type is modified
-     with ‘short’.  (This corresponds to the ‘h’ type modifier.)
-
-‘PA_FLAG_LONG’
-
-     If this bit is set, it indicates that the base type is modified
-     with ‘long’.  (This corresponds to the ‘l’ type modifier.)
-
-‘PA_FLAG_LONG_LONG’
-
-     If this bit is set, it indicates that the base type is modified
-     with ‘long long’.  (This corresponds to the ‘L’ type modifier.)
-
-‘PA_FLAG_LONG_DOUBLE’
-
-     This is a synonym for ‘PA_FLAG_LONG_LONG’, used by convention with
-     a base type of ‘PA_DOUBLE’ to indicate a type of ‘long double’.
-
-   For an example of using these facilities, see *note Example of
-Parsing::.
-
-
-File: libc.info,  Node: Example of Parsing,  Prev: Parsing a Template String,  Up: Formatted Output
-
-12.12.11 Example of Parsing a Template String
----------------------------------------------
-
-Here is an example of decoding argument types for a format string.  We
-assume this is part of an interpreter which contains arguments of type
-‘NUMBER’, ‘CHAR’, ‘STRING’ and ‘STRUCTURE’ (and perhaps others which are
-not valid here).
-
-     /* Test whether the NARGS specified objects
-        in the vector ARGS are valid
-        for the format string FORMAT:
-        if so, return 1.
-        If not, return 0 after printing an error message.  */
-
-     int
-     validate_args (char *format, int nargs, OBJECT *args)
-     {
-       int *argtypes;
-       int nwanted;
-
-       /* Get the information about the arguments.
-          Each conversion specification must be at least two characters
-          long, so there cannot be more specifications than half the
-          length of the string.  */
-
-       argtypes = (int *) alloca (strlen (format) / 2 * sizeof (int));
-       nwanted = parse_printf_format (string, nelts, argtypes);
-
-       /* Check the number of arguments.  */
-       if (nwanted > nargs)
-         {
-           error ("too few arguments (at least %d required)", nwanted);
-           return 0;
-         }
-
-       /* Check the C type wanted for each argument
-          and see if the object given is suitable.  */
-       for (i = 0; i < nwanted; i++)
-         {
-           int wanted;
-
-           if (argtypes[i] & PA_FLAG_PTR)
-     	wanted = STRUCTURE;
-           else
-     	switch (argtypes[i] & ~PA_FLAG_MASK)
-     	  {
-     	  case PA_INT:
-     	  case PA_FLOAT:
-     	  case PA_DOUBLE:
-     	    wanted = NUMBER;
-     	    break;
-     	  case PA_CHAR:
-     	    wanted = CHAR;
-     	    break;
-     	  case PA_STRING:
-     	    wanted = STRING;
-     	    break;
-     	  case PA_POINTER:
-     	    wanted = STRUCTURE;
-     	    break;
-     	  }
-           if (TYPE (args[i]) != wanted)
-     	{
-     	  error ("type mismatch for arg number %d", i);
-     	  return 0;
-     	}
-         }
-       return 1;
-     }
-
-
-File: libc.info,  Node: Customizing Printf,  Next: Formatted Input,  Prev: Formatted Output,  Up: I/O on Streams
-
-12.13 Customizing ‘printf’
-==========================
-
-The GNU C Library lets you define your own custom conversion specifiers
-for ‘printf’ template strings, to teach ‘printf’ clever ways to print
-the important data structures of your program.
-
-   The way you do this is by registering the conversion with the
-function ‘register_printf_function’; see *note Registering New
-Conversions::.  One of the arguments you pass to this function is a
-pointer to a handler function that produces the actual output; see *note
-Defining the Output Handler::, for information on how to write this
-function.
-
-   You can also install a function that just returns information about
-the number and type of arguments expected by the conversion specifier.
-*Note Parsing a Template String::, for information about this.
-
-   The facilities of this section are declared in the header file
-‘printf.h’.
-
-* Menu:
-
-* Registering New Conversions::         Using ‘register_printf_function’
-					 to register a new output conversion.
-* Conversion Specifier Options::        The handler must be able to get
-					 the options specified in the
-					 template when it is called.
-* Defining the Output Handler::         Defining the handler and arginfo
-					 functions that are passed as arguments
-					 to ‘register_printf_function’.
-* Printf Extension Example::            How to define a ‘printf’
-					 handler function.
-* Predefined Printf Handlers::          Predefined ‘printf’ handlers.
-
-   *Portability Note:* The ability to extend the syntax of ‘printf’
-template strings is a GNU extension.  ISO standard C has nothing
-similar.
-
-
-File: libc.info,  Node: Registering New Conversions,  Next: Conversion Specifier Options,  Up: Customizing Printf
-
-12.13.1 Registering New Conversions
------------------------------------
-
-The function to register a new output conversion is
-‘register_printf_function’, declared in ‘printf.h’.
-
- -- Function: int register_printf_function (int SPEC, printf_function
-          HANDLER-FUNCTION, printf_arginfo_function ARGINFO-FUNCTION)
-
-     Preliminary: | MT-Unsafe const:printfext | AS-Unsafe heap lock |
-     AC-Unsafe mem lock | *Note POSIX Safety Concepts::.
-
-     This function defines the conversion specifier character SPEC.
-     Thus, if SPEC is ‘'Y'’, it defines the conversion ‘%Y’.  You can
-     redefine the built-in conversions like ‘%s’, but flag characters
-     like ‘#’ and type modifiers like ‘l’ can never be used as
-     conversions; calling ‘register_printf_function’ for those
-     characters has no effect.  It is advisable not to use lowercase
-     letters, since the ISO C standard warns that additional lowercase
-     letters may be standardized in future editions of the standard.
-
-     The HANDLER-FUNCTION is the function called by ‘printf’ and friends
-     when this conversion appears in a template string.  *Note Defining
-     the Output Handler::, for information about how to define a
-     function to pass as this argument.  If you specify a null pointer,
-     any existing handler function for SPEC is removed.
-
-     The ARGINFO-FUNCTION is the function called by
-     ‘parse_printf_format’ when this conversion appears in a template
-     string.  *Note Parsing a Template String::, for information about
-     this.
-
-     *Attention:* In the GNU C Library versions before 2.0 the
-     ARGINFO-FUNCTION function did not need to be installed unless the
-     user used the ‘parse_printf_format’ function.  This has changed.
-     Now a call to any of the ‘printf’ functions will call this function
-     when this format specifier appears in the format string.
-
-     The return value is ‘0’ on success, and ‘-1’ on failure (which
-     occurs if SPEC is out of range).
-
-     You can redefine the standard output conversions, but this is
-     probably not a good idea because of the potential for confusion.
-     Library routines written by other people could break if you do
-     this.
-
-
-File: libc.info,  Node: Conversion Specifier Options,  Next: Defining the Output Handler,  Prev: Registering New Conversions,  Up: Customizing Printf
-
-12.13.2 Conversion Specifier Options
-------------------------------------
-
-If you define a meaning for ‘%A’, what if the template contains ‘%+23A’
-or ‘%-#A’?  To implement a sensible meaning for these, the handler when
-called needs to be able to get the options specified in the template.
-
-   Both the HANDLER-FUNCTION and ARGINFO-FUNCTION accept an argument
-that points to a ‘struct printf_info’, which contains information about
-the options appearing in an instance of the conversion specifier.  This
-data type is declared in the header file ‘printf.h’.
-
- -- Type: struct printf_info
-
-     This structure is used to pass information about the options
-     appearing in an instance of a conversion specifier in a ‘printf’
-     template string to the handler and arginfo functions for that
-     specifier.  It contains the following members:
-
-     ‘int prec’
-          This is the precision specified.  The value is ‘-1’ if no
-          precision was specified.  If the precision was given as ‘*’,
-          the ‘printf_info’ structure passed to the handler function
-          contains the actual value retrieved from the argument list.
-          But the structure passed to the arginfo function contains a
-          value of ‘INT_MIN’, since the actual value is not known.
-
-     ‘int width’
-          This is the minimum field width specified.  The value is ‘0’
-          if no width was specified.  If the field width was given as
-          ‘*’, the ‘printf_info’ structure passed to the handler
-          function contains the actual value retrieved from the argument
-          list.  But the structure passed to the arginfo function
-          contains a value of ‘INT_MIN’, since the actual value is not
-          known.
-
-     ‘wchar_t spec’
-          This is the conversion specifier character specified.  It’s
-          stored in the structure so that you can register the same
-          handler function for multiple characters, but still have a way
-          to tell them apart when the handler function is called.
-
-     ‘unsigned int is_long_double’
-          This is a boolean that is true if the ‘L’, ‘ll’, or ‘q’ type
-          modifier was specified.  For integer conversions, this
-          indicates ‘long long int’, as opposed to ‘long double’ for
-          floating point conversions.
-
-     ‘unsigned int is_char’
-          This is a boolean that is true if the ‘hh’ type modifier was
-          specified.
-
-     ‘unsigned int is_short’
-          This is a boolean that is true if the ‘h’ type modifier was
-          specified.
-
-     ‘unsigned int is_long’
-          This is a boolean that is true if the ‘l’ type modifier was
-          specified.
-
-     ‘unsigned int alt’
-          This is a boolean that is true if the ‘#’ flag was specified.
-
-     ‘unsigned int space’
-          This is a boolean that is true if the ‘ ’ flag was specified.
-
-     ‘unsigned int left’
-          This is a boolean that is true if the ‘-’ flag was specified.
-
-     ‘unsigned int showsign’
-          This is a boolean that is true if the ‘+’ flag was specified.
-
-     ‘unsigned int group’
-          This is a boolean that is true if the ‘'’ flag was specified.
-
-     ‘unsigned int extra’
-          This flag has a special meaning depending on the context.  It
-          could be used freely by the user-defined handlers but when
-          called from the ‘printf’ function this variable always
-          contains the value ‘0’.
-
-     ‘unsigned int wide’
-          This flag is set if the stream is wide oriented.
-
-     ‘wchar_t pad’
-          This is the character to use for padding the output to the
-          minimum field width.  The value is ‘'0'’ if the ‘0’ flag was
-          specified, and ‘' '’ otherwise.
 
 
 File: libc.info,  Node: Defining the Output Handler,  Next: Printf Extension Example,  Prev: Conversion Specifier Options,  Up: Customizing Printf
@@ -3174,7 +1829,6 @@ it should return the number of characters it has written, or a negative
 value to indicate an error.
 
  -- Data Type: printf_function
-
      This is the data type that a handler function should have.
 
    If you are going to use ‘parse_printf_format’ in your application,
@@ -3194,7 +1848,6 @@ macros.  (You will notice that this is the same calling convention
 ‘parse_printf_format’ itself uses.)
 
  -- Data Type: printf_arginfo_function
-
      This type is used to describe functions that return information
      about the number and type of arguments used by a conversion
      specifier.
@@ -3297,7 +1950,6 @@ implement a special way to print floating-point numbers.
 
  -- Function: int printf_size (FILE *FP, const struct printf_info *INFO,
           const void *const *ARGS)
-
      Preliminary: | MT-Safe race:fp locale | AS-Unsafe corrupt heap |
      AC-Unsafe mem corrupt | *Note POSIX Safety Concepts::.
 
@@ -3331,7 +1983,6 @@ provide the function which returns information about the arguments.
 
  -- Function: int printf_size_info (const struct printf_info *INFO,
           size_t N, int *ARGTYPES)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -3924,7 +2575,6 @@ Here are the descriptions of the functions for performing formatted
 input.  Prototypes for these functions are in the header file ‘stdio.h’.
 
  -- Function: int scanf (const char *TEMPLATE, ...)
-
      Preliminary: | MT-Safe locale | AS-Unsafe corrupt heap | AC-Unsafe
      mem lock corrupt | *Note POSIX Safety Concepts::.
 
@@ -3939,7 +2589,6 @@ input.  Prototypes for these functions are in the header file ‘stdio.h’.
      characters in the template, then ‘EOF’ is returned.
 
  -- Function: int wscanf (const wchar_t *TEMPLATE, ...)
-
      Preliminary: | MT-Safe locale | AS-Unsafe corrupt heap | AC-Unsafe
      mem lock corrupt | *Note POSIX Safety Concepts::.
 
@@ -3954,7 +2603,6 @@ input.  Prototypes for these functions are in the header file ‘stdio.h’.
      characters in the template, then ‘WEOF’ is returned.
 
  -- Function: int fscanf (FILE *STREAM, const char *TEMPLATE, ...)
-
      Preliminary: | MT-Safe locale | AS-Unsafe corrupt heap | AC-Unsafe
      mem lock corrupt | *Note POSIX Safety Concepts::.
 
@@ -3962,7 +2610,6 @@ input.  Prototypes for these functions are in the header file ‘stdio.h’.
      from the stream STREAM instead of ‘stdin’.
 
  -- Function: int fwscanf (FILE *STREAM, const wchar_t *TEMPLATE, ...)
-
      Preliminary: | MT-Safe locale | AS-Unsafe corrupt heap | AC-Unsafe
      mem lock corrupt | *Note POSIX Safety Concepts::.
 
@@ -3970,7 +2617,6 @@ input.  Prototypes for these functions are in the header file ‘stdio.h’.
      from the stream STREAM instead of ‘stdin’.
 
  -- Function: int sscanf (const char *S, const char *TEMPLATE, ...)
-
      Preliminary: | MT-Safe locale | AS-Unsafe heap | AC-Unsafe mem |
      *Note POSIX Safety Concepts::.
 
@@ -3985,7 +2631,6 @@ input.  Prototypes for these functions are in the header file ‘stdio.h’.
 
  -- Function: int swscanf (const wchar_t *WS, const wchar_t *TEMPLATE,
           ...)
-
      Preliminary: | MT-Safe locale | AS-Unsafe heap | AC-Unsafe mem |
      *Note POSIX Safety Concepts::.
 
@@ -4015,7 +2660,6 @@ them.
 introduced in ISO C99 and were before available as GNU extensions.
 
  -- Function: int vscanf (const char *TEMPLATE, va_list AP)
-
      Preliminary: | MT-Safe locale | AS-Unsafe corrupt heap | AC-Unsafe
      mem lock corrupt | *Note POSIX Safety Concepts::.
 
@@ -4024,7 +2668,6 @@ introduced in ISO C99 and were before available as GNU extensions.
      pointer AP of type ‘va_list’ (*note Variadic Functions::).
 
  -- Function: int vwscanf (const wchar_t *TEMPLATE, va_list AP)
-
      Preliminary: | MT-Safe locale | AS-Unsafe corrupt heap | AC-Unsafe
      mem lock corrupt | *Note POSIX Safety Concepts::.
 
@@ -4034,7 +2677,6 @@ introduced in ISO C99 and were before available as GNU extensions.
 
  -- Function: int vfscanf (FILE *STREAM, const char *TEMPLATE, va_list
           AP)
-
      Preliminary: | MT-Safe locale | AS-Unsafe corrupt heap | AC-Unsafe
      mem lock corrupt | *Note POSIX Safety Concepts::.
 
@@ -4043,7 +2685,6 @@ introduced in ISO C99 and were before available as GNU extensions.
 
  -- Function: int vfwscanf (FILE *STREAM, const wchar_t *TEMPLATE,
           va_list AP)
-
      Preliminary: | MT-Safe locale | AS-Unsafe corrupt heap | AC-Unsafe
      mem lock corrupt | *Note POSIX Safety Concepts::.
 
@@ -4052,7 +2693,6 @@ introduced in ISO C99 and were before available as GNU extensions.
 
  -- Function: int vsscanf (const char *S, const char *TEMPLATE, va_list
           AP)
-
      Preliminary: | MT-Safe locale | AS-Unsafe heap | AC-Unsafe mem |
      *Note POSIX Safety Concepts::.
 
@@ -4061,7 +2701,6 @@ introduced in ISO C99 and were before available as GNU extensions.
 
  -- Function: int vswscanf (const wchar_t *S, const wchar_t *TEMPLATE,
           va_list AP)
-
      Preliminary: | MT-Safe locale | AS-Unsafe heap | AC-Unsafe mem |
      *Note POSIX Safety Concepts::.
 
@@ -4091,7 +2730,6 @@ the appropriate condition was detected by a previous I/O operation on
 that stream.
 
  -- Macro: int EOF
-
      This macro is an integer value that is returned by a number of
      narrow stream functions to indicate an end-of-file condition, or
      some other error situation.  With the GNU C Library, ‘EOF’ is ‘-1’.
@@ -4100,7 +2738,6 @@ that stream.
      This symbol is declared in ‘stdio.h’.
 
  -- Macro: int WEOF
-
      This macro is an integer value that is returned by a number of wide
      stream functions to indicate an end-of-file condition, or some
      other error situation.  With the GNU C Library, ‘WEOF’ is ‘-1’.  In
@@ -4109,7 +2746,6 @@ that stream.
      This symbol is declared in ‘wchar.h’.
 
  -- Function: int feof (FILE *STREAM)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Unsafe lock | *Note POSIX
      Safety Concepts::.
 
@@ -4119,7 +2755,6 @@ that stream.
      This symbol is declared in ‘stdio.h’.
 
  -- Function: int feof_unlocked (FILE *STREAM)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -4131,7 +2766,6 @@ that stream.
      This symbol is declared in ‘stdio.h’.
 
  -- Function: int ferror (FILE *STREAM)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Unsafe lock | *Note POSIX
      Safety Concepts::.
 
@@ -4142,7 +2776,6 @@ that stream.
      This symbol is declared in ‘stdio.h’.
 
  -- Function: int ferror_unlocked (FILE *STREAM)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -4172,7 +2805,6 @@ You may explicitly clear the error and EOF flags with the ‘clearerr’
 function.
 
  -- Function: void clearerr (FILE *STREAM)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Unsafe lock | *Note POSIX
      Safety Concepts::.
 
@@ -4183,7 +2815,6 @@ function.
      clear the end-of-file indicator for the stream.
 
  -- Function: void clearerr_unlocked (FILE *STREAM)
-
      Preliminary: | MT-Safe race:stream | AS-Safe | AC-Safe | *Note
      POSIX Safety Concepts::.
 
@@ -4290,7 +2921,6 @@ file position indicator associated with a stream.  The symbols listed
 below are declared in the header file ‘stdio.h’.
 
  -- Function: long int ftell (FILE *STREAM)
-
      Preliminary: | MT-Safe | AS-Unsafe corrupt | AC-Unsafe lock corrupt
      | *Note POSIX Safety Concepts::.
 
@@ -4303,7 +2933,6 @@ below are declared in the header file ‘stdio.h’.
      occurs, a value of ‘-1’ is returned.
 
  -- Function: off_t ftello (FILE *STREAM)
-
      Preliminary: | MT-Safe | AS-Unsafe corrupt | AC-Unsafe lock corrupt
      | *Note POSIX Safety Concepts::.
 
@@ -4328,7 +2957,6 @@ below are declared in the header file ‘stdio.h’.
      interface transparently replaces the old interface.
 
  -- Function: off64_t ftello64 (FILE *STREAM)
-
      Preliminary: | MT-Safe | AS-Unsafe corrupt | AC-Unsafe lock corrupt
      | *Note POSIX Safety Concepts::.
 
@@ -4343,7 +2971,6 @@ below are declared in the header file ‘stdio.h’.
      so transparently replaces the old interface.
 
  -- Function: int fseek (FILE *STREAM, long int OFFSET, int WHENCE)
-
      Preliminary: | MT-Safe | AS-Unsafe corrupt | AC-Unsafe lock corrupt
      | *Note POSIX Safety Concepts::.
 
@@ -4363,7 +2990,6 @@ below are declared in the header file ‘stdio.h’.
      proper place in the file.
 
  -- Function: int fseeko (FILE *STREAM, off_t OFFSET, int WHENCE)
-
      Preliminary: | MT-Safe | AS-Unsafe corrupt | AC-Unsafe lock corrupt
      | *Note POSIX Safety Concepts::.
 
@@ -4386,7 +3012,6 @@ below are declared in the header file ‘stdio.h’.
      interface transparently replaces the old interface.
 
  -- Function: int fseeko64 (FILE *STREAM, off64_t OFFSET, int WHENCE)
-
      Preliminary: | MT-Safe | AS-Unsafe corrupt | AC-Unsafe lock corrupt
      | *Note POSIX Safety Concepts::.
 
@@ -4410,25 +3035,21 @@ argument to ‘fseek’.  They are also used with the ‘lseek’ function
 Control Operations::).
 
  -- Macro: int SEEK_SET
-
      This is an integer constant which, when used as the WHENCE argument
      to the ‘fseek’ or ‘fseeko’ functions, specifies that the offset
      provided is relative to the beginning of the file.
 
  -- Macro: int SEEK_CUR
-
      This is an integer constant which, when used as the WHENCE argument
      to the ‘fseek’ or ‘fseeko’ functions, specifies that the offset
      provided is relative to the current file position.
 
  -- Macro: int SEEK_END
-
      This is an integer constant which, when used as the WHENCE argument
      to the ‘fseek’ or ‘fseeko’ functions, specifies that the offset
      provided is relative to the end of the file.
 
  -- Function: void rewind (FILE *STREAM)
-
      Preliminary: | MT-Safe | AS-Unsafe corrupt | AC-Unsafe lock corrupt
      | *Note POSIX Safety Concepts::.
 
@@ -4443,15 +3064,12 @@ of compatibility with older BSD systems.  They are defined in two
 different header files: ‘fcntl.h’ and ‘sys/file.h’.
 
 ‘L_SET’
-
      An alias for ‘SEEK_SET’.
 
 ‘L_INCR’
-
      An alias for ‘SEEK_CUR’.
 
 ‘L_XTND’
-
      An alias for ‘SEEK_END’.
 
 
@@ -4507,7 +3125,6 @@ to system.
    These symbols are declared in the header file ‘stdio.h’.
 
  -- Data Type: fpos_t
-
      This is the type of an object that can encode information about the
      file position of a stream, for use by the functions ‘fgetpos’ and
      ‘fsetpos’.
@@ -4522,7 +3139,6 @@ to system.
      interface transparently replaces the old interface.
 
  -- Data Type: fpos64_t
-
      This is the type of an object that can encode information about the
      file position of a stream, for use by the functions ‘fgetpos64’ and
      ‘fsetpos64’.
@@ -4533,7 +3149,6 @@ to system.
      internal representation.
 
  -- Function: int fgetpos (FILE *STREAM, fpos_t *POSITION)
-
      Preliminary: | MT-Safe | AS-Unsafe corrupt | AC-Unsafe lock corrupt
      | *Note POSIX Safety Concepts::.
 
@@ -4548,7 +3163,6 @@ to system.
      interface transparently replaces the old interface.
 
  -- Function: int fgetpos64 (FILE *STREAM, fpos64_t *POSITION)
-
      Preliminary: | MT-Safe | AS-Unsafe corrupt | AC-Unsafe lock corrupt
      | *Note POSIX Safety Concepts::.
 
@@ -4560,7 +3174,6 @@ to system.
      and so transparently replaces the old interface.
 
  -- Function: int fsetpos (FILE *STREAM, const fpos_t *POSITION)
-
      Preliminary: | MT-Safe | AS-Unsafe corrupt | AC-Unsafe lock corrupt
      | *Note POSIX Safety Concepts::.
 
@@ -4578,7 +3191,6 @@ to system.
      interface transparently replaces the old interface.
 
  -- Function: int fsetpos64 (FILE *STREAM, const fpos64_t *POSITION)
-
      Preliminary: | MT-Safe | AS-Unsafe corrupt | AC-Unsafe lock corrupt
      | *Note POSIX Safety Concepts::.
 
@@ -4682,7 +3294,6 @@ buffered output on a stream is flushed automatically:
 ‘fflush’, which is declared in the header file ‘stdio.h’.
 
  -- Function: int fflush (FILE *STREAM)
-
      Preliminary: | MT-Safe | AS-Unsafe corrupt | AC-Unsafe lock corrupt
      | *Note POSIX Safety Concepts::.
 
@@ -4694,7 +3305,6 @@ buffered output on a stream is flushed automatically:
      otherwise.
 
  -- Function: int fflush_unlocked (FILE *STREAM)
-
      Preliminary: | MT-Safe race:stream | AS-Unsafe corrupt | AC-Unsafe
      corrupt | *Note POSIX Safety Concepts::.
 
@@ -4711,7 +3321,6 @@ always available in the GNU C Library in some form but never officially
 exported.
 
  -- Function: void _flushlbf (void)
-
      Preliminary: | MT-Safe | AS-Unsafe corrupt | AC-Unsafe lock corrupt
      | *Note POSIX Safety Concepts::.
 
@@ -4733,7 +3342,6 @@ situation a non-standard function introduced in Solaris and available in
 the GNU C Library can be used.
 
  -- Function: void __fpurge (FILE *STREAM)
-
      Preliminary: | MT-Safe race:stream | AS-Unsafe corrupt | AC-Unsafe
      corrupt | *Note POSIX Safety Concepts::.
 
@@ -4760,7 +3368,6 @@ want it to have using the ‘setvbuf’ function.
 
  -- Function: int setvbuf (FILE *STREAM, char *BUF, int MODE, size_t
           SIZE)
-
      Preliminary: | MT-Safe | AS-Unsafe corrupt | AC-Unsafe lock corrupt
      | *Note POSIX Safety Concepts::.
 
@@ -4791,25 +3398,21 @@ want it to have using the ‘setvbuf’ function.
      honored.
 
  -- Macro: int _IOFBF
-
      The value of this macro is an integer constant expression that can
      be used as the MODE argument to the ‘setvbuf’ function to specify
      that the stream should be fully buffered.
 
  -- Macro: int _IOLBF
-
      The value of this macro is an integer constant expression that can
      be used as the MODE argument to the ‘setvbuf’ function to specify
      that the stream should be line buffered.
 
  -- Macro: int _IONBF
-
      The value of this macro is an integer constant expression that can
      be used as the MODE argument to the ‘setvbuf’ function to specify
      that the stream should be unbuffered.
 
  -- Macro: int BUFSIZ
-
      The value of this macro is an integer constant expression that is
      good to use for the SIZE argument to ‘setvbuf’.  This value is
      guaranteed to be at least ‘256’.
@@ -4831,7 +3434,6 @@ want it to have using the ‘setvbuf’ function.
      efficient size.
 
  -- Function: void setbuf (FILE *STREAM, char *BUF)
-
      Preliminary: | MT-Safe | AS-Unsafe corrupt | AC-Unsafe lock corrupt
      | *Note POSIX Safety Concepts::.
 
@@ -4844,7 +3446,6 @@ want it to have using the ‘setvbuf’ function.
      use ‘setvbuf’ in all new programs.
 
  -- Function: void setbuffer (FILE *STREAM, char *BUF, size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Unsafe corrupt | AC-Unsafe lock corrupt
      | *Note POSIX Safety Concepts::.
 
@@ -4856,7 +3457,6 @@ want it to have using the ‘setvbuf’ function.
      ‘setvbuf’ instead.
 
  -- Function: void setlinebuf (FILE *STREAM)
-
      Preliminary: | MT-Safe | AS-Unsafe corrupt | AC-Unsafe lock corrupt
      | *Note POSIX Safety Concepts::.
 
@@ -4871,7 +3471,6 @@ not using a non-standard function introduced in Solaris and available in
 the GNU C Library.
 
  -- Function: int __flbf (FILE *STREAM)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -4885,7 +3484,6 @@ the GNU C Library.
 much of it is used.  These functions were also introduced in Solaris.
 
  -- Function: size_t __fbufsize (FILE *STREAM)
-
      Preliminary: | MT-Safe race:stream | AS-Unsafe corrupt | AC-Safe |
      *Note POSIX Safety Concepts::.
 
@@ -4896,7 +3494,6 @@ much of it is used.  These functions were also introduced in Solaris.
      This function is declared in the ‘stdio_ext.h’ header.
 
  -- Function: size_t __fpending (FILE *STREAM)
-
      Preliminary: | MT-Safe race:stream | AS-Unsafe corrupt | AC-Safe |
      *Note POSIX Safety Concepts::.
 
@@ -4947,7 +3544,6 @@ string or memory buffer.  These facilities are declared in ‘stdio.h’.
 
  -- Function: FILE * fmemopen (void *BUF, size_t SIZE, const char
           *OPENTYPE)
-
      Preliminary: | MT-Safe | AS-Unsafe heap lock | AC-Unsafe mem lock |
      *Note POSIX Safety Concepts::.
 
@@ -5014,7 +3610,6 @@ from a string:
      Got r
 
  -- Function: FILE * open_memstream (char **PTR, size_t *SIZELOC)
-
      Preliminary: | MT-Safe | AS-Unsafe heap | AC-Unsafe mem | *Note
      POSIX Safety Concepts::.
 
@@ -5112,7 +3707,6 @@ and also the four hook functions stored in a structure of type
    These facilities are declared in ‘stdio.h’.
 
  -- Data Type: cookie_io_functions_t
-
      This is a structure type that holds the functions that define the
      communications protocol between the stream and its cookie.  It has
      the following members:
@@ -5143,7 +3737,6 @@ and also the four hook functions stored in a structure of type
 
  -- Function: FILE * fopencookie (void *COOKIE, const char *OPENTYPE,
           cookie_io_functions_t IO-FUNCTIONS)
-
      Preliminary: | MT-Safe | AS-Unsafe heap lock | AC-Unsafe mem lock |
      *Note POSIX Safety Concepts::.
 
@@ -5205,21 +3798,17 @@ appropriate for closing the stream as:
 otherwise.
 
  -- Data Type: cookie_read_function_t
-
      This is the data type that the read function for a custom stream
      should have.  If you declare the function as shown above, this is
      the type it will have.
 
  -- Data Type: cookie_write_function_t
-
      The data type of the write function for a custom stream.
 
  -- Data Type: cookie_seek_function_t
-
      The data type of the seek function for a custom stream.
 
  -- Data Type: cookie_close_function_t
-
      The data type of the close function for a custom stream.
 
 
@@ -5289,7 +3878,6 @@ message.  Exactly one of the following values can be used:
  -- Function: int fmtmsg (long int CLASSIFICATION, const char *LABEL,
           int SEVERITY, const char *TEXT, const char *ACTION, const char
           *TAG)
-
      Preliminary: | MT-Safe | AS-Unsafe lock | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -5596,7 +4184,6 @@ using file descriptors.  The ‘open’ and ‘creat’ functions are declared
 in the header file ‘fcntl.h’, while ‘close’ is declared in ‘unistd.h’.
 
  -- Function: int open (const char *FILENAME, int FLAGS[, mode_t MODE])
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe fd | *Note POSIX Safety
      Concepts::.
 
@@ -5681,7 +4268,6 @@ in the header file ‘fcntl.h’, while ‘close’ is declared in ‘unistd.h�
 
  -- Function: int open64 (const char *FILENAME, int FLAGS[, mode_t
           MODE])
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe fd | *Note POSIX Safety
      Concepts::.
 
@@ -5697,7 +4283,6 @@ in the header file ‘fcntl.h’, while ‘close’ is declared in ‘unistd.h�
      replaces the old API.
 
  -- Obsolete function: int creat (const char *FILENAME, mode_t MODE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe fd | *Note POSIX Safety
      Concepts::.
 
@@ -5717,7 +4302,6 @@ in the header file ‘fcntl.h’, while ‘close’ is declared in ‘unistd.h�
      of the low-level file handling functions are equally replaced.
 
  -- Obsolete function: int creat64 (const char *FILENAME, mode_t MODE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe fd | *Note POSIX Safety
      Concepts::.
 
@@ -5736,7 +4320,6 @@ in the header file ‘fcntl.h’, while ‘close’ is declared in ‘unistd.h�
      replaces the old API.
 
  -- Function: int close (int FILEDES)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe fd | *Note POSIX Safety
      Concepts::.
 
@@ -5801,13 +4384,11 @@ output operations on file descriptors: ‘read’, ‘write’, and ‘lseek’.
 These functions are declared in the header file ‘unistd.h’.
 
  -- Data Type: ssize_t
-
      This data type is used to represent the sizes of blocks that can be
      read or written in a single operation.  It is similar to ‘size_t’,
      but must be a signed type.
 
  -- Function: ssize_t read (int FILEDES, void *BUFFER, size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -5905,7 +4486,6 @@ These functions are declared in the header file ‘unistd.h’.
 
  -- Function: ssize_t pread (int FILEDES, void *BUFFER, size_t SIZE,
           off_t OFFSET)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -5942,7 +4522,6 @@ These functions are declared in the header file ‘unistd.h’.
 
  -- Function: ssize_t pread64 (int FILEDES, void *BUFFER, size_t SIZE,
           off64_t OFFSET)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -5960,7 +4539,6 @@ These functions are declared in the header file ‘unistd.h’.
 
  -- Function: ssize_t write (int FILEDES, const void *BUFFER, size_t
           SIZE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6070,7 +4648,6 @@ These functions are declared in the header file ‘unistd.h’.
 
  -- Function: ssize_t pwrite (int FILEDES, const void *BUFFER, size_t
           SIZE, off_t OFFSET)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6084,10 +4661,6 @@ These functions are declared in the header file ‘unistd.h’.
      position OFFSET.  The position of the file descriptor itself is not
      affected by the operation.  The value is the same as before the
      call.
-
-     However, on Linux, if a file is opened with ‘O_APPEND’, ‘pwrite’
-     appends data to the end of the file, regardless of the value of
-     ‘offset’.
 
      When the source file is compiled with ‘_FILE_OFFSET_BITS == 64’ the
      ‘pwrite’ function is in fact ‘pwrite64’ and the type ‘off_t’ has 64
@@ -6111,7 +4684,6 @@ These functions are declared in the header file ‘unistd.h’.
 
  -- Function: ssize_t pwrite64 (int FILEDES, const void *BUFFER, size_t
           SIZE, off64_t OFFSET)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6126,190 +4698,6 @@ These functions are declared in the header file ‘unistd.h’.
      When the source file is compiled using ‘_FILE_OFFSET_BITS == 64’ on
      a 32 bit machine this function is actually available under the name
      ‘pwrite’ and so transparently replaces the 32 bit interface.
-
- -- Function: ssize_t preadv (int FD, const struct iovec *IOV, int
-          IOVCNT, off_t OFFSET)
-
-     Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
-     Concepts::.
-
-     This function is similar to the ‘readv’ function, with the
-     difference it adds an extra OFFSET parameter of type ‘off_t’
-     similar to ‘pread’.  The data is written to the file starting at
-     position OFFSET.  The position of the file descriptor itself is not
-     affected by the operation.  The value is the same as before the
-     call.
-
-     When the source file is compiled with ‘_FILE_OFFSET_BITS == 64’ the
-     ‘preadv’ function is in fact ‘preadv64’ and the type ‘off_t’ has 64
-     bits, which makes it possible to handle files up to 2^63 bytes in
-     length.
-
-     The return value is a count of bytes (_not_ buffers) read, 0
-     indicating end-of-file, or -1 indicating an error.  The possible
-     errors are the same as in ‘readv’ and ‘pread’.
-
- -- Function: ssize_t preadv64 (int FD, const struct iovec *IOV, int
-          IOVCNT, off64_t OFFSET)
-
-     Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
-     Concepts::.
-
-     This function is similar to the ‘preadv’ function with the
-     difference is that the OFFSET parameter is of type ‘off64_t’
-     instead of ‘off_t’.  It makes it possible on 32 bit machines to
-     address files larger than 2^31 bytes and up to 2^63 bytes.  The
-     file descriptor ‘filedes’ must be opened using ‘open64’ since
-     otherwise the large offsets possible with ‘off64_t’ will lead to
-     errors with a descriptor in small file mode.
-
-     When the source file is compiled using ‘_FILE_OFFSET_BITS == 64’ on
-     a 32 bit machine this function is actually available under the name
-     ‘preadv’ and so transparently replaces the 32 bit interface.
-
- -- Function: ssize_t pwritev (int FD, const struct iovec *IOV, int
-          IOVCNT, off_t OFFSET)
-
-     Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
-     Concepts::.
-
-     This function is similar to the ‘writev’ function, with the
-     difference it adds an extra OFFSET parameter of type ‘off_t’
-     similar to ‘pwrite’.  The data is written to the file starting at
-     position OFFSET.  The position of the file descriptor itself is not
-     affected by the operation.  The value is the same as before the
-     call.
-
-     However, on Linux, if a file is opened with ‘O_APPEND’, ‘pwrite’
-     appends data to the end of the file, regardless of the value of
-     ‘offset’.
-
-     When the source file is compiled with ‘_FILE_OFFSET_BITS == 64’ the
-     ‘pwritev’ function is in fact ‘pwritev64’ and the type ‘off_t’ has
-     64 bits, which makes it possible to handle files up to 2^63 bytes
-     in length.
-
-     The return value is a count of bytes (_not_ buffers) written, 0
-     indicating end-of-file, or -1 indicating an error.  The possible
-     errors are the same as in ‘writev’ and ‘pwrite’.
-
- -- Function: ssize_t pwritev64 (int FD, const struct iovec *IOV, int
-          IOVCNT, off64_t OFFSET)
-
-     Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
-     Concepts::.
-
-     This function is similar to the ‘pwritev’ function with the
-     difference is that the OFFSET parameter is of type ‘off64_t’
-     instead of ‘off_t’.  It makes it possible on 32 bit machines to
-     address files larger than 2^31 bytes and up to 2^63 bytes.  The
-     file descriptor ‘filedes’ must be opened using ‘open64’ since
-     otherwise the large offsets possible with ‘off64_t’ will lead to
-     errors with a descriptor in small file mode.
-
-     When the source file is compiled using ‘_FILE_OFFSET_BITS == 64’ on
-     a 32 bit machine this function is actually available under the name
-     ‘pwritev’ and so transparently replaces the 32 bit interface.
-
- -- Function: ssize_t preadv2 (int FD, const struct iovec *IOV, int
-          IOVCNT, off_t OFFSET, int FLAGS)
-
-     Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
-     Concepts::.
-
-     This function is similar to the ‘preadv’ function, with the
-     difference it adds an extra FLAGS parameter of type ‘int’.  The
-     supported FLAGS are dependent of the underlying system.  For Linux
-     it supports:
-
-     ‘RWF_HIPRI’
-          High priority request.  This adds a flag that tells the file
-          system that this is a high priority request for which it is
-          worth to poll the hardware.  The flag is purely advisory and
-          can be ignored if not supported.  The FD must be opened using
-          ‘O_DIRECT’.
-
-     ‘RWF_DSYNC’
-          Per-IO synchronization as if the file was opened with
-          ‘O_DSYNC’ flag.
-
-     ‘RWF_SYNC’
-          Per-IO synchronization as if the file was opened with ‘O_SYNC’
-          flag.
-
-     ‘RWF_NOWAIT’
-          Use nonblocking mode for this operation; that is, this call to
-          ‘preadv2’ will fail and set ‘errno’ to ‘EAGAIN’ if the
-          operation would block.
-
-     When the source file is compiled with ‘_FILE_OFFSET_BITS == 64’ the
-     ‘preadv2’ function is in fact ‘preadv64v2’ and the type ‘off_t’ has
-     64 bits, which makes it possible to handle files up to 2^63 bytes
-     in length.
-
-     The return value is a count of bytes (_not_ buffers) read, 0
-     indicating end-of-file, or -1 indicating an error.  The possible
-     errors are the same as in ‘preadv’ with the addition of:
-
-     ‘EOPNOTSUPP’
-
-          An unsupported FLAGS was used.
-
- -- Function: ssize_t preadv64v2 (int FD, const struct iovec *IOV, int
-          IOVCNT, off64_t OFFSET, int FLAGS)
-
-     Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
-     Concepts::.
-
-     This function is similar to the ‘preadv2’ function with the
-     difference is that the OFFSET parameter is of type ‘off64_t’
-     instead of ‘off_t’.  It makes it possible on 32 bit machines to
-     address files larger than 2^31 bytes and up to 2^63 bytes.  The
-     file descriptor ‘filedes’ must be opened using ‘open64’ since
-     otherwise the large offsets possible with ‘off64_t’ will lead to
-     errors with a descriptor in small file mode.
-
-     When the source file is compiled using ‘_FILE_OFFSET_BITS == 64’ on
-     a 32 bit machine this function is actually available under the name
-     ‘preadv2’ and so transparently replaces the 32 bit interface.
-
- -- Function: ssize_t pwritev2 (int FD, const struct iovec *IOV, int
-          IOVCNT, off_t OFFSET, int FLAGS)
-
-     Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
-     Concepts::.
-
-     This function is similar to the ‘pwritev’ function, with the
-     difference it adds an extra FLAGS parameter of type ‘int’.  The
-     supported FLAGS are dependent of the underlying system and for
-     Linux it supports the same ones as for ‘preadv2’.
-
-     When the source file is compiled with ‘_FILE_OFFSET_BITS == 64’ the
-     ‘pwritev2’ function is in fact ‘pwritev64v2’ and the type ‘off_t’
-     has 64 bits, which makes it possible to handle files up to 2^63
-     bytes in length.
-
-     The return value is a count of bytes (_not_ buffers) write, 0
-     indicating end-of-file, or -1 indicating an error.  The possible
-     errors are the same as in ‘preadv2’.
-
- -- Function: ssize_t pwritev64v2 (int FD, const struct iovec *IOV, int
-          IOVCNT, off64_t OFFSET, int FLAGS)
-
-     Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
-     Concepts::.
-
-     This function is similar to the ‘pwritev2’ function with the
-     difference is that the OFFSET parameter is of type ‘off64_t’
-     instead of ‘off_t’.  It makes it possible on 32 bit machines to
-     address files larger than 2^31 bytes and up to 2^63 bytes.  The
-     file descriptor ‘filedes’ must be opened using ‘open64’ since
-     otherwise the large offsets possible with ‘off64_t’ will lead to
-     errors with a descriptor in small file mode.
-
-     When the source file is compiled using ‘_FILE_OFFSET_BITS == 64’ on
-     a 32 bit machine this function is actually available under the name
-     ‘pwritev2’ and so transparently replaces the 32 bit interface.
 
 
 File: libc.info,  Node: File Position Primitive,  Next: Descriptors and Streams,  Prev: I/O Primitives,  Up: Low-Level I/O
@@ -6327,7 +4715,6 @@ it means.
 (DESC, 0, SEEK_CUR)’.
 
  -- Function: off_t lseek (int FILEDES, off_t OFFSET, int WHENCE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6411,7 +4798,6 @@ it means.
      on streams instead of file descriptors.
 
  -- Function: off64_t lseek64 (int FILEDES, off64_t OFFSET, int WHENCE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6466,7 +4852,6 @@ will read four characters starting with the 1024’th character of ‘foo’,
 and then four more characters starting with the 1028’th character.
 
  -- Data Type: off_t
-
      This is a signed integer type used to represent file sizes.  In the
      GNU C Library, this type is no narrower than ‘int’.
 
@@ -6474,7 +4859,6 @@ and then four more characters starting with the 1028’th character.
      is transparently replaced by ‘off64_t’.
 
  -- Data Type: off64_t
-
      This type is used similar to ‘off_t’.  The difference is that even
      on 32 bit machines, where the ‘off_t’ type would have 32 bits,
      ‘off64_t’ has 64 bits and so is able to address files up to 2^63
@@ -6508,7 +4892,6 @@ existing stream with the ‘fileno’ function.  These functions are
 declared in the header file ‘stdio.h’.
 
  -- Function: FILE * fdopen (int FILEDES, const char *OPENTYPE)
-
      Preliminary: | MT-Safe | AS-Unsafe heap lock | AC-Unsafe mem lock |
      *Note POSIX Safety Concepts::.
 
@@ -6537,7 +4920,6 @@ declared in the header file ‘stdio.h’.
 Creating a Pipe::.
 
  -- Function: int fileno (FILE *STREAM)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6547,7 +4929,6 @@ Creating a Pipe::.
      returns -1.
 
  -- Function: int fileno_unlocked (FILE *STREAM)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6562,17 +4943,14 @@ descriptors belonging to the standard streams ‘stdin’, ‘stdout’, and
 ‘stderr’; see *note Standard Streams::.
 
 ‘STDIN_FILENO’
-
      This macro has value ‘0’, which is the file descriptor for standard
      input.
 
 ‘STDOUT_FILENO’
-
      This macro has value ‘1’, which is the file descriptor for standard
      output.
 
 ‘STDERR_FILENO’
-
      This macro has value ‘2’, which is the file descriptor for standard
      error output.
 
@@ -6737,7 +5115,6 @@ which describe the location and size of each buffer.
 
  -- Function: ssize_t readv (int FILEDES, const struct iovec *VECTOR,
           int COUNT)
-
      Preliminary: | MT-Safe | AS-Unsafe heap | AC-Unsafe mem | *Note
      POSIX Safety Concepts::.
 
@@ -6755,7 +5132,6 @@ which describe the location and size of each buffer.
 
  -- Function: ssize_t writev (int FILEDES, const struct iovec *VECTOR,
           int COUNT)
-
      Preliminary: | MT-Safe | AS-Unsafe heap | AC-Unsafe mem | *Note
      POSIX Safety Concepts::.
 
@@ -6810,7 +5186,6 @@ These functions are declared in ‘sys/mman.h’.
 
  -- Function: void * mmap (void *ADDRESS, size_t LENGTH, int PROTECT,
           int FLAGS, int FILEDES, off_t OFFSET)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6910,7 +5285,6 @@ These functions are declared in ‘sys/mman.h’.
 
  -- Function: void * mmap64 (void *ADDRESS, size_t LENGTH, int PROTECT,
           int FLAGS, int FILEDES, off64_t OFFSET)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6927,7 +5301,6 @@ These functions are declared in ‘sys/mman.h’.
      replaces the old API.
 
  -- Function: int munmap (void *ADDR, size_t LENGTH)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6949,7 +5322,6 @@ These functions are declared in ‘sys/mman.h’.
           wasn’t page aligned.
 
  -- Function: int msync (void *ADDRESS, size_t LENGTH, int FLAGS)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -6986,7 +5358,6 @@ These functions are declared in ‘sys/mman.h’.
 
  -- Function: void * mremap (void *ADDRESS, size_t LENGTH, size_t
           NEW_LENGTH, int FLAG)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -7031,7 +5402,6 @@ older kernels may not support mapping at all.  Thus, programs using
 (standards)Mmap::.
 
  -- Function: int madvise (void *ADDR, size_t LENGTH, int ADVICE)
-
      Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
      Concepts::.
 
@@ -7091,7 +5461,6 @@ older kernels may not support mapping at all.  Thus, programs using
           region.
 
  -- Function: int shm_open (const char *NAME, int OFLAG, mode_t MODE)
-
      Preliminary: | MT-Safe locale | AS-Unsafe init heap lock |
      AC-Unsafe lock mem fd | *Note POSIX Safety Concepts::.
 
@@ -7154,12 +5523,10 @@ blocks and interacts with ‘select’ just as ‘read’ does for normal input.
 macros for manipulating these objects.
 
  -- Data Type: fd_set
-
      The ‘fd_set’ data type represents file descriptor sets for the
      ‘select’ function.  It is actually a bit array.
 
  -- Macro: int FD_SETSIZE
-
      The value of this macro is the maximum number of file descriptors
      that a ‘fd_set’ object can hold information about.  On systems with
      a fixed maximum number, ‘FD_SETSIZE’ is at least that number.  On
@@ -7170,7 +5537,6 @@ macros for manipulating these objects.
      put that descriptor into an ‘fd_set’.
 
  -- Macro: void FD_ZERO (fd_set *SET)
-
      Preliminary: | MT-Safe race:set | AS-Safe | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -7178,7 +5544,6 @@ macros for manipulating these objects.
      set.
 
  -- Macro: void FD_SET (int FILEDES, fd_set *SET)
-
      Preliminary: | MT-Safe race:set | AS-Safe | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -7188,7 +5553,6 @@ macros for manipulating these objects.
      evaluated more than once.
 
  -- Macro: void FD_CLR (int FILEDES, fd_set *SET)
-
      Preliminary: | MT-Safe race:set | AS-Safe | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -7198,7 +5562,6 @@ macros for manipulating these objects.
      evaluated more than once.
 
  -- Macro: int FD_ISSET (int FILEDES, const fd_set *SET)
-
      Preliminary: | MT-Safe race:set | AS-Safe | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -7212,7 +5575,6 @@ macros for manipulating these objects.
 
  -- Function: int select (int NFDS, fd_set *READ-FDS, fd_set *WRITE-FDS,
           fd_set *EXCEPT-FDS, struct timeval *TIMEOUT)
-
      Preliminary: | MT-Safe race:read-fds race:write-fds race:except-fds
      | AS-Safe | AC-Safe | *Note POSIX Safety Concepts::.
 
@@ -7331,4 +5693,1384 @@ descriptor, or until the timeout period expires.
 
    There is another example showing the use of ‘select’ to multiplex
 input from multiple sockets in *note Server Example::.
+
+
+File: libc.info,  Node: Synchronizing I/O,  Next: Asynchronous I/O,  Prev: Waiting for I/O,  Up: Low-Level I/O
+
+13.9 Synchronizing I/O operations
+=================================
+
+In most modern operating systems, the normal I/O operations are not
+executed synchronously.  I.e., even if a ‘write’ system call returns,
+this does not mean the data is actually written to the media, e.g., the
+disk.
+
+   In situations where synchronization points are necessary, you can use
+special functions which ensure that all operations finish before they
+return.
+
+ -- Function: void sync (void)
+     Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
+     Concepts::.
+
+     A call to this function will not return as long as there is data
+     which has not been written to the device.  All dirty buffers in the
+     kernel will be written and so an overall consistent system can be
+     achieved (if no other process in parallel writes data).
+
+     A prototype for ‘sync’ can be found in ‘unistd.h’.
+
+   Programs more often want to ensure that data written to a given file
+is committed, rather than all data in the system.  For this, ‘sync’ is
+overkill.
+
+ -- Function: int fsync (int FILDES)
+     Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
+     Concepts::.
+
+     The ‘fsync’ function can be used to make sure all data associated
+     with the open file FILDES is written to the device associated with
+     the descriptor.  The function call does not return unless all
+     actions have finished.
+
+     A prototype for ‘fsync’ can be found in ‘unistd.h’.
+
+     This function is a cancellation point in multi-threaded programs.
+     This is a problem if the thread allocates some resources (like
+     memory, file descriptors, semaphores or whatever) at the time
+     ‘fsync’ is called.  If the thread gets canceled these resources
+     stay allocated until the program ends.  To avoid this, calls to
+     ‘fsync’ should be protected using cancellation handlers.
+
+     The return value of the function is zero if no error occurred.
+     Otherwise it is -1 and the global variable ERRNO is set to the
+     following values:
+     ‘EBADF’
+          The descriptor FILDES is not valid.
+
+     ‘EINVAL’
+          No synchronization is possible since the system does not
+          implement this.
+
+   Sometimes it is not even necessary to write all data associated with
+a file descriptor.  E.g., in database files which do not change in size
+it is enough to write all the file content data to the device.
+Meta-information, like the modification time etc., are not that
+important and leaving such information uncommitted does not prevent a
+successful recovery of the file in case of a problem.
+
+ -- Function: int fdatasync (int FILDES)
+     Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
+     Concepts::.
+
+     When a call to the ‘fdatasync’ function returns, it is ensured that
+     all of the file data is written to the device.  For all pending I/O
+     operations, the parts guaranteeing data integrity finished.
+
+     Not all systems implement the ‘fdatasync’ operation.  On systems
+     missing this functionality ‘fdatasync’ is emulated by a call to
+     ‘fsync’ since the performed actions are a superset of those
+     required by ‘fdatasync’.
+
+     The prototype for ‘fdatasync’ is in ‘unistd.h’.
+
+     The return value of the function is zero if no error occurred.
+     Otherwise it is -1 and the global variable ERRNO is set to the
+     following values:
+     ‘EBADF’
+          The descriptor FILDES is not valid.
+
+     ‘EINVAL’
+          No synchronization is possible since the system does not
+          implement this.
+
+
+File: libc.info,  Node: Asynchronous I/O,  Next: Control Operations,  Prev: Synchronizing I/O,  Up: Low-Level I/O
+
+13.10 Perform I/O Operations in Parallel
+========================================
+
+The POSIX.1b standard defines a new set of I/O operations which can
+significantly reduce the time an application spends waiting for I/O. The
+new functions allow a program to initiate one or more I/O operations and
+then immediately resume normal work while the I/O operations are
+executed in parallel.  This functionality is available if the ‘unistd.h’
+file defines the symbol ‘_POSIX_ASYNCHRONOUS_IO’.
+
+   These functions are part of the library with realtime functions named
+‘librt’.  They are not actually part of the ‘libc’ binary.  The
+implementation of these functions can be done using support in the
+kernel (if available) or using an implementation based on threads at
+userlevel.  In the latter case it might be necessary to link
+applications with the thread library ‘libpthread’ in addition to
+‘librt’.
+
+   All AIO operations operate on files which were opened previously.
+There might be arbitrarily many operations running for one file.  The
+asynchronous I/O operations are controlled using a data structure named
+‘struct aiocb’ (“AIO control block”).  It is defined in ‘aio.h’ as
+follows.
+
+ -- Data Type: struct aiocb
+     The POSIX.1b standard mandates that the ‘struct aiocb’ structure
+     contains at least the members described in the following table.
+     There might be more elements which are used by the implementation,
+     but depending upon these elements is not portable and is highly
+     deprecated.
+
+     ‘int aio_fildes’
+          This element specifies the file descriptor to be used for the
+          operation.  It must be a legal descriptor, otherwise the
+          operation will fail.
+
+          The device on which the file is opened must allow the seek
+          operation.  I.e., it is not possible to use any of the AIO
+          operations on devices like terminals where an ‘lseek’ call
+          would lead to an error.
+
+     ‘off_t aio_offset’
+          This element specifies the offset in the file at which the
+          operation (input or output) is performed.  Since the
+          operations are carried out in arbitrary order and more than
+          one operation for one file descriptor can be started, one
+          cannot expect a current read/write position of the file
+          descriptor.
+
+     ‘volatile void *aio_buf’
+          This is a pointer to the buffer with the data to be written or
+          the place where the read data is stored.
+
+     ‘size_t aio_nbytes’
+          This element specifies the length of the buffer pointed to by
+          ‘aio_buf’.
+
+     ‘int aio_reqprio’
+          If the platform has defined ‘_POSIX_PRIORITIZED_IO’ and
+          ‘_POSIX_PRIORITY_SCHEDULING’, the AIO requests are processed
+          based on the current scheduling priority.  The ‘aio_reqprio’
+          element can then be used to lower the priority of the AIO
+          operation.
+
+     ‘struct sigevent aio_sigevent’
+          This element specifies how the calling process is notified
+          once the operation terminates.  If the ‘sigev_notify’ element
+          is ‘SIGEV_NONE’, no notification is sent.  If it is
+          ‘SIGEV_SIGNAL’, the signal determined by ‘sigev_signo’ is
+          sent.  Otherwise, ‘sigev_notify’ must be ‘SIGEV_THREAD’.  In
+          this case, a thread is created which starts executing the
+          function pointed to by ‘sigev_notify_function’.
+
+     ‘int aio_lio_opcode’
+          This element is only used by the ‘lio_listio’ and
+          ‘lio_listio64’ functions.  Since these functions allow an
+          arbitrary number of operations to start at once, and each
+          operation can be input or output (or nothing), the information
+          must be stored in the control block.  The possible values are:
+
+          ‘LIO_READ’
+               Start a read operation.  Read from the file at position
+               ‘aio_offset’ and store the next ‘aio_nbytes’ bytes in the
+               buffer pointed to by ‘aio_buf’.
+
+          ‘LIO_WRITE’
+               Start a write operation.  Write ‘aio_nbytes’ bytes
+               starting at ‘aio_buf’ into the file starting at position
+               ‘aio_offset’.
+
+          ‘LIO_NOP’
+               Do nothing for this control block.  This value is useful
+               sometimes when an array of ‘struct aiocb’ values contains
+               holes, i.e., some of the values must not be handled
+               although the whole array is presented to the ‘lio_listio’
+               function.
+
+     When the sources are compiled using ‘_FILE_OFFSET_BITS == 64’ on a
+     32 bit machine, this type is in fact ‘struct aiocb64’, since the
+     LFS interface transparently replaces the ‘struct aiocb’ definition.
+
+   For use with the AIO functions defined in the LFS, there is a similar
+type defined which replaces the types of the appropriate members with
+larger types but otherwise is equivalent to ‘struct aiocb’.
+Particularly, all member names are the same.
+
+ -- Data Type: struct aiocb64
+     ‘int aio_fildes’
+          This element specifies the file descriptor which is used for
+          the operation.  It must be a legal descriptor since otherwise
+          the operation fails for obvious reasons.
+
+          The device on which the file is opened must allow the seek
+          operation.  I.e., it is not possible to use any of the AIO
+          operations on devices like terminals where an ‘lseek’ call
+          would lead to an error.
+
+     ‘off64_t aio_offset’
+          This element specifies at which offset in the file the
+          operation (input or output) is performed.  Since the operation
+          are carried in arbitrary order and more than one operation for
+          one file descriptor can be started, one cannot expect a
+          current read/write position of the file descriptor.
+
+     ‘volatile void *aio_buf’
+          This is a pointer to the buffer with the data to be written or
+          the place where the read data is stored.
+
+     ‘size_t aio_nbytes’
+          This element specifies the length of the buffer pointed to by
+          ‘aio_buf’.
+
+     ‘int aio_reqprio’
+          If for the platform ‘_POSIX_PRIORITIZED_IO’ and
+          ‘_POSIX_PRIORITY_SCHEDULING’ are defined the AIO requests are
+          processed based on the current scheduling priority.  The
+          ‘aio_reqprio’ element can then be used to lower the priority
+          of the AIO operation.
+
+     ‘struct sigevent aio_sigevent’
+          This element specifies how the calling process is notified
+          once the operation terminates.  If the ‘sigev_notify’ element
+          is ‘SIGEV_NONE’ no notification is sent.  If it is
+          ‘SIGEV_SIGNAL’, the signal determined by ‘sigev_signo’ is
+          sent.  Otherwise, ‘sigev_notify’ must be ‘SIGEV_THREAD’ in
+          which case a thread is created which starts executing the
+          function pointed to by ‘sigev_notify_function’.
+
+     ‘int aio_lio_opcode’
+          This element is only used by the ‘lio_listio’ and
+          ‘lio_listio64’ functions.  Since these functions allow an
+          arbitrary number of operations to start at once, and since
+          each operation can be input or output (or nothing), the
+          information must be stored in the control block.  See the
+          description of ‘struct aiocb’ for a description of the
+          possible values.
+
+     When the sources are compiled using ‘_FILE_OFFSET_BITS == 64’ on a
+     32 bit machine, this type is available under the name ‘struct
+     aiocb64’, since the LFS transparently replaces the old interface.
+
+* Menu:
+
+* Asynchronous Reads/Writes::    Asynchronous Read and Write Operations.
+* Status of AIO Operations::     Getting the Status of AIO Operations.
+* Synchronizing AIO Operations:: Getting into a consistent state.
+* Cancel AIO Operations::        Cancellation of AIO Operations.
+* Configuration of AIO::         How to optimize the AIO implementation.
+
+
+File: libc.info,  Node: Asynchronous Reads/Writes,  Next: Status of AIO Operations,  Up: Asynchronous I/O
+
+13.10.1 Asynchronous Read and Write Operations
+----------------------------------------------
+
+ -- Function: int aio_read (struct aiocb *AIOCBP)
+     Preliminary: | MT-Safe | AS-Unsafe lock heap | AC-Unsafe lock mem |
+     *Note POSIX Safety Concepts::.
+
+     This function initiates an asynchronous read operation.  It
+     immediately returns after the operation was enqueued or when an
+     error was encountered.
+
+     The first ‘aiocbp->aio_nbytes’ bytes of the file for which
+     ‘aiocbp->aio_fildes’ is a descriptor are written to the buffer
+     starting at ‘aiocbp->aio_buf’.  Reading starts at the absolute
+     position ‘aiocbp->aio_offset’ in the file.
+
+     If prioritized I/O is supported by the platform the
+     ‘aiocbp->aio_reqprio’ value is used to adjust the priority before
+     the request is actually enqueued.
+
+     The calling process is notified about the termination of the read
+     request according to the ‘aiocbp->aio_sigevent’ value.
+
+     When ‘aio_read’ returns, the return value is zero if no error
+     occurred that can be found before the process is enqueued.  If such
+     an early error is found, the function returns -1 and sets ‘errno’
+     to one of the following values:
+
+     ‘EAGAIN’
+          The request was not enqueued due to (temporarily) exceeded
+          resource limitations.
+     ‘ENOSYS’
+          The ‘aio_read’ function is not implemented.
+     ‘EBADF’
+          The ‘aiocbp->aio_fildes’ descriptor is not valid.  This
+          condition need not be recognized before enqueueing the request
+          and so this error might also be signaled asynchronously.
+     ‘EINVAL’
+          The ‘aiocbp->aio_offset’ or ‘aiocbp->aio_reqpiro’ value is
+          invalid.  This condition need not be recognized before
+          enqueueing the request and so this error might also be
+          signaled asynchronously.
+
+     If ‘aio_read’ returns zero, the current status of the request can
+     be queried using ‘aio_error’ and ‘aio_return’ functions.  As long
+     as the value returned by ‘aio_error’ is ‘EINPROGRESS’ the operation
+     has not yet completed.  If ‘aio_error’ returns zero, the operation
+     successfully terminated, otherwise the value is to be interpreted
+     as an error code.  If the function terminated, the result of the
+     operation can be obtained using a call to ‘aio_return’.  The
+     returned value is the same as an equivalent call to ‘read’ would
+     have returned.  Possible error codes returned by ‘aio_error’ are:
+
+     ‘EBADF’
+          The ‘aiocbp->aio_fildes’ descriptor is not valid.
+     ‘ECANCELED’
+          The operation was canceled before the operation was finished
+          (*note Cancel AIO Operations::)
+     ‘EINVAL’
+          The ‘aiocbp->aio_offset’ value is invalid.
+
+     When the sources are compiled with ‘_FILE_OFFSET_BITS == 64’ this
+     function is in fact ‘aio_read64’ since the LFS interface
+     transparently replaces the normal implementation.
+
+ -- Function: int aio_read64 (struct aiocb64 *AIOCBP)
+     Preliminary: | MT-Safe | AS-Unsafe lock heap | AC-Unsafe lock mem |
+     *Note POSIX Safety Concepts::.
+
+     This function is similar to the ‘aio_read’ function.  The only
+     difference is that on 32 bit machines, the file descriptor should
+     be opened in the large file mode.  Internally, ‘aio_read64’ uses
+     functionality equivalent to ‘lseek64’ (*note File Position
+     Primitive::) to position the file descriptor correctly for the
+     reading, as opposed to the ‘lseek’ functionality used in
+     ‘aio_read’.
+
+     When the sources are compiled with ‘_FILE_OFFSET_BITS == 64’, this
+     function is available under the name ‘aio_read’ and so
+     transparently replaces the interface for small files on 32 bit
+     machines.
+
+   To write data asynchronously to a file, there exists an equivalent
+pair of functions with a very similar interface.
+
+ -- Function: int aio_write (struct aiocb *AIOCBP)
+     Preliminary: | MT-Safe | AS-Unsafe lock heap | AC-Unsafe lock mem |
+     *Note POSIX Safety Concepts::.
+
+     This function initiates an asynchronous write operation.  The
+     function call immediately returns after the operation was enqueued
+     or if before this happens an error was encountered.
+
+     The first ‘aiocbp->aio_nbytes’ bytes from the buffer starting at
+     ‘aiocbp->aio_buf’ are written to the file for which
+     ‘aiocbp->aio_fildes’ is a descriptor, starting at the absolute
+     position ‘aiocbp->aio_offset’ in the file.
+
+     If prioritized I/O is supported by the platform, the
+     ‘aiocbp->aio_reqprio’ value is used to adjust the priority before
+     the request is actually enqueued.
+
+     The calling process is notified about the termination of the read
+     request according to the ‘aiocbp->aio_sigevent’ value.
+
+     When ‘aio_write’ returns, the return value is zero if no error
+     occurred that can be found before the process is enqueued.  If such
+     an early error is found the function returns -1 and sets ‘errno’ to
+     one of the following values.
+
+     ‘EAGAIN’
+          The request was not enqueued due to (temporarily) exceeded
+          resource limitations.
+     ‘ENOSYS’
+          The ‘aio_write’ function is not implemented.
+     ‘EBADF’
+          The ‘aiocbp->aio_fildes’ descriptor is not valid.  This
+          condition may not be recognized before enqueueing the request,
+          and so this error might also be signaled asynchronously.
+     ‘EINVAL’
+          The ‘aiocbp->aio_offset’ or ‘aiocbp->aio_reqprio’ value is
+          invalid.  This condition may not be recognized before
+          enqueueing the request and so this error might also be
+          signaled asynchronously.
+
+     In the case ‘aio_write’ returns zero, the current status of the
+     request can be queried using the ‘aio_error’ and ‘aio_return’
+     functions.  As long as the value returned by ‘aio_error’ is
+     ‘EINPROGRESS’ the operation has not yet completed.  If ‘aio_error’
+     returns zero, the operation successfully terminated, otherwise the
+     value is to be interpreted as an error code.  If the function
+     terminated, the result of the operation can be obtained using a
+     call to ‘aio_return’.  The returned value is the same as an
+     equivalent call to ‘read’ would have returned.  Possible error
+     codes returned by ‘aio_error’ are:
+
+     ‘EBADF’
+          The ‘aiocbp->aio_fildes’ descriptor is not valid.
+     ‘ECANCELED’
+          The operation was canceled before the operation was finished.
+          (*note Cancel AIO Operations::)
+     ‘EINVAL’
+          The ‘aiocbp->aio_offset’ value is invalid.
+
+     When the sources are compiled with ‘_FILE_OFFSET_BITS == 64’, this
+     function is in fact ‘aio_write64’ since the LFS interface
+     transparently replaces the normal implementation.
+
+ -- Function: int aio_write64 (struct aiocb64 *AIOCBP)
+     Preliminary: | MT-Safe | AS-Unsafe lock heap | AC-Unsafe lock mem |
+     *Note POSIX Safety Concepts::.
+
+     This function is similar to the ‘aio_write’ function.  The only
+     difference is that on 32 bit machines the file descriptor should be
+     opened in the large file mode.  Internally ‘aio_write64’ uses
+     functionality equivalent to ‘lseek64’ (*note File Position
+     Primitive::) to position the file descriptor correctly for the
+     writing, as opposed to the ‘lseek’ functionality used in
+     ‘aio_write’.
+
+     When the sources are compiled with ‘_FILE_OFFSET_BITS == 64’, this
+     function is available under the name ‘aio_write’ and so
+     transparently replaces the interface for small files on 32 bit
+     machines.
+
+   Besides these functions with the more or less traditional interface,
+POSIX.1b also defines a function which can initiate more than one
+operation at a time, and which can handle freely mixed read and write
+operations.  It is therefore similar to a combination of ‘readv’ and
+‘writev’.
+
+ -- Function: int lio_listio (int MODE, struct aiocb *const LIST[], int
+          NENT, struct sigevent *SIG)
+     Preliminary: | MT-Safe | AS-Unsafe lock heap | AC-Unsafe lock mem |
+     *Note POSIX Safety Concepts::.
+
+     The ‘lio_listio’ function can be used to enqueue an arbitrary
+     number of read and write requests at one time.  The requests can
+     all be meant for the same file, all for different files or every
+     solution in between.
+
+     ‘lio_listio’ gets the NENT requests from the array pointed to by
+     LIST.  The operation to be performed is determined by the
+     ‘aio_lio_opcode’ member in each element of LIST.  If this field is
+     ‘LIO_READ’ a read operation is enqueued, similar to a call of
+     ‘aio_read’ for this element of the array (except that the way the
+     termination is signalled is different, as we will see below).  If
+     the ‘aio_lio_opcode’ member is ‘LIO_WRITE’ a write operation is
+     enqueued.  Otherwise the ‘aio_lio_opcode’ must be ‘LIO_NOP’ in
+     which case this element of LIST is simply ignored.  This
+     “operation” is useful in situations where one has a fixed array of
+     ‘struct aiocb’ elements from which only a few need to be handled at
+     a time.  Another situation is where the ‘lio_listio’ call was
+     canceled before all requests are processed (*note Cancel AIO
+     Operations::) and the remaining requests have to be reissued.
+
+     The other members of each element of the array pointed to by ‘list’
+     must have values suitable for the operation as described in the
+     documentation for ‘aio_read’ and ‘aio_write’ above.
+
+     The MODE argument determines how ‘lio_listio’ behaves after having
+     enqueued all the requests.  If MODE is ‘LIO_WAIT’ it waits until
+     all requests terminated.  Otherwise MODE must be ‘LIO_NOWAIT’ and
+     in this case the function returns immediately after having enqueued
+     all the requests.  In this case the caller gets a notification of
+     the termination of all requests according to the SIG parameter.  If
+     SIG is ‘NULL’ no notification is sent.  Otherwise a signal is sent
+     or a thread is started, just as described in the description for
+     ‘aio_read’ or ‘aio_write’.
+
+     If MODE is ‘LIO_WAIT’, the return value of ‘lio_listio’ is 0 when
+     all requests completed successfully.  Otherwise the function
+     returns -1 and ‘errno’ is set accordingly.  To find out which
+     request or requests failed one has to use the ‘aio_error’ function
+     on all the elements of the array LIST.
+
+     In case MODE is ‘LIO_NOWAIT’, the function returns 0 if all
+     requests were enqueued correctly.  The current state of the
+     requests can be found using ‘aio_error’ and ‘aio_return’ as
+     described above.  If ‘lio_listio’ returns -1 in this mode, the
+     global variable ‘errno’ is set accordingly.  If a request did not
+     yet terminate, a call to ‘aio_error’ returns ‘EINPROGRESS’.  If the
+     value is different, the request is finished and the error value (or
+     0) is returned and the result of the operation can be retrieved
+     using ‘aio_return’.
+
+     Possible values for ‘errno’ are:
+
+     ‘EAGAIN’
+          The resources necessary to queue all the requests are not
+          available at the moment.  The error status for each element of
+          LIST must be checked to determine which request failed.
+
+          Another reason could be that the system wide limit of AIO
+          requests is exceeded.  This cannot be the case for the
+          implementation on GNU systems since no arbitrary limits exist.
+     ‘EINVAL’
+          The MODE parameter is invalid or NENT is larger than
+          ‘AIO_LISTIO_MAX’.
+     ‘EIO’
+          One or more of the request’s I/O operations failed.  The error
+          status of each request should be checked to determine which
+          one failed.
+     ‘ENOSYS’
+          The ‘lio_listio’ function is not supported.
+
+     If the MODE parameter is ‘LIO_NOWAIT’ and the caller cancels a
+     request, the error status for this request returned by ‘aio_error’
+     is ‘ECANCELED’.
+
+     When the sources are compiled with ‘_FILE_OFFSET_BITS == 64’, this
+     function is in fact ‘lio_listio64’ since the LFS interface
+     transparently replaces the normal implementation.
+
+ -- Function: int lio_listio64 (int MODE, struct aiocb64 *const LIST[],
+          int NENT, struct sigevent *SIG)
+     Preliminary: | MT-Safe | AS-Unsafe lock heap | AC-Unsafe lock mem |
+     *Note POSIX Safety Concepts::.
+
+     This function is similar to the ‘lio_listio’ function.  The only
+     difference is that on 32 bit machines, the file descriptor should
+     be opened in the large file mode.  Internally, ‘lio_listio64’ uses
+     functionality equivalent to ‘lseek64’ (*note File Position
+     Primitive::) to position the file descriptor correctly for the
+     reading or writing, as opposed to the ‘lseek’ functionality used in
+     ‘lio_listio’.
+
+     When the sources are compiled with ‘_FILE_OFFSET_BITS == 64’, this
+     function is available under the name ‘lio_listio’ and so
+     transparently replaces the interface for small files on 32 bit
+     machines.
+
+
+File: libc.info,  Node: Status of AIO Operations,  Next: Synchronizing AIO Operations,  Prev: Asynchronous Reads/Writes,  Up: Asynchronous I/O
+
+13.10.2 Getting the Status of AIO Operations
+--------------------------------------------
+
+As already described in the documentation of the functions in the last
+section, it must be possible to get information about the status of an
+I/O request.  When the operation is performed truly asynchronously (as
+with ‘aio_read’ and ‘aio_write’ and with ‘lio_listio’ when the mode is
+‘LIO_NOWAIT’), one sometimes needs to know whether a specific request
+already terminated and if so, what the result was.  The following two
+functions allow you to get this kind of information.
+
+ -- Function: int aio_error (const struct aiocb *AIOCBP)
+     Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
+     Concepts::.
+
+     This function determines the error state of the request described
+     by the ‘struct aiocb’ variable pointed to by AIOCBP.  If the
+     request has not yet terminated the value returned is always
+     ‘EINPROGRESS’.  Once the request has terminated the value
+     ‘aio_error’ returns is either 0 if the request completed
+     successfully or it returns the value which would be stored in the
+     ‘errno’ variable if the request would have been done using ‘read’,
+     ‘write’, or ‘fsync’.
+
+     The function can return ‘ENOSYS’ if it is not implemented.  It
+     could also return ‘EINVAL’ if the AIOCBP parameter does not refer
+     to an asynchronous operation whose return status is not yet known.
+
+     When the sources are compiled with ‘_FILE_OFFSET_BITS == 64’ this
+     function is in fact ‘aio_error64’ since the LFS interface
+     transparently replaces the normal implementation.
+
+ -- Function: int aio_error64 (const struct aiocb64 *AIOCBP)
+     Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
+     Concepts::.
+
+     This function is similar to ‘aio_error’ with the only difference
+     that the argument is a reference to a variable of type ‘struct
+     aiocb64’.
+
+     When the sources are compiled with ‘_FILE_OFFSET_BITS == 64’ this
+     function is available under the name ‘aio_error’ and so
+     transparently replaces the interface for small files on 32 bit
+     machines.
+
+ -- Function: ssize_t aio_return (struct aiocb *AIOCBP)
+     Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
+     Concepts::.
+
+     This function can be used to retrieve the return status of the
+     operation carried out by the request described in the variable
+     pointed to by AIOCBP.  As long as the error status of this request
+     as returned by ‘aio_error’ is ‘EINPROGRESS’ the return value of
+     this function is undefined.
+
+     Once the request is finished this function can be used exactly once
+     to retrieve the return value.  Following calls might lead to
+     undefined behavior.  The return value itself is the value which
+     would have been returned by the ‘read’, ‘write’, or ‘fsync’ call.
+
+     The function can return ‘ENOSYS’ if it is not implemented.  It
+     could also return ‘EINVAL’ if the AIOCBP parameter does not refer
+     to an asynchronous operation whose return status is not yet known.
+
+     When the sources are compiled with ‘_FILE_OFFSET_BITS == 64’ this
+     function is in fact ‘aio_return64’ since the LFS interface
+     transparently replaces the normal implementation.
+
+ -- Function: ssize_t aio_return64 (struct aiocb64 *AIOCBP)
+     Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
+     Concepts::.
+
+     This function is similar to ‘aio_return’ with the only difference
+     that the argument is a reference to a variable of type ‘struct
+     aiocb64’.
+
+     When the sources are compiled with ‘_FILE_OFFSET_BITS == 64’ this
+     function is available under the name ‘aio_return’ and so
+     transparently replaces the interface for small files on 32 bit
+     machines.
+
+
+File: libc.info,  Node: Synchronizing AIO Operations,  Next: Cancel AIO Operations,  Prev: Status of AIO Operations,  Up: Asynchronous I/O
+
+13.10.3 Getting into a Consistent State
+---------------------------------------
+
+When dealing with asynchronous operations it is sometimes necessary to
+get into a consistent state.  This would mean for AIO that one wants to
+know whether a certain request or a group of requests were processed.
+This could be done by waiting for the notification sent by the system
+after the operation terminated, but this sometimes would mean wasting
+resources (mainly computation time).  Instead POSIX.1b defines two
+functions which will help with most kinds of consistency.
+
+   The ‘aio_fsync’ and ‘aio_fsync64’ functions are only available if the
+symbol ‘_POSIX_SYNCHRONIZED_IO’ is defined in ‘unistd.h’.
+
+ -- Function: int aio_fsync (int OP, struct aiocb *AIOCBP)
+     Preliminary: | MT-Safe | AS-Unsafe lock heap | AC-Unsafe lock mem |
+     *Note POSIX Safety Concepts::.
+
+     Calling this function forces all I/O operations queued at the time
+     of the function call operating on the file descriptor
+     ‘aiocbp->aio_fildes’ into the synchronized I/O completion state
+     (*note Synchronizing I/O::).  The ‘aio_fsync’ function returns
+     immediately but the notification through the method described in
+     ‘aiocbp->aio_sigevent’ will happen only after all requests for this
+     file descriptor have terminated and the file is synchronized.  This
+     also means that requests for this very same file descriptor which
+     are queued after the synchronization request are not affected.
+
+     If OP is ‘O_DSYNC’ the synchronization happens as with a call to
+     ‘fdatasync’.  Otherwise OP should be ‘O_SYNC’ and the
+     synchronization happens as with ‘fsync’.
+
+     As long as the synchronization has not happened, a call to
+     ‘aio_error’ with the reference to the object pointed to by AIOCBP
+     returns ‘EINPROGRESS’.  Once the synchronization is done
+     ‘aio_error’ return 0 if the synchronization was not successful.
+     Otherwise the value returned is the value to which the ‘fsync’ or
+     ‘fdatasync’ function would have set the ‘errno’ variable.  In this
+     case nothing can be assumed about the consistency of the data
+     written to this file descriptor.
+
+     The return value of this function is 0 if the request was
+     successfully enqueued.  Otherwise the return value is -1 and
+     ‘errno’ is set to one of the following values:
+
+     ‘EAGAIN’
+          The request could not be enqueued due to temporary lack of
+          resources.
+     ‘EBADF’
+          The file descriptor ‘AIOCBP->aio_fildes’ is not valid.
+     ‘EINVAL’
+          The implementation does not support I/O synchronization or the
+          OP parameter is other than ‘O_DSYNC’ and ‘O_SYNC’.
+     ‘ENOSYS’
+          This function is not implemented.
+
+     When the sources are compiled with ‘_FILE_OFFSET_BITS == 64’ this
+     function is in fact ‘aio_fsync64’ since the LFS interface
+     transparently replaces the normal implementation.
+
+ -- Function: int aio_fsync64 (int OP, struct aiocb64 *AIOCBP)
+     Preliminary: | MT-Safe | AS-Unsafe lock heap | AC-Unsafe lock mem |
+     *Note POSIX Safety Concepts::.
+
+     This function is similar to ‘aio_fsync’ with the only difference
+     that the argument is a reference to a variable of type ‘struct
+     aiocb64’.
+
+     When the sources are compiled with ‘_FILE_OFFSET_BITS == 64’ this
+     function is available under the name ‘aio_fsync’ and so
+     transparently replaces the interface for small files on 32 bit
+     machines.
+
+   Another method of synchronization is to wait until one or more
+requests of a specific set terminated.  This could be achieved by the
+‘aio_*’ functions to notify the initiating process about the termination
+but in some situations this is not the ideal solution.  In a program
+which constantly updates clients somehow connected to the server it is
+not always the best solution to go round robin since some connections
+might be slow.  On the other hand letting the ‘aio_*’ functions notify
+the caller might also be not the best solution since whenever the
+process works on preparing data for a client it makes no sense to be
+interrupted by a notification since the new client will not be handled
+before the current client is served.  For situations like this
+‘aio_suspend’ should be used.
+
+ -- Function: int aio_suspend (const struct aiocb *const LIST[], int
+          NENT, const struct timespec *TIMEOUT)
+     Preliminary: | MT-Safe | AS-Unsafe lock | AC-Unsafe lock | *Note
+     POSIX Safety Concepts::.
+
+     When calling this function, the calling thread is suspended until
+     at least one of the requests pointed to by the NENT elements of the
+     array LIST has completed.  If any of the requests has already
+     completed at the time ‘aio_suspend’ is called, the function returns
+     immediately.  Whether a request has terminated or not is determined
+     by comparing the error status of the request with ‘EINPROGRESS’.
+     If an element of LIST is ‘NULL’, the entry is simply ignored.
+
+     If no request has finished, the calling process is suspended.  If
+     TIMEOUT is ‘NULL’, the process is not woken until a request has
+     finished.  If TIMEOUT is not ‘NULL’, the process remains suspended
+     at least as long as specified in TIMEOUT.  In this case,
+     ‘aio_suspend’ returns with an error.
+
+     The return value of the function is 0 if one or more requests from
+     the LIST have terminated.  Otherwise the function returns -1 and
+     ‘errno’ is set to one of the following values:
+
+     ‘EAGAIN’
+          None of the requests from the LIST completed in the time
+          specified by TIMEOUT.
+     ‘EINTR’
+          A signal interrupted the ‘aio_suspend’ function.  This signal
+          might also be sent by the AIO implementation while signalling
+          the termination of one of the requests.
+     ‘ENOSYS’
+          The ‘aio_suspend’ function is not implemented.
+
+     When the sources are compiled with ‘_FILE_OFFSET_BITS == 64’ this
+     function is in fact ‘aio_suspend64’ since the LFS interface
+     transparently replaces the normal implementation.
+
+ -- Function: int aio_suspend64 (const struct aiocb64 *const LIST[], int
+          NENT, const struct timespec *TIMEOUT)
+     Preliminary: | MT-Safe | AS-Unsafe lock | AC-Unsafe lock | *Note
+     POSIX Safety Concepts::.
+
+     This function is similar to ‘aio_suspend’ with the only difference
+     that the argument is a reference to a variable of type ‘struct
+     aiocb64’.
+
+     When the sources are compiled with ‘_FILE_OFFSET_BITS == 64’ this
+     function is available under the name ‘aio_suspend’ and so
+     transparently replaces the interface for small files on 32 bit
+     machines.
+
+
+File: libc.info,  Node: Cancel AIO Operations,  Next: Configuration of AIO,  Prev: Synchronizing AIO Operations,  Up: Asynchronous I/O
+
+13.10.4 Cancellation of AIO Operations
+--------------------------------------
+
+When one or more requests are asynchronously processed, it might be
+useful in some situations to cancel a selected operation, e.g., if it
+becomes obvious that the written data is no longer accurate and would
+have to be overwritten soon.  As an example, assume an application,
+which writes data in files in a situation where new incoming data would
+have to be written in a file which will be updated by an enqueued
+request.  The POSIX AIO implementation provides such a function, but
+this function is not capable of forcing the cancellation of the request.
+It is up to the implementation to decide whether it is possible to
+cancel the operation or not.  Therefore using this function is merely a
+hint.
+
+ -- Function: int aio_cancel (int FILDES, struct aiocb *AIOCBP)
+     Preliminary: | MT-Safe | AS-Unsafe lock heap | AC-Unsafe lock mem |
+     *Note POSIX Safety Concepts::.
+
+     The ‘aio_cancel’ function can be used to cancel one or more
+     outstanding requests.  If the AIOCBP parameter is ‘NULL’, the
+     function tries to cancel all of the outstanding requests which
+     would process the file descriptor FILDES (i.e., whose ‘aio_fildes’
+     member is FILDES).  If AIOCBP is not ‘NULL’, ‘aio_cancel’ attempts
+     to cancel the specific request pointed to by AIOCBP.
+
+     For requests which were successfully canceled, the normal
+     notification about the termination of the request should take
+     place.  I.e., depending on the ‘struct sigevent’ object which
+     controls this, nothing happens, a signal is sent or a thread is
+     started.  If the request cannot be canceled, it terminates the
+     usual way after performing the operation.
+
+     After a request is successfully canceled, a call to ‘aio_error’
+     with a reference to this request as the parameter will return
+     ‘ECANCELED’ and a call to ‘aio_return’ will return -1.  If the
+     request wasn’t canceled and is still running the error status is
+     still ‘EINPROGRESS’.
+
+     The return value of the function is ‘AIO_CANCELED’ if there were
+     requests which haven’t terminated and which were successfully
+     canceled.  If there is one or more requests left which couldn’t be
+     canceled, the return value is ‘AIO_NOTCANCELED’.  In this case
+     ‘aio_error’ must be used to find out which of the, perhaps
+     multiple, requests (if AIOCBP is ‘NULL’) weren’t successfully
+     canceled.  If all requests already terminated at the time
+     ‘aio_cancel’ is called the return value is ‘AIO_ALLDONE’.
+
+     If an error occurred during the execution of ‘aio_cancel’ the
+     function returns -1 and sets ‘errno’ to one of the following
+     values.
+
+     ‘EBADF’
+          The file descriptor FILDES is not valid.
+     ‘ENOSYS’
+          ‘aio_cancel’ is not implemented.
+
+     When the sources are compiled with ‘_FILE_OFFSET_BITS == 64’, this
+     function is in fact ‘aio_cancel64’ since the LFS interface
+     transparently replaces the normal implementation.
+
+ -- Function: int aio_cancel64 (int FILDES, struct aiocb64 *AIOCBP)
+     Preliminary: | MT-Safe | AS-Unsafe lock heap | AC-Unsafe lock mem |
+     *Note POSIX Safety Concepts::.
+
+     This function is similar to ‘aio_cancel’ with the only difference
+     that the argument is a reference to a variable of type ‘struct
+     aiocb64’.
+
+     When the sources are compiled with ‘_FILE_OFFSET_BITS == 64’, this
+     function is available under the name ‘aio_cancel’ and so
+     transparently replaces the interface for small files on 32 bit
+     machines.
+
+
+File: libc.info,  Node: Configuration of AIO,  Prev: Cancel AIO Operations,  Up: Asynchronous I/O
+
+13.10.5 How to optimize the AIO implementation
+----------------------------------------------
+
+The POSIX standard does not specify how the AIO functions are
+implemented.  They could be system calls, but it is also possible to
+emulate them at userlevel.
+
+   At the time of writing, the available implementation is a user-level
+implementation which uses threads for handling the enqueued requests.
+While this implementation requires making some decisions about
+limitations, hard limitations are something best avoided in the GNU C
+Library.  Therefore, the GNU C Library provides a means for tuning the
+AIO implementation according to the individual use.
+
+ -- Data Type: struct aioinit
+     This data type is used to pass the configuration or tunable
+     parameters to the implementation.  The program has to initialize
+     the members of this struct and pass it to the implementation using
+     the ‘aio_init’ function.
+
+     ‘int aio_threads’
+          This member specifies the maximal number of threads which may
+          be used at any one time.
+     ‘int aio_num’
+          This number provides an estimate on the maximal number of
+          simultaneously enqueued requests.
+     ‘int aio_locks’
+          Unused.
+     ‘int aio_usedba’
+          Unused.
+     ‘int aio_debug’
+          Unused.
+     ‘int aio_numusers’
+          Unused.
+     ‘int aio_reserved[2]’
+          Unused.
+
+ -- Function: void aio_init (const struct aioinit *INIT)
+     Preliminary: | MT-Safe | AS-Unsafe lock | AC-Unsafe lock | *Note
+     POSIX Safety Concepts::.
+
+     This function must be called before any other AIO function.
+     Calling it is completely voluntary, as it is only meant to help the
+     AIO implementation perform better.
+
+     Before calling ‘aio_init’, the members of a variable of type
+     ‘struct aioinit’ must be initialized.  Then a reference to this
+     variable is passed as the parameter to ‘aio_init’ which itself may
+     or may not pay attention to the hints.
+
+     The function has no return value and no error cases are defined.
+     It is an extension which follows a proposal from the SGI
+     implementation in Irix 6.  It is not covered by POSIX.1b or Unix98.
+
+
+File: libc.info,  Node: Control Operations,  Next: Duplicating Descriptors,  Prev: Asynchronous I/O,  Up: Low-Level I/O
+
+13.11 Control Operations on Files
+=================================
+
+This section describes how you can perform various other operations on
+file descriptors, such as inquiring about or setting flags describing
+the status of the file descriptor, manipulating record locks, and the
+like.  All of these operations are performed by the function ‘fcntl’.
+
+   The second argument to the ‘fcntl’ function is a command that
+specifies which operation to perform.  The function and macros that name
+various flags that are used with it are declared in the header file
+‘fcntl.h’.  Many of these flags are also used by the ‘open’ function;
+see *note Opening and Closing Files::.
+
+ -- Function: int fcntl (int FILEDES, int COMMAND, ...)
+     Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
+     Concepts::.
+
+     The ‘fcntl’ function performs the operation specified by COMMAND on
+     the file descriptor FILEDES.  Some commands require additional
+     arguments to be supplied.  These additional arguments and the
+     return value and error conditions are given in the detailed
+     descriptions of the individual commands.
+
+     Briefly, here is a list of what the various commands are.
+
+     ‘F_DUPFD’
+          Duplicate the file descriptor (return another file descriptor
+          pointing to the same open file).  *Note Duplicating
+          Descriptors::.
+
+     ‘F_GETFD’
+          Get flags associated with the file descriptor.  *Note
+          Descriptor Flags::.
+
+     ‘F_SETFD’
+          Set flags associated with the file descriptor.  *Note
+          Descriptor Flags::.
+
+     ‘F_GETFL’
+          Get flags associated with the open file.  *Note File Status
+          Flags::.
+
+     ‘F_SETFL’
+          Set flags associated with the open file.  *Note File Status
+          Flags::.
+
+     ‘F_GETLK’
+          Test a file lock.  *Note File Locks::.
+
+     ‘F_SETLK’
+          Set or clear a file lock.  *Note File Locks::.
+
+     ‘F_SETLKW’
+          Like ‘F_SETLK’, but wait for completion.  *Note File Locks::.
+
+     ‘F_OFD_GETLK’
+          Test an open file description lock.  *Note Open File
+          Description Locks::.  Specific to Linux.
+
+     ‘F_OFD_SETLK’
+          Set or clear an open file description lock.  *Note Open File
+          Description Locks::.  Specific to Linux.
+
+     ‘F_OFD_SETLKW’
+          Like ‘F_OFD_SETLK’, but block until lock is acquired.  *Note
+          Open File Description Locks::.  Specific to Linux.
+
+     ‘F_GETOWN’
+          Get process or process group ID to receive ‘SIGIO’ signals.
+          *Note Interrupt Input::.
+
+     ‘F_SETOWN’
+          Set process or process group ID to receive ‘SIGIO’ signals.
+          *Note Interrupt Input::.
+
+     This function is a cancellation point in multi-threaded programs.
+     This is a problem if the thread allocates some resources (like
+     memory, file descriptors, semaphores or whatever) at the time
+     ‘fcntl’ is called.  If the thread gets canceled these resources
+     stay allocated until the program ends.  To avoid this calls to
+     ‘fcntl’ should be protected using cancellation handlers.
+
+
+File: libc.info,  Node: Duplicating Descriptors,  Next: Descriptor Flags,  Prev: Control Operations,  Up: Low-Level I/O
+
+13.12 Duplicating Descriptors
+=============================
+
+You can “duplicate” a file descriptor, or allocate another file
+descriptor that refers to the same open file as the original.  Duplicate
+descriptors share one file position and one set of file status flags
+(*note File Status Flags::), but each has its own set of file descriptor
+flags (*note Descriptor Flags::).
+
+   The major use of duplicating a file descriptor is to implement
+“redirection” of input or output: that is, to change the file or pipe
+that a particular file descriptor corresponds to.
+
+   You can perform this operation using the ‘fcntl’ function with the
+‘F_DUPFD’ command, but there are also convenient functions ‘dup’ and
+‘dup2’ for duplicating descriptors.
+
+   The ‘fcntl’ function and flags are declared in ‘fcntl.h’, while
+prototypes for ‘dup’ and ‘dup2’ are in the header file ‘unistd.h’.
+
+ -- Function: int dup (int OLD)
+     Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
+     Concepts::.
+
+     This function copies descriptor OLD to the first available
+     descriptor number (the first number not currently open).  It is
+     equivalent to ‘fcntl (OLD, F_DUPFD, 0)’.
+
+ -- Function: int dup2 (int OLD, int NEW)
+     Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
+     Concepts::.
+
+     This function copies the descriptor OLD to descriptor number NEW.
+
+     If OLD is an invalid descriptor, then ‘dup2’ does nothing; it does
+     not close NEW.  Otherwise, the new duplicate of OLD replaces any
+     previous meaning of descriptor NEW, as if NEW were closed first.
+
+     If OLD and NEW are different numbers, and OLD is a valid descriptor
+     number, then ‘dup2’ is equivalent to:
+
+          close (NEW);
+          fcntl (OLD, F_DUPFD, NEW)
+
+     However, ‘dup2’ does this atomically; there is no instant in the
+     middle of calling ‘dup2’ at which NEW is closed and not yet a
+     duplicate of OLD.
+
+ -- Macro: int F_DUPFD
+     This macro is used as the COMMAND argument to ‘fcntl’, to copy the
+     file descriptor given as the first argument.
+
+     The form of the call in this case is:
+
+          fcntl (OLD, F_DUPFD, NEXT-FILEDES)
+
+     The NEXT-FILEDES argument is of type ‘int’ and specifies that the
+     file descriptor returned should be the next available one greater
+     than or equal to this value.
+
+     The return value from ‘fcntl’ with this command is normally the
+     value of the new file descriptor.  A return value of -1 indicates
+     an error.  The following ‘errno’ error conditions are defined for
+     this command:
+
+     ‘EBADF’
+          The OLD argument is invalid.
+
+     ‘EINVAL’
+          The NEXT-FILEDES argument is invalid.
+
+     ‘EMFILE’
+          There are no more file descriptors available—your program is
+          already using the maximum.  In BSD and GNU, the maximum is
+          controlled by a resource limit that can be changed; *note
+          Limits on Resources::, for more information about the
+          ‘RLIMIT_NOFILE’ limit.
+
+     ‘ENFILE’ is not a possible error code for ‘dup2’ because ‘dup2’
+     does not create a new opening of a file; duplicate descriptors do
+     not count toward the limit which ‘ENFILE’ indicates.  ‘EMFILE’ is
+     possible because it refers to the limit on distinct descriptor
+     numbers in use in one process.
+
+   Here is an example showing how to use ‘dup2’ to do redirection.
+Typically, redirection of the standard streams (like ‘stdin’) is done by
+a shell or shell-like program before calling one of the ‘exec’ functions
+(*note Executing a File::) to execute a new program in a child process.
+When the new program is executed, it creates and initializes the
+standard streams to point to the corresponding file descriptors, before
+its ‘main’ function is invoked.
+
+   So, to redirect standard input to a file, the shell could do
+something like:
+
+     pid = fork ();
+     if (pid == 0)
+       {
+         char *filename;
+         char *program;
+         int file;
+         ...
+         file = TEMP_FAILURE_RETRY (open (filename, O_RDONLY));
+         dup2 (file, STDIN_FILENO);
+         TEMP_FAILURE_RETRY (close (file));
+         execv (program, NULL);
+       }
+
+   There is also a more detailed example showing how to implement
+redirection in the context of a pipeline of processes in *note Launching
+Jobs::.
+
+
+File: libc.info,  Node: Descriptor Flags,  Next: File Status Flags,  Prev: Duplicating Descriptors,  Up: Low-Level I/O
+
+13.13 File Descriptor Flags
+===========================
+
+“File descriptor flags” are miscellaneous attributes of a file
+descriptor.  These flags are associated with particular file
+descriptors, so that if you have created duplicate file descriptors from
+a single opening of a file, each descriptor has its own set of flags.
+
+   Currently there is just one file descriptor flag: ‘FD_CLOEXEC’, which
+causes the descriptor to be closed if you use any of the ‘exec...’
+functions (*note Executing a File::).
+
+   The symbols in this section are defined in the header file ‘fcntl.h’.
+
+ -- Macro: int F_GETFD
+     This macro is used as the COMMAND argument to ‘fcntl’, to specify
+     that it should return the file descriptor flags associated with the
+     FILEDES argument.
+
+     The normal return value from ‘fcntl’ with this command is a
+     nonnegative number which can be interpreted as the bitwise OR of
+     the individual flags (except that currently there is only one flag
+     to use).
+
+     In case of an error, ‘fcntl’ returns -1.  The following ‘errno’
+     error conditions are defined for this command:
+
+     ‘EBADF’
+          The FILEDES argument is invalid.
+
+ -- Macro: int F_SETFD
+     This macro is used as the COMMAND argument to ‘fcntl’, to specify
+     that it should set the file descriptor flags associated with the
+     FILEDES argument.  This requires a third ‘int’ argument to specify
+     the new flags, so the form of the call is:
+
+          fcntl (FILEDES, F_SETFD, NEW-FLAGS)
+
+     The normal return value from ‘fcntl’ with this command is an
+     unspecified value other than -1, which indicates an error.  The
+     flags and error conditions are the same as for the ‘F_GETFD’
+     command.
+
+   The following macro is defined for use as a file descriptor flag with
+the ‘fcntl’ function.  The value is an integer constant usable as a bit
+mask value.
+
+ -- Macro: int FD_CLOEXEC
+     This flag specifies that the file descriptor should be closed when
+     an ‘exec’ function is invoked; see *note Executing a File::.  When
+     a file descriptor is allocated (as with ‘open’ or ‘dup’), this bit
+     is initially cleared on the new file descriptor, meaning that
+     descriptor will survive into the new program after ‘exec’.
+
+   If you want to modify the file descriptor flags, you should get the
+current flags with ‘F_GETFD’ and modify the value.  Don’t assume that
+the flags listed here are the only ones that are implemented; your
+program may be run years from now and more flags may exist then.  For
+example, here is a function to set or clear the flag ‘FD_CLOEXEC’
+without altering any other flags:
+
+     /* Set the ‘FD_CLOEXEC’ flag of DESC if VALUE is nonzero,
+        or clear the flag if VALUE is 0.
+        Return 0 on success, or -1 on error with ‘errno’ set. */
+
+     int
+     set_cloexec_flag (int desc, int value)
+     {
+       int oldflags = fcntl (desc, F_GETFD, 0);
+       /* If reading the flags failed, return error indication now. */
+       if (oldflags < 0)
+         return oldflags;
+       /* Set just the flag we want to set. */
+       if (value != 0)
+         oldflags |= FD_CLOEXEC;
+       else
+         oldflags &= ~FD_CLOEXEC;
+       /* Store modified flag word in the descriptor. */
+       return fcntl (desc, F_SETFD, oldflags);
+     }
+
+
+File: libc.info,  Node: File Status Flags,  Next: File Locks,  Prev: Descriptor Flags,  Up: Low-Level I/O
+
+13.14 File Status Flags
+=======================
+
+“File status flags” are used to specify attributes of the opening of a
+file.  Unlike the file descriptor flags discussed in *note Descriptor
+Flags::, the file status flags are shared by duplicated file descriptors
+resulting from a single opening of the file.  The file status flags are
+specified with the FLAGS argument to ‘open’; *note Opening and Closing
+Files::.
+
+   File status flags fall into three categories, which are described in
+the following sections.
+
+   • *note Access Modes::, specify what type of access is allowed to the
+     file: reading, writing, or both.  They are set by ‘open’ and are
+     returned by ‘fcntl’, but cannot be changed.
+
+   • *note Open-time Flags::, control details of what ‘open’ will do.
+     These flags are not preserved after the ‘open’ call.
+
+   • *note Operating Modes::, affect how operations such as ‘read’ and
+     ‘write’ are done.  They are set by ‘open’, and can be fetched or
+     changed with ‘fcntl’.
+
+   The symbols in this section are defined in the header file ‘fcntl.h’.
+
+* Menu:
+
+* Access Modes::                Whether the descriptor can read or write.
+* Open-time Flags::             Details of ‘open’.
+* Operating Modes::             Special modes to control I/O operations.
+* Getting File Status Flags::   Fetching and changing these flags.
+
+
+File: libc.info,  Node: Access Modes,  Next: Open-time Flags,  Up: File Status Flags
+
+13.14.1 File Access Modes
+-------------------------
+
+The file access modes allow a file descriptor to be used for reading,
+writing, or both.  (On GNU/Hurd systems, they can also allow none of
+these, and allow execution of the file as a program.)  The access modes
+are chosen when the file is opened, and never change.
+
+ -- Macro: int O_RDONLY
+     Open the file for read access.
+
+ -- Macro: int O_WRONLY
+     Open the file for write access.
+
+ -- Macro: int O_RDWR
+     Open the file for both reading and writing.
+
+   On GNU/Hurd systems (and not on other systems), ‘O_RDONLY’ and
+‘O_WRONLY’ are independent bits that can be bitwise-ORed together, and
+it is valid for either bit to be set or clear.  This means that ‘O_RDWR’
+is the same as ‘O_RDONLY|O_WRONLY’.  A file access mode of zero is
+permissible; it allows no operations that do input or output to the
+file, but does allow other operations such as ‘fchmod’.  On GNU/Hurd
+systems, since “read-only” or “write-only” is a misnomer, ‘fcntl.h’
+defines additional names for the file access modes.  These names are
+preferred when writing GNU-specific code.  But most programs will want
+to be portable to other POSIX.1 systems and should use the POSIX.1 names
+above instead.
+
+ -- Macro: int O_READ
+     Open the file for reading.  Same as ‘O_RDONLY’; only defined on
+     GNU.
+
+ -- Macro: int O_WRITE
+     Open the file for writing.  Same as ‘O_WRONLY’; only defined on
+     GNU.
+
+ -- Macro: int O_EXEC
+     Open the file for executing.  Only defined on GNU.
+
+   To determine the file access mode with ‘fcntl’, you must extract the
+access mode bits from the retrieved file status flags.  On GNU/Hurd
+systems, you can just test the ‘O_READ’ and ‘O_WRITE’ bits in the flags
+word.  But in other POSIX.1 systems, reading and writing access modes
+are not stored as distinct bit flags.  The portable way to extract the
+file access mode bits is with ‘O_ACCMODE’.
+
+ -- Macro: int O_ACCMODE
+     This macro stands for a mask that can be bitwise-ANDed with the
+     file status flag value to produce a value representing the file
+     access mode.  The mode will be ‘O_RDONLY’, ‘O_WRONLY’, or ‘O_RDWR’.
+     (On GNU/Hurd systems it could also be zero, and it never includes
+     the ‘O_EXEC’ bit.)
+
+
+File: libc.info,  Node: Open-time Flags,  Next: Operating Modes,  Prev: Access Modes,  Up: File Status Flags
+
+13.14.2 Open-time Flags
+-----------------------
+
+The open-time flags specify options affecting how ‘open’ will behave.
+These options are not preserved once the file is open.  The exception to
+this is ‘O_NONBLOCK’, which is also an I/O operating mode and so it _is_
+saved.  *Note Opening and Closing Files::, for how to call ‘open’.
+
+   There are two sorts of options specified by open-time flags.
+
+   • “File name translation flags” affect how ‘open’ looks up the file
+     name to locate the file, and whether the file can be created.
+
+   • “Open-time action flags” specify extra operations that ‘open’ will
+     perform on the file once it is open.
+
+   Here are the file name translation flags.
+
+ -- Macro: int O_CREAT
+     If set, the file will be created if it doesn’t already exist.
+
+ -- Macro: int O_EXCL
+     If both ‘O_CREAT’ and ‘O_EXCL’ are set, then ‘open’ fails if the
+     specified file already exists.  This is guaranteed to never clobber
+     an existing file.
+
+ -- Macro: int O_NONBLOCK
+     This prevents ‘open’ from blocking for a “long time” to open the
+     file.  This is only meaningful for some kinds of files, usually
+     devices such as serial ports; when it is not meaningful, it is
+     harmless and ignored.  Often, opening a port to a modem blocks
+     until the modem reports carrier detection; if ‘O_NONBLOCK’ is
+     specified, ‘open’ will return immediately without a carrier.
+
+     Note that the ‘O_NONBLOCK’ flag is overloaded as both an I/O
+     operating mode and a file name translation flag.  This means that
+     specifying ‘O_NONBLOCK’ in ‘open’ also sets nonblocking I/O mode;
+     *note Operating Modes::.  To open the file without blocking but do
+     normal I/O that blocks, you must call ‘open’ with ‘O_NONBLOCK’ set
+     and then call ‘fcntl’ to turn the bit off.
+
+ -- Macro: int O_NOCTTY
+     If the named file is a terminal device, don’t make it the
+     controlling terminal for the process.  *Note Job Control::, for
+     information about what it means to be the controlling terminal.
+
+     On GNU/Hurd systems and 4.4 BSD, opening a file never makes it the
+     controlling terminal and ‘O_NOCTTY’ is zero.  However, GNU/Linux
+     systems and some other systems use a nonzero value for ‘O_NOCTTY’
+     and set the controlling terminal when you open a file that is a
+     terminal device; so to be portable, use ‘O_NOCTTY’ when it is
+     important to avoid this.
+
+   The following three file name translation flags exist only on
+GNU/Hurd systems.
+
+ -- Macro: int O_IGNORE_CTTY
+     Do not recognize the named file as the controlling terminal, even
+     if it refers to the process’s existing controlling terminal device.
+     Operations on the new file descriptor will never induce job control
+     signals.  *Note Job Control::.
+
+ -- Macro: int O_NOLINK
+     If the named file is a symbolic link, open the link itself instead
+     of the file it refers to.  (‘fstat’ on the new file descriptor will
+     return the information returned by ‘lstat’ on the link’s name.)
+
+ -- Macro: int O_NOTRANS
+     If the named file is specially translated, do not invoke the
+     translator.  Open the bare file the translator itself sees.
+
+   The open-time action flags tell ‘open’ to do additional operations
+which are not really related to opening the file.  The reason to do them
+as part of ‘open’ instead of in separate calls is that ‘open’ can do
+them atomically.
+
+ -- Macro: int O_TRUNC
+     Truncate the file to zero length.  This option is only useful for
+     regular files, not special files such as directories or FIFOs.
+     POSIX.1 requires that you open the file for writing to use
+     ‘O_TRUNC’.  In BSD and GNU you must have permission to write the
+     file to truncate it, but you need not open for write access.
+
+     This is the only open-time action flag specified by POSIX.1.  There
+     is no good reason for truncation to be done by ‘open’, instead of
+     by calling ‘ftruncate’ afterwards.  The ‘O_TRUNC’ flag existed in
+     Unix before ‘ftruncate’ was invented, and is retained for backward
+     compatibility.
+
+   The remaining operating modes are BSD extensions.  They exist only on
+some systems.  On other systems, these macros are not defined.
+
+ -- Macro: int O_SHLOCK
+     Acquire a shared lock on the file, as with ‘flock’.  *Note File
+     Locks::.
+
+     If ‘O_CREAT’ is specified, the locking is done atomically when
+     creating the file.  You are guaranteed that no other process will
+     get the lock on the new file first.
+
+ -- Macro: int O_EXLOCK
+     Acquire an exclusive lock on the file, as with ‘flock’.  *Note File
+     Locks::.  This is atomic like ‘O_SHLOCK’.
 

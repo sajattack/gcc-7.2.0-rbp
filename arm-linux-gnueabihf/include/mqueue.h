@@ -21,7 +21,8 @@
 #include <features.h>
 #include <sys/types.h>
 #include <fcntl.h>
-#include <bits/types/sigevent_t.h>
+#define __need_sigevent_t
+#include <bits/siginfo.h>
 #include <bits/types/struct_timespec.h>
 /* Get the definition of mqd_t and struct mq_attr.  */
 #include <bits/mqueue.h>

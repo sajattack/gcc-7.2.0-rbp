@@ -2,7 +2,7 @@ This is libc.info, produced by makeinfo version 6.4 from libc.texinfo.
 
 This file documents the GNU C Library.
 
-   This is ‘The GNU C Library Reference Manual’, for version 2.26.
+   This is ‘The GNU C Library Reference Manual’, for version 2.25.
 
    Copyright © 1993–2017 Free Software Foundation, Inc.
 
@@ -35,7 +35,6 @@ START-INFO-DIR-ENTRY
 * BRKINT: (libc)Input Modes.
 * BUFSIZ: (libc)Controlling Buffering.
 * CCTS_OFLOW: (libc)Control Modes.
-* CHAR_BIT: (libc)Width of Type.
 * CHILD_MAX: (libc)General Limits.
 * CIGNORE: (libc)Control Modes.
 * CLK_TCK: (libc)Processor Time.
@@ -249,8 +248,6 @@ START-INFO-DIR-ENTRY
 * HUGE_VAL: (libc)Math Error Reporting.
 * HUGE_VALF: (libc)Math Error Reporting.
 * HUGE_VALL: (libc)Math Error Reporting.
-* HUGE_VAL_FN: (libc)Math Error Reporting.
-* HUGE_VAL_FNx: (libc)Math Error Reporting.
 * HUPCL: (libc)Control Modes.
 * I: (libc)Complex Numbers.
 * ICANON: (libc)Local Modes.
@@ -389,8 +386,6 @@ START-INFO-DIR-ENTRY
 * SIG_ERR: (libc)Basic Signal Handling.
 * SNAN: (libc)Infinity and NaN.
 * SNANF: (libc)Infinity and NaN.
-* SNANFN: (libc)Infinity and NaN.
-* SNANFNx: (libc)Infinity and NaN.
 * SNANL: (libc)Infinity and NaN.
 * SOCK_DGRAM: (libc)Communication Styles.
 * SOCK_RAW: (libc)Communication Styles.
@@ -500,12 +495,8 @@ START-INFO-DIR-ENTRY
 * access: (libc)Testing File Access.
 * acos: (libc)Inverse Trig Functions.
 * acosf: (libc)Inverse Trig Functions.
-* acosfN: (libc)Inverse Trig Functions.
-* acosfNx: (libc)Inverse Trig Functions.
 * acosh: (libc)Hyperbolic Functions.
 * acoshf: (libc)Hyperbolic Functions.
-* acoshfN: (libc)Hyperbolic Functions.
-* acoshfNx: (libc)Hyperbolic Functions.
 * acoshl: (libc)Hyperbolic Functions.
 * acosl: (libc)Inverse Trig Functions.
 * addmntent: (libc)mtab.
@@ -554,12 +545,8 @@ START-INFO-DIR-ENTRY
 * asctime_r: (libc)Formatting Calendar Time.
 * asin: (libc)Inverse Trig Functions.
 * asinf: (libc)Inverse Trig Functions.
-* asinfN: (libc)Inverse Trig Functions.
-* asinfNx: (libc)Inverse Trig Functions.
 * asinh: (libc)Hyperbolic Functions.
 * asinhf: (libc)Hyperbolic Functions.
-* asinhfN: (libc)Hyperbolic Functions.
-* asinhfNx: (libc)Hyperbolic Functions.
 * asinhl: (libc)Hyperbolic Functions.
 * asinl: (libc)Inverse Trig Functions.
 * asprintf: (libc)Dynamic Output.
@@ -567,17 +554,11 @@ START-INFO-DIR-ENTRY
 * assert_perror: (libc)Consistency Checking.
 * atan2: (libc)Inverse Trig Functions.
 * atan2f: (libc)Inverse Trig Functions.
-* atan2fN: (libc)Inverse Trig Functions.
-* atan2fNx: (libc)Inverse Trig Functions.
 * atan2l: (libc)Inverse Trig Functions.
 * atan: (libc)Inverse Trig Functions.
 * atanf: (libc)Inverse Trig Functions.
-* atanfN: (libc)Inverse Trig Functions.
-* atanfNx: (libc)Inverse Trig Functions.
 * atanh: (libc)Hyperbolic Functions.
 * atanhf: (libc)Hyperbolic Functions.
-* atanhfN: (libc)Hyperbolic Functions.
-* atanhfNx: (libc)Hyperbolic Functions.
 * atanhl: (libc)Hyperbolic Functions.
 * atanl: (libc)Inverse Trig Functions.
 * atexit: (libc)Cleanups on Exit.
@@ -601,49 +582,31 @@ START-INFO-DIR-ENTRY
 * bzero: (libc)Copying Strings and Arrays.
 * cabs: (libc)Absolute Value.
 * cabsf: (libc)Absolute Value.
-* cabsfN: (libc)Absolute Value.
-* cabsfNx: (libc)Absolute Value.
 * cabsl: (libc)Absolute Value.
 * cacos: (libc)Inverse Trig Functions.
 * cacosf: (libc)Inverse Trig Functions.
-* cacosfN: (libc)Inverse Trig Functions.
-* cacosfNx: (libc)Inverse Trig Functions.
 * cacosh: (libc)Hyperbolic Functions.
 * cacoshf: (libc)Hyperbolic Functions.
-* cacoshfN: (libc)Hyperbolic Functions.
-* cacoshfNx: (libc)Hyperbolic Functions.
 * cacoshl: (libc)Hyperbolic Functions.
 * cacosl: (libc)Inverse Trig Functions.
 * calloc: (libc)Allocating Cleared Space.
 * canonicalize: (libc)FP Bit Twiddling.
 * canonicalize_file_name: (libc)Symbolic Links.
 * canonicalizef: (libc)FP Bit Twiddling.
-* canonicalizefN: (libc)FP Bit Twiddling.
-* canonicalizefNx: (libc)FP Bit Twiddling.
 * canonicalizel: (libc)FP Bit Twiddling.
 * carg: (libc)Operations on Complex.
 * cargf: (libc)Operations on Complex.
-* cargfN: (libc)Operations on Complex.
-* cargfNx: (libc)Operations on Complex.
 * cargl: (libc)Operations on Complex.
 * casin: (libc)Inverse Trig Functions.
 * casinf: (libc)Inverse Trig Functions.
-* casinfN: (libc)Inverse Trig Functions.
-* casinfNx: (libc)Inverse Trig Functions.
 * casinh: (libc)Hyperbolic Functions.
 * casinhf: (libc)Hyperbolic Functions.
-* casinhfN: (libc)Hyperbolic Functions.
-* casinhfNx: (libc)Hyperbolic Functions.
 * casinhl: (libc)Hyperbolic Functions.
 * casinl: (libc)Inverse Trig Functions.
 * catan: (libc)Inverse Trig Functions.
 * catanf: (libc)Inverse Trig Functions.
-* catanfN: (libc)Inverse Trig Functions.
-* catanfNx: (libc)Inverse Trig Functions.
 * catanh: (libc)Hyperbolic Functions.
 * catanhf: (libc)Hyperbolic Functions.
-* catanhfN: (libc)Hyperbolic Functions.
-* catanhfNx: (libc)Hyperbolic Functions.
 * catanhl: (libc)Hyperbolic Functions.
 * catanl: (libc)Inverse Trig Functions.
 * catclose: (libc)The catgets Functions.
@@ -652,32 +615,23 @@ START-INFO-DIR-ENTRY
 * cbc_crypt: (libc)DES Encryption.
 * cbrt: (libc)Exponents and Logarithms.
 * cbrtf: (libc)Exponents and Logarithms.
-* cbrtfN: (libc)Exponents and Logarithms.
-* cbrtfNx: (libc)Exponents and Logarithms.
 * cbrtl: (libc)Exponents and Logarithms.
 * ccos: (libc)Trig Functions.
 * ccosf: (libc)Trig Functions.
-* ccosfN: (libc)Trig Functions.
-* ccosfNx: (libc)Trig Functions.
 * ccosh: (libc)Hyperbolic Functions.
 * ccoshf: (libc)Hyperbolic Functions.
-* ccoshfN: (libc)Hyperbolic Functions.
-* ccoshfNx: (libc)Hyperbolic Functions.
 * ccoshl: (libc)Hyperbolic Functions.
 * ccosl: (libc)Trig Functions.
 * ceil: (libc)Rounding Functions.
 * ceilf: (libc)Rounding Functions.
-* ceilfN: (libc)Rounding Functions.
-* ceilfNx: (libc)Rounding Functions.
 * ceill: (libc)Rounding Functions.
 * cexp: (libc)Exponents and Logarithms.
 * cexpf: (libc)Exponents and Logarithms.
-* cexpfN: (libc)Exponents and Logarithms.
-* cexpfNx: (libc)Exponents and Logarithms.
 * cexpl: (libc)Exponents and Logarithms.
 * cfgetispeed: (libc)Line Speed.
 * cfgetospeed: (libc)Line Speed.
 * cfmakeraw: (libc)Noncanonical Input.
+* cfree: (libc)Freeing after Malloc.
 * cfsetispeed: (libc)Line Speed.
 * cfsetospeed: (libc)Line Speed.
 * cfsetspeed: (libc)Line Speed.
@@ -686,8 +640,6 @@ START-INFO-DIR-ENTRY
 * chown: (libc)File Owner.
 * cimag: (libc)Operations on Complex.
 * cimagf: (libc)Operations on Complex.
-* cimagfN: (libc)Operations on Complex.
-* cimagfNx: (libc)Operations on Complex.
 * cimagl: (libc)Operations on Complex.
 * clearenv: (libc)Environment Access.
 * clearerr: (libc)Error Recovery.
@@ -695,13 +647,9 @@ START-INFO-DIR-ENTRY
 * clock: (libc)CPU Time.
 * clog10: (libc)Exponents and Logarithms.
 * clog10f: (libc)Exponents and Logarithms.
-* clog10fN: (libc)Exponents and Logarithms.
-* clog10fNx: (libc)Exponents and Logarithms.
 * clog10l: (libc)Exponents and Logarithms.
 * clog: (libc)Exponents and Logarithms.
 * clogf: (libc)Exponents and Logarithms.
-* clogfN: (libc)Exponents and Logarithms.
-* clogfNx: (libc)Exponents and Logarithms.
 * clogl: (libc)Exponents and Logarithms.
 * close: (libc)Opening and Closing Files.
 * closedir: (libc)Reading/Closing Directory.
@@ -709,39 +657,25 @@ START-INFO-DIR-ENTRY
 * confstr: (libc)String Parameters.
 * conj: (libc)Operations on Complex.
 * conjf: (libc)Operations on Complex.
-* conjfN: (libc)Operations on Complex.
-* conjfNx: (libc)Operations on Complex.
 * conjl: (libc)Operations on Complex.
 * connect: (libc)Connecting.
 * copysign: (libc)FP Bit Twiddling.
 * copysignf: (libc)FP Bit Twiddling.
-* copysignfN: (libc)FP Bit Twiddling.
-* copysignfNx: (libc)FP Bit Twiddling.
 * copysignl: (libc)FP Bit Twiddling.
 * cos: (libc)Trig Functions.
 * cosf: (libc)Trig Functions.
-* cosfN: (libc)Trig Functions.
-* cosfNx: (libc)Trig Functions.
 * cosh: (libc)Hyperbolic Functions.
 * coshf: (libc)Hyperbolic Functions.
-* coshfN: (libc)Hyperbolic Functions.
-* coshfNx: (libc)Hyperbolic Functions.
 * coshl: (libc)Hyperbolic Functions.
 * cosl: (libc)Trig Functions.
 * cpow: (libc)Exponents and Logarithms.
 * cpowf: (libc)Exponents and Logarithms.
-* cpowfN: (libc)Exponents and Logarithms.
-* cpowfNx: (libc)Exponents and Logarithms.
 * cpowl: (libc)Exponents and Logarithms.
 * cproj: (libc)Operations on Complex.
 * cprojf: (libc)Operations on Complex.
-* cprojfN: (libc)Operations on Complex.
-* cprojfNx: (libc)Operations on Complex.
 * cprojl: (libc)Operations on Complex.
 * creal: (libc)Operations on Complex.
 * crealf: (libc)Operations on Complex.
-* crealfN: (libc)Operations on Complex.
-* crealfNx: (libc)Operations on Complex.
 * creall: (libc)Operations on Complex.
 * creat64: (libc)Opening and Closing Files.
 * creat: (libc)Opening and Closing Files.
@@ -749,27 +683,17 @@ START-INFO-DIR-ENTRY
 * crypt_r: (libc)crypt.
 * csin: (libc)Trig Functions.
 * csinf: (libc)Trig Functions.
-* csinfN: (libc)Trig Functions.
-* csinfNx: (libc)Trig Functions.
 * csinh: (libc)Hyperbolic Functions.
 * csinhf: (libc)Hyperbolic Functions.
-* csinhfN: (libc)Hyperbolic Functions.
-* csinhfNx: (libc)Hyperbolic Functions.
 * csinhl: (libc)Hyperbolic Functions.
 * csinl: (libc)Trig Functions.
 * csqrt: (libc)Exponents and Logarithms.
 * csqrtf: (libc)Exponents and Logarithms.
-* csqrtfN: (libc)Exponents and Logarithms.
-* csqrtfNx: (libc)Exponents and Logarithms.
 * csqrtl: (libc)Exponents and Logarithms.
 * ctan: (libc)Trig Functions.
 * ctanf: (libc)Trig Functions.
-* ctanfN: (libc)Trig Functions.
-* ctanfNx: (libc)Trig Functions.
 * ctanh: (libc)Hyperbolic Functions.
 * ctanhf: (libc)Hyperbolic Functions.
-* ctanhfN: (libc)Hyperbolic Functions.
-* ctanhfNx: (libc)Hyperbolic Functions.
 * ctanhl: (libc)Hyperbolic Functions.
 * ctanl: (libc)Trig Functions.
 * ctermid: (libc)Identifying the Terminal.
@@ -819,12 +743,8 @@ START-INFO-DIR-ENTRY
 * erf: (libc)Special Functions.
 * erfc: (libc)Special Functions.
 * erfcf: (libc)Special Functions.
-* erfcfN: (libc)Special Functions.
-* erfcfNx: (libc)Special Functions.
 * erfcl: (libc)Special Functions.
 * erff: (libc)Special Functions.
-* erffN: (libc)Special Functions.
-* erffNx: (libc)Special Functions.
 * erfl: (libc)Special Functions.
 * err: (libc)Error Messages.
 * errno: (libc)Checking for Errors.
@@ -840,29 +760,19 @@ START-INFO-DIR-ENTRY
 * exit: (libc)Normal Termination.
 * exp10: (libc)Exponents and Logarithms.
 * exp10f: (libc)Exponents and Logarithms.
-* exp10fN: (libc)Exponents and Logarithms.
-* exp10fNx: (libc)Exponents and Logarithms.
 * exp10l: (libc)Exponents and Logarithms.
 * exp2: (libc)Exponents and Logarithms.
 * exp2f: (libc)Exponents and Logarithms.
-* exp2fN: (libc)Exponents and Logarithms.
-* exp2fNx: (libc)Exponents and Logarithms.
 * exp2l: (libc)Exponents and Logarithms.
 * exp: (libc)Exponents and Logarithms.
 * expf: (libc)Exponents and Logarithms.
-* expfN: (libc)Exponents and Logarithms.
-* expfNx: (libc)Exponents and Logarithms.
 * expl: (libc)Exponents and Logarithms.
 * explicit_bzero: (libc)Erasing Sensitive Data.
 * expm1: (libc)Exponents and Logarithms.
 * expm1f: (libc)Exponents and Logarithms.
-* expm1fN: (libc)Exponents and Logarithms.
-* expm1fNx: (libc)Exponents and Logarithms.
 * expm1l: (libc)Exponents and Logarithms.
 * fabs: (libc)Absolute Value.
 * fabsf: (libc)Absolute Value.
-* fabsfN: (libc)Absolute Value.
-* fabsfNx: (libc)Absolute Value.
 * fabsl: (libc)Absolute Value.
 * fchdir: (libc)Working Directory.
 * fchmod: (libc)Setting Permissions.
@@ -875,8 +785,6 @@ START-INFO-DIR-ENTRY
 * fdatasync: (libc)Synchronizing I/O.
 * fdim: (libc)Misc FP Arithmetic.
 * fdimf: (libc)Misc FP Arithmetic.
-* fdimfN: (libc)Misc FP Arithmetic.
-* fdimfNx: (libc)Misc FP Arithmetic.
 * fdiml: (libc)Misc FP Arithmetic.
 * fdopen: (libc)Descriptors and Streams.
 * fdopendir: (libc)Opening a Directory.
@@ -926,39 +834,25 @@ START-INFO-DIR-ENTRY
 * flockfile: (libc)Streams and Threads.
 * floor: (libc)Rounding Functions.
 * floorf: (libc)Rounding Functions.
-* floorfN: (libc)Rounding Functions.
-* floorfNx: (libc)Rounding Functions.
 * floorl: (libc)Rounding Functions.
 * fma: (libc)Misc FP Arithmetic.
 * fmaf: (libc)Misc FP Arithmetic.
-* fmafN: (libc)Misc FP Arithmetic.
-* fmafNx: (libc)Misc FP Arithmetic.
 * fmal: (libc)Misc FP Arithmetic.
 * fmax: (libc)Misc FP Arithmetic.
 * fmaxf: (libc)Misc FP Arithmetic.
-* fmaxfN: (libc)Misc FP Arithmetic.
-* fmaxfNx: (libc)Misc FP Arithmetic.
 * fmaxl: (libc)Misc FP Arithmetic.
 * fmaxmag: (libc)Misc FP Arithmetic.
 * fmaxmagf: (libc)Misc FP Arithmetic.
-* fmaxmagfN: (libc)Misc FP Arithmetic.
-* fmaxmagfNx: (libc)Misc FP Arithmetic.
 * fmaxmagl: (libc)Misc FP Arithmetic.
 * fmemopen: (libc)String Streams.
 * fmin: (libc)Misc FP Arithmetic.
 * fminf: (libc)Misc FP Arithmetic.
-* fminfN: (libc)Misc FP Arithmetic.
-* fminfNx: (libc)Misc FP Arithmetic.
 * fminl: (libc)Misc FP Arithmetic.
 * fminmag: (libc)Misc FP Arithmetic.
 * fminmagf: (libc)Misc FP Arithmetic.
-* fminmagfN: (libc)Misc FP Arithmetic.
-* fminmagfNx: (libc)Misc FP Arithmetic.
 * fminmagl: (libc)Misc FP Arithmetic.
 * fmod: (libc)Remainder Functions.
 * fmodf: (libc)Remainder Functions.
-* fmodfN: (libc)Remainder Functions.
-* fmodfNx: (libc)Remainder Functions.
 * fmodl: (libc)Remainder Functions.
 * fmtmsg: (libc)Printing Formatted Messages.
 * fnmatch: (libc)Wildcard Matching.
@@ -985,18 +879,12 @@ START-INFO-DIR-ENTRY
 * freopen: (libc)Opening Streams.
 * frexp: (libc)Normalization Functions.
 * frexpf: (libc)Normalization Functions.
-* frexpfN: (libc)Normalization Functions.
-* frexpfNx: (libc)Normalization Functions.
 * frexpl: (libc)Normalization Functions.
 * fromfp: (libc)Rounding Functions.
 * fromfpf: (libc)Rounding Functions.
-* fromfpfN: (libc)Rounding Functions.
-* fromfpfNx: (libc)Rounding Functions.
 * fromfpl: (libc)Rounding Functions.
 * fromfpx: (libc)Rounding Functions.
 * fromfpxf: (libc)Rounding Functions.
-* fromfpxfN: (libc)Rounding Functions.
-* fromfpxfNx: (libc)Rounding Functions.
 * fromfpxl: (libc)Rounding Functions.
 * fscanf: (libc)Formatted Input Functions.
 * fseek: (libc)File Positioning.
@@ -1085,8 +973,6 @@ START-INFO-DIR-ENTRY
 * getpass: (libc)getpass.
 * getpayload: (libc)FP Bit Twiddling.
 * getpayloadf: (libc)FP Bit Twiddling.
-* getpayloadfN: (libc)FP Bit Twiddling.
-* getpayloadfNx: (libc)FP Bit Twiddling.
 * getpayloadl: (libc)FP Bit Twiddling.
 * getpeername: (libc)Who is Connected.
 * getpgid: (libc)Process Group Functions.
@@ -1157,8 +1043,6 @@ START-INFO-DIR-ENTRY
 * htons: (libc)Byte Order.
 * hypot: (libc)Exponents and Logarithms.
 * hypotf: (libc)Exponents and Logarithms.
-* hypotfN: (libc)Exponents and Logarithms.
-* hypotfNx: (libc)Exponents and Logarithms.
 * hypotl: (libc)Exponents and Logarithms.
 * iconv: (libc)Generic Conversion Interface.
 * iconv_close: (libc)Generic Conversion Interface.
@@ -1169,8 +1053,6 @@ START-INFO-DIR-ENTRY
 * if_nametoindex: (libc)Interface Naming.
 * ilogb: (libc)Exponents and Logarithms.
 * ilogbf: (libc)Exponents and Logarithms.
-* ilogbfN: (libc)Exponents and Logarithms.
-* ilogbfNx: (libc)Exponents and Logarithms.
 * ilogbl: (libc)Exponents and Logarithms.
 * imaxabs: (libc)Absolute Value.
 * imaxdiv: (libc)Integer Division.
@@ -1240,18 +1122,12 @@ START-INFO-DIR-ENTRY
 * iszero: (libc)Floating Point Classes.
 * j0: (libc)Special Functions.
 * j0f: (libc)Special Functions.
-* j0fN: (libc)Special Functions.
-* j0fNx: (libc)Special Functions.
 * j0l: (libc)Special Functions.
 * j1: (libc)Special Functions.
 * j1f: (libc)Special Functions.
-* j1fN: (libc)Special Functions.
-* j1fNx: (libc)Special Functions.
 * j1l: (libc)Special Functions.
 * jn: (libc)Special Functions.
 * jnf: (libc)Special Functions.
-* jnfN: (libc)Special Functions.
-* jnfNx: (libc)Special Functions.
 * jnl: (libc)Special Functions.
 * jrand48: (libc)SVID Random.
 * jrand48_r: (libc)SVID Random.
@@ -1263,18 +1139,12 @@ START-INFO-DIR-ENTRY
 * lcong48_r: (libc)SVID Random.
 * ldexp: (libc)Normalization Functions.
 * ldexpf: (libc)Normalization Functions.
-* ldexpfN: (libc)Normalization Functions.
-* ldexpfNx: (libc)Normalization Functions.
 * ldexpl: (libc)Normalization Functions.
 * ldiv: (libc)Integer Division.
 * lfind: (libc)Array Search Function.
 * lgamma: (libc)Special Functions.
 * lgamma_r: (libc)Special Functions.
 * lgammaf: (libc)Special Functions.
-* lgammafN: (libc)Special Functions.
-* lgammafN_r: (libc)Special Functions.
-* lgammafNx: (libc)Special Functions.
-* lgammafNx_r: (libc)Special Functions.
 * lgammaf_r: (libc)Special Functions.
 * lgammal: (libc)Special Functions.
 * lgammal_r: (libc)Special Functions.
@@ -1286,46 +1156,30 @@ START-INFO-DIR-ENTRY
 * lldiv: (libc)Integer Division.
 * llogb: (libc)Exponents and Logarithms.
 * llogbf: (libc)Exponents and Logarithms.
-* llogbfN: (libc)Exponents and Logarithms.
-* llogbfNx: (libc)Exponents and Logarithms.
 * llogbl: (libc)Exponents and Logarithms.
 * llrint: (libc)Rounding Functions.
 * llrintf: (libc)Rounding Functions.
-* llrintfN: (libc)Rounding Functions.
-* llrintfNx: (libc)Rounding Functions.
 * llrintl: (libc)Rounding Functions.
 * llround: (libc)Rounding Functions.
 * llroundf: (libc)Rounding Functions.
-* llroundfN: (libc)Rounding Functions.
-* llroundfNx: (libc)Rounding Functions.
 * llroundl: (libc)Rounding Functions.
 * localeconv: (libc)The Lame Way to Locale Data.
 * localtime: (libc)Broken-down Time.
 * localtime_r: (libc)Broken-down Time.
 * log10: (libc)Exponents and Logarithms.
 * log10f: (libc)Exponents and Logarithms.
-* log10fN: (libc)Exponents and Logarithms.
-* log10fNx: (libc)Exponents and Logarithms.
 * log10l: (libc)Exponents and Logarithms.
 * log1p: (libc)Exponents and Logarithms.
 * log1pf: (libc)Exponents and Logarithms.
-* log1pfN: (libc)Exponents and Logarithms.
-* log1pfNx: (libc)Exponents and Logarithms.
 * log1pl: (libc)Exponents and Logarithms.
 * log2: (libc)Exponents and Logarithms.
 * log2f: (libc)Exponents and Logarithms.
-* log2fN: (libc)Exponents and Logarithms.
-* log2fNx: (libc)Exponents and Logarithms.
 * log2l: (libc)Exponents and Logarithms.
 * log: (libc)Exponents and Logarithms.
 * logb: (libc)Exponents and Logarithms.
 * logbf: (libc)Exponents and Logarithms.
-* logbfN: (libc)Exponents and Logarithms.
-* logbfNx: (libc)Exponents and Logarithms.
 * logbl: (libc)Exponents and Logarithms.
 * logf: (libc)Exponents and Logarithms.
-* logfN: (libc)Exponents and Logarithms.
-* logfNx: (libc)Exponents and Logarithms.
 * login: (libc)Logging In and Out.
 * login_tty: (libc)Logging In and Out.
 * logl: (libc)Exponents and Logarithms.
@@ -1336,13 +1190,9 @@ START-INFO-DIR-ENTRY
 * lrand48_r: (libc)SVID Random.
 * lrint: (libc)Rounding Functions.
 * lrintf: (libc)Rounding Functions.
-* lrintfN: (libc)Rounding Functions.
-* lrintfNx: (libc)Rounding Functions.
 * lrintl: (libc)Rounding Functions.
 * lround: (libc)Rounding Functions.
 * lroundf: (libc)Rounding Functions.
-* lroundfN: (libc)Rounding Functions.
-* lroundfNx: (libc)Rounding Functions.
 * lroundl: (libc)Rounding Functions.
 * lsearch: (libc)Array Search Function.
 * lseek64: (libc)File Position Primitive.
@@ -1388,8 +1238,6 @@ START-INFO-DIR-ENTRY
 * mmap: (libc)Memory-mapped I/O.
 * modf: (libc)Rounding Functions.
 * modff: (libc)Rounding Functions.
-* modffN: (libc)Rounding Functions.
-* modffNx: (libc)Rounding Functions.
 * modfl: (libc)Rounding Functions.
 * mount: (libc)Mount-Unmount-Remount.
 * mprobe: (libc)Heap Consistency Checking.
@@ -1404,32 +1252,22 @@ START-INFO-DIR-ENTRY
 * muntrace: (libc)Tracing malloc.
 * nan: (libc)FP Bit Twiddling.
 * nanf: (libc)FP Bit Twiddling.
-* nanfN: (libc)FP Bit Twiddling.
-* nanfNx: (libc)FP Bit Twiddling.
 * nanl: (libc)FP Bit Twiddling.
 * nanosleep: (libc)Sleeping.
 * nearbyint: (libc)Rounding Functions.
 * nearbyintf: (libc)Rounding Functions.
-* nearbyintfN: (libc)Rounding Functions.
-* nearbyintfNx: (libc)Rounding Functions.
 * nearbyintl: (libc)Rounding Functions.
 * nextafter: (libc)FP Bit Twiddling.
 * nextafterf: (libc)FP Bit Twiddling.
-* nextafterfN: (libc)FP Bit Twiddling.
-* nextafterfNx: (libc)FP Bit Twiddling.
 * nextafterl: (libc)FP Bit Twiddling.
 * nextdown: (libc)FP Bit Twiddling.
 * nextdownf: (libc)FP Bit Twiddling.
-* nextdownfN: (libc)FP Bit Twiddling.
-* nextdownfNx: (libc)FP Bit Twiddling.
 * nextdownl: (libc)FP Bit Twiddling.
 * nexttoward: (libc)FP Bit Twiddling.
 * nexttowardf: (libc)FP Bit Twiddling.
 * nexttowardl: (libc)FP Bit Twiddling.
 * nextup: (libc)FP Bit Twiddling.
 * nextupf: (libc)FP Bit Twiddling.
-* nextupfN: (libc)FP Bit Twiddling.
-* nextupfNx: (libc)FP Bit Twiddling.
 * nextupl: (libc)FP Bit Twiddling.
 * nftw64: (libc)Working with Directory Trees.
 * nftw: (libc)Working with Directory Trees.
@@ -1490,15 +1328,9 @@ START-INFO-DIR-ENTRY
 * pow10l: (libc)Exponents and Logarithms.
 * pow: (libc)Exponents and Logarithms.
 * powf: (libc)Exponents and Logarithms.
-* powfN: (libc)Exponents and Logarithms.
-* powfNx: (libc)Exponents and Logarithms.
 * powl: (libc)Exponents and Logarithms.
 * pread64: (libc)I/O Primitives.
 * pread: (libc)I/O Primitives.
-* preadv2: (libc)I/O Primitives.
-* preadv64: (libc)I/O Primitives.
-* preadv64v2: (libc)I/O Primitives.
-* preadv: (libc)I/O Primitives.
 * printf: (libc)Formatted Output Functions.
 * printf_size: (libc)Predefined Printf Handlers.
 * printf_size_info: (libc)Predefined Printf Handlers.
@@ -1527,10 +1359,6 @@ START-INFO-DIR-ENTRY
 * putwchar_unlocked: (libc)Simple Output.
 * pwrite64: (libc)I/O Primitives.
 * pwrite: (libc)I/O Primitives.
-* pwritev2: (libc)I/O Primitives.
-* pwritev64: (libc)I/O Primitives.
-* pwritev64v2: (libc)I/O Primitives.
-* pwritev: (libc)I/O Primitives.
 * qecvt: (libc)System V Number Conversion.
 * qecvt_r: (libc)System V Number Conversion.
 * qfcvt: (libc)System V Number Conversion.
@@ -1551,7 +1379,6 @@ START-INFO-DIR-ENTRY
 * readlink: (libc)Symbolic Links.
 * readv: (libc)Scatter-Gather.
 * realloc: (libc)Changing Block Size.
-* reallocarray: (libc)Changing Block Size.
 * realpath: (libc)Symbolic Links.
 * recv: (libc)Receiving Data.
 * recvfrom: (libc)Receiving Datagrams.
@@ -1563,8 +1390,6 @@ START-INFO-DIR-ENTRY
 * register_printf_function: (libc)Registering New Conversions.
 * remainder: (libc)Remainder Functions.
 * remainderf: (libc)Remainder Functions.
-* remainderfN: (libc)Remainder Functions.
-* remainderfNx: (libc)Remainder Functions.
 * remainderl: (libc)Remainder Functions.
 * remove: (libc)Deleting Files.
 * rename: (libc)Renaming Files.
@@ -1573,19 +1398,13 @@ START-INFO-DIR-ENTRY
 * rindex: (libc)Search Functions.
 * rint: (libc)Rounding Functions.
 * rintf: (libc)Rounding Functions.
-* rintfN: (libc)Rounding Functions.
-* rintfNx: (libc)Rounding Functions.
 * rintl: (libc)Rounding Functions.
 * rmdir: (libc)Deleting Files.
 * round: (libc)Rounding Functions.
 * roundeven: (libc)Rounding Functions.
 * roundevenf: (libc)Rounding Functions.
-* roundevenfN: (libc)Rounding Functions.
-* roundevenfNx: (libc)Rounding Functions.
 * roundevenl: (libc)Rounding Functions.
 * roundf: (libc)Rounding Functions.
-* roundfN: (libc)Rounding Functions.
-* roundfNx: (libc)Rounding Functions.
 * roundl: (libc)Rounding Functions.
 * rpmatch: (libc)Yes-or-No Questions.
 * sbrk: (libc)Resizing the Data Segment.
@@ -1594,13 +1413,9 @@ START-INFO-DIR-ENTRY
 * scalbl: (libc)Normalization Functions.
 * scalbln: (libc)Normalization Functions.
 * scalblnf: (libc)Normalization Functions.
-* scalblnfN: (libc)Normalization Functions.
-* scalblnfNx: (libc)Normalization Functions.
 * scalblnl: (libc)Normalization Functions.
 * scalbn: (libc)Normalization Functions.
 * scalbnf: (libc)Normalization Functions.
-* scalbnfN: (libc)Normalization Functions.
-* scalbnfNx: (libc)Normalization Functions.
 * scalbnl: (libc)Normalization Functions.
 * scandir64: (libc)Scanning Directory Content.
 * scandir: (libc)Scanning Directory Content.
@@ -1663,13 +1478,9 @@ START-INFO-DIR-ENTRY
 * setnetgrent: (libc)Lookup Netgroup.
 * setpayload: (libc)FP Bit Twiddling.
 * setpayloadf: (libc)FP Bit Twiddling.
-* setpayloadfN: (libc)FP Bit Twiddling.
-* setpayloadfNx: (libc)FP Bit Twiddling.
 * setpayloadl: (libc)FP Bit Twiddling.
 * setpayloadsig: (libc)FP Bit Twiddling.
 * setpayloadsigf: (libc)FP Bit Twiddling.
-* setpayloadsigfN: (libc)FP Bit Twiddling.
-* setpayloadsigfNx: (libc)FP Bit Twiddling.
 * setpayloadsigl: (libc)FP Bit Twiddling.
 * setpgid: (libc)Process Group Functions.
 * setpgrp: (libc)Process Group Functions.
@@ -1719,16 +1530,10 @@ START-INFO-DIR-ENTRY
 * sin: (libc)Trig Functions.
 * sincos: (libc)Trig Functions.
 * sincosf: (libc)Trig Functions.
-* sincosfN: (libc)Trig Functions.
-* sincosfNx: (libc)Trig Functions.
 * sincosl: (libc)Trig Functions.
 * sinf: (libc)Trig Functions.
-* sinfN: (libc)Trig Functions.
-* sinfNx: (libc)Trig Functions.
 * sinh: (libc)Hyperbolic Functions.
 * sinhf: (libc)Hyperbolic Functions.
-* sinhfN: (libc)Hyperbolic Functions.
-* sinhfNx: (libc)Hyperbolic Functions.
 * sinhl: (libc)Hyperbolic Functions.
 * sinl: (libc)Trig Functions.
 * sleep: (libc)Sleeping.
@@ -1738,8 +1543,6 @@ START-INFO-DIR-ENTRY
 * sprintf: (libc)Formatted Output Functions.
 * sqrt: (libc)Exponents and Logarithms.
 * sqrtf: (libc)Exponents and Logarithms.
-* sqrtfN: (libc)Exponents and Logarithms.
-* sqrtfNx: (libc)Exponents and Logarithms.
 * sqrtl: (libc)Exponents and Logarithms.
 * srand48: (libc)SVID Random.
 * srand48_r: (libc)SVID Random.
@@ -1769,8 +1572,6 @@ START-INFO-DIR-ENTRY
 * strfmon: (libc)Formatting Numbers.
 * strfromd: (libc)Printing of Floats.
 * strfromf: (libc)Printing of Floats.
-* strfromfN: (libc)Printing of Floats.
-* strfromfNx: (libc)Printing of Floats.
 * strfroml: (libc)Printing of Floats.
 * strfry: (libc)strfry.
 * strftime: (libc)Formatting Calendar Time.
@@ -1791,8 +1592,6 @@ START-INFO-DIR-ENTRY
 * strstr: (libc)Search Functions.
 * strtod: (libc)Parsing of Floats.
 * strtof: (libc)Parsing of Floats.
-* strtofN: (libc)Parsing of Floats.
-* strtofNx: (libc)Parsing of Floats.
 * strtoimax: (libc)Parsing of Integers.
 * strtok: (libc)Finding Tokens in a String.
 * strtok_r: (libc)Finding Tokens in a String.
@@ -1820,12 +1619,8 @@ START-INFO-DIR-ENTRY
 * sysv_signal: (libc)Basic Signal Handling.
 * tan: (libc)Trig Functions.
 * tanf: (libc)Trig Functions.
-* tanfN: (libc)Trig Functions.
-* tanfNx: (libc)Trig Functions.
 * tanh: (libc)Hyperbolic Functions.
 * tanhf: (libc)Hyperbolic Functions.
-* tanhfN: (libc)Hyperbolic Functions.
-* tanhfNx: (libc)Hyperbolic Functions.
 * tanhl: (libc)Hyperbolic Functions.
 * tanl: (libc)Trig Functions.
 * tcdrain: (libc)Line Control.
@@ -1845,8 +1640,6 @@ START-INFO-DIR-ENTRY
 * tfind: (libc)Tree Search Function.
 * tgamma: (libc)Special Functions.
 * tgammaf: (libc)Special Functions.
-* tgammafN: (libc)Special Functions.
-* tgammafNx: (libc)Special Functions.
 * tgammal: (libc)Special Functions.
 * time: (libc)Simple Calendar Time.
 * timegm: (libc)Broken-down Time.
@@ -1860,13 +1653,9 @@ START-INFO-DIR-ENTRY
 * tolower: (libc)Case Conversion.
 * totalorder: (libc)FP Comparison Functions.
 * totalorderf: (libc)FP Comparison Functions.
-* totalorderfN: (libc)FP Comparison Functions.
-* totalorderfNx: (libc)FP Comparison Functions.
 * totalorderl: (libc)FP Comparison Functions.
 * totalordermag: (libc)FP Comparison Functions.
 * totalordermagf: (libc)FP Comparison Functions.
-* totalordermagfN: (libc)FP Comparison Functions.
-* totalordermagfNx: (libc)FP Comparison Functions.
 * totalordermagl: (libc)FP Comparison Functions.
 * toupper: (libc)Case Conversion.
 * towctrans: (libc)Wide Character Case Conversion.
@@ -1876,8 +1665,6 @@ START-INFO-DIR-ENTRY
 * truncate64: (libc)File Size.
 * truncate: (libc)File Size.
 * truncf: (libc)Rounding Functions.
-* truncfN: (libc)Rounding Functions.
-* truncfNx: (libc)Rounding Functions.
 * truncl: (libc)Rounding Functions.
 * tsearch: (libc)Tree Search Function.
 * ttyname: (libc)Is It a Terminal.
@@ -1886,13 +1673,9 @@ START-INFO-DIR-ENTRY
 * tzset: (libc)Time Zone Functions.
 * ufromfp: (libc)Rounding Functions.
 * ufromfpf: (libc)Rounding Functions.
-* ufromfpfN: (libc)Rounding Functions.
-* ufromfpfNx: (libc)Rounding Functions.
 * ufromfpl: (libc)Rounding Functions.
 * ufromfpx: (libc)Rounding Functions.
 * ufromfpxf: (libc)Rounding Functions.
-* ufromfpxfN: (libc)Rounding Functions.
-* ufromfpxfNx: (libc)Rounding Functions.
 * ufromfpxl: (libc)Rounding Functions.
 * ulimit: (libc)Limits on Resources.
 * umask: (libc)Setting Permissions.
@@ -1971,8 +1754,6 @@ START-INFO-DIR-ENTRY
 * wcsstr: (libc)Search Functions.
 * wcstod: (libc)Parsing of Floats.
 * wcstof: (libc)Parsing of Floats.
-* wcstofN: (libc)Parsing of Floats.
-* wcstofNx: (libc)Parsing of Floats.
 * wcstoimax: (libc)Parsing of Integers.
 * wcstok: (libc)Finding Tokens in a String.
 * wcstol: (libc)Parsing of Integers.
@@ -2004,774 +1785,764 @@ START-INFO-DIR-ENTRY
 * wscanf: (libc)Formatted Input Functions.
 * y0: (libc)Special Functions.
 * y0f: (libc)Special Functions.
-* y0fN: (libc)Special Functions.
-* y0fNx: (libc)Special Functions.
 * y0l: (libc)Special Functions.
 * y1: (libc)Special Functions.
 * y1f: (libc)Special Functions.
-* y1fN: (libc)Special Functions.
-* y1fNx: (libc)Special Functions.
 * y1l: (libc)Special Functions.
 * yn: (libc)Special Functions.
 * ynf: (libc)Special Functions.
-* ynfN: (libc)Special Functions.
-* ynfNx: (libc)Special Functions.
 * ynl: (libc)Special Functions.
 END-INFO-DIR-ENTRY
 
 
 Indirect:
-libc.info-1: 76236
-libc.info-2: 378435
-libc.info-3: 685404
-libc.info-4: 981955
-libc.info-5: 1276513
-libc.info-6: 1578792
-libc.info-7: 1877851
-libc.info-8: 2176646
-libc.info-9: 2480321
-libc.info-10: 2779054
-libc.info-11: 3078656
-libc.info-12: 3387950
-libc.info-13: 3677252
-libc.info-14: 4049116
-libc.info-15: 4378378
-libc.info-16: 4635737
+libc.info-1: 67459
+libc.info-2: 370134
+libc.info-3: 676457
+libc.info-4: 968333
+libc.info-5: 1270257
+libc.info-6: 1571392
+libc.info-7: 1875493
+libc.info-8: 2251707
+libc.info-9: 2468898
+libc.info-10: 2768801
+libc.info-11: 3069124
+libc.info-12: 3377122
+libc.info-13: 3810413
+libc.info-14: 3983063
+libc.info-15: 4340346
 
 Tag Table:
 (Indirect)
-Node: Top76236
-Node: Introduction137806
-Node: Getting Started139159
-Node: Standards and Portability140644
-Node: ISO C142099
-Node: POSIX143651
-Node: POSIX Safety Concepts145760
-Node: Unsafe Features151541
-Node: Conditionally Safe Features156202
-Node: Other Safety Remarks167716
-Node: Berkeley Unix176625
-Node: SVID177410
-Node: XPG178433
-Node: Using the Library179382
-Node: Header Files180110
-Node: Macro Definitions184101
-Node: Reserved Names186480
-Node: Feature Test Macros191404
-Node: Roadmap to the Manual201758
-Node: Error Reporting209187
-Node: Checking for Errors210108
-Node: Error Codes214493
-Node: Error Messages238911
-Node: Memory255410
-Node: Memory Concepts256276
-Node: Memory Allocation262042
-Node: Memory Allocation and C263115
-Node: The GNU Allocator266725
-Node: Unconstrained Allocation269290
-Node: Basic Allocation270667
-Node: Malloc Examples272525
-Node: Freeing after Malloc274537
-Node: Changing Block Size276327
-Node: Allocating Cleared Space280103
-Node: Aligned Memory Blocks281274
-Node: Malloc Tunable Parameters285422
-Node: Heap Consistency Checking290804
-Node: Hooks for Malloc296420
-Node: Statistics of Malloc378435
-Node: Summary of Malloc380641
-Node: Allocation Debugging383595
-Node: Tracing malloc384719
-Node: Using the Memory Debugger387012
-Node: Tips for the Memory Debugger388956
-Node: Interpreting the traces390277
-Node: Replacing malloc393851
-Ref: Replacing malloc-Footnote-1395882
-Node: Obstacks396056
-Node: Creating Obstacks397679
-Node: Preparing for Obstacks399629
-Node: Allocation in an Obstack402562
-Node: Freeing Obstack Objects405395
-Node: Obstack Functions406870
-Node: Growing Objects409125
-Node: Extra Fast Growing414399
-Node: Status of an Obstack418619
-Node: Obstacks Data Alignment420364
-Node: Obstack Chunks422358
-Node: Summary of Obstacks424841
-Node: Variable Size Automatic428347
-Node: Alloca Example430019
-Node: Advantages of Alloca431177
-Node: Disadvantages of Alloca433158
-Node: GNU C Variable-Size Arrays433940
-Node: Resizing the Data Segment435143
-Node: Locking Pages437483
-Node: Why Lock Pages438236
-Node: Locked Memory Details439879
-Node: Page Lock Functions442175
-Node: Character Handling448676
-Node: Classification of Characters450151
-Node: Case Conversion455338
-Node: Classification of Wide Characters457727
-Node: Using Wide Char Classes467061
-Node: Wide Character Case Conversion469413
-Node: String and Array Utilities472579
-Node: Representation of Strings474946
-Node: String/Array Conventions480921
-Node: String Length483906
-Node: Copying Strings and Arrays488152
-Node: Concatenating Strings502133
-Node: Truncating Strings508577
-Node: String/Array Comparison519412
-Node: Collation Functions532718
-Node: Search Functions543589
-Node: Finding Tokens in a String557828
-Node: Erasing Sensitive Data569967
-Node: strfry574352
-Node: Trivial Encryption575495
-Node: Encode Binary Data577077
-Node: Argz and Envz Vectors582197
-Node: Argz Functions582810
-Node: Envz Functions590736
-Node: Character Set Handling594699
-Node: Extended Char Intro595854
-Node: Charset Function Overview685404
-Node: Restartable multibyte conversion686372
-Node: Selecting the Conversion688498
-Node: Keeping the state690925
-Node: Converting a Character694294
-Node: Converting Strings711337
-Node: Multibyte Conversion Example722263
-Node: Non-reentrant Conversion725240
-Node: Non-reentrant Character Conversion726929
-Node: Non-reentrant String Conversion732226
-Node: Shift State735522
-Node: Generic Charset Conversion738267
-Node: Generic Conversion Interface741518
-Node: iconv Examples752081
-Node: Other iconv Implementations757447
-Node: glibc iconv Implementation762889
-Node: Locales803087
-Node: Effects of Locale804840
-Node: Choosing Locale806841
-Node: Locale Categories808342
-Node: Setting the Locale811032
-Node: Standard Locales815814
-Node: Locale Names817118
-Node: Locale Information819915
-Node: The Lame Way to Locale Data821673
-Node: General Numeric823729
-Node: Currency Symbol826896
-Node: Sign of Money Amount831316
-Node: The Elegant and Fast Way833582
-Node: Formatting Numbers846636
-Node: Yes-or-No Questions856416
-Node: Message Translation858659
-Node: Message catalogs a la X/Open860724
-Node: The catgets Functions862046
-Node: The message catalog files871586
-Node: The gencat program878455
-Node: Common Usage881676
-Node: The Uniforum approach888944
-Node: Message catalogs with gettext890485
-Node: Translation with gettext891553
-Node: Locating gettext catalog898483
-Node: Advanced gettext functions981955
-Ref: Advanced gettext functions-Footnote-1993226
-Node: Charset conversion in gettext993318
-Node: GUI program problems995987
-Node: Using gettextized software1001615
-Node: Helper programs for gettext1010215
-Node: Searching and Sorting1012032
-Node: Comparison Functions1012964
-Node: Array Search Function1014205
-Node: Array Sort Function1017884
-Node: Search/Sort Example1020229
-Node: Hash Search Function1023684
-Node: Tree Search Function1032277
-Node: Pattern Matching1039976
-Node: Wildcard Matching1040781
-Node: Globbing1044871
-Node: Calling Glob1045778
-Node: Flags for Globbing1059754
-Node: More Flags for Globbing1063578
-Node: Regular Expressions1070160
-Node: POSIX Regexp Compilation1071178
-Node: Flags for POSIX Regexps1075666
-Node: Matching POSIX Regexps1076627
-Node: Regexp Subexpressions1079066
-Node: Subexpression Complications1081209
-Node: Regexp Cleanup1083680
-Node: Word Expansion1086364
-Node: Expansion Stages1087783
-Node: Calling Wordexp1089361
-Node: Flags for Wordexp1093934
-Node: Wordexp Example1095978
-Node: Tilde Expansion1097804
-Node: Variable Substitution1098935
-Node: I/O Overview1103241
-Node: I/O Concepts1104770
-Node: Streams and File Descriptors1105932
-Node: File Position1109051
-Node: File Names1111222
-Node: Directories1112120
-Node: File Name Resolution1113930
-Node: File Name Errors1117012
-Node: File Name Portability1118605
-Node: I/O on Streams1120575
-Node: Streams1122700
-Node: Standard Streams1124106
-Node: Opening Streams1125964
-Node: Closing Streams1138152
-Node: Streams and Threads1140997
-Node: Streams and I18N1150619
-Node: Simple Output1157064
-Node: Character Input1164714
-Node: Line Input1171676
-Node: Unreading1179532
-Node: Unreading Idea1180368
-Node: How Unread1181225
-Node: Block Input/Output1184328
-Node: Formatted Output1187615
-Node: Formatted Output Basics1189279
-Node: Output Conversion Syntax1191863
-Node: Table of Output Conversions1197111
-Node: Integer Conversions1276513
-Node: Floating-Point Conversions1282455
-Node: Other Output Conversions1288622
-Node: Formatted Output Functions1292629
-Node: Dynamic Output1299650
-Node: Variable Arguments Output1301820
-Node: Parsing a Template String1309060
-Node: Example of Parsing1313194
-Node: Customizing Printf1315330
-Node: Registering New Conversions1317088
-Node: Conversion Specifier Options1319460
-Node: Defining the Output Handler1323517
-Node: Printf Extension Example1326007
-Node: Predefined Printf Handlers1328394
-Node: Formatted Input1331591
-Node: Formatted Input Basics1332699
-Node: Input Conversion Syntax1335463
-Node: Table of Input Conversions1338929
-Node: Numeric Input Conversions1343275
-Node: String Input Conversions1348077
-Node: Dynamic String Input1353653
-Node: Other Input Conversions1354878
-Node: Formatted Input Functions1356617
-Node: Variable Arguments Input1360300
-Node: EOF and Errors1363475
-Node: Error Recovery1366889
-Node: Binary Streams1368904
-Node: File Positioning1371477
-Node: Portable Positioning1379594
-Node: Stream Buffering1385956
-Node: Buffering Concepts1387570
-Node: Flushing Buffers1388972
-Node: Controlling Buffering1392632
-Node: Other Kinds of Streams1399177
-Node: String Streams1400368
-Node: Custom Streams1404886
-Node: Streams and Cookies1405571
-Node: Hook Functions1408851
-Node: Formatted Messages1411203
-Node: Printing Formatted Messages1411897
-Node: Adding Severity Classes1418670
-Node: Example1420445
-Node: Low-Level I/O1423749
-Node: Opening and Closing Files1427046
-Node: I/O Primitives1435805
-Node: File Position Primitive1460008
-Node: Descriptors and Streams1467778
-Node: Stream/Descriptor Precautions1470870
-Node: Linked Channels1472103
-Node: Independent Channels1473405
-Node: Cleaning Streams1475333
-Node: Scatter-Gather1477197
-Node: Memory-mapped I/O1480075
-Node: Waiting for I/O1493674
-Node: Synchronizing I/O1578792
-Node: Asynchronous I/O1582539
-Node: Asynchronous Reads/Writes1590907
-Node: Status of AIO Operations1604614
-Node: Synchronizing AIO Operations1608678
-Node: Cancel AIO Operations1615707
-Node: Configuration of AIO1619551
-Node: Control Operations1621881
-Node: Duplicating Descriptors1625206
-Node: Descriptor Flags1629785
-Node: File Status Flags1633290
-Node: Access Modes1634806
-Node: Open-time Flags1637211
-Node: Operating Modes1642148
-Node: Getting File Status Flags1644989
-Node: File Locks1647673
-Node: Open File Description Locks1657351
-Node: Open File Description Locks Example1665372
-Node: Interrupt Input1668031
-Node: IOCTLs1670594
-Ref: IOCTLs-Footnote-11672711
-Node: File System Interface1672808
-Node: Working Directory1674346
-Node: Accessing Directories1680039
-Node: Directory Entries1681732
-Node: Opening a Directory1685615
-Node: Reading/Closing Directory1690079
-Node: Simple Directory Lister1697502
-Node: Random Access Directory1698496
-Node: Scanning Directory Content1700422
-Node: Simple Directory Lister Mark II1705828
-Node: Working with Directory Trees1706943
-Node: Hard Links1720064
-Node: Symbolic Links1723072
-Node: Deleting Files1731220
-Node: Renaming Files1734589
-Node: Creating Directories1738429
-Node: File Attributes1740332
-Node: Attribute Meanings1741941
-Node: Reading Attributes1751454
-Node: Testing File Type1756253
-Node: File Owner1761384
-Node: Permission Bits1765335
-Node: Access Permission1770860
-Node: Setting Permissions1772035
-Node: Testing File Access1777794
-Node: File Times1781656
-Node: File Size1788670
-Node: Storage Allocation1795674
-Node: Making Special Files1799774
-Node: Temporary Files1877851
-Node: Pipes and FIFOs1888315
-Node: Creating a Pipe1889925
-Node: Pipe to a Subprocess1893355
-Node: FIFO Special Files1896697
-Node: Pipe Atomicity1898413
-Node: Sockets1899319
-Node: Socket Concepts1901393
-Node: Communication Styles1905728
-Node: Socket Addresses1907617
-Node: Address Formats1909721
-Node: Setting Address1913100
-Node: Reading Address1914984
-Node: Interface Naming1916909
-Node: Local Namespace1919817
-Node: Local Namespace Concepts1920492
-Node: Local Namespace Details1922040
-Node: Local Socket Example1924160
-Node: Internet Namespace1925638
-Node: Internet Address Formats1927900
-Node: Host Addresses1930131
-Node: Abstract Host Addresses1931311
-Node: Host Address Data Type1935906
-Node: Host Address Functions1939154
-Node: Host Names1944474
-Node: Ports1955782
-Node: Services Database1957891
-Node: Byte Order1961646
-Node: Protocols Database1964421
-Node: Inet Example1968908
-Node: Misc Namespaces1970921
-Node: Open/Close Sockets1971698
-Node: Creating a Socket1972203
-Node: Closing a Socket1974047
-Node: Socket Pairs1975740
-Node: Connections1977915
-Node: Connecting1979024
-Node: Listening1982064
-Node: Accepting Connections1984290
-Node: Who is Connected1987602
-Node: Transferring Data1988848
-Node: Sending Data1990024
-Node: Receiving Data1992778
-Node: Socket Data Options1994697
-Node: Byte Stream Example1995607
-Node: Server Example1997636
-Node: Out-of-Band Data2001642
-Node: Datagrams2007603
-Node: Sending Datagrams2008659
-Node: Receiving Datagrams2010744
-Node: Datagram Example2012957
-Node: Example Receiver2014964
-Node: Inetd2017511
-Node: Inetd Servers2018351
-Node: Configuring Inetd2019630
-Node: Socket Options2022425
-Node: Socket Option Functions2023146
-Node: Socket-Level Options2024959
-Node: Networks Database2028795
-Node: Low-Level Terminal Interface2032607
-Node: Is It a Terminal2034079
-Node: I/O Queues2036370
-Node: Canonical or Not2038370
-Node: Terminal Modes2040263
-Node: Mode Data Types2041849
-Node: Mode Functions2043752
-Node: Setting Modes2047977
-Node: Input Modes2050022
-Node: Output Modes2055490
-Node: Control Modes2057275
-Node: Local Modes2061515
-Node: Line Speed2068034
-Node: Special Characters2072772
-Node: Editing Characters2074738
-Node: Signal Characters2079190
-Node: Start/Stop Characters2082141
-Node: Other Special2084103
-Node: Noncanonical Input2086164
-Node: BSD Terminal Modes2091197
-Node: Line Control2092914
-Node: Noncanon Example2098218
-Node: Pseudo-Terminals2176646
-Node: Allocation2177589
-Node: Pseudo-Terminal Pairs2183036
-Node: Syslog2185921
-Node: Overview of Syslog2186879
-Node: Submitting Syslog Messages2191139
-Node: openlog2191968
-Node: syslog; vsyslog2197231
-Node: closelog2201970
-Node: setlogmask2203273
-Node: Syslog Example2205286
-Node: Mathematics2205957
-Node: Mathematical Constants2208622
-Node: Trig Functions2211101
-Node: Inverse Trig Functions2216393
-Node: Exponents and Logarithms2221631
-Node: Hyperbolic Functions2234737
-Node: Special Functions2241163
-Node: Errors in Math Functions2248526
-Node: Pseudo-Random Numbers2331497
-Node: ISO Random2333836
-Node: BSD Random2336136
-Node: SVID Random2341663
-Node: FP Function Optimizations2357306
-Node: Arithmetic2359413
-Node: Integers2360783
-Node: Integer Division2364037
-Node: Floating Point Numbers2368296
-Node: Floating Point Classes2370074
-Node: Floating Point Errors2376103
-Node: FP Exceptions2376610
-Node: Infinity and NaN2381072
-Node: Status bit operations2385001
-Node: Math Error Reporting2390594
-Node: Rounding2393880
-Node: Control Functions2397568
-Node: Arithmetic Functions2480321
-Node: Absolute Value2481196
-Node: Normalization Functions2483805
-Node: Rounding Functions2488306
-Node: Remainder Functions2498407
-Node: FP Bit Twiddling2501237
-Node: FP Comparison Functions2511022
-Node: Misc FP Arithmetic2516739
-Node: Complex Numbers2521596
-Node: Operations on Complex2523613
-Node: Parsing of Numbers2526976
-Node: Parsing of Integers2527677
-Node: Parsing of Floats2540597
-Node: Printing of Floats2547401
-Node: System V Number Conversion2550054
-Node: Date and Time2556838
-Node: Time Basics2557573
-Node: Elapsed Time2559513
-Node: Processor And CPU Time2563245
-Node: CPU Time2565189
-Node: Processor Time2567025
-Node: Calendar Time2569794
-Node: Simple Calendar Time2571764
-Node: High-Resolution Calendar2574452
-Node: Broken-down Time2580338
-Node: High Accuracy Clock2589565
-Node: Formatting Calendar Time2597482
-Node: Parsing Date and Time2615149
-Node: Low-Level Time String Parsing2616016
-Node: General Time String Parsing2630472
-Node: TZ Variable2638024
-Node: Time Zone Functions2645634
-Node: Time Functions Example2648731
-Node: Setting an Alarm2649816
-Node: Sleeping2656104
-Node: Resource Usage And Limitation2661065
-Node: Resource Usage2661746
-Node: Limits on Resources2667706
-Node: Priority2677945
-Node: Absolute Priority2680403
-Node: Realtime Scheduling2685580
-Node: Basic Scheduling Functions2689052
-Node: Traditional Scheduling2697936
-Node: Traditional Scheduling Intro2698520
-Node: Traditional Scheduling Functions2779054
-Node: CPU Affinity2783385
-Node: Memory Resources2790036
-Node: Memory Subsystem2790898
-Node: Query Memory Parameters2793299
-Node: Processor Resources2797351
-Node: Non-Local Exits2799800
-Node: Non-Local Intro2800525
-Node: Non-Local Details2804354
-Node: Non-Local Exits and Signals2807804
-Node: System V contexts2809624
-Node: Signal Handling2823471
-Node: Concepts of Signals2825524
-Node: Kinds of Signals2826095
-Node: Signal Generation2827551
-Node: Delivery of Signal2829850
-Node: Standard Signals2832787
-Node: Program Error Signals2834402
-Node: Termination Signals2842045
-Node: Alarm Signals2846000
-Node: Asynchronous I/O Signals2847257
-Node: Job Control Signals2848489
-Node: Operation Error Signals2853237
-Node: Miscellaneous Signals2855221
-Node: Signal Messages2856959
-Node: Signal Actions2859186
-Node: Basic Signal Handling2860160
-Node: Advanced Signal Handling2866666
-Node: Signal and Sigaction2869832
-Node: Sigaction Function Example2871688
-Node: Flags for Sigaction2874033
-Node: Initial Signal Actions2876508
-Node: Defining Handlers2877922
-Node: Handler Returns2880139
-Node: Termination in Handler2882183
-Node: Longjmp in Handler2883627
-Node: Signals in Handler2885731
-Node: Merged Signals2887892
-Node: Nonreentrancy2893604
-Node: Atomic Data Access2899101
-Node: Non-atomic Example2900162
-Node: Atomic Types2901974
-Node: Atomic Usage2902982
-Node: Interrupted Primitives2904473
-Node: Generating Signals2907722
-Node: Signaling Yourself2908330
-Node: Signaling Another Process2910512
-Node: Permission for kill2914180
-Node: Kill Example2916015
-Node: Blocking Signals2918358
-Node: Why Block2920158
-Node: Signal Sets2921718
-Node: Process Signal Mask2925303
-Node: Testing for Delivery2928905
-Node: Blocking for Handler2930162
-Node: Checking for Pending Signals2932603
-Node: Remembering a Signal2934755
-Node: Waiting for a Signal2938392
-Node: Using Pause2938948
-Node: Pause Problems2940789
-Node: Sigsuspend2942582
-Node: Signal Stack2945511
-Node: BSD Signal Handling2951218
-Node: Program Basics2954291
-Node: Program Arguments2956386
-Node: Argument Syntax2958467
-Node: Parsing Program Arguments2961238
-Node: Getopt2962381
-Node: Using Getopt2963050
-Node: Example of Getopt2967501
-Node: Getopt Long Options2970380
-Node: Getopt Long Option Example2976178
-Node: Argp2979228
-Node: Argp Global Variables2983092
-Node: Argp Parsers2985207
-Node: Argp Option Vectors2988685
-Node: Argp Option Flags2992014
-Node: Argp Parser Functions2994179
-Node: Argp Special Keys2996936
-Node: Argp Parsing State3078656
-Node: Argp Helper Functions3082422
-Node: Argp Children3086142
-Node: Argp Flags3088308
-Node: Argp Help Filtering3090729
-Node: Argp Help Filter Keys3092002
-Node: Argp Help3092964
-Node: Argp Help Flags3094344
-Node: Argp Examples3096839
-Node: Argp Example 13097322
-Node: Argp Example 23098105
-Node: Argp Example 33101058
-Node: Argp Example 43108051
-Node: Argp User Customization3115729
-Node: Suboptions3117568
-Node: Suboptions Example3119654
-Node: Environment Variables3121809
-Node: Environment Access3123707
-Node: Standard Environment3130252
-Node: Auxiliary Vector3134602
-Node: System Calls3136129
-Node: Program Termination3139797
-Node: Normal Termination3141047
-Node: Exit Status3142630
-Node: Cleanups on Exit3146075
-Node: Aborting a Program3148148
-Node: Termination Internals3149196
-Node: Processes3151646
-Node: Running a Command3153702
-Node: Process Creation Concepts3155907
-Node: Process Identification3157977
-Node: Creating a Process3159128
-Node: Executing a File3163114
-Node: Process Completion3171022
-Node: Process Completion Status3177757
-Node: BSD Wait Functions3180062
-Node: Process Creation Example3180964
-Node: Inter-Process Communication3183270
-Node: Semaphores3183588
-Node: Job Control3186224
-Node: Concepts of Job Control3187538
-Node: Job Control is Optional3190981
-Node: Controlling Terminal3192042
-Node: Access to the Terminal3192969
-Node: Orphaned Process Groups3194613
-Node: Implementing a Shell3195619
-Node: Data Structures3196509
-Node: Initializing the Shell3199155
-Node: Launching Jobs3202877
-Node: Foreground and Background3210340
-Node: Stopped and Terminated Jobs3213469
-Node: Continuing Stopped Jobs3218642
-Node: Missing Pieces3220287
-Node: Functions for Job Control3221956
-Node: Identifying the Terminal3222445
-Node: Process Group Functions3224181
-Node: Terminal Access Functions3228991
-Node: Name Service Switch3232855
-Node: NSS Basics3234165
-Node: NSS Configuration File3235814
-Node: Services in the NSS configuration3237533
-Node: Actions in the NSS configuration3238859
-Node: Notes on NSS Configuration File3243919
-Node: NSS Module Internals3245866
-Node: NSS Module Names3246569
-Ref: NSS Module Names-Footnote-13248643
-Ref: NSS Module Names-Footnote-23248797
-Node: NSS Modules Interface3248981
-Node: Extending NSS3255168
-Node: Adding another Service to NSS3256106
-Node: NSS Module Function Internals3258372
-Node: Users and Groups3263405
-Node: User and Group IDs3266035
-Node: Process Persona3266980
-Node: Why Change Persona3268716
-Node: How Change Persona3270639
-Node: Reading Persona3272548
-Node: Setting User ID3275340
-Node: Setting Groups3278599
-Node: Enable/Disable Setuid3285153
-Node: Setuid Program Example3287260
-Node: Tips for Setuid3290698
-Node: Who Logged In3293285
-Node: User Accounting Database3296091
-Node: Manipulating the Database3297298
-Node: XPG Functions3387950
-Node: Logging In and Out3393855
-Node: User Database3396638
-Node: User Data Structure3397315
-Node: Lookup User3398641
-Node: Scanning All Users3401875
-Node: Writing a User Entry3405825
-Node: Group Database3406979
-Node: Group Data Structure3407568
-Node: Lookup Group3408370
-Node: Scanning All Groups3411527
-Node: Database Example3415554
-Node: Netgroup Database3417731
-Node: Netgroup Data3418154
-Node: Lookup Netgroup3419702
-Node: Netgroup Membership3423860
-Node: System Management3425388
-Node: Host Identification3426322
-Node: Platform Type3433677
-Node: Filesystem Handling3437209
-Node: Mount Information3438725
-Node: fstab3441011
-Node: mtab3447804
-Node: Other Mount Information3458257
-Node: Mount-Unmount-Remount3458806
-Node: System Parameters3468612
-Node: System Configuration3474375
-Node: General Limits3475950
-Node: System Options3479656
-Node: Version Supported3483098
-Node: Sysconf3484747
-Node: Sysconf Definition3485414
-Node: Constants for Sysconf3486244
-Node: Examples of Sysconf3500311
-Node: Minimums3501325
-Node: Limits for Files3504144
-Node: Options for Files3507557
-Node: File Minimums3509899
-Node: Pathconf3512215
-Node: Utility Limits3516102
-Node: Utility Minimums3518101
-Node: String Parameters3519973
-Node: Cryptographic Functions3524088
-Node: Legal Problems3526505
-Node: getpass3528798
-Node: crypt3531149
-Node: DES Encryption3536246
-Node: Unpredictable Bytes3543399
-Node: Debugging Support3547525
-Node: Backtraces3548170
-Node: POSIX Threads3553353
-Node: Thread-specific Data3553764
-Node: Non-POSIX Extensions3555557
-Node: Default Thread Attributes3555994
-Node: Internal Probes3557277
-Node: Memory Allocation Probes3558143
-Node: Mathematical Function Probes3569241
-Node: Non-local Goto Probes3576206
-Node: Tunables3578069
-Node: Tunable names3579601
-Node: Memory Allocation Tunables3580586
-Node: Hardware Capability Tunables3588618
-Node: Language Features3590766
-Node: Consistency Checking3591718
-Node: Variadic Functions3596677
-Node: Why Variadic3597770
-Node: How Variadic3599770
-Node: Variadic Prototypes3677252
-Node: Receiving Arguments3678451
-Node: How Many Arguments3681197
-Node: Calling Variadics3682886
-Node: Argument Macros3685053
-Node: Variadic Example3688491
-Node: Null Pointer Constant3689618
-Node: Important Data Types3690730
-Node: Data Type Measurements3692665
-Node: Width of Type3693535
-Node: Range of Type3695880
-Node: Floating Type Macros3699726
-Node: Floating Point Concepts3700999
-Node: Floating Point Parameters3704854
-Node: IEEE Floating Point3712256
-Node: Structure Measurement3714034
-Node: Library Summary3714844
-Node: Installation4049116
-Node: Configuring and compiling4050269
-Node: Running make install4067115
-Node: Tools for Compilation4071009
-Node: Linux4074932
-Node: Reporting Bugs4077594
-Node: Maintenance4079967
-Node: Source Layout4080368
-Node: Adding Platform-specific4084658
-Node: Porting4087756
-Node: Hierarchy Conventions4095792
-Node: Porting to Unix4101069
-Node: Platform4103173
-Node: PowerPC4103484
-Node: Contributors4108330
-Node: Free Manuals4122676
-Node: Copying4127632
-Node: Documentation License4155891
-Node: Concept Index4181233
-Node: Type Index4378378
-Node: Function Index4400358
-Node: Variable Index4635737
-Node: File Index4763220
+Node: Top67459
+Node: Introduction128839
+Node: Getting Started130192
+Node: Standards and Portability131677
+Node: ISO C133132
+Node: POSIX134684
+Node: POSIX Safety Concepts136793
+Node: Unsafe Features142574
+Node: Conditionally Safe Features147235
+Node: Other Safety Remarks158749
+Node: Berkeley Unix167658
+Node: SVID168443
+Node: XPG169466
+Node: Using the Library170415
+Node: Header Files171143
+Node: Macro Definitions175134
+Node: Reserved Names177513
+Node: Feature Test Macros182437
+Node: Roadmap to the Manual192492
+Node: Error Reporting199921
+Node: Checking for Errors200842
+Node: Error Codes205226
+Node: Error Messages225158
+Node: Memory241639
+Node: Memory Concepts242505
+Node: Memory Allocation248271
+Node: Memory Allocation and C249267
+Node: The GNU Allocator252877
+Node: Unconstrained Allocation255295
+Node: Basic Allocation256672
+Node: Malloc Examples258529
+Node: Freeing after Malloc260541
+Node: Changing Block Size262626
+Node: Allocating Cleared Space265410
+Node: Aligned Memory Blocks266580
+Node: Malloc Tunable Parameters270724
+Node: Heap Consistency Checking276106
+Node: Hooks for Malloc281721
+Node: Statistics of Malloc287496
+Node: Summary of Malloc289700
+Node: Allocation Debugging292429
+Node: Tracing malloc293545
+Node: Using the Memory Debugger295836
+Node: Tips for the Memory Debugger297780
+Node: Interpreting the traces299101
+Node: Obstacks370134
+Node: Creating Obstacks371761
+Node: Preparing for Obstacks373710
+Node: Allocation in an Obstack376641
+Node: Freeing Obstack Objects379471
+Node: Obstack Functions380945
+Node: Growing Objects383200
+Node: Extra Fast Growing388466
+Node: Status of an Obstack392681
+Node: Obstacks Data Alignment394423
+Node: Obstack Chunks396416
+Node: Summary of Obstacks398898
+Node: Variable Size Automatic402404
+Node: Alloca Example404075
+Node: Advantages of Alloca405233
+Node: Disadvantages of Alloca407214
+Node: GNU C Variable-Size Arrays407996
+Node: Resizing the Data Segment409199
+Node: Locking Pages411537
+Node: Why Lock Pages412290
+Node: Locked Memory Details413933
+Node: Page Lock Functions416229
+Node: Character Handling422726
+Node: Classification of Characters424201
+Node: Case Conversion429375
+Node: Classification of Wide Characters431759
+Node: Using Wide Char Classes441078
+Node: Wide Character Case Conversion443430
+Node: String and Array Utilities446591
+Node: Representation of Strings448958
+Node: String/Array Conventions454933
+Node: String Length457918
+Node: Copying Strings and Arrays462160
+Node: Concatenating Strings476123
+Node: Truncating Strings482565
+Node: String/Array Comparison493392
+Node: Collation Functions506686
+Node: Search Functions517553
+Node: Finding Tokens in a String531769
+Node: Erasing Sensitive Data543901
+Node: strfry548285
+Node: Trivial Encryption549427
+Node: Encode Binary Data551008
+Node: Argz and Envz Vectors556126
+Node: Argz Functions556739
+Node: Envz Functions564653
+Node: Character Set Handling568610
+Node: Extended Char Intro569765
+Node: Charset Function Overview583074
+Node: Restartable multibyte conversion584042
+Node: Selecting the Conversion586168
+Node: Keeping the state588593
+Node: Converting a Character591960
+Node: Converting Strings676457
+Node: Multibyte Conversion Example687379
+Node: Non-reentrant Conversion690356
+Node: Non-reentrant Character Conversion692045
+Node: Non-reentrant String Conversion697339
+Node: Shift State700633
+Node: Generic Charset Conversion703378
+Node: Generic Conversion Interface706629
+Node: iconv Examples717188
+Node: Other iconv Implementations722554
+Node: glibc iconv Implementation727996
+Node: Locales768189
+Node: Effects of Locale769942
+Node: Choosing Locale771943
+Node: Locale Categories773444
+Node: Setting the Locale776126
+Node: Standard Locales780907
+Node: Locale Names782211
+Node: Locale Information785008
+Node: The Lame Way to Locale Data786766
+Node: General Numeric788820
+Node: Currency Symbol791987
+Node: Sign of Money Amount796407
+Node: The Elegant and Fast Way798673
+Node: Formatting Numbers811726
+Node: Yes-or-No Questions821506
+Node: Message Translation823748
+Node: Message catalogs a la X/Open825813
+Node: The catgets Functions827135
+Node: The message catalog files836674
+Node: The gencat program843543
+Node: Common Usage846764
+Node: The Uniforum approach854032
+Node: Message catalogs with gettext855573
+Node: Translation with gettext856641
+Node: Locating gettext catalog863568
+Node: Advanced gettext functions870802
+Ref: Advanced gettext functions-Footnote-1882070
+Node: Charset conversion in gettext882162
+Node: GUI program problems884830
+Node: Using gettextized software890458
+Node: Helper programs for gettext899058
+Node: Searching and Sorting968334
+Node: Comparison Functions969266
+Node: Array Search Function970507
+Node: Array Sort Function974183
+Node: Search/Sort Example976527
+Node: Hash Search Function979982
+Node: Tree Search Function988569
+Node: Pattern Matching996263
+Node: Wildcard Matching997068
+Node: Globbing1001150
+Node: Calling Glob1002057
+Node: Flags for Globbing1016026
+Node: More Flags for Globbing1019843
+Node: Regular Expressions1026415
+Node: POSIX Regexp Compilation1027433
+Node: Flags for POSIX Regexps1031907
+Node: Matching POSIX Regexps1032864
+Node: Regexp Subexpressions1035298
+Node: Subexpression Complications1037439
+Node: Regexp Cleanup1039910
+Node: Word Expansion1042592
+Node: Expansion Stages1044011
+Node: Calling Wordexp1045589
+Node: Flags for Wordexp1050154
+Node: Wordexp Example1052192
+Node: Tilde Expansion1054018
+Node: Variable Substitution1055149
+Node: I/O Overview1059455
+Node: I/O Concepts1060984
+Node: Streams and File Descriptors1062146
+Node: File Position1065265
+Node: File Names1067436
+Node: Directories1068334
+Node: File Name Resolution1070144
+Node: File Name Errors1073226
+Node: File Name Portability1074819
+Node: I/O on Streams1076789
+Node: Streams1078914
+Node: Standard Streams1080319
+Node: Opening Streams1082174
+Node: Closing Streams1093754
+Node: Streams and Threads1096597
+Node: Streams and I18N1106215
+Node: Simple Output1112659
+Node: Character Input1120291
+Node: Line Input1127240
+Node: Unreading1135089
+Node: Unreading Idea1135925
+Node: How Unread1136782
+Node: Block Input/Output1139883
+Node: Formatted Output1143166
+Node: Formatted Output Basics1144830
+Node: Output Conversion Syntax1147414
+Node: Table of Output Conversions1152662
+Node: Integer Conversions1155828
+Node: Floating-Point Conversions1161770
+Node: Other Output Conversions1167937
+Node: Formatted Output Functions1171944
+Node: Dynamic Output1178958
+Node: Variable Arguments Output1181126
+Node: Parsing a Template String1188357
+Node: Example of Parsing1192477
+Node: Customizing Printf1194613
+Node: Registering New Conversions1196371
+Node: Conversion Specifier Options1198742
+Node: Defining the Output Handler1270257
+Node: Printf Extension Example1272745
+Node: Predefined Printf Handlers1275132
+Node: Formatted Input1278327
+Node: Formatted Input Basics1279435
+Node: Input Conversion Syntax1282199
+Node: Table of Input Conversions1285665
+Node: Numeric Input Conversions1290011
+Node: String Input Conversions1294813
+Node: Dynamic String Input1300389
+Node: Other Input Conversions1301614
+Node: Formatted Input Functions1303353
+Node: Variable Arguments Input1307030
+Node: EOF and Errors1310199
+Node: Error Recovery1313607
+Node: Binary Streams1315620
+Node: File Positioning1318193
+Node: Portable Positioning1326297
+Node: Stream Buffering1332653
+Node: Buffering Concepts1334267
+Node: Flushing Buffers1335669
+Node: Controlling Buffering1339325
+Node: Other Kinds of Streams1345859
+Node: String Streams1347050
+Node: Custom Streams1351566
+Node: Streams and Cookies1352251
+Node: Hook Functions1355529
+Node: Formatted Messages1357877
+Node: Printing Formatted Messages1358571
+Node: Adding Severity Classes1365343
+Node: Example1367118
+Node: Low-Level I/O1370422
+Node: Opening and Closing Files1373719
+Node: I/O Primitives1382473
+Node: File Position Primitive1398102
+Node: Descriptors and Streams1405868
+Node: Stream/Descriptor Precautions1408954
+Node: Linked Channels1410187
+Node: Independent Channels1411489
+Node: Cleaning Streams1413417
+Node: Scatter-Gather1415281
+Node: Memory-mapped I/O1418157
+Node: Waiting for I/O1431749
+Node: Synchronizing I/O1440624
+Node: Asynchronous I/O1444368
+Node: Asynchronous Reads/Writes1452734
+Node: Status of AIO Operations1466435
+Node: Synchronizing AIO Operations1470495
+Node: Cancel AIO Operations1477520
+Node: Configuration of AIO1481362
+Node: Control Operations1483690
+Node: Duplicating Descriptors1487014
+Node: Descriptor Flags1491590
+Node: File Status Flags1495092
+Node: Access Modes1496608
+Node: Open-time Flags1499006
+Node: Operating Modes1571392
+Node: Getting File Status Flags1574226
+Node: File Locks1576908
+Node: Open File Description Locks1586579
+Node: Open File Description Locks Example1594598
+Node: Interrupt Input1597257
+Node: IOCTLs1599818
+Ref: IOCTLs-Footnote-11601934
+Node: File System Interface1602031
+Node: Working Directory1603569
+Node: Accessing Directories1609257
+Node: Directory Entries1610950
+Node: Opening a Directory1614830
+Node: Reading/Closing Directory1619290
+Node: Simple Directory Lister1626155
+Node: Random Access Directory1627149
+Node: Scanning Directory Content1629072
+Node: Simple Directory Lister Mark II1634472
+Node: Working with Directory Trees1635587
+Node: Hard Links1648703
+Node: Symbolic Links1651710
+Node: Deleting Files1659854
+Node: Renaming Files1663220
+Node: Creating Directories1667059
+Node: File Attributes1668961
+Node: Attribute Meanings1670570
+Node: Reading Attributes1680074
+Node: Testing File Type1684867
+Node: File Owner1689980
+Node: Permission Bits1693929
+Node: Access Permission1699439
+Node: Setting Permissions1700614
+Node: Testing File Access1706369
+Node: File Times1710226
+Node: File Size1717235
+Node: Storage Allocation1724235
+Node: Making Special Files1728335
+Node: Temporary Files1730175
+Node: Pipes and FIFOs1740628
+Node: Creating a Pipe1742238
+Node: Pipe to a Subprocess1745667
+Node: FIFO Special Files1749007
+Node: Pipe Atomicity1750722
+Node: Sockets1751628
+Node: Socket Concepts1753702
+Node: Communication Styles1758037
+Node: Socket Addresses1759923
+Node: Address Formats1762027
+Node: Setting Address1765399
+Node: Reading Address1767282
+Node: Interface Naming1769206
+Node: Local Namespace1772108
+Node: Local Namespace Concepts1772783
+Node: Local Namespace Details1774331
+Node: Local Socket Example1776446
+Node: Internet Namespace1777924
+Node: Internet Address Formats1780184
+Node: Host Addresses1782414
+Node: Abstract Host Addresses1783594
+Node: Host Address Data Type1788189
+Node: Host Address Functions1791429
+Node: Host Names1796740
+Node: Ports1875493
+Node: Services Database1877600
+Node: Byte Order1881349
+Node: Protocols Database1884120
+Node: Inet Example1888601
+Node: Misc Namespaces1890614
+Node: Open/Close Sockets1891391
+Node: Creating a Socket1891896
+Node: Closing a Socket1893739
+Node: Socket Pairs1895431
+Node: Connections1897605
+Node: Connecting1898714
+Node: Listening1901753
+Node: Accepting Connections1903978
+Node: Who is Connected1907289
+Node: Transferring Data1908534
+Node: Sending Data1909710
+Node: Receiving Data1912463
+Node: Socket Data Options1914381
+Node: Byte Stream Example1915288
+Node: Server Example1917317
+Node: Out-of-Band Data1921323
+Node: Datagrams1927284
+Node: Sending Datagrams1928340
+Node: Receiving Datagrams1930424
+Node: Datagram Example1932636
+Node: Example Receiver1934643
+Node: Inetd1937190
+Node: Inetd Servers1938030
+Node: Configuring Inetd1939309
+Node: Socket Options1942104
+Node: Socket Option Functions1942825
+Node: Socket-Level Options1944636
+Node: Networks Database1948461
+Node: Low-Level Terminal Interface1952267
+Node: Is It a Terminal1953739
+Node: I/O Queues1956027
+Node: Canonical or Not1958027
+Node: Terminal Modes1959920
+Node: Mode Data Types1961506
+Node: Mode Functions1963405
+Node: Setting Modes1967624
+Node: Input Modes1969669
+Node: Output Modes1975124
+Node: Control Modes1976905
+Node: Local Modes1981130
+Node: Line Speed1987633
+Node: Special Characters1992365
+Node: Editing Characters1994331
+Node: Signal Characters1998776
+Node: Start/Stop Characters2001723
+Node: Other Special2003683
+Node: Noncanonical Input2005741
+Node: BSD Terminal Modes2010771
+Node: Line Control2012485
+Node: Noncanon Example2017785
+Node: Pseudo-Terminals2019977
+Node: Allocation2020920
+Node: Pseudo-Terminal Pairs2026362
+Node: Syslog2029245
+Node: Overview of Syslog2030203
+Node: Submitting Syslog Messages2034463
+Node: openlog2035292
+Node: syslog; vsyslog2040554
+Node: closelog2045291
+Node: setlogmask2046593
+Node: Syslog Example2048605
+Node: Mathematics2049276
+Node: Mathematical Constants2051053
+Node: Trig Functions2053182
+Node: Inverse Trig Functions2057635
+Node: Exponents and Logarithms2062144
+Node: Hyperbolic Functions2072994
+Node: Special Functions2078172
+Node: Errors in Math Functions2083944
+Node: Pseudo-Random Numbers2251707
+Node: ISO Random2254046
+Node: BSD Random2256342
+Node: SVID Random2261861
+Node: FP Function Optimizations2277486
+Node: Arithmetic2279593
+Node: Integers2280963
+Node: Integer Division2284217
+Node: Floating Point Numbers2288468
+Node: Floating Point Classes2290246
+Node: Floating Point Errors2296259
+Node: FP Exceptions2296766
+Node: Infinity and NaN2301228
+Node: Status bit operations2305079
+Node: Math Error Reporting2310660
+Node: Rounding2313881
+Node: Control Functions2317563
+Node: Arithmetic Functions2324071
+Node: Absolute Value2324946
+Node: Normalization Functions2327387
+Node: Rounding Functions2331317
+Node: Remainder Functions2339513
+Node: FP Bit Twiddling2341992
+Node: FP Comparison Functions2350602
+Node: Misc FP Arithmetic2356082
+Node: Complex Numbers2360233
+Node: Operations on Complex2362014
+Node: Parsing of Numbers2364829
+Node: Parsing of Integers2365530
+Node: Parsing of Floats2378431
+Node: Printing of Floats2384238
+Node: System V Number Conversion2386317
+Node: Date and Time2393091
+Node: Time Basics2393826
+Node: Elapsed Time2395766
+Node: Processor And CPU Time2399495
+Node: CPU Time2468898
+Node: Processor Time2470731
+Node: Calendar Time2473497
+Node: Simple Calendar Time2475467
+Node: High-Resolution Calendar2478152
+Node: Broken-down Time2484033
+Node: High Accuracy Clock2493252
+Node: Formatting Calendar Time2501167
+Node: Parsing Date and Time2518828
+Node: Low-Level Time String Parsing2519695
+Node: General Time String Parsing2534150
+Node: TZ Variable2541699
+Node: Time Zone Functions2549309
+Node: Time Functions Example2552402
+Node: Setting an Alarm2553487
+Node: Sleeping2559768
+Node: Resource Usage And Limitation2564727
+Node: Resource Usage2565408
+Node: Limits on Resources2571363
+Node: Priority2581582
+Node: Absolute Priority2584040
+Node: Realtime Scheduling2589217
+Node: Basic Scheduling Functions2592689
+Node: Traditional Scheduling2601564
+Node: Traditional Scheduling Intro2602148
+Node: Traditional Scheduling Functions2606446
+Node: CPU Affinity2610769
+Node: Memory Resources2617412
+Node: Memory Subsystem2618274
+Node: Query Memory Parameters2620675
+Node: Processor Resources2624724
+Node: Non-Local Exits2627170
+Node: Non-Local Intro2627895
+Node: Non-Local Details2631724
+Node: Non-Local Exits and Signals2635171
+Node: System V contexts2636988
+Node: Signal Handling2650831
+Node: Concepts of Signals2652884
+Node: Kinds of Signals2653455
+Node: Signal Generation2654911
+Node: Delivery of Signal2657210
+Node: Standard Signals2660147
+Node: Program Error Signals2661761
+Node: Termination Signals2669388
+Node: Alarm Signals2673338
+Node: Asynchronous I/O Signals2674592
+Node: Job Control Signals2675821
+Node: Operation Error Signals2680562
+Node: Miscellaneous Signals2682542
+Node: Signal Messages2684277
+Node: Signal Actions2686502
+Node: Basic Signal Handling2687476
+Node: Advanced Signal Handling2693977
+Node: Signal and Sigaction2697141
+Node: Sigaction Function Example2698997
+Node: Flags for Sigaction2768801
+Node: Initial Signal Actions2771273
+Node: Defining Handlers2772687
+Node: Handler Returns2774904
+Node: Termination in Handler2776948
+Node: Longjmp in Handler2778392
+Node: Signals in Handler2780496
+Node: Merged Signals2782657
+Node: Nonreentrancy2788369
+Node: Atomic Data Access2793866
+Node: Non-atomic Example2794927
+Node: Atomic Types2796739
+Node: Atomic Usage2797746
+Node: Interrupted Primitives2799237
+Node: Generating Signals2802485
+Node: Signaling Yourself2803093
+Node: Signaling Another Process2805273
+Node: Permission for kill2808939
+Node: Kill Example2810774
+Node: Blocking Signals2813117
+Node: Why Block2814917
+Node: Signal Sets2816477
+Node: Process Signal Mask2820056
+Node: Testing for Delivery2823654
+Node: Blocking for Handler2824911
+Node: Checking for Pending Signals2827352
+Node: Remembering a Signal2829503
+Node: Waiting for a Signal2833140
+Node: Using Pause2833696
+Node: Pause Problems2835536
+Node: Sigsuspend2837329
+Node: Signal Stack2840257
+Node: BSD Signal Handling2845960
+Node: Program Basics2849028
+Node: Program Arguments2851123
+Node: Argument Syntax2853204
+Node: Parsing Program Arguments2855975
+Node: Getopt2857118
+Node: Using Getopt2857787
+Node: Example of Getopt2862233
+Node: Getopt Long Options2865112
+Node: Getopt Long Option Example2870907
+Node: Argp2873957
+Node: Argp Global Variables2877820
+Node: Argp Parsers2879931
+Node: Argp Option Vectors2883408
+Node: Argp Option Flags2886736
+Node: Argp Parser Functions2888896
+Node: Argp Special Keys2891652
+Node: Argp Parsing State2897128
+Node: Argp Helper Functions2900893
+Node: Argp Children2904609
+Node: Argp Flags2906774
+Node: Argp Help Filtering2909187
+Node: Argp Help Filter Keys2910460
+Node: Argp Help2911416
+Node: Argp Help Flags2912795
+Node: Argp Examples2915276
+Node: Argp Example 12915759
+Node: Argp Example 22916542
+Node: Argp Example 32919495
+Node: Argp Example 42926488
+Node: Argp User Customization2934166
+Node: Suboptions2936005
+Node: Suboptions Example2938090
+Node: Environment Variables2940245
+Node: Environment Access2942143
+Node: Standard Environment2948681
+Node: Auxiliary Vector2953031
+Node: System Calls2954557
+Node: Program Termination2958224
+Node: Normal Termination2959474
+Node: Exit Status2961056
+Node: Cleanups on Exit2964499
+Node: Aborting a Program2966570
+Node: Termination Internals2967617
+Node: Processes2970065
+Node: Running a Command2972121
+Node: Process Creation Concepts2974325
+Node: Process Identification2976395
+Node: Creating a Process2977543
+Node: Executing a File2981527
+Node: Process Completion2989429
+Node: Process Completion Status2996161
+Node: BSD Wait Functions2998459
+Node: Process Creation Example2999360
+Node: Inter-Process Communication3069125
+Node: Semaphores3069443
+Node: Job Control3072079
+Node: Concepts of Job Control3073393
+Node: Job Control is Optional3076836
+Node: Controlling Terminal3077897
+Node: Access to the Terminal3078824
+Node: Orphaned Process Groups3080468
+Node: Implementing a Shell3081474
+Node: Data Structures3082364
+Node: Initializing the Shell3085010
+Node: Launching Jobs3088732
+Node: Foreground and Background3096195
+Node: Stopped and Terminated Jobs3099324
+Node: Continuing Stopped Jobs3104497
+Node: Missing Pieces3106142
+Node: Functions for Job Control3107811
+Node: Identifying the Terminal3108300
+Node: Process Group Functions3110034
+Node: Terminal Access Functions3114838
+Node: Name Service Switch3118699
+Node: NSS Basics3120009
+Node: NSS Configuration File3121658
+Node: Services in the NSS configuration3123377
+Node: Actions in the NSS configuration3124703
+Node: Notes on NSS Configuration File3129763
+Node: NSS Module Internals3131710
+Node: NSS Module Names3132413
+Ref: NSS Module Names-Footnote-13134487
+Ref: NSS Module Names-Footnote-23134641
+Node: NSS Modules Interface3134825
+Node: Extending NSS3141012
+Node: Adding another Service to NSS3141950
+Node: NSS Module Function Internals3144216
+Node: Users and Groups3149249
+Node: User and Group IDs3151879
+Node: Process Persona3152824
+Node: Why Change Persona3154560
+Node: How Change Persona3156483
+Node: Reading Persona3158392
+Node: Setting User ID3161177
+Node: Setting Groups3164433
+Node: Enable/Disable Setuid3170981
+Node: Setuid Program Example3173088
+Node: Tips for Setuid3176526
+Node: Who Logged In3179113
+Node: User Accounting Database3181916
+Node: Manipulating the Database3183123
+Node: XPG Functions3197517
+Node: Logging In and Out3203404
+Node: User Database3206183
+Node: User Data Structure3206860
+Node: Lookup User3208185
+Node: Scanning All Users3211415
+Node: Writing a User Entry3215359
+Node: Group Database3216512
+Node: Group Data Structure3217101
+Node: Lookup Group3217902
+Node: Scanning All Groups3221055
+Node: Database Example3225076
+Node: Netgroup Database3227253
+Node: Netgroup Data3227676
+Node: Lookup Netgroup3229224
+Node: Netgroup Membership3233378
+Node: System Management3234905
+Node: Host Identification3235839
+Node: Platform Type3243188
+Node: Filesystem Handling3246718
+Node: Mount Information3248234
+Node: fstab3250520
+Node: mtab3257307
+Node: Other Mount Information3267753
+Node: Mount-Unmount-Remount3268302
+Node: System Parameters3278105
+Node: System Configuration3283867
+Node: General Limits3285442
+Node: System Options3289140
+Node: Version Supported3292575
+Node: Sysconf3294222
+Node: Sysconf Definition3294889
+Node: Constants for Sysconf3295718
+Node: Examples of Sysconf3377122
+Node: Minimums3378136
+Node: Limits for Files3380945
+Node: Options for Files3384350
+Node: File Minimums3386689
+Node: Pathconf3388994
+Node: Utility Limits3392862
+Node: Utility Minimums3394853
+Node: String Parameters3396717
+Node: Cryptographic Functions3400822
+Node: Legal Problems3403239
+Node: getpass3405532
+Node: crypt3407882
+Node: DES Encryption3412977
+Node: Unpredictable Bytes3420115
+Node: Debugging Support3424239
+Node: Backtraces3424884
+Node: POSIX Threads3430064
+Node: Thread-specific Data3430475
+Node: Non-POSIX Extensions3432264
+Node: Default Thread Attributes3432701
+Node: Internal Probes3433982
+Node: Memory Allocation Probes3434848
+Node: Mathematical Function Probes3445177
+Node: Non-local Goto Probes3452142
+Node: Tunables3454005
+Node: Tunable names3455424
+Node: Memory Allocation Tunables3456409
+Node: Language Features3462724
+Node: Consistency Checking3463676
+Node: Variadic Functions3468633
+Node: Why Variadic3469726
+Node: How Variadic3471726
+Node: Variadic Prototypes3472972
+Node: Receiving Arguments3474171
+Node: How Many Arguments3476917
+Node: Calling Variadics3478606
+Node: Argument Macros3480773
+Node: Variadic Example3484206
+Node: Null Pointer Constant3485333
+Node: Important Data Types3486444
+Node: Data Type Measurements3488377
+Node: Width of Type3489247
+Node: Range of Type3491601
+Node: Floating Type Macros3495446
+Node: Floating Point Concepts3496719
+Node: Floating Point Parameters3500574
+Node: IEEE Floating Point3507965
+Node: Structure Measurement3509743
+Node: Library Summary3510552
+Node: Installation3810413
+Node: Configuring and compiling3811566
+Node: Running make install3827674
+Node: Tools for Compilation3831568
+Node: Linux3835256
+Node: Reporting Bugs3837773
+Node: Maintenance3840146
+Node: Source Layout3840547
+Node: Adding Platform-specific3844837
+Node: Porting3847935
+Node: Hierarchy Conventions3855971
+Node: Porting to Unix3861248
+Node: Platform3863352
+Node: PowerPC3863663
+Node: Contributors3868509
+Node: Free Manuals3882389
+Node: Copying3887345
+Node: Documentation License3983063
+Node: Concept Index4008405
+Node: Type Index4116149
+Node: Function Index4136275
+Node: Variable Index4340346
+Node: File Index4455764
 
 End Tag Table
 

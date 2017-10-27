@@ -2,7 +2,7 @@ This is libc.info, produced by makeinfo version 6.4 from libc.texinfo.
 
 This file documents the GNU C Library.
 
-   This is ‘The GNU C Library Reference Manual’, for version 2.26.
+   This is ‘The GNU C Library Reference Manual’, for version 2.25.
 
    Copyright © 1993–2017 Free Software Foundation, Inc.
 
@@ -35,7 +35,6 @@ START-INFO-DIR-ENTRY
 * BRKINT: (libc)Input Modes.
 * BUFSIZ: (libc)Controlling Buffering.
 * CCTS_OFLOW: (libc)Control Modes.
-* CHAR_BIT: (libc)Width of Type.
 * CHILD_MAX: (libc)General Limits.
 * CIGNORE: (libc)Control Modes.
 * CLK_TCK: (libc)Processor Time.
@@ -249,8 +248,6 @@ START-INFO-DIR-ENTRY
 * HUGE_VAL: (libc)Math Error Reporting.
 * HUGE_VALF: (libc)Math Error Reporting.
 * HUGE_VALL: (libc)Math Error Reporting.
-* HUGE_VAL_FN: (libc)Math Error Reporting.
-* HUGE_VAL_FNx: (libc)Math Error Reporting.
 * HUPCL: (libc)Control Modes.
 * I: (libc)Complex Numbers.
 * ICANON: (libc)Local Modes.
@@ -389,8 +386,6 @@ START-INFO-DIR-ENTRY
 * SIG_ERR: (libc)Basic Signal Handling.
 * SNAN: (libc)Infinity and NaN.
 * SNANF: (libc)Infinity and NaN.
-* SNANFN: (libc)Infinity and NaN.
-* SNANFNx: (libc)Infinity and NaN.
 * SNANL: (libc)Infinity and NaN.
 * SOCK_DGRAM: (libc)Communication Styles.
 * SOCK_RAW: (libc)Communication Styles.
@@ -500,12 +495,8 @@ START-INFO-DIR-ENTRY
 * access: (libc)Testing File Access.
 * acos: (libc)Inverse Trig Functions.
 * acosf: (libc)Inverse Trig Functions.
-* acosfN: (libc)Inverse Trig Functions.
-* acosfNx: (libc)Inverse Trig Functions.
 * acosh: (libc)Hyperbolic Functions.
 * acoshf: (libc)Hyperbolic Functions.
-* acoshfN: (libc)Hyperbolic Functions.
-* acoshfNx: (libc)Hyperbolic Functions.
 * acoshl: (libc)Hyperbolic Functions.
 * acosl: (libc)Inverse Trig Functions.
 * addmntent: (libc)mtab.
@@ -554,12 +545,8 @@ START-INFO-DIR-ENTRY
 * asctime_r: (libc)Formatting Calendar Time.
 * asin: (libc)Inverse Trig Functions.
 * asinf: (libc)Inverse Trig Functions.
-* asinfN: (libc)Inverse Trig Functions.
-* asinfNx: (libc)Inverse Trig Functions.
 * asinh: (libc)Hyperbolic Functions.
 * asinhf: (libc)Hyperbolic Functions.
-* asinhfN: (libc)Hyperbolic Functions.
-* asinhfNx: (libc)Hyperbolic Functions.
 * asinhl: (libc)Hyperbolic Functions.
 * asinl: (libc)Inverse Trig Functions.
 * asprintf: (libc)Dynamic Output.
@@ -567,17 +554,11 @@ START-INFO-DIR-ENTRY
 * assert_perror: (libc)Consistency Checking.
 * atan2: (libc)Inverse Trig Functions.
 * atan2f: (libc)Inverse Trig Functions.
-* atan2fN: (libc)Inverse Trig Functions.
-* atan2fNx: (libc)Inverse Trig Functions.
 * atan2l: (libc)Inverse Trig Functions.
 * atan: (libc)Inverse Trig Functions.
 * atanf: (libc)Inverse Trig Functions.
-* atanfN: (libc)Inverse Trig Functions.
-* atanfNx: (libc)Inverse Trig Functions.
 * atanh: (libc)Hyperbolic Functions.
 * atanhf: (libc)Hyperbolic Functions.
-* atanhfN: (libc)Hyperbolic Functions.
-* atanhfNx: (libc)Hyperbolic Functions.
 * atanhl: (libc)Hyperbolic Functions.
 * atanl: (libc)Inverse Trig Functions.
 * atexit: (libc)Cleanups on Exit.
@@ -601,49 +582,31 @@ START-INFO-DIR-ENTRY
 * bzero: (libc)Copying Strings and Arrays.
 * cabs: (libc)Absolute Value.
 * cabsf: (libc)Absolute Value.
-* cabsfN: (libc)Absolute Value.
-* cabsfNx: (libc)Absolute Value.
 * cabsl: (libc)Absolute Value.
 * cacos: (libc)Inverse Trig Functions.
 * cacosf: (libc)Inverse Trig Functions.
-* cacosfN: (libc)Inverse Trig Functions.
-* cacosfNx: (libc)Inverse Trig Functions.
 * cacosh: (libc)Hyperbolic Functions.
 * cacoshf: (libc)Hyperbolic Functions.
-* cacoshfN: (libc)Hyperbolic Functions.
-* cacoshfNx: (libc)Hyperbolic Functions.
 * cacoshl: (libc)Hyperbolic Functions.
 * cacosl: (libc)Inverse Trig Functions.
 * calloc: (libc)Allocating Cleared Space.
 * canonicalize: (libc)FP Bit Twiddling.
 * canonicalize_file_name: (libc)Symbolic Links.
 * canonicalizef: (libc)FP Bit Twiddling.
-* canonicalizefN: (libc)FP Bit Twiddling.
-* canonicalizefNx: (libc)FP Bit Twiddling.
 * canonicalizel: (libc)FP Bit Twiddling.
 * carg: (libc)Operations on Complex.
 * cargf: (libc)Operations on Complex.
-* cargfN: (libc)Operations on Complex.
-* cargfNx: (libc)Operations on Complex.
 * cargl: (libc)Operations on Complex.
 * casin: (libc)Inverse Trig Functions.
 * casinf: (libc)Inverse Trig Functions.
-* casinfN: (libc)Inverse Trig Functions.
-* casinfNx: (libc)Inverse Trig Functions.
 * casinh: (libc)Hyperbolic Functions.
 * casinhf: (libc)Hyperbolic Functions.
-* casinhfN: (libc)Hyperbolic Functions.
-* casinhfNx: (libc)Hyperbolic Functions.
 * casinhl: (libc)Hyperbolic Functions.
 * casinl: (libc)Inverse Trig Functions.
 * catan: (libc)Inverse Trig Functions.
 * catanf: (libc)Inverse Trig Functions.
-* catanfN: (libc)Inverse Trig Functions.
-* catanfNx: (libc)Inverse Trig Functions.
 * catanh: (libc)Hyperbolic Functions.
 * catanhf: (libc)Hyperbolic Functions.
-* catanhfN: (libc)Hyperbolic Functions.
-* catanhfNx: (libc)Hyperbolic Functions.
 * catanhl: (libc)Hyperbolic Functions.
 * catanl: (libc)Inverse Trig Functions.
 * catclose: (libc)The catgets Functions.
@@ -652,32 +615,23 @@ START-INFO-DIR-ENTRY
 * cbc_crypt: (libc)DES Encryption.
 * cbrt: (libc)Exponents and Logarithms.
 * cbrtf: (libc)Exponents and Logarithms.
-* cbrtfN: (libc)Exponents and Logarithms.
-* cbrtfNx: (libc)Exponents and Logarithms.
 * cbrtl: (libc)Exponents and Logarithms.
 * ccos: (libc)Trig Functions.
 * ccosf: (libc)Trig Functions.
-* ccosfN: (libc)Trig Functions.
-* ccosfNx: (libc)Trig Functions.
 * ccosh: (libc)Hyperbolic Functions.
 * ccoshf: (libc)Hyperbolic Functions.
-* ccoshfN: (libc)Hyperbolic Functions.
-* ccoshfNx: (libc)Hyperbolic Functions.
 * ccoshl: (libc)Hyperbolic Functions.
 * ccosl: (libc)Trig Functions.
 * ceil: (libc)Rounding Functions.
 * ceilf: (libc)Rounding Functions.
-* ceilfN: (libc)Rounding Functions.
-* ceilfNx: (libc)Rounding Functions.
 * ceill: (libc)Rounding Functions.
 * cexp: (libc)Exponents and Logarithms.
 * cexpf: (libc)Exponents and Logarithms.
-* cexpfN: (libc)Exponents and Logarithms.
-* cexpfNx: (libc)Exponents and Logarithms.
 * cexpl: (libc)Exponents and Logarithms.
 * cfgetispeed: (libc)Line Speed.
 * cfgetospeed: (libc)Line Speed.
 * cfmakeraw: (libc)Noncanonical Input.
+* cfree: (libc)Freeing after Malloc.
 * cfsetispeed: (libc)Line Speed.
 * cfsetospeed: (libc)Line Speed.
 * cfsetspeed: (libc)Line Speed.
@@ -686,8 +640,6 @@ START-INFO-DIR-ENTRY
 * chown: (libc)File Owner.
 * cimag: (libc)Operations on Complex.
 * cimagf: (libc)Operations on Complex.
-* cimagfN: (libc)Operations on Complex.
-* cimagfNx: (libc)Operations on Complex.
 * cimagl: (libc)Operations on Complex.
 * clearenv: (libc)Environment Access.
 * clearerr: (libc)Error Recovery.
@@ -695,13 +647,9 @@ START-INFO-DIR-ENTRY
 * clock: (libc)CPU Time.
 * clog10: (libc)Exponents and Logarithms.
 * clog10f: (libc)Exponents and Logarithms.
-* clog10fN: (libc)Exponents and Logarithms.
-* clog10fNx: (libc)Exponents and Logarithms.
 * clog10l: (libc)Exponents and Logarithms.
 * clog: (libc)Exponents and Logarithms.
 * clogf: (libc)Exponents and Logarithms.
-* clogfN: (libc)Exponents and Logarithms.
-* clogfNx: (libc)Exponents and Logarithms.
 * clogl: (libc)Exponents and Logarithms.
 * close: (libc)Opening and Closing Files.
 * closedir: (libc)Reading/Closing Directory.
@@ -709,39 +657,25 @@ START-INFO-DIR-ENTRY
 * confstr: (libc)String Parameters.
 * conj: (libc)Operations on Complex.
 * conjf: (libc)Operations on Complex.
-* conjfN: (libc)Operations on Complex.
-* conjfNx: (libc)Operations on Complex.
 * conjl: (libc)Operations on Complex.
 * connect: (libc)Connecting.
 * copysign: (libc)FP Bit Twiddling.
 * copysignf: (libc)FP Bit Twiddling.
-* copysignfN: (libc)FP Bit Twiddling.
-* copysignfNx: (libc)FP Bit Twiddling.
 * copysignl: (libc)FP Bit Twiddling.
 * cos: (libc)Trig Functions.
 * cosf: (libc)Trig Functions.
-* cosfN: (libc)Trig Functions.
-* cosfNx: (libc)Trig Functions.
 * cosh: (libc)Hyperbolic Functions.
 * coshf: (libc)Hyperbolic Functions.
-* coshfN: (libc)Hyperbolic Functions.
-* coshfNx: (libc)Hyperbolic Functions.
 * coshl: (libc)Hyperbolic Functions.
 * cosl: (libc)Trig Functions.
 * cpow: (libc)Exponents and Logarithms.
 * cpowf: (libc)Exponents and Logarithms.
-* cpowfN: (libc)Exponents and Logarithms.
-* cpowfNx: (libc)Exponents and Logarithms.
 * cpowl: (libc)Exponents and Logarithms.
 * cproj: (libc)Operations on Complex.
 * cprojf: (libc)Operations on Complex.
-* cprojfN: (libc)Operations on Complex.
-* cprojfNx: (libc)Operations on Complex.
 * cprojl: (libc)Operations on Complex.
 * creal: (libc)Operations on Complex.
 * crealf: (libc)Operations on Complex.
-* crealfN: (libc)Operations on Complex.
-* crealfNx: (libc)Operations on Complex.
 * creall: (libc)Operations on Complex.
 * creat64: (libc)Opening and Closing Files.
 * creat: (libc)Opening and Closing Files.
@@ -749,27 +683,17 @@ START-INFO-DIR-ENTRY
 * crypt_r: (libc)crypt.
 * csin: (libc)Trig Functions.
 * csinf: (libc)Trig Functions.
-* csinfN: (libc)Trig Functions.
-* csinfNx: (libc)Trig Functions.
 * csinh: (libc)Hyperbolic Functions.
 * csinhf: (libc)Hyperbolic Functions.
-* csinhfN: (libc)Hyperbolic Functions.
-* csinhfNx: (libc)Hyperbolic Functions.
 * csinhl: (libc)Hyperbolic Functions.
 * csinl: (libc)Trig Functions.
 * csqrt: (libc)Exponents and Logarithms.
 * csqrtf: (libc)Exponents and Logarithms.
-* csqrtfN: (libc)Exponents and Logarithms.
-* csqrtfNx: (libc)Exponents and Logarithms.
 * csqrtl: (libc)Exponents and Logarithms.
 * ctan: (libc)Trig Functions.
 * ctanf: (libc)Trig Functions.
-* ctanfN: (libc)Trig Functions.
-* ctanfNx: (libc)Trig Functions.
 * ctanh: (libc)Hyperbolic Functions.
 * ctanhf: (libc)Hyperbolic Functions.
-* ctanhfN: (libc)Hyperbolic Functions.
-* ctanhfNx: (libc)Hyperbolic Functions.
 * ctanhl: (libc)Hyperbolic Functions.
 * ctanl: (libc)Trig Functions.
 * ctermid: (libc)Identifying the Terminal.
@@ -819,12 +743,8 @@ START-INFO-DIR-ENTRY
 * erf: (libc)Special Functions.
 * erfc: (libc)Special Functions.
 * erfcf: (libc)Special Functions.
-* erfcfN: (libc)Special Functions.
-* erfcfNx: (libc)Special Functions.
 * erfcl: (libc)Special Functions.
 * erff: (libc)Special Functions.
-* erffN: (libc)Special Functions.
-* erffNx: (libc)Special Functions.
 * erfl: (libc)Special Functions.
 * err: (libc)Error Messages.
 * errno: (libc)Checking for Errors.
@@ -840,29 +760,19 @@ START-INFO-DIR-ENTRY
 * exit: (libc)Normal Termination.
 * exp10: (libc)Exponents and Logarithms.
 * exp10f: (libc)Exponents and Logarithms.
-* exp10fN: (libc)Exponents and Logarithms.
-* exp10fNx: (libc)Exponents and Logarithms.
 * exp10l: (libc)Exponents and Logarithms.
 * exp2: (libc)Exponents and Logarithms.
 * exp2f: (libc)Exponents and Logarithms.
-* exp2fN: (libc)Exponents and Logarithms.
-* exp2fNx: (libc)Exponents and Logarithms.
 * exp2l: (libc)Exponents and Logarithms.
 * exp: (libc)Exponents and Logarithms.
 * expf: (libc)Exponents and Logarithms.
-* expfN: (libc)Exponents and Logarithms.
-* expfNx: (libc)Exponents and Logarithms.
 * expl: (libc)Exponents and Logarithms.
 * explicit_bzero: (libc)Erasing Sensitive Data.
 * expm1: (libc)Exponents and Logarithms.
 * expm1f: (libc)Exponents and Logarithms.
-* expm1fN: (libc)Exponents and Logarithms.
-* expm1fNx: (libc)Exponents and Logarithms.
 * expm1l: (libc)Exponents and Logarithms.
 * fabs: (libc)Absolute Value.
 * fabsf: (libc)Absolute Value.
-* fabsfN: (libc)Absolute Value.
-* fabsfNx: (libc)Absolute Value.
 * fabsl: (libc)Absolute Value.
 * fchdir: (libc)Working Directory.
 * fchmod: (libc)Setting Permissions.
@@ -875,8 +785,6 @@ START-INFO-DIR-ENTRY
 * fdatasync: (libc)Synchronizing I/O.
 * fdim: (libc)Misc FP Arithmetic.
 * fdimf: (libc)Misc FP Arithmetic.
-* fdimfN: (libc)Misc FP Arithmetic.
-* fdimfNx: (libc)Misc FP Arithmetic.
 * fdiml: (libc)Misc FP Arithmetic.
 * fdopen: (libc)Descriptors and Streams.
 * fdopendir: (libc)Opening a Directory.
@@ -926,39 +834,25 @@ START-INFO-DIR-ENTRY
 * flockfile: (libc)Streams and Threads.
 * floor: (libc)Rounding Functions.
 * floorf: (libc)Rounding Functions.
-* floorfN: (libc)Rounding Functions.
-* floorfNx: (libc)Rounding Functions.
 * floorl: (libc)Rounding Functions.
 * fma: (libc)Misc FP Arithmetic.
 * fmaf: (libc)Misc FP Arithmetic.
-* fmafN: (libc)Misc FP Arithmetic.
-* fmafNx: (libc)Misc FP Arithmetic.
 * fmal: (libc)Misc FP Arithmetic.
 * fmax: (libc)Misc FP Arithmetic.
 * fmaxf: (libc)Misc FP Arithmetic.
-* fmaxfN: (libc)Misc FP Arithmetic.
-* fmaxfNx: (libc)Misc FP Arithmetic.
 * fmaxl: (libc)Misc FP Arithmetic.
 * fmaxmag: (libc)Misc FP Arithmetic.
 * fmaxmagf: (libc)Misc FP Arithmetic.
-* fmaxmagfN: (libc)Misc FP Arithmetic.
-* fmaxmagfNx: (libc)Misc FP Arithmetic.
 * fmaxmagl: (libc)Misc FP Arithmetic.
 * fmemopen: (libc)String Streams.
 * fmin: (libc)Misc FP Arithmetic.
 * fminf: (libc)Misc FP Arithmetic.
-* fminfN: (libc)Misc FP Arithmetic.
-* fminfNx: (libc)Misc FP Arithmetic.
 * fminl: (libc)Misc FP Arithmetic.
 * fminmag: (libc)Misc FP Arithmetic.
 * fminmagf: (libc)Misc FP Arithmetic.
-* fminmagfN: (libc)Misc FP Arithmetic.
-* fminmagfNx: (libc)Misc FP Arithmetic.
 * fminmagl: (libc)Misc FP Arithmetic.
 * fmod: (libc)Remainder Functions.
 * fmodf: (libc)Remainder Functions.
-* fmodfN: (libc)Remainder Functions.
-* fmodfNx: (libc)Remainder Functions.
 * fmodl: (libc)Remainder Functions.
 * fmtmsg: (libc)Printing Formatted Messages.
 * fnmatch: (libc)Wildcard Matching.
@@ -985,18 +879,12 @@ START-INFO-DIR-ENTRY
 * freopen: (libc)Opening Streams.
 * frexp: (libc)Normalization Functions.
 * frexpf: (libc)Normalization Functions.
-* frexpfN: (libc)Normalization Functions.
-* frexpfNx: (libc)Normalization Functions.
 * frexpl: (libc)Normalization Functions.
 * fromfp: (libc)Rounding Functions.
 * fromfpf: (libc)Rounding Functions.
-* fromfpfN: (libc)Rounding Functions.
-* fromfpfNx: (libc)Rounding Functions.
 * fromfpl: (libc)Rounding Functions.
 * fromfpx: (libc)Rounding Functions.
 * fromfpxf: (libc)Rounding Functions.
-* fromfpxfN: (libc)Rounding Functions.
-* fromfpxfNx: (libc)Rounding Functions.
 * fromfpxl: (libc)Rounding Functions.
 * fscanf: (libc)Formatted Input Functions.
 * fseek: (libc)File Positioning.
@@ -1085,8 +973,6 @@ START-INFO-DIR-ENTRY
 * getpass: (libc)getpass.
 * getpayload: (libc)FP Bit Twiddling.
 * getpayloadf: (libc)FP Bit Twiddling.
-* getpayloadfN: (libc)FP Bit Twiddling.
-* getpayloadfNx: (libc)FP Bit Twiddling.
 * getpayloadl: (libc)FP Bit Twiddling.
 * getpeername: (libc)Who is Connected.
 * getpgid: (libc)Process Group Functions.
@@ -1157,8 +1043,6 @@ START-INFO-DIR-ENTRY
 * htons: (libc)Byte Order.
 * hypot: (libc)Exponents and Logarithms.
 * hypotf: (libc)Exponents and Logarithms.
-* hypotfN: (libc)Exponents and Logarithms.
-* hypotfNx: (libc)Exponents and Logarithms.
 * hypotl: (libc)Exponents and Logarithms.
 * iconv: (libc)Generic Conversion Interface.
 * iconv_close: (libc)Generic Conversion Interface.
@@ -1169,8 +1053,6 @@ START-INFO-DIR-ENTRY
 * if_nametoindex: (libc)Interface Naming.
 * ilogb: (libc)Exponents and Logarithms.
 * ilogbf: (libc)Exponents and Logarithms.
-* ilogbfN: (libc)Exponents and Logarithms.
-* ilogbfNx: (libc)Exponents and Logarithms.
 * ilogbl: (libc)Exponents and Logarithms.
 * imaxabs: (libc)Absolute Value.
 * imaxdiv: (libc)Integer Division.
@@ -1240,18 +1122,12 @@ START-INFO-DIR-ENTRY
 * iszero: (libc)Floating Point Classes.
 * j0: (libc)Special Functions.
 * j0f: (libc)Special Functions.
-* j0fN: (libc)Special Functions.
-* j0fNx: (libc)Special Functions.
 * j0l: (libc)Special Functions.
 * j1: (libc)Special Functions.
 * j1f: (libc)Special Functions.
-* j1fN: (libc)Special Functions.
-* j1fNx: (libc)Special Functions.
 * j1l: (libc)Special Functions.
 * jn: (libc)Special Functions.
 * jnf: (libc)Special Functions.
-* jnfN: (libc)Special Functions.
-* jnfNx: (libc)Special Functions.
 * jnl: (libc)Special Functions.
 * jrand48: (libc)SVID Random.
 * jrand48_r: (libc)SVID Random.
@@ -1263,18 +1139,12 @@ START-INFO-DIR-ENTRY
 * lcong48_r: (libc)SVID Random.
 * ldexp: (libc)Normalization Functions.
 * ldexpf: (libc)Normalization Functions.
-* ldexpfN: (libc)Normalization Functions.
-* ldexpfNx: (libc)Normalization Functions.
 * ldexpl: (libc)Normalization Functions.
 * ldiv: (libc)Integer Division.
 * lfind: (libc)Array Search Function.
 * lgamma: (libc)Special Functions.
 * lgamma_r: (libc)Special Functions.
 * lgammaf: (libc)Special Functions.
-* lgammafN: (libc)Special Functions.
-* lgammafN_r: (libc)Special Functions.
-* lgammafNx: (libc)Special Functions.
-* lgammafNx_r: (libc)Special Functions.
 * lgammaf_r: (libc)Special Functions.
 * lgammal: (libc)Special Functions.
 * lgammal_r: (libc)Special Functions.
@@ -1286,46 +1156,30 @@ START-INFO-DIR-ENTRY
 * lldiv: (libc)Integer Division.
 * llogb: (libc)Exponents and Logarithms.
 * llogbf: (libc)Exponents and Logarithms.
-* llogbfN: (libc)Exponents and Logarithms.
-* llogbfNx: (libc)Exponents and Logarithms.
 * llogbl: (libc)Exponents and Logarithms.
 * llrint: (libc)Rounding Functions.
 * llrintf: (libc)Rounding Functions.
-* llrintfN: (libc)Rounding Functions.
-* llrintfNx: (libc)Rounding Functions.
 * llrintl: (libc)Rounding Functions.
 * llround: (libc)Rounding Functions.
 * llroundf: (libc)Rounding Functions.
-* llroundfN: (libc)Rounding Functions.
-* llroundfNx: (libc)Rounding Functions.
 * llroundl: (libc)Rounding Functions.
 * localeconv: (libc)The Lame Way to Locale Data.
 * localtime: (libc)Broken-down Time.
 * localtime_r: (libc)Broken-down Time.
 * log10: (libc)Exponents and Logarithms.
 * log10f: (libc)Exponents and Logarithms.
-* log10fN: (libc)Exponents and Logarithms.
-* log10fNx: (libc)Exponents and Logarithms.
 * log10l: (libc)Exponents and Logarithms.
 * log1p: (libc)Exponents and Logarithms.
 * log1pf: (libc)Exponents and Logarithms.
-* log1pfN: (libc)Exponents and Logarithms.
-* log1pfNx: (libc)Exponents and Logarithms.
 * log1pl: (libc)Exponents and Logarithms.
 * log2: (libc)Exponents and Logarithms.
 * log2f: (libc)Exponents and Logarithms.
-* log2fN: (libc)Exponents and Logarithms.
-* log2fNx: (libc)Exponents and Logarithms.
 * log2l: (libc)Exponents and Logarithms.
 * log: (libc)Exponents and Logarithms.
 * logb: (libc)Exponents and Logarithms.
 * logbf: (libc)Exponents and Logarithms.
-* logbfN: (libc)Exponents and Logarithms.
-* logbfNx: (libc)Exponents and Logarithms.
 * logbl: (libc)Exponents and Logarithms.
 * logf: (libc)Exponents and Logarithms.
-* logfN: (libc)Exponents and Logarithms.
-* logfNx: (libc)Exponents and Logarithms.
 * login: (libc)Logging In and Out.
 * login_tty: (libc)Logging In and Out.
 * logl: (libc)Exponents and Logarithms.
@@ -1336,13 +1190,9 @@ START-INFO-DIR-ENTRY
 * lrand48_r: (libc)SVID Random.
 * lrint: (libc)Rounding Functions.
 * lrintf: (libc)Rounding Functions.
-* lrintfN: (libc)Rounding Functions.
-* lrintfNx: (libc)Rounding Functions.
 * lrintl: (libc)Rounding Functions.
 * lround: (libc)Rounding Functions.
 * lroundf: (libc)Rounding Functions.
-* lroundfN: (libc)Rounding Functions.
-* lroundfNx: (libc)Rounding Functions.
 * lroundl: (libc)Rounding Functions.
 * lsearch: (libc)Array Search Function.
 * lseek64: (libc)File Position Primitive.
@@ -1388,8 +1238,6 @@ START-INFO-DIR-ENTRY
 * mmap: (libc)Memory-mapped I/O.
 * modf: (libc)Rounding Functions.
 * modff: (libc)Rounding Functions.
-* modffN: (libc)Rounding Functions.
-* modffNx: (libc)Rounding Functions.
 * modfl: (libc)Rounding Functions.
 * mount: (libc)Mount-Unmount-Remount.
 * mprobe: (libc)Heap Consistency Checking.
@@ -1404,32 +1252,22 @@ START-INFO-DIR-ENTRY
 * muntrace: (libc)Tracing malloc.
 * nan: (libc)FP Bit Twiddling.
 * nanf: (libc)FP Bit Twiddling.
-* nanfN: (libc)FP Bit Twiddling.
-* nanfNx: (libc)FP Bit Twiddling.
 * nanl: (libc)FP Bit Twiddling.
 * nanosleep: (libc)Sleeping.
 * nearbyint: (libc)Rounding Functions.
 * nearbyintf: (libc)Rounding Functions.
-* nearbyintfN: (libc)Rounding Functions.
-* nearbyintfNx: (libc)Rounding Functions.
 * nearbyintl: (libc)Rounding Functions.
 * nextafter: (libc)FP Bit Twiddling.
 * nextafterf: (libc)FP Bit Twiddling.
-* nextafterfN: (libc)FP Bit Twiddling.
-* nextafterfNx: (libc)FP Bit Twiddling.
 * nextafterl: (libc)FP Bit Twiddling.
 * nextdown: (libc)FP Bit Twiddling.
 * nextdownf: (libc)FP Bit Twiddling.
-* nextdownfN: (libc)FP Bit Twiddling.
-* nextdownfNx: (libc)FP Bit Twiddling.
 * nextdownl: (libc)FP Bit Twiddling.
 * nexttoward: (libc)FP Bit Twiddling.
 * nexttowardf: (libc)FP Bit Twiddling.
 * nexttowardl: (libc)FP Bit Twiddling.
 * nextup: (libc)FP Bit Twiddling.
 * nextupf: (libc)FP Bit Twiddling.
-* nextupfN: (libc)FP Bit Twiddling.
-* nextupfNx: (libc)FP Bit Twiddling.
 * nextupl: (libc)FP Bit Twiddling.
 * nftw64: (libc)Working with Directory Trees.
 * nftw: (libc)Working with Directory Trees.
@@ -1490,15 +1328,9 @@ START-INFO-DIR-ENTRY
 * pow10l: (libc)Exponents and Logarithms.
 * pow: (libc)Exponents and Logarithms.
 * powf: (libc)Exponents and Logarithms.
-* powfN: (libc)Exponents and Logarithms.
-* powfNx: (libc)Exponents and Logarithms.
 * powl: (libc)Exponents and Logarithms.
 * pread64: (libc)I/O Primitives.
 * pread: (libc)I/O Primitives.
-* preadv2: (libc)I/O Primitives.
-* preadv64: (libc)I/O Primitives.
-* preadv64v2: (libc)I/O Primitives.
-* preadv: (libc)I/O Primitives.
 * printf: (libc)Formatted Output Functions.
 * printf_size: (libc)Predefined Printf Handlers.
 * printf_size_info: (libc)Predefined Printf Handlers.
@@ -1527,10 +1359,6 @@ START-INFO-DIR-ENTRY
 * putwchar_unlocked: (libc)Simple Output.
 * pwrite64: (libc)I/O Primitives.
 * pwrite: (libc)I/O Primitives.
-* pwritev2: (libc)I/O Primitives.
-* pwritev64: (libc)I/O Primitives.
-* pwritev64v2: (libc)I/O Primitives.
-* pwritev: (libc)I/O Primitives.
 * qecvt: (libc)System V Number Conversion.
 * qecvt_r: (libc)System V Number Conversion.
 * qfcvt: (libc)System V Number Conversion.
@@ -1551,7 +1379,6 @@ START-INFO-DIR-ENTRY
 * readlink: (libc)Symbolic Links.
 * readv: (libc)Scatter-Gather.
 * realloc: (libc)Changing Block Size.
-* reallocarray: (libc)Changing Block Size.
 * realpath: (libc)Symbolic Links.
 * recv: (libc)Receiving Data.
 * recvfrom: (libc)Receiving Datagrams.
@@ -1563,8 +1390,6 @@ START-INFO-DIR-ENTRY
 * register_printf_function: (libc)Registering New Conversions.
 * remainder: (libc)Remainder Functions.
 * remainderf: (libc)Remainder Functions.
-* remainderfN: (libc)Remainder Functions.
-* remainderfNx: (libc)Remainder Functions.
 * remainderl: (libc)Remainder Functions.
 * remove: (libc)Deleting Files.
 * rename: (libc)Renaming Files.
@@ -1573,19 +1398,13 @@ START-INFO-DIR-ENTRY
 * rindex: (libc)Search Functions.
 * rint: (libc)Rounding Functions.
 * rintf: (libc)Rounding Functions.
-* rintfN: (libc)Rounding Functions.
-* rintfNx: (libc)Rounding Functions.
 * rintl: (libc)Rounding Functions.
 * rmdir: (libc)Deleting Files.
 * round: (libc)Rounding Functions.
 * roundeven: (libc)Rounding Functions.
 * roundevenf: (libc)Rounding Functions.
-* roundevenfN: (libc)Rounding Functions.
-* roundevenfNx: (libc)Rounding Functions.
 * roundevenl: (libc)Rounding Functions.
 * roundf: (libc)Rounding Functions.
-* roundfN: (libc)Rounding Functions.
-* roundfNx: (libc)Rounding Functions.
 * roundl: (libc)Rounding Functions.
 * rpmatch: (libc)Yes-or-No Questions.
 * sbrk: (libc)Resizing the Data Segment.
@@ -1594,13 +1413,9 @@ START-INFO-DIR-ENTRY
 * scalbl: (libc)Normalization Functions.
 * scalbln: (libc)Normalization Functions.
 * scalblnf: (libc)Normalization Functions.
-* scalblnfN: (libc)Normalization Functions.
-* scalblnfNx: (libc)Normalization Functions.
 * scalblnl: (libc)Normalization Functions.
 * scalbn: (libc)Normalization Functions.
 * scalbnf: (libc)Normalization Functions.
-* scalbnfN: (libc)Normalization Functions.
-* scalbnfNx: (libc)Normalization Functions.
 * scalbnl: (libc)Normalization Functions.
 * scandir64: (libc)Scanning Directory Content.
 * scandir: (libc)Scanning Directory Content.
@@ -1663,13 +1478,9 @@ START-INFO-DIR-ENTRY
 * setnetgrent: (libc)Lookup Netgroup.
 * setpayload: (libc)FP Bit Twiddling.
 * setpayloadf: (libc)FP Bit Twiddling.
-* setpayloadfN: (libc)FP Bit Twiddling.
-* setpayloadfNx: (libc)FP Bit Twiddling.
 * setpayloadl: (libc)FP Bit Twiddling.
 * setpayloadsig: (libc)FP Bit Twiddling.
 * setpayloadsigf: (libc)FP Bit Twiddling.
-* setpayloadsigfN: (libc)FP Bit Twiddling.
-* setpayloadsigfNx: (libc)FP Bit Twiddling.
 * setpayloadsigl: (libc)FP Bit Twiddling.
 * setpgid: (libc)Process Group Functions.
 * setpgrp: (libc)Process Group Functions.
@@ -1719,16 +1530,10 @@ START-INFO-DIR-ENTRY
 * sin: (libc)Trig Functions.
 * sincos: (libc)Trig Functions.
 * sincosf: (libc)Trig Functions.
-* sincosfN: (libc)Trig Functions.
-* sincosfNx: (libc)Trig Functions.
 * sincosl: (libc)Trig Functions.
 * sinf: (libc)Trig Functions.
-* sinfN: (libc)Trig Functions.
-* sinfNx: (libc)Trig Functions.
 * sinh: (libc)Hyperbolic Functions.
 * sinhf: (libc)Hyperbolic Functions.
-* sinhfN: (libc)Hyperbolic Functions.
-* sinhfNx: (libc)Hyperbolic Functions.
 * sinhl: (libc)Hyperbolic Functions.
 * sinl: (libc)Trig Functions.
 * sleep: (libc)Sleeping.
@@ -1738,8 +1543,6 @@ START-INFO-DIR-ENTRY
 * sprintf: (libc)Formatted Output Functions.
 * sqrt: (libc)Exponents and Logarithms.
 * sqrtf: (libc)Exponents and Logarithms.
-* sqrtfN: (libc)Exponents and Logarithms.
-* sqrtfNx: (libc)Exponents and Logarithms.
 * sqrtl: (libc)Exponents and Logarithms.
 * srand48: (libc)SVID Random.
 * srand48_r: (libc)SVID Random.
@@ -1769,8 +1572,6 @@ START-INFO-DIR-ENTRY
 * strfmon: (libc)Formatting Numbers.
 * strfromd: (libc)Printing of Floats.
 * strfromf: (libc)Printing of Floats.
-* strfromfN: (libc)Printing of Floats.
-* strfromfNx: (libc)Printing of Floats.
 * strfroml: (libc)Printing of Floats.
 * strfry: (libc)strfry.
 * strftime: (libc)Formatting Calendar Time.
@@ -1791,8 +1592,6 @@ START-INFO-DIR-ENTRY
 * strstr: (libc)Search Functions.
 * strtod: (libc)Parsing of Floats.
 * strtof: (libc)Parsing of Floats.
-* strtofN: (libc)Parsing of Floats.
-* strtofNx: (libc)Parsing of Floats.
 * strtoimax: (libc)Parsing of Integers.
 * strtok: (libc)Finding Tokens in a String.
 * strtok_r: (libc)Finding Tokens in a String.
@@ -1820,12 +1619,8 @@ START-INFO-DIR-ENTRY
 * sysv_signal: (libc)Basic Signal Handling.
 * tan: (libc)Trig Functions.
 * tanf: (libc)Trig Functions.
-* tanfN: (libc)Trig Functions.
-* tanfNx: (libc)Trig Functions.
 * tanh: (libc)Hyperbolic Functions.
 * tanhf: (libc)Hyperbolic Functions.
-* tanhfN: (libc)Hyperbolic Functions.
-* tanhfNx: (libc)Hyperbolic Functions.
 * tanhl: (libc)Hyperbolic Functions.
 * tanl: (libc)Trig Functions.
 * tcdrain: (libc)Line Control.
@@ -1845,8 +1640,6 @@ START-INFO-DIR-ENTRY
 * tfind: (libc)Tree Search Function.
 * tgamma: (libc)Special Functions.
 * tgammaf: (libc)Special Functions.
-* tgammafN: (libc)Special Functions.
-* tgammafNx: (libc)Special Functions.
 * tgammal: (libc)Special Functions.
 * time: (libc)Simple Calendar Time.
 * timegm: (libc)Broken-down Time.
@@ -1860,13 +1653,9 @@ START-INFO-DIR-ENTRY
 * tolower: (libc)Case Conversion.
 * totalorder: (libc)FP Comparison Functions.
 * totalorderf: (libc)FP Comparison Functions.
-* totalorderfN: (libc)FP Comparison Functions.
-* totalorderfNx: (libc)FP Comparison Functions.
 * totalorderl: (libc)FP Comparison Functions.
 * totalordermag: (libc)FP Comparison Functions.
 * totalordermagf: (libc)FP Comparison Functions.
-* totalordermagfN: (libc)FP Comparison Functions.
-* totalordermagfNx: (libc)FP Comparison Functions.
 * totalordermagl: (libc)FP Comparison Functions.
 * toupper: (libc)Case Conversion.
 * towctrans: (libc)Wide Character Case Conversion.
@@ -1876,8 +1665,6 @@ START-INFO-DIR-ENTRY
 * truncate64: (libc)File Size.
 * truncate: (libc)File Size.
 * truncf: (libc)Rounding Functions.
-* truncfN: (libc)Rounding Functions.
-* truncfNx: (libc)Rounding Functions.
 * truncl: (libc)Rounding Functions.
 * tsearch: (libc)Tree Search Function.
 * ttyname: (libc)Is It a Terminal.
@@ -1886,13 +1673,9 @@ START-INFO-DIR-ENTRY
 * tzset: (libc)Time Zone Functions.
 * ufromfp: (libc)Rounding Functions.
 * ufromfpf: (libc)Rounding Functions.
-* ufromfpfN: (libc)Rounding Functions.
-* ufromfpfNx: (libc)Rounding Functions.
 * ufromfpl: (libc)Rounding Functions.
 * ufromfpx: (libc)Rounding Functions.
 * ufromfpxf: (libc)Rounding Functions.
-* ufromfpxfN: (libc)Rounding Functions.
-* ufromfpxfNx: (libc)Rounding Functions.
 * ufromfpxl: (libc)Rounding Functions.
 * ulimit: (libc)Limits on Resources.
 * umask: (libc)Setting Permissions.
@@ -1971,8 +1754,6 @@ START-INFO-DIR-ENTRY
 * wcsstr: (libc)Search Functions.
 * wcstod: (libc)Parsing of Floats.
 * wcstof: (libc)Parsing of Floats.
-* wcstofN: (libc)Parsing of Floats.
-* wcstofNx: (libc)Parsing of Floats.
 * wcstoimax: (libc)Parsing of Integers.
 * wcstok: (libc)Finding Tokens in a String.
 * wcstol: (libc)Parsing of Integers.
@@ -2004,611 +1785,14 @@ START-INFO-DIR-ENTRY
 * wscanf: (libc)Formatted Input Functions.
 * y0: (libc)Special Functions.
 * y0f: (libc)Special Functions.
-* y0fN: (libc)Special Functions.
-* y0fNx: (libc)Special Functions.
 * y0l: (libc)Special Functions.
 * y1: (libc)Special Functions.
 * y1f: (libc)Special Functions.
-* y1fN: (libc)Special Functions.
-* y1fNx: (libc)Special Functions.
 * y1l: (libc)Special Functions.
 * yn: (libc)Special Functions.
 * ynf: (libc)Special Functions.
-* ynfN: (libc)Special Functions.
-* ynfNx: (libc)Special Functions.
 * ynl: (libc)Special Functions.
 END-INFO-DIR-ENTRY
-
-
-File: libc.info,  Node: Charset Function Overview,  Next: Restartable multibyte conversion,  Prev: Extended Char Intro,  Up: Character Set Handling
-
-6.2 Overview about Character Handling Functions
-===============================================
-
-A Unix C library contains three different sets of functions in two
-families to handle character set conversion.  One of the function
-families (the most commonly used) is specified in the ISO C90 standard
-and, therefore, is portable even beyond the Unix world.  Unfortunately
-this family is the least useful one.  These functions should be avoided
-whenever possible, especially when developing libraries (as opposed to
-applications).
-
-   The second family of functions got introduced in the early Unix
-standards (XPG2) and is still part of the latest and greatest Unix
-standard: Unix 98.  It is also the most powerful and useful set of
-functions.  But we will start with the functions defined in Amendment 1
-to ISO C90.
-
-
-File: libc.info,  Node: Restartable multibyte conversion,  Next: Non-reentrant Conversion,  Prev: Charset Function Overview,  Up: Character Set Handling
-
-6.3 Restartable Multibyte Conversion Functions
-==============================================
-
-The ISO C standard defines functions to convert strings from a multibyte
-representation to wide character strings.  There are a number of
-peculiarities:
-
-   • The character set assumed for the multibyte encoding is not
-     specified as an argument to the functions.  Instead the character
-     set specified by the ‘LC_CTYPE’ category of the current locale is
-     used; see *note Locale Categories::.
-
-   • The functions handling more than one character at a time require
-     NUL terminated strings as the argument (i.e., converting blocks of
-     text does not work unless one can add a NUL byte at an appropriate
-     place).  The GNU C Library contains some extensions to the standard
-     that allow specifying a size, but basically they also expect
-     terminated strings.
-
-   Despite these limitations the ISO C functions can be used in many
-contexts.  In graphical user interfaces, for instance, it is not
-uncommon to have functions that require text to be displayed in a wide
-character string if the text is not simple ASCII. The text itself might
-come from a file with translations and the user should decide about the
-current locale, which determines the translation and therefore also the
-external encoding used.  In such a situation (and many others) the
-functions described here are perfect.  If more freedom while performing
-the conversion is necessary take a look at the ‘iconv’ functions (*note
-Generic Charset Conversion::).
-
-* Menu:
-
-* Selecting the Conversion::     Selecting the conversion and its properties.
-* Keeping the state::            Representing the state of the conversion.
-* Converting a Character::       Converting Single Characters.
-* Converting Strings::           Converting Multibyte and Wide Character
-                                  Strings.
-* Multibyte Conversion Example:: A Complete Multibyte Conversion Example.
-
-
-File: libc.info,  Node: Selecting the Conversion,  Next: Keeping the state,  Up: Restartable multibyte conversion
-
-6.3.1 Selecting the conversion and its properties
--------------------------------------------------
-
-We already said above that the currently selected locale for the
-‘LC_CTYPE’ category decides the conversion that is performed by the
-functions we are about to describe.  Each locale uses its own character
-set (given as an argument to ‘localedef’) and this is the one assumed as
-the external multibyte encoding.  The wide character set is always UCS-4
-in the GNU C Library.
-
-   A characteristic of each multibyte character set is the maximum
-number of bytes that can be necessary to represent one character.  This
-information is quite important when writing code that uses the
-conversion functions (as shown in the examples below).  The ISO C
-standard defines two macros that provide this information.
-
- -- Macro: int MB_LEN_MAX
-
-     ‘MB_LEN_MAX’ specifies the maximum number of bytes in the multibyte
-     sequence for a single character in any of the supported locales.
-     It is a compile-time constant and is defined in ‘limits.h’.
-
- -- Macro: int MB_CUR_MAX
-
-     ‘MB_CUR_MAX’ expands into a positive integer expression that is the
-     maximum number of bytes in a multibyte character in the current
-     locale.  The value is never greater than ‘MB_LEN_MAX’.  Unlike
-     ‘MB_LEN_MAX’ this macro need not be a compile-time constant, and in
-     the GNU C Library it is not.
-
-     ‘MB_CUR_MAX’ is defined in ‘stdlib.h’.
-
-   Two different macros are necessary since strictly ISO C90 compilers
-do not allow variable length array definitions, but still it is
-desirable to avoid dynamic allocation.  This incomplete piece of code
-shows the problem:
-
-     {
-       char buf[MB_LEN_MAX];
-       ssize_t len = 0;
-
-       while (! feof (fp))
-         {
-           fread (&buf[len], 1, MB_CUR_MAX - len, fp);
-           /* ... process buf */
-           len -= used;
-         }
-     }
-
-   The code in the inner loop is expected to have always enough bytes in
-the array BUF to convert one multibyte character.  The array BUF has to
-be sized statically since many compilers do not allow a variable size.
-The ‘fread’ call makes sure that ‘MB_CUR_MAX’ bytes are always available
-in BUF.  Note that it isn’t a problem if ‘MB_CUR_MAX’ is not a
-compile-time constant.
-
-
-File: libc.info,  Node: Keeping the state,  Next: Converting a Character,  Prev: Selecting the Conversion,  Up: Restartable multibyte conversion
-
-6.3.2 Representing the state of the conversion
-----------------------------------------------
-
-In the introduction of this chapter it was said that certain character
-sets use a “stateful” encoding.  That is, the encoded values depend in
-some way on the previous bytes in the text.
-
-   Since the conversion functions allow converting a text in more than
-one step we must have a way to pass this information from one call of
-the functions to another.
-
- -- Data type: mbstate_t
-
-     A variable of type ‘mbstate_t’ can contain all the information
-     about the “shift state” needed from one call to a conversion
-     function to another.
-
-     ‘mbstate_t’ is defined in ‘wchar.h’.  It was introduced in
-     Amendment 1 to ISO C90.
-
-   To use objects of type ‘mbstate_t’ the programmer has to define such
-objects (normally as local variables on the stack) and pass a pointer to
-the object to the conversion functions.  This way the conversion
-function can update the object if the current multibyte character set is
-stateful.
-
-   There is no specific function or initializer to put the state object
-in any specific state.  The rules are that the object should always
-represent the initial state before the first use, and this is achieved
-by clearing the whole variable with code such as follows:
-
-     {
-       mbstate_t state;
-       memset (&state, '\0', sizeof (state));
-       /* from now on STATE can be used.  */
-       ...
-     }
-
-   When using the conversion functions to generate output it is often
-necessary to test whether the current state corresponds to the initial
-state.  This is necessary, for example, to decide whether to emit escape
-sequences to set the state to the initial state at certain sequence
-points.  Communication protocols often require this.
-
- -- Function: int mbsinit (const mbstate_t *PS)
-
-     Preliminary: | MT-Safe | AS-Safe | AC-Safe | *Note POSIX Safety
-     Concepts::.
-
-     The ‘mbsinit’ function determines whether the state object pointed
-     to by PS is in the initial state.  If PS is a null pointer or the
-     object is in the initial state the return value is nonzero.
-     Otherwise it is zero.
-
-     ‘mbsinit’ was introduced in Amendment 1 to ISO C90 and is declared
-     in ‘wchar.h’.
-
-   Code using ‘mbsinit’ often looks similar to this:
-
-     {
-       mbstate_t state;
-       memset (&state, '\0', sizeof (state));
-       /* Use STATE.  */
-       ...
-       if (! mbsinit (&state))
-         {
-           /* Emit code to return to initial state.  */
-           const wchar_t empty[] = L"";
-           const wchar_t *srcp = empty;
-           wcsrtombs (outbuf, &srcp, outbuflen, &state);
-         }
-       ...
-     }
-
-   The code to emit the escape sequence to get back to the initial state
-is interesting.  The ‘wcsrtombs’ function can be used to determine the
-necessary output code (*note Converting Strings::).  Please note that
-with the GNU C Library it is not necessary to perform this extra action
-for the conversion from multibyte text to wide character text since the
-wide character encoding is not stateful.  But there is nothing mentioned
-in any standard that prohibits making ‘wchar_t’ use a stateful encoding.
-
-
-File: libc.info,  Node: Converting a Character,  Next: Converting Strings,  Prev: Keeping the state,  Up: Restartable multibyte conversion
-
-6.3.3 Converting Single Characters
-----------------------------------
-
-The most fundamental of the conversion functions are those dealing with
-single characters.  Please note that this does not always mean single
-bytes.  But since there is very often a subset of the multibyte
-character set that consists of single byte sequences, there are
-functions to help with converting bytes.  Frequently, ASCII is a subset
-of the multibyte character set.  In such a scenario, each ASCII
-character stands for itself, and all other characters have at least a
-first byte that is beyond the range 0 to 127.
-
- -- Function: wint_t btowc (int C)
-
-     Preliminary: | MT-Safe | AS-Unsafe corrupt heap lock dlopen |
-     AC-Unsafe corrupt lock mem fd | *Note POSIX Safety Concepts::.
-
-     The ‘btowc’ function (“byte to wide character”) converts a valid
-     single byte character C in the initial shift state into the wide
-     character equivalent using the conversion rules from the currently
-     selected locale of the ‘LC_CTYPE’ category.
-
-     If ‘(unsigned char) C’ is no valid single byte multibyte character
-     or if C is ‘EOF’, the function returns ‘WEOF’.
-
-     Please note the restriction of C being tested for validity only in
-     the initial shift state.  No ‘mbstate_t’ object is used from which
-     the state information is taken, and the function also does not use
-     any static state.
-
-     The ‘btowc’ function was introduced in Amendment 1 to ISO C90 and
-     is declared in ‘wchar.h’.
-
-   Despite the limitation that the single byte value is always
-interpreted in the initial state, this function is actually useful most
-of the time.  Most characters are either entirely single-byte character
-sets or they are extensions to ASCII. But then it is possible to write
-code like this (not that this specific example is very useful):
-
-     wchar_t *
-     itow (unsigned long int val)
-     {
-       static wchar_t buf[30];
-       wchar_t *wcp = &buf[29];
-       *wcp = L'\0';
-       while (val != 0)
-         {
-           *--wcp = btowc ('0' + val % 10);
-           val /= 10;
-         }
-       if (wcp == &buf[29])
-         *--wcp = L'0';
-       return wcp;
-     }
-
-   Why is it necessary to use such a complicated implementation and not
-simply cast ‘'0' + val % 10’ to a wide character?  The answer is that
-there is no guarantee that one can perform this kind of arithmetic on
-the character of the character set used for ‘wchar_t’ representation.
-In other situations the bytes are not constant at compile time and so
-the compiler cannot do the work.  In situations like this, using ‘btowc’
-is required.
-
-There is also a function for the conversion in the other direction.
-
- -- Function: int wctob (wint_t C)
-
-     Preliminary: | MT-Safe | AS-Unsafe corrupt heap lock dlopen |
-     AC-Unsafe corrupt lock mem fd | *Note POSIX Safety Concepts::.
-
-     The ‘wctob’ function (“wide character to byte”) takes as the
-     parameter a valid wide character.  If the multibyte representation
-     for this character in the initial state is exactly one byte long,
-     the return value of this function is this character.  Otherwise the
-     return value is ‘EOF’.
-
-     ‘wctob’ was introduced in Amendment 1 to ISO C90 and is declared in
-     ‘wchar.h’.
-
-   There are more general functions to convert single characters from
-multibyte representation to wide characters and vice versa.  These
-functions pose no limit on the length of the multibyte representation
-and they also do not require it to be in the initial state.
-
- -- Function: size_t mbrtowc (wchar_t *restrict PWC, const char
-          *restrict S, size_t N, mbstate_t *restrict PS)
-
-     Preliminary: | MT-Unsafe race:mbrtowc/!ps | AS-Unsafe corrupt heap
-     lock dlopen | AC-Unsafe corrupt lock mem fd | *Note POSIX Safety
-     Concepts::.
-
-     The ‘mbrtowc’ function (“multibyte restartable to wide character”)
-     converts the next multibyte character in the string pointed to by S
-     into a wide character and stores it in the wide character string
-     pointed to by PWC.  The conversion is performed according to the
-     locale currently selected for the ‘LC_CTYPE’ category.  If the
-     conversion for the character set used in the locale requires a
-     state, the multibyte string is interpreted in the state represented
-     by the object pointed to by PS.  If PS is a null pointer, a static,
-     internal state variable used only by the ‘mbrtowc’ function is
-     used.
-
-     If the next multibyte character corresponds to the NUL wide
-     character, the return value of the function is 0 and the state
-     object is afterwards in the initial state.  If the next N or fewer
-     bytes form a correct multibyte character, the return value is the
-     number of bytes starting from S that form the multibyte character.
-     The conversion state is updated according to the bytes consumed in
-     the conversion.  In both cases the wide character (either the
-     ‘L'\0'’ or the one found in the conversion) is stored in the string
-     pointed to by PWC if PWC is not null.
-
-     If the first N bytes of the multibyte string possibly form a valid
-     multibyte character but there are more than N bytes needed to
-     complete it, the return value of the function is ‘(size_t) -2’ and
-     no value is stored.  Please note that this can happen even if N has
-     a value greater than or equal to ‘MB_CUR_MAX’ since the input might
-     contain redundant shift sequences.
-
-     If the first ‘n’ bytes of the multibyte string cannot possibly form
-     a valid multibyte character, no value is stored, the global
-     variable ‘errno’ is set to the value ‘EILSEQ’, and the function
-     returns ‘(size_t) -1’.  The conversion state is afterwards
-     undefined.
-
-     ‘mbrtowc’ was introduced in Amendment 1 to ISO C90 and is declared
-     in ‘wchar.h’.
-
-   Use of ‘mbrtowc’ is straightforward.  A function that copies a
-multibyte string into a wide character string while at the same time
-converting all lowercase characters into uppercase could look like this
-(this is not the final version, just an example; it has no error
-checking, and sometimes leaks memory):
-
-     wchar_t *
-     mbstouwcs (const char *s)
-     {
-       size_t len = strlen (s);
-       wchar_t *result = malloc ((len + 1) * sizeof (wchar_t));
-       wchar_t *wcp = result;
-       wchar_t tmp[1];
-       mbstate_t state;
-       size_t nbytes;
-
-       memset (&state, '\0', sizeof (state));
-       while ((nbytes = mbrtowc (tmp, s, len, &state)) > 0)
-         {
-           if (nbytes >= (size_t) -2)
-             /* Invalid input string.  */
-             return NULL;
-           *wcp++ = towupper (tmp[0]);
-           len -= nbytes;
-           s += nbytes;
-         }
-       return result;
-     }
-
-   The use of ‘mbrtowc’ should be clear.  A single wide character is
-stored in ‘TMP[0]’, and the number of consumed bytes is stored in the
-variable NBYTES.  If the conversion is successful, the uppercase variant
-of the wide character is stored in the RESULT array and the pointer to
-the input string and the number of available bytes is adjusted.
-
-   The only non-obvious thing about ‘mbrtowc’ might be the way memory is
-allocated for the result.  The above code uses the fact that there can
-never be more wide characters in the converted result than there are
-bytes in the multibyte input string.  This method yields a pessimistic
-guess about the size of the result, and if many wide character strings
-have to be constructed this way or if the strings are long, the extra
-memory required to be allocated because the input string contains
-multibyte characters might be significant.  The allocated memory block
-can be resized to the correct size before returning it, but a better
-solution might be to allocate just the right amount of space for the
-result right away.  Unfortunately there is no function to compute the
-length of the wide character string directly from the multibyte string.
-There is, however, a function that does part of the work.
-
- -- Function: size_t mbrlen (const char *restrict S, size_t N, mbstate_t
-          *PS)
-
-     Preliminary: | MT-Unsafe race:mbrlen/!ps | AS-Unsafe corrupt heap
-     lock dlopen | AC-Unsafe corrupt lock mem fd | *Note POSIX Safety
-     Concepts::.
-
-     The ‘mbrlen’ function (“multibyte restartable length”) computes the
-     number of at most N bytes starting at S, which form the next valid
-     and complete multibyte character.
-
-     If the next multibyte character corresponds to the NUL wide
-     character, the return value is 0.  If the next N bytes form a valid
-     multibyte character, the number of bytes belonging to this
-     multibyte character byte sequence is returned.
-
-     If the first N bytes possibly form a valid multibyte character but
-     the character is incomplete, the return value is ‘(size_t) -2’.
-     Otherwise the multibyte character sequence is invalid and the
-     return value is ‘(size_t) -1’.
-
-     The multibyte sequence is interpreted in the state represented by
-     the object pointed to by PS.  If PS is a null pointer, a state
-     object local to ‘mbrlen’ is used.
-
-     ‘mbrlen’ was introduced in Amendment 1 to ISO C90 and is declared
-     in ‘wchar.h’.
-
-   The attentive reader now will note that ‘mbrlen’ can be implemented
-as
-
-     mbrtowc (NULL, s, n, ps != NULL ? ps : &internal)
-
-   This is true and in fact is mentioned in the official specification.
-How can this function be used to determine the length of the wide
-character string created from a multibyte character string?  It is not
-directly usable, but we can define a function ‘mbslen’ using it:
-
-     size_t
-     mbslen (const char *s)
-     {
-       mbstate_t state;
-       size_t result = 0;
-       size_t nbytes;
-       memset (&state, '\0', sizeof (state));
-       while ((nbytes = mbrlen (s, MB_LEN_MAX, &state)) > 0)
-         {
-           if (nbytes >= (size_t) -2)
-             /* Something is wrong.  */
-             return (size_t) -1;
-           s += nbytes;
-           ++result;
-         }
-       return result;
-     }
-
-   This function simply calls ‘mbrlen’ for each multibyte character in
-the string and counts the number of function calls.  Please note that we
-here use ‘MB_LEN_MAX’ as the size argument in the ‘mbrlen’ call.  This
-is acceptable since a) this value is larger than the length of the
-longest multibyte character sequence and b) we know that the string S
-ends with a NUL byte, which cannot be part of any other multibyte
-character sequence but the one representing the NUL wide character.
-Therefore, the ‘mbrlen’ function will never read invalid memory.
-
-   Now that this function is available (just to make this clear, this
-function is _not_ part of the GNU C Library) we can compute the number
-of wide characters required to store the converted multibyte character
-string S using
-
-     wcs_bytes = (mbslen (s) + 1) * sizeof (wchar_t);
-
-   Please note that the ‘mbslen’ function is quite inefficient.  The
-implementation of ‘mbstouwcs’ with ‘mbslen’ would have to perform the
-conversion of the multibyte character input string twice, and this
-conversion might be quite expensive.  So it is necessary to think about
-the consequences of using the easier but imprecise method before doing
-the work twice.
-
- -- Function: size_t wcrtomb (char *restrict S, wchar_t WC, mbstate_t
-          *restrict PS)
-
-     Preliminary: | MT-Unsafe race:wcrtomb/!ps | AS-Unsafe corrupt heap
-     lock dlopen | AC-Unsafe corrupt lock mem fd | *Note POSIX Safety
-     Concepts::.
-
-     The ‘wcrtomb’ function (“wide character restartable to multibyte”)
-     converts a single wide character into a multibyte string
-     corresponding to that wide character.
-
-     If S is a null pointer, the function resets the state stored in the
-     object pointed to by PS (or the internal ‘mbstate_t’ object) to the
-     initial state.  This can also be achieved by a call like this:
-
-          wcrtombs (temp_buf, L'\0', ps)
-
-     since, if S is a null pointer, ‘wcrtomb’ performs as if it writes
-     into an internal buffer, which is guaranteed to be large enough.
-
-     If WC is the NUL wide character, ‘wcrtomb’ emits, if necessary, a
-     shift sequence to get the state PS into the initial state followed
-     by a single NUL byte, which is stored in the string S.
-
-     Otherwise a byte sequence (possibly including shift sequences) is
-     written into the string S.  This only happens if WC is a valid wide
-     character (i.e., it has a multibyte representation in the character
-     set selected by locale of the ‘LC_CTYPE’ category).  If WC is no
-     valid wide character, nothing is stored in the strings S, ‘errno’
-     is set to ‘EILSEQ’, the conversion state in PS is undefined and the
-     return value is ‘(size_t) -1’.
-
-     If no error occurred the function returns the number of bytes
-     stored in the string S.  This includes all bytes representing shift
-     sequences.
-
-     One word about the interface of the function: there is no parameter
-     specifying the length of the array S.  Instead the function assumes
-     that there are at least ‘MB_CUR_MAX’ bytes available since this is
-     the maximum length of any byte sequence representing a single
-     character.  So the caller has to make sure that there is enough
-     space available, otherwise buffer overruns can occur.
-
-     ‘wcrtomb’ was introduced in Amendment 1 to ISO C90 and is declared
-     in ‘wchar.h’.
-
-   Using ‘wcrtomb’ is as easy as using ‘mbrtowc’.  The following example
-appends a wide character string to a multibyte character string.  Again,
-the code is not really useful (or correct), it is simply here to
-demonstrate the use and some problems.
-
-     char *
-     mbscatwcs (char *s, size_t len, const wchar_t *ws)
-     {
-       mbstate_t state;
-       /* Find the end of the existing string.  */
-       char *wp = strchr (s, '\0');
-       len -= wp - s;
-       memset (&state, '\0', sizeof (state));
-       do
-         {
-           size_t nbytes;
-           if (len < MB_CUR_LEN)
-             {
-               /* We cannot guarantee that the next
-                  character fits into the buffer, so
-                  return an error.  */
-               errno = E2BIG;
-               return NULL;
-             }
-           nbytes = wcrtomb (wp, *ws, &state);
-           if (nbytes == (size_t) -1)
-             /* Error in the conversion.  */
-             return NULL;
-           len -= nbytes;
-           wp += nbytes;
-         }
-       while (*ws++ != L'\0');
-       return s;
-     }
-
-   First the function has to find the end of the string currently in the
-array S.  The ‘strchr’ call does this very efficiently since a
-requirement for multibyte character representations is that the NUL byte
-is never used except to represent itself (and in this context, the end
-of the string).
-
-   After initializing the state object the loop is entered where the
-first task is to make sure there is enough room in the array S.  We
-abort if there are not at least ‘MB_CUR_LEN’ bytes available.  This is
-not always optimal but we have no other choice.  We might have less than
-‘MB_CUR_LEN’ bytes available but the next multibyte character might also
-be only one byte long.  At the time the ‘wcrtomb’ call returns it is too
-late to decide whether the buffer was large enough.  If this solution is
-unsuitable, there is a very slow but more accurate solution.
-
-       ...
-       if (len < MB_CUR_LEN)
-         {
-           mbstate_t temp_state;
-           memcpy (&temp_state, &state, sizeof (state));
-           if (wcrtomb (NULL, *ws, &temp_state) > len)
-             {
-               /* We cannot guarantee that the next
-                  character fits into the buffer, so
-                  return an error.  */
-               errno = E2BIG;
-               return NULL;
-             }
-         }
-       ...
-
-   Here we perform the conversion that might overflow the buffer so that
-we are afterwards in the position to make an exact decision about the
-buffer size.  Please note the ‘NULL’ argument for the destination buffer
-in the new ‘wcrtomb’ call; since we are not interested in the converted
-text at this point, this is a nice way to express this.  The most
-unusual thing about this piece of code certainly is the duplication of
-the conversion state object, but if a change of the state is necessary
-to emit the next multibyte character, we want to have the same shift
-state change performed in the real conversion.  Therefore, we have to
-preserve the initial shift state information.
-
-   There are certainly many more and even better solutions to this
-problem.  This example is only provided for educational purposes.
 
 
 File: libc.info,  Node: Converting Strings,  Next: Multibyte Conversion Example,  Prev: Converting a Character,  Up: Restartable multibyte conversion
@@ -2625,7 +1809,6 @@ that can help in some important situations.
 
  -- Function: size_t mbsrtowcs (wchar_t *restrict DST, const char
           **restrict SRC, size_t LEN, mbstate_t *restrict PS)
-
      Preliminary: | MT-Unsafe race:mbsrtowcs/!ps | AS-Unsafe corrupt
      heap lock dlopen | AC-Unsafe corrupt lock mem fd | *Note POSIX
      Safety Concepts::.
@@ -2706,7 +1889,6 @@ to the function.
 
  -- Function: size_t wcsrtombs (char *restrict DST, const wchar_t
           **restrict SRC, size_t LEN, mbstate_t *restrict PS)
-
      Preliminary: | MT-Unsafe race:wcsrtombs/!ps | AS-Unsafe corrupt
      heap lock dlopen | AC-Unsafe corrupt lock mem fd | *Note POSIX
      Safety Concepts::.
@@ -2754,7 +1936,6 @@ output array size (the LEN parameter).
  -- Function: size_t mbsnrtowcs (wchar_t *restrict DST, const char
           **restrict SRC, size_t NMC, size_t LEN, mbstate_t *restrict
           PS)
-
      Preliminary: | MT-Unsafe race:mbsnrtowcs/!ps | AS-Unsafe corrupt
      heap lock dlopen | AC-Unsafe corrupt lock mem fd | *Note POSIX
      Safety Concepts::.
@@ -2809,7 +1990,6 @@ given buffer, there is no problem with altering the state.
  -- Function: size_t wcsnrtombs (char *restrict DST, const wchar_t
           **restrict SRC, size_t NWC, size_t LEN, mbstate_t *restrict
           PS)
-
      Preliminary: | MT-Unsafe race:wcsnrtombs/!ps | AS-Unsafe corrupt
      heap lock dlopen | AC-Unsafe corrupt lock mem fd | *Note POSIX
      Safety Concepts::.
@@ -2960,7 +2140,6 @@ File: libc.info,  Node: Non-reentrant Character Conversion,  Next: Non-reentrant
 
  -- Function: int mbtowc (wchar_t *restrict RESULT, const char *restrict
           STRING, size_t SIZE)
-
      Preliminary: | MT-Unsafe race | AS-Unsafe corrupt heap lock dlopen
      | AC-Unsafe corrupt lock mem fd | *Note POSIX Safety Concepts::.
 
@@ -2994,7 +2173,6 @@ File: libc.info,  Node: Non-reentrant Character Conversion,  Next: Non-reentrant
      *Note Shift State::.
 
  -- Function: int wctomb (char *STRING, wchar_t WCHAR)
-
      Preliminary: | MT-Unsafe race | AS-Unsafe corrupt heap lock dlopen
      | AC-Unsafe corrupt lock mem fd | *Note POSIX Safety Concepts::.
 
@@ -3033,7 +2211,6 @@ computes the length of a multibyte character.  It can be defined in
 terms of ‘mbtowc’.
 
  -- Function: int mblen (const char *STRING, size_t SIZE)
-
      Preliminary: | MT-Unsafe race | AS-Unsafe corrupt heap lock dlopen
      | AC-Unsafe corrupt lock mem fd | *Note POSIX Safety Concepts::.
 
@@ -3074,7 +2251,6 @@ to ISO C90; see *note Converting Strings::.
 
  -- Function: size_t mbstowcs (wchar_t *WSTRING, const char *STRING,
           size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Unsafe corrupt heap lock dlopen |
      AC-Unsafe corrupt lock mem fd | *Note POSIX Safety Concepts::.
 
@@ -3113,7 +2289,6 @@ to ISO C90; see *note Converting Strings::.
 
  -- Function: size_t wcstombs (char *STRING, const wchar_t *WSTRING,
           size_t SIZE)
-
      Preliminary: | MT-Safe | AS-Unsafe corrupt heap lock dlopen |
      AC-Unsafe corrupt lock mem fd | *Note POSIX Safety Concepts::.
 
@@ -3285,7 +2460,6 @@ introduced here work using handles and the ‘iconv.h’ header defines a
 special type for the handles used.
 
  -- Data Type: iconv_t
-
      This data type is an abstract type defined in ‘iconv.h’.  The user
      must not assume anything about the definition of this type; it must
      be completely opaque.
@@ -3298,7 +2472,6 @@ The first step is the function to create a handle.
 
  -- Function: iconv_t iconv_open (const char *TOCODE, const char
           *FROMCODE)
-
      Preliminary: | MT-Safe locale | AS-Unsafe corrupt heap lock dlopen
      | AC-Unsafe corrupt lock mem fd | *Note POSIX Safety Concepts::.
 
@@ -3360,7 +2533,6 @@ all the resources once all conversions are carried out and the
 conversion is not needed anymore.
 
  -- Function: int iconv_close (iconv_t CD)
-
      Preliminary: | MT-Safe | AS-Unsafe corrupt heap lock dlopen |
      AC-Unsafe corrupt lock mem | *Note POSIX Safety Concepts::.
 
@@ -3385,7 +2557,6 @@ even file to file can be implemented on top of it.
 
  -- Function: size_t iconv (iconv_t CD, char **INBUF, size_t
           *INBYTESLEFT, char **OUTBUF, size_t *OUTBYTESLEFT)
-
      Preliminary: | MT-Safe race:cd | AS-Safe | AC-Unsafe corrupt |
      *Note POSIX Safety Concepts::.
 
@@ -3923,7 +3094,6 @@ the conversion and the second describes the state etc.  There are really
 two type definitions like this in ‘gconv.h’.
 
  -- Data type: struct __gconv_step
-
      This data structure describes one conversion a module can perform.
      For each function in a loaded module with conversion functions
      there is exactly one object of this type.  This object is shared by
@@ -3992,7 +3162,6 @@ two type definitions like this in ‘gconv.h’.
           specific use of the conversion function.
 
  -- Data type: struct __gconv_step_data
-
      This is the data structure that contains the information specific
      to each use of the conversion functions.
 
@@ -4123,7 +3292,6 @@ that must have the following names:
 functions and these define the interface.
 
  -- Data type: int (*__gconv_init_fct) (struct __gconv_step *)
-
      This specifies the interface of the initialization function of the
      module.  It is called exactly once for each conversion the module
      implements.
@@ -4277,7 +3445,6 @@ easier.  It often has nothing at all to do; in which case it can be left
 out completely.
 
  -- Data type: void (*__gconv_end_fct) (struct gconv_step *)
-
      The task of this function is to free all resources allocated in the
      initialization function.  Therefore only the ‘__data’ element of
      the object pointed to by the argument is of interest.  Continuing
@@ -4298,7 +3465,6 @@ conversion function.
  -- Data type: int (*__gconv_fct) (struct __gconv_step *, struct
           __gconv_step_data *, const char **, const char *, size_t *,
           int)
-
      The conversion function can be called for two basic reasons: to
      convert text or to reset the state.  From the description of the
      ‘iconv’ function it can be seen why the flushing mode is necessary.
@@ -4683,47 +3849,39 @@ argument to ‘setlocale’) has to be a valid locale name.  *Note Locale
 Names::.
 
 ‘LC_COLLATE’
-
      This category applies to collation of strings (functions ‘strcoll’
      and ‘strxfrm’); see *note Collation Functions::.
 
 ‘LC_CTYPE’
-
      This category applies to classification and conversion of
      characters, and to multibyte and wide characters; see *note
      Character Handling::, and *note Character Set Handling::.
 
 ‘LC_MONETARY’
-
      This category applies to formatting monetary values; see *note
      General Numeric::.
 
 ‘LC_NUMERIC’
-
      This category applies to formatting numeric values that are not
      monetary; see *note General Numeric::.
 
 ‘LC_TIME’
-
      This category applies to formatting date and time values; see *note
      Formatting Calendar Time::.
 
 ‘LC_MESSAGES’
-
      This category applies to selecting the language used in the user
      interface for message translation (*note The Uniforum approach::;
      *note Message catalogs a la X/Open::) and contains regular
      expressions for affirmative and negative responses.
 
 ‘LC_ALL’
-
      This is not a category; it is only a macro that you can use with
      ‘setlocale’ to set a single locale for all purposes.  Setting this
      environment variable overwrites all selections by the other ‘LC_*’
      variables or ‘LANG’.
 
 ‘LANG’
-
      If this environment variable is defined, its value specifies the
      locale to use for all purposes except as overridden by the
      variables above.
@@ -4763,7 +3921,6 @@ general use or for a specific category.
 ‘locale.h’.
 
  -- Function: char * setlocale (int CATEGORY, const char *LOCALE)
-
      Preliminary: | MT-Unsafe const:locale env | AS-Unsafe init lock
      heap corrupt | AC-Unsafe init corrupt lock mem fd | *Note POSIX
      Safety Concepts::.
@@ -5013,7 +4170,6 @@ formats monetary amounts according to the selected locale using this
 information.
 
  -- Function: struct lconv * localeconv (void)
-
      Preliminary: | MT-Unsafe race:localeconv locale | AS-Unsafe |
      AC-Safe | *Note POSIX Safety Concepts::.
 
@@ -5027,7 +4183,6 @@ information.
      overwrites this value.
 
  -- Data Type: struct lconv
-
      ‘localeconv’’s return value is of this data type.  Its elements are
      described in the following subsections.
 
@@ -5274,7 +4429,6 @@ the locale (as later specified in the POSIX.1 standard) requires more
 ways to access it.  Therefore the ‘nl_langinfo’ function was introduced.
 
  -- Function: char * nl_langinfo (nl_item ITEM)
-
      Preliminary: | MT-Safe locale | AS-Safe | AC-Safe | *Note POSIX
      Safety Concepts::.
 
@@ -5768,7 +4922,6 @@ English.
 to the corresponding locale definitions.
 
  -- Function: int rpmatch (const char *RESPONSE)
-
      Preliminary: | MT-Safe locale | AS-Unsafe corrupt heap lock dlopen
      | AC-Unsafe corrupt lock mem fd | *Note POSIX Safety Concepts::.
 
@@ -5905,7 +5058,6 @@ File: libc.info,  Node: The catgets Functions,  Next: The message catalog files,
 -----------------------------------
 
  -- Function: nl_catd catopen (const char *CAT_NAME, int FLAG)
-
      Preliminary: | MT-Safe env | AS-Unsafe heap | AC-Unsafe mem | *Note
      POSIX Safety Concepts::.
 
@@ -6570,7 +5722,6 @@ part of the C library they can be found in a separate library named
 ‘libintl.a’ (or accordingly different for shared libraries).
 
  -- Function: char * gettext (const char *MSGID)
-
      Preliminary: | MT-Safe env | AS-Unsafe corrupt heap lock dlopen |
      AC-Unsafe corrupt lock fd mem | *Note POSIX Safety Concepts::.
 
@@ -6618,7 +5769,6 @@ information.
 
  -- Function: char * dgettext (const char *DOMAINNAME, const char
           *MSGID)
-
      Preliminary: | MT-Safe env | AS-Unsafe corrupt heap lock dlopen |
      AC-Unsafe corrupt lock fd mem | *Note POSIX Safety Concepts::.
 
@@ -6634,7 +5784,6 @@ information.
 
  -- Function: char * dcgettext (const char *DOMAINNAME, const char
           *MSGID, int CATEGORY)
-
      Preliminary: | MT-Safe env | AS-Unsafe corrupt heap lock dlopen |
      AC-Unsafe corrupt lock fd mem | *Note POSIX Safety Concepts::.
 
@@ -6748,7 +5897,6 @@ named ‘foo’.  The important point is that at any time exactly one domain
 is active.  This is controlled with the following function.
 
  -- Function: char * textdomain (const char *DOMAINNAME)
-
      Preliminary: | MT-Safe | AS-Unsafe lock heap | AC-Unsafe lock mem |
      *Note POSIX Safety Concepts::.
 
@@ -6781,7 +5929,6 @@ is active.  This is controlled with the following function.
 
  -- Function: char * bindtextdomain (const char *DOMAINNAME, const char
           *DIRNAME)
-
      Preliminary: | MT-Safe | AS-Unsafe heap | AC-Unsafe mem | *Note
      POSIX Safety Concepts::.
 
@@ -6820,3 +5967,673 @@ is active.  This is controlled with the following function.
      ‘bindtextdomain’ the return value is ‘NULL’ and the global variable
      ERRNO is set accordingly.
 
+
+File: libc.info,  Node: Advanced gettext functions,  Next: Charset conversion in gettext,  Prev: Locating gettext catalog,  Up: Message catalogs with gettext
+
+8.2.1.3 Additional functions for more complicated situations
+............................................................
+
+The functions of the ‘gettext’ family described so far (and all the
+‘catgets’ functions as well) have one problem in the real world which
+has been neglected completely in all existing approaches.  What is meant
+here is the handling of plural forms.
+
+   Looking through Unix source code before the time anybody thought
+about internationalization (and, sadly, even afterwards) one can often
+find code similar to the following:
+
+        printf ("%d file%s deleted", n, n == 1 ? "" : "s");
+
+After the first complaints from people internationalizing the code
+people either completely avoided formulations like this or used strings
+like ‘"file(s)"’.  Both look unnatural and should be avoided.  First
+tries to solve the problem correctly looked like this:
+
+        if (n == 1)
+          printf ("%d file deleted", n);
+        else
+          printf ("%d files deleted", n);
+
+   But this does not solve the problem.  It helps languages where the
+plural form of a noun is not simply constructed by adding an ‘s’ but
+that is all.  Once again people fell into the trap of believing the
+rules their language uses are universal.  But the handling of plural
+forms differs widely between the language families.  There are two
+things we can differ between (and even inside language families);
+
+   • The form how plural forms are build differs.  This is a problem
+     with language which have many irregularities.  German, for
+     instance, is a drastic case.  Though English and German are part of
+     the same language family (Germanic), the almost regular forming of
+     plural noun forms (appending an ‘s’) is hardly found in German.
+
+   • The number of plural forms differ.  This is somewhat surprising for
+     those who only have experiences with Romanic and Germanic languages
+     since here the number is the same (there are two).
+
+     But other language families have only one form or many forms.  More
+     information on this in an extra section.
+
+   The consequence of this is that application writers should not try to
+solve the problem in their code.  This would be localization since it is
+only usable for certain, hardcoded language environments.  Instead the
+extended ‘gettext’ interface should be used.
+
+   These extra functions are taking instead of the one key string two
+strings and a numerical argument.  The idea behind this is that using
+the numerical argument and the first string as a key, the implementation
+can select using rules specified by the translator the right plural
+form.  The two string arguments then will be used to provide a return
+value in case no message catalog is found (similar to the normal
+‘gettext’ behavior).  In this case the rules for Germanic language are
+used and it is assumed that the first string argument is the singular
+form, the second the plural form.
+
+   This has the consequence that programs without language catalogs can
+display the correct strings only if the program itself is written using
+a Germanic language.  This is a limitation but since the GNU C Library
+(as well as the GNU ‘gettext’ package) is written as part of the GNU
+package and the coding standards for the GNU project require programs to
+be written in English, this solution nevertheless fulfills its purpose.
+
+ -- Function: char * ngettext (const char *MSGID1, const char *MSGID2,
+          unsigned long int N)
+     Preliminary: | MT-Safe env | AS-Unsafe corrupt heap lock dlopen |
+     AC-Unsafe corrupt lock fd mem | *Note POSIX Safety Concepts::.
+
+     The ‘ngettext’ function is similar to the ‘gettext’ function as it
+     finds the message catalogs in the same way.  But it takes two extra
+     arguments.  The MSGID1 parameter must contain the singular form of
+     the string to be converted.  It is also used as the key for the
+     search in the catalog.  The MSGID2 parameter is the plural form.
+     The parameter N is used to determine the plural form.  If no
+     message catalog is found MSGID1 is returned if ‘n == 1’, otherwise
+     ‘msgid2’.
+
+     An example for the use of this function is:
+
+            printf (ngettext ("%d file removed", "%d files removed", n), n);
+
+     Please note that the numeric value N has to be passed to the
+     ‘printf’ function as well.  It is not sufficient to pass it only to
+     ‘ngettext’.
+
+ -- Function: char * dngettext (const char *DOMAIN, const char *MSGID1,
+          const char *MSGID2, unsigned long int N)
+     Preliminary: | MT-Safe env | AS-Unsafe corrupt heap lock dlopen |
+     AC-Unsafe corrupt lock fd mem | *Note POSIX Safety Concepts::.
+
+     The ‘dngettext’ is similar to the ‘dgettext’ function in the way
+     the message catalog is selected.  The difference is that it takes
+     two extra parameters to provide the correct plural form.  These two
+     parameters are handled in the same way ‘ngettext’ handles them.
+
+ -- Function: char * dcngettext (const char *DOMAIN, const char *MSGID1,
+          const char *MSGID2, unsigned long int N, int CATEGORY)
+     Preliminary: | MT-Safe env | AS-Unsafe corrupt heap lock dlopen |
+     AC-Unsafe corrupt lock fd mem | *Note POSIX Safety Concepts::.
+
+     The ‘dcngettext’ is similar to the ‘dcgettext’ function in the way
+     the message catalog is selected.  The difference is that it takes
+     two extra parameters to provide the correct plural form.  These two
+     parameters are handled in the same way ‘ngettext’ handles them.
+
+The problem of plural forms
+...........................
+
+A description of the problem can be found at the beginning of the last
+section.  Now there is the question how to solve it.  Without the input
+of linguists (which was not available) it was not possible to determine
+whether there are only a few different forms in which plural forms are
+formed or whether the number can increase with every new supported
+language.
+
+   Therefore the solution implemented is to allow the translator to
+specify the rules of how to select the plural form.  Since the formula
+varies with every language this is the only viable solution except for
+hardcoding the information in the code (which still would require the
+possibility of extensions to not prevent the use of new languages).  The
+details are explained in the GNU ‘gettext’ manual.  Here only a bit of
+information is provided.
+
+   The information about the plural form selection has to be stored in
+the header entry (the one with the empty ‘msgid’ string).  It looks like
+this:
+
+     Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;
+
+   The ‘nplurals’ value must be a decimal number which specifies how
+many different plural forms exist for this language.  The string
+following ‘plural’ is an expression using the C language syntax.
+Exceptions are that no negative numbers are allowed, numbers must be
+decimal, and the only variable allowed is ‘n’.  This expression will be
+evaluated whenever one of the functions ‘ngettext’, ‘dngettext’, or
+‘dcngettext’ is called.  The numeric value passed to these functions is
+then substituted for all uses of the variable ‘n’ in the expression.
+The resulting value then must be greater or equal to zero and smaller
+than the value given as the value of ‘nplurals’.
+
+The following rules are known at this point.  The language with families
+are listed.  But this does not necessarily mean the information can be
+generalized for the whole family (as can be easily seen in the table
+below).(1)
+
+Only one form:
+     Some languages only require one single form.  There is no
+     distinction between the singular and plural form.  An appropriate
+     header entry would look like this:
+
+          Plural-Forms: nplurals=1; plural=0;
+
+     Languages with this property include:
+
+     Finno-Ugric family
+          Hungarian
+     Asian family
+          Japanese, Korean
+     Turkic/Altaic family
+          Turkish
+
+Two forms, singular used for one only
+     This is the form used in most existing programs since it is what
+     English uses.  A header entry would look like this:
+
+          Plural-Forms: nplurals=2; plural=n != 1;
+
+     (Note: this uses the feature of C expressions that boolean
+     expressions have to value zero or one.)
+
+     Languages with this property include:
+
+     Germanic family
+          Danish, Dutch, English, German, Norwegian, Swedish
+     Finno-Ugric family
+          Estonian, Finnish
+     Latin/Greek family
+          Greek
+     Semitic family
+          Hebrew
+     Romance family
+          Italian, Portuguese, Spanish
+     Artificial
+          Esperanto
+
+Two forms, singular used for zero and one
+     Exceptional case in the language family.  The header entry would
+     be:
+
+          Plural-Forms: nplurals=2; plural=n>1;
+
+     Languages with this property include:
+
+     Romanic family
+          French, Brazilian Portuguese
+
+Three forms, special case for zero
+     The header entry would be:
+
+          Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;
+
+     Languages with this property include:
+
+     Baltic family
+          Latvian
+
+Three forms, special cases for one and two
+     The header entry would be:
+
+          Plural-Forms: nplurals=3; plural=n==1 ? 0 : n==2 ? 1 : 2;
+
+     Languages with this property include:
+
+     Celtic
+          Gaeilge (Irish)
+
+Three forms, special case for numbers ending in 1[2-9]
+     The header entry would look like this:
+
+          Plural-Forms: nplurals=3; \
+              plural=n%10==1 && n%100!=11 ? 0 : \
+                     n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2;
+
+     Languages with this property include:
+
+     Baltic family
+          Lithuanian
+
+Three forms, special cases for numbers ending in 1 and 2, 3, 4, except those ending in 1[1-4]
+     The header entry would look like this:
+
+          Plural-Forms: nplurals=3; \
+              plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;
+
+     Languages with this property include:
+
+     Slavic family
+          Croatian, Czech, Russian, Ukrainian
+
+Three forms, special cases for 1 and 2, 3, 4
+     The header entry would look like this:
+
+          Plural-Forms: nplurals=3; \
+              plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;
+
+     Languages with this property include:
+
+     Slavic family
+          Slovak
+
+Three forms, special case for one and some numbers ending in 2, 3, or 4
+     The header entry would look like this:
+
+          Plural-Forms: nplurals=3; \
+              plural=n==1 ? 0 : \
+                     n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;
+
+     Languages with this property include:
+
+     Slavic family
+          Polish
+
+Four forms, special case for one and all numbers ending in 02, 03, or 04
+     The header entry would look like this:
+
+          Plural-Forms: nplurals=4; \
+              plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;
+
+     Languages with this property include:
+
+     Slavic family
+          Slovenian
+
+   ---------- Footnotes ----------
+
+   (1) Additions are welcome.  Send appropriate information to
+<bug-glibc-manual@gnu.org>.
+
+
+File: libc.info,  Node: Charset conversion in gettext,  Next: GUI program problems,  Prev: Advanced gettext functions,  Up: Message catalogs with gettext
+
+8.2.1.4 How to specify the output character set ‘gettext’ uses
+..............................................................
+
+‘gettext’ not only looks up a translation in a message catalog, it also
+converts the translation on the fly to the desired output character set.
+This is useful if the user is working in a different character set than
+the translator who created the message catalog, because it avoids
+distributing variants of message catalogs which differ only in the
+character set.
+
+   The output character set is, by default, the value of ‘nl_langinfo
+(CODESET)’, which depends on the ‘LC_CTYPE’ part of the current locale.
+But programs which store strings in a locale independent way (e.g.
+UTF-8) can request that ‘gettext’ and related functions return the
+translations in that encoding, by use of the ‘bind_textdomain_codeset’
+function.
+
+   Note that the MSGID argument to ‘gettext’ is not subject to character
+set conversion.  Also, when ‘gettext’ does not find a translation for
+MSGID, it returns MSGID unchanged – independently of the current output
+character set.  It is therefore recommended that all MSGIDs be US-ASCII
+strings.
+
+ -- Function: char * bind_textdomain_codeset (const char *DOMAINNAME,
+          const char *CODESET)
+     Preliminary: | MT-Safe | AS-Unsafe heap | AC-Unsafe mem | *Note
+     POSIX Safety Concepts::.
+
+     The ‘bind_textdomain_codeset’ function can be used to specify the
+     output character set for message catalogs for domain DOMAINNAME.
+     The CODESET argument must be a valid codeset name which can be used
+     for the ‘iconv_open’ function, or a null pointer.
+
+     If the CODESET parameter is the null pointer,
+     ‘bind_textdomain_codeset’ returns the currently selected codeset
+     for the domain with the name DOMAINNAME.  It returns ‘NULL’ if no
+     codeset has yet been selected.
+
+     The ‘bind_textdomain_codeset’ function can be used several times.
+     If used multiple times with the same DOMAINNAME argument, the later
+     call overrides the settings made by the earlier one.
+
+     The ‘bind_textdomain_codeset’ function returns a pointer to a
+     string containing the name of the selected codeset.  The string is
+     allocated internally in the function and must not be changed by the
+     user.  If the system went out of core during the execution of
+     ‘bind_textdomain_codeset’, the return value is ‘NULL’ and the
+     global variable ERRNO is set accordingly.
+
+
+File: libc.info,  Node: GUI program problems,  Next: Using gettextized software,  Prev: Charset conversion in gettext,  Up: Message catalogs with gettext
+
+8.2.1.5 How to use ‘gettext’ in GUI programs
+............................................
+
+One place where the ‘gettext’ functions, if used normally, have big
+problems is within programs with graphical user interfaces (GUIs).  The
+problem is that many of the strings which have to be translated are very
+short.  They have to appear in pull-down menus which restricts the
+length.  But strings which are not containing entire sentences or at
+least large fragments of a sentence may appear in more than one
+situation in the program but might have different translations.  This is
+especially true for the one-word strings which are frequently used in
+GUI programs.
+
+   As a consequence many people say that the ‘gettext’ approach is wrong
+and instead ‘catgets’ should be used which indeed does not have this
+problem.  But there is a very simple and powerful method to handle these
+kind of problems with the ‘gettext’ functions.
+
+As an example consider the following fictional situation.  A GUI program
+has a menu bar with the following entries:
+
+     +------------+------------+--------------------------------------+
+     | File       | Printer    |                                      |
+     +------------+------------+--------------------------------------+
+     | Open     | | Select   |
+     | New      | | Open     |
+     +----------+ | Connect  |
+                  +----------+
+
+   To have the strings ‘File’, ‘Printer’, ‘Open’, ‘New’, ‘Select’, and
+‘Connect’ translated there has to be at some point in the code a call to
+a function of the ‘gettext’ family.  But in two places the string passed
+into the function would be ‘Open’.  The translations might not be the
+same and therefore we are in the dilemma described above.
+
+   One solution to this problem is to artificially extend the strings to
+make them unambiguous.  But what would the program do if no translation
+is available?  The extended string is not what should be printed.  So we
+should use a slightly modified version of the functions.
+
+   To extend the strings a uniform method should be used.  E.g., in the
+example above, the strings could be chosen as
+
+     Menu|File
+     Menu|Printer
+     Menu|File|Open
+     Menu|File|New
+     Menu|Printer|Select
+     Menu|Printer|Open
+     Menu|Printer|Connect
+
+   Now all the strings are different and if now instead of ‘gettext’ the
+following little wrapper function is used, everything works just fine:
+
+       char *
+       sgettext (const char *msgid)
+       {
+         char *msgval = gettext (msgid);
+         if (msgval == msgid)
+           msgval = strrchr (msgid, '|') + 1;
+         return msgval;
+       }
+
+   What this little function does is to recognize the case when no
+translation is available.  This can be done very efficiently by a
+pointer comparison since the return value is the input value.  If there
+is no translation we know that the input string is in the format we used
+for the Menu entries and therefore contains a ‘|’ character.  We simply
+search for the last occurrence of this character and return a pointer to
+the character following it.  That’s it!
+
+   If one now consistently uses the extended string form and replaces
+the ‘gettext’ calls with calls to ‘sgettext’ (this is normally limited
+to very few places in the GUI implementation) then it is possible to
+produce a program which can be internationalized.
+
+   With advanced compilers (such as GNU C) one can write the ‘sgettext’
+functions as an inline function or as a macro like this:
+
+     #define sgettext(msgid) \
+       ({ const char *__msgid = (msgid);            \
+          char *__msgstr = gettext (__msgid);       \
+          if (__msgval == __msgid)                  \
+            __msgval = strrchr (__msgid, '|') + 1;  \
+          __msgval; })
+
+   The other ‘gettext’ functions (‘dgettext’, ‘dcgettext’ and the
+‘ngettext’ equivalents) can and should have corresponding functions as
+well which look almost identical, except for the parameters and the call
+to the underlying function.
+
+   Now there is of course the question why such functions do not exist
+in the GNU C Library?  There are two parts of the answer to this
+question.
+
+   • They are easy to write and therefore can be provided by the project
+     they are used in.  This is not an answer by itself and must be seen
+     together with the second part which is:
+
+   • There is no way the C library can contain a version which can work
+     everywhere.  The problem is the selection of the character to
+     separate the prefix from the actual string in the extended string.
+     The examples above used ‘|’ which is a quite good choice because it
+     resembles a notation frequently used in this context and it also is
+     a character not often used in message strings.
+
+     But what if the character is used in message strings.  Or if the
+     chose character is not available in the character set on the
+     machine one compiles (e.g., ‘|’ is not required to exist for ISO C;
+     this is why the ‘iso646.h’ file exists in ISO C programming
+     environments).
+
+   There is only one more comment to make left.  The wrapper function
+above requires that the translations strings are not extended
+themselves.  This is only logical.  There is no need to disambiguate the
+strings (since they are never used as keys for a search) and one also
+saves quite some memory and disk space by doing this.
+
+
+File: libc.info,  Node: Using gettextized software,  Prev: GUI program problems,  Up: Message catalogs with gettext
+
+8.2.1.6 User influence on ‘gettext’
+...................................
+
+The last sections described what the programmer can do to
+internationalize the messages of the program.  But it is finally up to
+the user to select the message s/he wants to see.  S/He must understand
+them.
+
+   The POSIX locale model uses the environment variables ‘LC_COLLATE’,
+‘LC_CTYPE’, ‘LC_MESSAGES’, ‘LC_MONETARY’, ‘LC_NUMERIC’, and ‘LC_TIME’ to
+select the locale which is to be used.  This way the user can influence
+lots of functions.  As we mentioned above, the ‘gettext’ functions also
+take advantage of this.
+
+   To understand how this happens it is necessary to take a look at the
+various components of the filename which gets computed to locate a
+message catalog.  It is composed as follows:
+
+     DIR_NAME/LOCALE/LC_CATEGORY/DOMAIN_NAME.mo
+
+   The default value for DIR_NAME is system specific.  It is computed
+from the value given as the prefix while configuring the C library.
+This value normally is ‘/usr’ or ‘/’.  For the former the complete
+DIR_NAME is:
+
+     /usr/share/locale
+
+   We can use ‘/usr/share’ since the ‘.mo’ files containing the message
+catalogs are system independent, so all systems can use the same files.
+If the program executed the ‘bindtextdomain’ function for the message
+domain that is currently handled, the ‘dir_name’ component is exactly
+the value which was given to the function as the second parameter.
+I.e., ‘bindtextdomain’ allows overwriting the only system dependent and
+fixed value to make it possible to address files anywhere in the
+filesystem.
+
+   The CATEGORY is the name of the locale category which was selected in
+the program code.  For ‘gettext’ and ‘dgettext’ this is always
+‘LC_MESSAGES’, for ‘dcgettext’ this is selected by the value of the
+third parameter.  As said above it should be avoided to ever use a
+category other than ‘LC_MESSAGES’.
+
+   The LOCALE component is computed based on the category used.  Just
+like for the ‘setlocale’ function here comes the user selection into the
+play.  Some environment variables are examined in a fixed order and the
+first environment variable set determines the return value of the lookup
+process.  In detail, for the category ‘LC_xxx’ the following variables
+in this order are examined:
+
+‘LANGUAGE’
+‘LC_ALL’
+‘LC_xxx’
+‘LANG’
+
+   This looks very familiar.  With the exception of the ‘LANGUAGE’
+environment variable this is exactly the lookup order the ‘setlocale’
+function uses.  But why introduce the ‘LANGUAGE’ variable?
+
+   The reason is that the syntax of the values these variables can have
+is different to what is expected by the ‘setlocale’ function.  If we
+would set ‘LC_ALL’ to a value following the extended syntax that would
+mean the ‘setlocale’ function will never be able to use the value of
+this variable as well.  An additional variable removes this problem plus
+we can select the language independently of the locale setting which
+sometimes is useful.
+
+   While for the ‘LC_xxx’ variables the value should consist of exactly
+one specification of a locale the ‘LANGUAGE’ variable’s value can
+consist of a colon separated list of locale names.  The attentive reader
+will realize that this is the way we manage to implement one of our
+additional demands above: we want to be able to specify an ordered list
+of languages.
+
+   Back to the constructed filename we have only one component missing.
+The DOMAIN_NAME part is the name which was either registered using the
+‘textdomain’ function or which was given to ‘dgettext’ or ‘dcgettext’ as
+the first parameter.  Now it becomes obvious that a good choice for the
+domain name in the program code is a string which is closely related to
+the program/package name.  E.g., for the GNU C Library the domain name
+is ‘libc’.
+
+A limited piece of example code should show how the program is supposed
+to work:
+
+     {
+       setlocale (LC_ALL, "");
+       textdomain ("test-package");
+       bindtextdomain ("test-package", "/usr/local/share/locale");
+       puts (gettext ("Hello, world!"));
+     }
+
+   At the program start the default domain is ‘messages’, and the
+default locale is "C". The ‘setlocale’ call sets the locale according to
+the user’s environment variables; remember that correct functioning of
+‘gettext’ relies on the correct setting of the ‘LC_MESSAGES’ locale (for
+looking up the message catalog) and of the ‘LC_CTYPE’ locale (for the
+character set conversion).  The ‘textdomain’ call changes the default
+domain to ‘test-package’.  The ‘bindtextdomain’ call specifies that the
+message catalogs for the domain ‘test-package’ can be found below the
+directory ‘/usr/local/share/locale’.
+
+   If the user sets in her/his environment the variable ‘LANGUAGE’ to
+‘de’ the ‘gettext’ function will try to use the translations from the
+file
+
+     /usr/local/share/locale/de/LC_MESSAGES/test-package.mo
+
+   From the above descriptions it should be clear which component of
+this filename is determined by which source.
+
+   In the above example we assumed the ‘LANGUAGE’ environment variable
+to be ‘de’.  This might be an appropriate selection but what happens if
+the user wants to use ‘LC_ALL’ because of the wider usability and here
+the required value is ‘de_DE.ISO-8859-1’?  We already mentioned above
+that a situation like this is not infrequent.  E.g., a person might
+prefer reading a dialect and if this is not available fall back on the
+standard language.
+
+   The ‘gettext’ functions know about situations like this and can
+handle them gracefully.  The functions recognize the format of the value
+of the environment variable.  It can split the value is different pieces
+and by leaving out the only or the other part it can construct new
+values.  This happens of course in a predictable way.  To understand
+this one must know the format of the environment variable value.  There
+is one more or less standardized form, originally from the X/Open
+specification:
+
+   ‘language[_territory[.codeset]][@modifier]’
+
+   Less specific locale names will be stripped in the order of the
+following list:
+
+  1. ‘codeset’
+  2. ‘normalized codeset’
+  3. ‘territory’
+  4. ‘modifier’
+
+   The ‘language’ field will never be dropped for obvious reasons.
+
+   The only new thing is the ‘normalized codeset’ entry.  This is
+another goodie which is introduced to help reduce the chaos which
+derives from the inability of people to standardize the names of
+character sets.  Instead of ISO-8859-1 one can often see 8859-1, 88591,
+iso8859-1, or iso_8859-1.  The ‘normalized codeset’ value is generated
+from the user-provided character set name by applying the following
+rules:
+
+  1. Remove all characters besides numbers and letters.
+  2. Fold letters to lowercase.
+  3. If the same only contains digits prepend the string ‘"iso"’.
+
+So all of the above names will be normalized to ‘iso88591’.  This allows
+the program user much more freedom in choosing the locale name.
+
+   Even this extended functionality still does not help to solve the
+problem that completely different names can be used to denote the same
+locale (e.g., ‘de’ and ‘german’).  To be of help in this situation the
+locale implementation and also the ‘gettext’ functions know about
+aliases.
+
+   The file ‘/usr/share/locale/locale.alias’ (replace ‘/usr’ with
+whatever prefix you used for configuring the C library) contains a
+mapping of alternative names to more regular names.  The system manager
+is free to add new entries to fill her/his own needs.  The selected
+locale from the environment is compared with the entries in the first
+column of this file ignoring the case.  If they match, the value of the
+second column is used instead for the further handling.
+
+   In the description of the format of the environment variables we
+already mentioned the character set as a factor in the selection of the
+message catalog.  In fact, only catalogs which contain text written
+using the character set of the system/program can be used (directly;
+there will come a solution for this some day).  This means for the user
+that s/he will always have to take care of this.  If in the collection
+of the message catalogs there are files for the same language but coded
+using different character sets the user has to be careful.
+
+
+File: libc.info,  Node: Helper programs for gettext,  Prev: Message catalogs with gettext,  Up: The Uniforum approach
+
+8.2.2 Programs to handle message catalogs for ‘gettext’
+-------------------------------------------------------
+
+The GNU C Library does not contain the source code for the programs to
+handle message catalogs for the ‘gettext’ functions.  As part of the GNU
+project the GNU gettext package contains everything the developer needs.
+The functionality provided by the tools in this package by far exceeds
+the abilities of the ‘gencat’ program described above for the ‘catgets’
+functions.
+
+   There is a program ‘msgfmt’ which is the equivalent program to the
+‘gencat’ program.  It generates from the human-readable and -editable
+form of the message catalog a binary file which can be used by the
+‘gettext’ functions.  But there are several more programs available.
+
+   The ‘xgettext’ program can be used to automatically extract the
+translatable messages from a source file.  I.e., the programmer need not
+take care of the translations and the list of messages which have to be
+translated.  S/He will simply wrap the translatable string in calls to
+‘gettext’ et.al and the rest will be done by ‘xgettext’.  This program
+has a lot of options which help to customize the output or help to
+understand the input better.
+
+   Other programs help to manage the development cycle when new messages
+appear in the source files or when a new translation of the messages
+appears.  Here it should only be noted that using all the tools in GNU
+gettext it is possible to _completely_ automate the handling of message
+catalogs.  Besides marking the translatable strings in the source code
+and generating the translations the developers do not have anything to
+do themselves.

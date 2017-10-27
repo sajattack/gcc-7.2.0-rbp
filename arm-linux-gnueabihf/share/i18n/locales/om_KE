@@ -199,8 +199,7 @@ LC_TELEPHONE
 tel_dom_fmt    "<U0025><U0061><U002D><U0025><U006C>"
 tel_int_fmt    "<U0025><U0063><U002D><U0025><U0061><U002D><U0025><U006C>"
 int_prefix     "<U0032><U0035><U0034>"
-% 000
-int_select   "<U0030><U0030><U0030>"
+% int_select   unknown
 %
 END LC_TELEPHONE
 

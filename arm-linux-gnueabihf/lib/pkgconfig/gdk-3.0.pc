@@ -1,0 +1,13 @@
+prefix=/opt/gcc-7.2.0-rbp/arm-linux-gnueabihf
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+targets=x11 wayland
+
+Name: GDK
+Description: GTK+ Drawing Kit
+Version: 3.20.10
+Requires: pango pangocairo gdk-pixbuf-2.0 >= 2.30.0 cairo >= 1.14.0 cairo-gobject >= 1.14.0
+Requires.private: gio-unix-2.0 >= 2.45.8 fontconfig x11 xext xinerama xi xrandr xcursor xfixes xcomposite xdamage wayland-client >= 1.9.91 wayland-protocols >= 1.0 xkbcommon >= 0.2.0 wayland-cursor >= 1.9.91 wayland-egl   cairo-xlib cairo epoxy >= 1.0
+Libs: -L${libdir} -lgdk-3 
+Cflags: -I${includedir}/gtk-3.0 
