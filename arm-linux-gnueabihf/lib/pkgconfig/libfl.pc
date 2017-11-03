@@ -1,0 +1,8 @@
+prefix=/opt/gcc-7.2.0-rbp/arm-linux-gnueabihf
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+
+Name: libfl
+Description: Flex (the fast lexical analyzer) support library
+Version: 2.6.4
+Libs: -L${libdir} -lfl

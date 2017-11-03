@@ -1786,5 +1786,9 @@ GNU C library functions and macros
 Libraries
 * libIDL2: (libIDL2).           Interface Definition Language parsing library.
 
+Programming
+* flex: (flex).                 Fast lexical analyzer generator (lex 
+                                  replacement).
+
 Software libraries
 * Libc: (libc).                 C library.
